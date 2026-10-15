@@ -1,0 +1,26 @@
+{
+  "preparationOnly": true,
+  "qualificationPassed": false,
+  "actualPCMSearchOrAnalysisExecuted": false,
+  "controls": {
+    "command": "npx vitest run tests/mixture-onset-interval.test.ts",
+    "exitCode": 0,
+    "testCount": 23,
+    "reportedDurationMs": 126,
+    "toolChunk": "9e971b",
+    "typecheckCommand": "npm run typecheck",
+    "typecheckExitCode": 0
+  },
+  "sourceSha256": "0f72920d12f386fbe2efa5c04154ca2345362e3ee96f3a94f179b3b61ce15273",
+  "testSha256": "ae40a0456b5a1c615b6658482baa2c2671286ff3fbf3e8f0334c873497a34278",
+  "independentVectorsSha256": "d082c6f0c49ba1d05278f9095635e0577804de4a49a0037d00daf6196c43fed2",
+  "independentGeneratorSha256": "cb42d9fb91d96c0c84d9708563476e5952413fc2af8662af7b08cba184d520ce",
+  "scope": "Real analytic interval bounds under binary64 basic-operation assumptions; no JS Math accuracy or ownership/admission/joint-alias certification.",
+  "limitations": [
+    "Frequency and model coefficients are supplied exact binary64 values, not certified externalMath.pow derivations.",
+    "Caller must prove fixed active membership; no cancellation fade, admission, steal, or adjacent-group branch verification.",
+    "Noise seed/sample-index and triangleasin branches return explicit broad bounds.",
+    "No interval frontier, waveform fitting or recordedPCM compatibility decision is implemented."
+  ],
+  "recordedAt": "2026-10-12T00:30:40.645540+00:00"
+}

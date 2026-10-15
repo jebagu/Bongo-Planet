@@ -1,0 +1,246 @@
+{
+  "base": "workspace",
+  "scope": "Reviewed v2 preparation, sole failed actual and next source proposal.468 retained; zero measurements. Original limits, numerical assumptions and failures unchanged.",
+  "entries": [
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-mvp/attempt-01/ActualIndependentReview.md",
+      "bytes": 5137,
+      "sha256": "4fd00c37610a30a598ab28336be69194c8a44196f7c0e5440f0f422a5ca5c8c9"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-mvp/attempt-01/Next-Plan-IndependentReview.md",
+      "bytes": 5322,
+      "sha256": "25a9d952c7b8e32299fc555a3b76352741f413ac3e125eda132a779b23067563"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-mvp/attempt-01/Next-Source-Plan.md",
+      "bytes": 6347,
+      "sha256": "c0364c417da0873a10aae88c48599a54465a1c70e53a18a61533832d9d7843cd"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-mvp/attempt-01/Review.md",
+      "bytes": 5307,
+      "sha256": "7b00762647015c04e9f513f6558e3e15453621b4c6dc8594e513541783709978"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-mvp/attempt-01/result.json",
+      "bytes": 216829,
+      "sha256": "2ea5b27fec067294c1f8cd82c3f1a7425a17331431e0abe3accb9103754670d4"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/Actual-GO-01.json",
+      "bytes": 687,
+      "sha256": "c0d12f3f95a4d5d38d740a1232b4d52ee3f703bf72521fed34763979a8f80571"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/Plan.md",
+      "bytes": 2644,
+      "sha256": "a920e2d9abe6c2cf72471751358c9eda1d1090b995ee8d54eb5aefb04ebd1f82"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/Preparation-Manifest.json",
+      "bytes": 6004,
+      "sha256": "18d40f85f42c5eae628a4274a8d9d5748a520ec8848ef51cf8897fead5266bb3"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/Preparation-Review.md",
+      "bytes": 3375,
+      "sha256": "54f4cf4c5b7d3e99a963769651d645e7350dbce350cabff41de9d9b8eb76a4c3"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/Preparation.json",
+      "bytes": 1121,
+      "sha256": "3092471282806b6f8e2c0dc46e643f1a48459ae3f1d0fd0a1d9afdd33836cd81"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/Source-IndependentReview.md",
+      "bytes": 6322,
+      "sha256": "bf0aec026c90d14d49ff1cb036a74c6df2a6f78ef7baed57db27e6b09329fbcb"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-01/Execution.json",
+      "bytes": 584,
+      "sha256": "52d58b07ca27c774ce2e2e5795036f5a0798646b7eaca84e4a2e11eea72044c0"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-01/Runner-Diff.patch",
+      "bytes": 11749,
+      "sha256": "3945c6ddd9d27f3066e02b8248dec6ca0fdb052a3b87bdc71d45765450cfe166"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-01/Source-Binding.json",
+      "bytes": 654,
+      "sha256": "b0a34a2ec5f4c2f4dd234e19f48a1195feb8532b47c145ed580056ec57c9d6ef"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-01/measured-controls.json",
+      "bytes": 173394,
+      "sha256": "9bbf566dad1938bf5b9e15127254b07e73f30fa2ed5ec4ef02cb204461ddc350"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-01/mixture-onset-contraction.test.ts",
+      "bytes": 12221,
+      "sha256": "e79e3cc4e30a66fd067cc47115e356b478c9b11b4277097c78fb7e72f9339395"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-01/mixture-onset-interval.ts",
+      "bytes": 10151,
+      "sha256": "32d08b01e412b7556765ec20442d409f4f15a34f6536208ef03005689cc42f42"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-01/mixture-onset-runner-v2.ts",
+      "bytes": 35958,
+      "sha256": "cfcc14152762c2e55db4e4747d9fe51d48d0f7d630e22204556302a0ed5b6597"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-01/mixture-onset-runner.ts",
+      "bytes": 27880,
+      "sha256": "d590ec9e74750e003fd3bf2754b503a7a0ec604a65142a00baf66d801fadc1ae"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-01/mixture-production-interval.ts",
+      "bytes": 5893,
+      "sha256": "4fa2e0ead63385d29d9603ea2c576565396ac83c3396bfa9fc7c7f7ec53a5179"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-01/mixture-timing-oracle.ts",
+      "bytes": 6791,
+      "sha256": "82a90a5254680efcaeb68e7584be1a8568ce9c0e1a23dced029d2560ab154551"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-01/unit-results.json",
+      "bytes": 6853,
+      "sha256": "649bc9b209e8be61e5eb7591183818641f600821d2f7388da975898d93226b94"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-02/Execution.json",
+      "bytes": 548,
+      "sha256": "0b68b7940de4ecd965a48425fb802e8a44fcde001a359f2cb09129932dfe354d"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-02/Source-Binding.json",
+      "bytes": 654,
+      "sha256": "f0c62df35bfb286d5344efebc48bdd0cd28da5283e8d7986a95f3ff3273134d0"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-02/measured-controls.json",
+      "bytes": 241845,
+      "sha256": "cbcdeabddef708364d9df346a8301433cc1876762f2dc9d858bb4248e89a42f2"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-02/mixture-onset-contraction.test.ts",
+      "bytes": 12885,
+      "sha256": "6ee0af226b9d8fd3a2bfeb822736f49b18465277eb775f50d4b2d1c110e8680d"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-02/mixture-onset-interval.ts",
+      "bytes": 10151,
+      "sha256": "32d08b01e412b7556765ec20442d409f4f15a34f6536208ef03005689cc42f42"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-02/mixture-onset-runner-v2.ts",
+      "bytes": 36542,
+      "sha256": "f9a66bfc1446bb60f069dee8d182da64987a3bd75f432a054ca168b07052ceab"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-02/mixture-onset-runner.ts",
+      "bytes": 27880,
+      "sha256": "d590ec9e74750e003fd3bf2754b503a7a0ec604a65142a00baf66d801fadc1ae"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-02/mixture-production-interval.ts",
+      "bytes": 5893,
+      "sha256": "4fa2e0ead63385d29d9603ea2c576565396ac83c3396bfa9fc7c7f7ec53a5179"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-02/mixture-timing-oracle.ts",
+      "bytes": 6791,
+      "sha256": "82a90a5254680efcaeb68e7584be1a8568ce9c0e1a23dced029d2560ab154551"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-02/unit-results.json",
+      "bytes": 8377,
+      "sha256": "fe96a20ef65b520cf3f2a3c879e51b21581044962dc20daf2138eb962e2631c6"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-03/Execution.json",
+      "bytes": 572,
+      "sha256": "a9d9a03ff35ed46e9e5bb750e33b0e43e6a368ce16289a397fd94c119146539e"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-03/Runner-Diff.patch",
+      "bytes": 12335,
+      "sha256": "185ec528d41fdd99fb026f64e2ff48aa66a7ea8e8f0e4041d4ecff34910c49be"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-03/Source-Binding.json",
+      "bytes": 654,
+      "sha256": "21389934478ecee51f64215bdc7625246118ab941b235603352c45239b051d0f"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-03/measured-controls.json",
+      "bytes": 247965,
+      "sha256": "b7d2940bdd65285afde111c052f7d82ea00bd3d0ed8bceb186809babe1b766d1"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-03/mixture-onset-contraction.test.ts",
+      "bytes": 12885,
+      "sha256": "e5288c3bb1c7e01c617c0bfd62b00c2f265785aee0af9714f2d127ffa4b7c8ac"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-03/mixture-onset-interval.ts",
+      "bytes": 10151,
+      "sha256": "32d08b01e412b7556765ec20442d409f4f15a34f6536208ef03005689cc42f42"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-03/mixture-onset-runner-v2.ts",
+      "bytes": 36542,
+      "sha256": "f9a66bfc1446bb60f069dee8d182da64987a3bd75f432a054ca168b07052ceab"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-03/mixture-onset-runner.ts",
+      "bytes": 27880,
+      "sha256": "d590ec9e74750e003fd3bf2754b503a7a0ec604a65142a00baf66d801fadc1ae"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-03/mixture-production-interval.ts",
+      "bytes": 5893,
+      "sha256": "4fa2e0ead63385d29d9603ea2c576565396ac83c3396bfa9fc7c7f7ec53a5179"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-03/mixture-timing-oracle.ts",
+      "bytes": 6791,
+      "sha256": "82a90a5254680efcaeb68e7584be1a8568ce9c0e1a23dced029d2560ab154551"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/controls-03/unit-results.json",
+      "bytes": 7296,
+      "sha256": "b37af75288bdd132ff48f4d053972046d552596df2d375e286a9e4b6cd82a03d"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/handoff-snapshot/Acceptance-Checklist.md",
+      "bytes": 215592,
+      "sha256": "37f0c10ac15f242bb8f4f1f5c8d220764909539a7bb84e31d0c6a09c91903f13"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/handoff-snapshot/Build-Handoff.md",
+      "bytes": 29319,
+      "sha256": "11ce72066ae4a7c21f2807b7ed3c3b15075bd88f1ed1464df7dc975bf1213e43"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-contraction-preparation/handoff-snapshot/acceptance-results.json",
+      "bytes": 104643,
+      "sha256": "e26cfa4030fea7d71e6712a239409fb15b6fad10dc90940a5ddbbdd3ec25402d"
+    },
+    {
+      "path": "scripts/mixture-onset-runner-v2.ts",
+      "bytes": 36542,
+      "sha256": "f9a66bfc1446bb60f069dee8d182da64987a3bd75f432a054ca168b07052ceab"
+    },
+    {
+      "path": "tests/mixture-onset-contraction.test.ts",
+      "bytes": 12885,
+      "sha256": "e5288c3bb1c7e01c617c0bfd62b00c2f265785aee0af9714f2d127ffa4b7c8ac"
+    }
+  ]
+}

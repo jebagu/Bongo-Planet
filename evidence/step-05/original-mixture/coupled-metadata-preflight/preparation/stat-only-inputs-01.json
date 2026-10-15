@@ -1,0 +1,12 @@
+{
+  "scope": "stat sizes only, no original stream/body read",
+  "bytes": {
+    "quantums.jsonl": 19565814,
+    "events.jsonl": 82290733,
+    "report.json": 142316,
+    "independent-audit.json": 72458,
+    "group-inventory/attempt-01/inventory.json": 2799609
+  },
+  "fullJSONLRead": false,
+  "PCMOpened": false
+}

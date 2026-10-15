@@ -1,0 +1,55 @@
+{
+  "id": "C03",
+  "name": "Airy Loops",
+  "sourceId": "A01",
+  "bpm": 40,
+  "key": 9,
+  "scale": "minor",
+  "cycleBeats": 16,
+  "cycleSeconds": 24,
+  "generators": 5,
+  "soundingPieces": 46,
+  "stackedVertices": 8,
+  "maximumStack": 4,
+  "instruments": {
+    "guitar": 7,
+    "glass": 7,
+    "kalimba": 12,
+    "piano": 14,
+    "marimba": 2,
+    "bongo-high": 1,
+    "bongo-low": 1,
+    "kick": 1,
+    "hi-hat": 1
+  },
+  "spatial": {
+    "soundingLocations": 28,
+    "largestGapDegrees": 23.800182602175095
+  },
+  "compositionSha256": "e09c335a38fca5d1b38111dc471dc62880cf8e2ee4403f1b313debac16f2e7d9",
+  "simulation": {
+    "cycles": 8,
+    "stablePatternsMatch": true,
+    "allLayersReached": true,
+    "maximumEdges": 15,
+    "maximumDecisionsPerQuantum": 16,
+    "maximumPending": 16,
+    "lateDrops": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "c09be9bdf7f96bd93a2a924eab20236c5ca38e1c9687a35b20e640261cc1fa30",
+    "renderedFromCurrentEngineAndSamples": true,
+    "cycles": 1,
+    "seconds": 24,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peak": 0.2964724898338318,
+    "rms": 0.03554343654525848,
+    "repeatError": 1.4901161193847656e-8,
+    "boundaryDelta": 0.0009323405101895332,
+    "maximumVoices": 36,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

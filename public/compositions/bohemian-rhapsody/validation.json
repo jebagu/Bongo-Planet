@@ -1,0 +1,41 @@
+{
+  "id": "P03",
+  "title": "Bohemian Rhapsody",
+  "artist": "Queen",
+  "scope": "Four-bar instrumental cover excerpt",
+  "bpm": 72,
+  "phraseBeats": 16,
+  "generators": 3,
+  "pieces": 45,
+  "chordStacks": 6,
+  "maximumStack": 4,
+  "chordProgression": [
+    "B♭",
+    "Gm",
+    "Cm",
+    "F7"
+  ],
+  "routedVertices": 91,
+  "directedGates": 88,
+  "allTravelFinite": true,
+  "compositionSha256": "4903fa91a73f538baafad2e8e8d81be7fe7e8cac642a35e75dd3ff108670cc94",
+  "simulation": {
+    "phrases": 8,
+    "writtenHitsAndRestsMatch": true,
+    "maximumEdges": 3,
+    "maximumDecisionsPerQuantum": 4,
+    "lateDrops": 0
+  },
+  "audio": {
+    "file": "bohemian-rhapsody.wav",
+    "seconds": 13.333333333333334,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peak": 0.3630666434764862,
+    "rms": 0.06390419088785643,
+    "maximumVoices": 7,
+    "stolenVoices": 0,
+    "lateDrops": 0,
+    "frameRoundingError": 0
+  }
+}

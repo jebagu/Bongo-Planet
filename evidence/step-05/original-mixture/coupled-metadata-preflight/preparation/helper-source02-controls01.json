@@ -1,0 +1,23 @@
+{
+  "scope": "H01 synthetic interruption controls/parse only; no original stream or PCM",
+  "bindings": [
+    {
+      "path": "scripts/coupled-onset-metadata-preflight.py",
+      "bytes": 27394,
+      "sha256": "6d417b4a33021aaba47a0b15b6bf4be5cd8b0a2646d339dbf09bd6445b36fd51"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/controls.py",
+      "bytes": 10462,
+      "sha256": "f7a9e9329a7588583bb39a7725914e23ee7c38f2bcd22d89190b221346f00944"
+    }
+  ],
+  "command": [
+    "python3",
+    "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/controls.py"
+  ],
+  "exitCode": 0,
+  "elapsedMonotonicSeconds": 0.06912691693287343,
+  "stdout": "",
+  "stderr": "test_65_simultaneous_voices_steal_oldest_before_render (__main__.Controls.test_65_simultaneous_voices_steal_oldest_before_render) ... ok\ntest_99ms_start_gap_interrupts_engine_at_end (__main__.Controls.test_99ms_start_gap_interrupts_engine_at_end) ... ok\ntest_all120_native_offsets (__main__.Controls.test_all120_native_offsets) ... ok\ntest_callback_two_chunks_complete (__main__.Controls.test_callback_two_chunks_complete) ... ok\ntest_double_repeat_recurrence_advances (__main__.Controls.test_double_repeat_recurrence_advances) ... ok\ntest_due_grouping_not_telemetry_callback_grouping (__main__.Controls.test_due_grouping_not_telemetry_callback_grouping) ... ok\ntest_end_and_start_late_tests_distinct (__main__.Controls.test_end_and_start_late_tests_distinct) ... ok\ntest_engine_boundary_two_actual_blocks (__main__.Controls.test_engine_boundary_two_actual_blocks) ... ok\ntest_engine_strict_exact100ms_predicate (__main__.Controls.test_engine_strict_exact100ms_predicate) ... ok\ntest_equal_each_segment_not_equal_global (__main__.Controls.test_equal_each_segment_not_equal_global) ... ok\ntest_extra_ordinary_trigger_rejected (__main__.Controls.test_extra_ordinary_trigger_rejected) ... ok\ntest_fractional_anchor_and_double_repeat_domain (__main__.Controls.test_fractional_anchor_and_double_repeat_domain) ... ok\ntest_full_paths_and_original_index (__main__.Controls.test_full_paths_and_original_index) ... ok\ntest_future_pending_not_missing_ordinary_onset (__main__.Controls.test_future_pending_not_missing_ordinary_onset) ... ok\ntest_late_drop_and_pending_capacity_rejected (__main__.Controls.test_late_drop_and_pending_capacity_rejected) ... ok\ntest_missing_and_duplicate_onset_rejected (__main__.Controls.test_missing_and_duplicate_onset_rejected) ... ok\ntest_missing_final_chunk_rejected (__main__.Controls.test_missing_final_chunk_rejected) ... ok\ntest_missing_input_rejected (__main__.Controls.test_missing_input_rejected) ... ok\ntest_missing_native_click_rejected (__main__.Controls.test_missing_native_click_rejected) ... ok\ntest_mixed_callback_receive_clock_rejected (__main__.Controls.test_mixed_callback_receive_clock_rejected) ... ok\ntest_nonfinite_clock_rejected (__main__.Controls.test_nonfinite_clock_rejected) ... ok\ntest_one_native_offset_dissent_rejected (__main__.Controls.test_one_native_offset_dissent_rejected) ... ok\ntest_onset_before_trigger_independent_counts (__main__.Controls.test_onset_before_trigger_independent_counts) ... ok\ntest_processor_strict_exact100ms_predicate (__main__.Controls.test_processor_strict_exact100ms_predicate) ... ok\ntest_reordered_chunk_rejected (__main__.Controls.test_reordered_chunk_rejected) ... ok\ntest_repeated_clocks_preserved (__main__.Controls.test_repeated_clocks_preserved) ... ok\ntest_resource_guard_retains_no_fake_completion (__main__.Controls.test_resource_guard_retains_no_fake_completion) ... ok\ntest_unexpected_control_history_rejected (__main__.Controls.test_unexpected_control_history_rejected) ... ok\ntest_wrong_offset_rejected (__main__.Controls.test_wrong_offset_rejected) ... ok\ntest_wrong_timbre_inventory_rejected (__main__.Controls.test_wrong_timbre_inventory_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 30 tests in 0.007s\n\nOK\n"
+}

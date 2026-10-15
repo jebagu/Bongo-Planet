@@ -1,0 +1,9 @@
+{
+  "command": "npm run typecheck",
+  "toolChunk": "d6a089",
+  "exitCode": 0,
+  "stdout": "\n> bongo-planet@0.1.0 typecheck\n> tsc --noEmit\n\n",
+  "cameraSourceSHA256": "a0a9dc7db15b4fff568b2a6b1cfeb41a93b47a7f2f265e2895fba45cfde099b1",
+  "recordedUTC": "2026-10-12T02:59:57.323977+00:00",
+  "scope": "One shared global source-only check after sibling draft stabilization; no actual test/browser/service/port probe."
+}

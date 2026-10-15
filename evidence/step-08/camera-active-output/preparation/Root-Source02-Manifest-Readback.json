@@ -1,0 +1,11 @@
+{
+  "filesVerified": 90,
+  "bytes": 1644294,
+  "actualAcquisition": false,
+  "preservedFirstCheckerFailure": {
+    "toolChunk": "cd8a79",
+    "exitCode": 1,
+    "cause": "Used path field; camera manifest schema uses file relative to base"
+  },
+  "correctedSchemaCheck": true
+}

@@ -1,0 +1,172 @@
+[
+  {
+    "file": "Snare4_HitSN_v2_rr2_Mid.wav",
+    "duration": 0.775,
+    "peak_dbfs": -36.2,
+    "onset_seconds": 0.0083,
+    "p99": 0.389,
+    "p999": 0.759,
+    "last_45db": 0.775,
+    "dc": -5.1e-06
+  },
+  {
+    "file": "HiHat_HitO_rr2_Mid.wav",
+    "duration": 6.156,
+    "peak_dbfs": -9.74,
+    "onset_seconds": 0.0084,
+    "p99": 0.851,
+    "p999": 1.122,
+    "last_45db": 1.48,
+    "dc": -0.0
+  },
+  {
+    "file": "Snare3M_HitSN_v2_rr2_Mid.wav",
+    "duration": 0.887,
+    "peak_dbfs": -22.75,
+    "onset_seconds": 0.0,
+    "p99": 0.14,
+    "p999": 0.564,
+    "last_45db": 0.887,
+    "dc": 5.1e-06
+  },
+  {
+    "file": "Snare4_HitSN_v2_rr1_Mid.wav",
+    "duration": 0.87,
+    "peak_dbfs": -32.46,
+    "onset_seconds": 0.0083,
+    "p99": 0.371,
+    "p999": 0.841,
+    "last_45db": 0.87,
+    "dc": 8.5e-06
+  },
+  {
+    "file": "Snare3M_HitSN_v2_rr1_Mid.wav",
+    "duration": 0.877,
+    "peak_dbfs": -20.99,
+    "onset_seconds": 0.0067,
+    "p99": 0.138,
+    "p999": 0.363,
+    "last_45db": 0.85,
+    "dc": 4.8e-06
+  },
+  {
+    "file": "HiHat_HitO_rr1_Mid.wav",
+    "duration": 5.819,
+    "peak_dbfs": -11.22,
+    "onset_seconds": 0.0083,
+    "p99": 1.077,
+    "p999": 1.443,
+    "last_45db": 2.061,
+    "dc": -1e-07
+  },
+  {
+    "file": "BDrumNew_hit_v2_rr1_Sum.wav",
+    "duration": 1.596,
+    "peak_dbfs": -19.27,
+    "onset_seconds": 0.0002,
+    "p99": 0.367,
+    "p999": 0.648,
+    "last_45db": 0.982,
+    "dc": 7.3e-06
+  },
+  {
+    "file": "BongoH_Hit1_v2_rr1_Mid.wav",
+    "duration": 1.186,
+    "peak_dbfs": -20.64,
+    "onset_seconds": 0.0082,
+    "p99": 0.159,
+    "p999": 0.377,
+    "last_45db": 0.546,
+    "dc": -2e-07
+  },
+  {
+    "file": "bdrum_muted_mf_rr1.wav",
+    "duration": 2.904,
+    "peak_dbfs": -7.14,
+    "onset_seconds": 0.0927,
+    "p99": 0.457,
+    "p999": 1.502,
+    "last_45db": 1.964,
+    "dc": 2.84e-05
+  },
+  {
+    "file": "BongoL_Hit1_v2_rr1_Mid.wav",
+    "duration": 0.956,
+    "peak_dbfs": -20.99,
+    "onset_seconds": 0.0055,
+    "p99": 0.182,
+    "p999": 0.339,
+    "last_45db": 0.491,
+    "dc": -0.0
+  },
+  {
+    "file": "HiHat_HitC_v2_rr2_Mid.wav",
+    "duration": 1.417,
+    "peak_dbfs": -28.18,
+    "onset_seconds": 0.0075,
+    "p99": 0.112,
+    "p999": 0.216,
+    "last_45db": 0.35,
+    "dc": 0.0
+  },
+  {
+    "file": "bdrum_muted_mp_rr1.wav",
+    "duration": 3.135,
+    "peak_dbfs": -10.66,
+    "onset_seconds": 0.0752,
+    "p99": 0.434,
+    "p999": 1.571,
+    "last_45db": 2.532,
+    "dc": 2.73e-05
+  },
+  {
+    "file": "BDrumNew_hit_v2_rr2_Sum.wav",
+    "duration": 1.714,
+    "peak_dbfs": -20.87,
+    "onset_seconds": 0.0004,
+    "p99": 0.369,
+    "p999": 0.728,
+    "last_45db": 1.063,
+    "dc": 6.1e-06
+  },
+  {
+    "file": "BongoH_Hit1_v2_rr2_Mid.wav",
+    "duration": 1.007,
+    "peak_dbfs": -25.48,
+    "onset_seconds": 0.0083,
+    "p99": 0.159,
+    "p999": 0.373,
+    "last_45db": 0.54,
+    "dc": -2e-07
+  },
+  {
+    "file": "bdrum_muted_mp_rr2.wav",
+    "duration": 2.244,
+    "peak_dbfs": -11.18,
+    "onset_seconds": 0.068,
+    "p99": 0.491,
+    "p999": 1.479,
+    "last_45db": 2.0,
+    "dc": 2.79e-05
+  },
+  {
+    "file": "BongoL_Hit1_v2_rr2_Mid.wav",
+    "duration": 1.186,
+    "peak_dbfs": -14.87,
+    "onset_seconds": 0.0087,
+    "p99": 0.193,
+    "p999": 0.34,
+    "last_45db": 0.53,
+    "dc": -6e-07
+  },
+  {
+    "file": "HiHat_HitC_v2_rr1_Mid.wav",
+    "duration": 1.401,
+    "peak_dbfs": -25.61,
+    "onset_seconds": 0.0074,
+    "p99": 0.102,
+    "p999": 0.21,
+    "last_45db": 0.32,
+    "dc": -3e-07
+  }
+]

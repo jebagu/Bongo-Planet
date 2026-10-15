@@ -1,0 +1,23 @@
+{
+  "tool": "built-in image_gen",
+  "reference": "public/art/geometric-toys/beat.png",
+  "transparent_background": true,
+  "prompts": [
+    {
+      "id": "bongos",
+      "prompt": "Use case: stylized-concept. Asset type: transparent game palette artwork for Bongo Planet. The attached image is a STYLE REFERENCE only, not an edit target. Match its soft chunky rounded 3D toy style, coral-peach plastic, warm directional light, two glossy navy oval eyes with tiny white highlights, spare readable geometry and front three-quarter view. Original design. No text, branding, watermark, mouth, arms, feet, legs, ground plane or shadow beneath the object. Whole object centered with generous transparent padding. Truly transparent background. Square image. Subject: one joined pair of BONGO DRUMS, a smaller high bongo on the left and larger low bongo on the right, connected with one compact bridge. Short gently tapered rounded coral-peach shells, warm cream drumheads visible on top with a simple cream rim. Two little navy eyes on EACH shell, positioned on the front. No drumsticks or metal stand. Keep the pair compact and its unequal circular heads unambiguously readable."
+    },
+    {
+      "id": "kick",
+      "prompt": "Use case: stylized-concept. Asset type: transparent game palette artwork for Bongo Planet. The attached image is a STYLE REFERENCE only, not an edit target. Match its soft chunky rounded 3D toy style, coral-peach plastic, warm directional light, two glossy navy oval eyes with tiny white highlights, spare readable geometry and front three-quarter view. Original design. No text, branding, watermark, mouth, arms, feet, legs, ground plane or shadow beneath the object. Whole object centered with generous transparent padding. Truly transparent background. Square image. Subject: one compact BASS / KICK DRUM character. A thick rounded cylindrical coral-peach shell lies on its side, with its large circular warm cream front drumhead facing the viewer in three-quarter view. A chunky coral rim and a narrow second rim around the back suggest depth. Two small navy eyes on the front cream drumhead, centered slightly low. No beater, pedal, sticks, legs or stand. Clear big circular silhouette, like a tiny toy drum."
+    },
+    {
+      "id": "snare",
+      "prompt": "Use case: stylized-concept. Asset type: transparent game palette artwork for Bongo Planet. The attached image is a STYLE REFERENCE only, not an edit target. Match its soft chunky rounded 3D toy style, coral-peach plastic, warm directional light, two glossy navy oval eyes with tiny white highlights, spare readable geometry and front three-quarter view. Original design. No text, branding, watermark, mouth, arms, feet, legs, ground plane or shadow beneath the object. Whole object centered with generous transparent padding. Truly transparent background. Square image. Subject: one SNARE DRUM character, a shallow wide coral-peach cylinder with a warm cream top drumhead clearly visible, simple cream rounded top and bottom rims and just four tiny ivory vertical tension lugs. Two small navy eyes on the coral front shell. Very short body height, clearly distinguishable from a deep bass drum or tapered bongo. No sticks, feet or stand. Avoid photoreal metallic hardware."
+    },
+    {
+      "id": "hi-hat",
+      "prompt": "Use case: stylized-concept. Asset type: transparent game palette artwork for Bongo Planet. The attached image is a STYLE REFERENCE only, not an edit target. Match its soft chunky rounded 3D toy style, coral-peach plastic, warm directional light, two glossy navy oval eyes with tiny white highlights, spare readable geometry and front three-quarter view. Original design. No text, branding, watermark, mouth, arms, feet, legs, ground plane or shadow beneath the object. Whole object centered with generous transparent padding. Truly transparent background. Square image. Subject: one CLOSED HI-HAT character consisting of two chunky shallow butter-gold cymbal discs held closely together, a tiny rounded central cap on top, and a clearly visible thin dark gap between the cymbals. Two small navy oval eyes on the thick rounded front rim of the upper disc, with white highlights. Compact floating double-disc silhouette; no stem, stand, base, legs or feet. The gold palette harmonizes with the coral reference and warm cream drumheads. Cute simple 3D toy, not a realistic metallic instrument."
+    }
+  ]
+}

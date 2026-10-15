@@ -1,0 +1,480 @@
+{
+  "name": "North Pole Trickle",
+  "validated": true,
+  "engineSimulationSeconds": 35,
+  "simulatedRenderQuantum": {
+    "samples": 128,
+    "sampleRate": 48000
+  },
+  "generators": 1,
+  "generatorVertex": 38,
+  "generatorLocation": "Northernmost available junction; the mesh has no junction exactly at the mathematical pole.",
+  "bpm": 40,
+  "pulseIntervalSeconds": 12,
+  "hopSeconds": 0.375,
+  "completeDescentSeconds": 4.875,
+  "maximumSoundingLayers": 2,
+  "maximumActiveEdges": 4,
+  "maximumPendingSounds": 4,
+  "noteCount": 46,
+  "noteOnsets": 138,
+  "emissionTimes": [
+    0,
+    12,
+    24
+  ],
+  "allCrossingsAdjacent": true,
+  "allCrossingsDownward": true,
+  "eachNoteOncePerPulse": true,
+  "finiteTravelHops": 13,
+  "paths": [
+    [
+      38,
+      40,
+      8,
+      5,
+      7,
+      4,
+      0,
+      22,
+      16,
+      25,
+      17,
+      27,
+      52,
+      54
+    ],
+    [
+      38,
+      87,
+      35,
+      34,
+      32,
+      31,
+      12,
+      60,
+      21,
+      58,
+      20,
+      55,
+      90,
+      53
+    ],
+    [
+      38,
+      41,
+      42,
+      88,
+      43,
+      44,
+      45,
+      47,
+      78,
+      89,
+      77,
+      50
+    ],
+    [
+      38,
+      66,
+      68,
+      65,
+      67,
+      64,
+      61,
+      79,
+      74,
+      81,
+      75,
+      83
+    ]
+  ],
+  "layers": [
+    {
+      "layer": 1,
+      "secondsAfterPulse": 0.375,
+      "notes": [
+        {
+          "vertex": 41,
+          "instrument": "glass",
+          "degree": 0,
+          "octave": 6
+        },
+        {
+          "vertex": 66,
+          "instrument": "glass",
+          "degree": 0,
+          "octave": 6
+        }
+      ]
+    },
+    {
+      "layer": 2,
+      "secondsAfterPulse": 0.75,
+      "notes": [
+        {
+          "vertex": 8,
+          "instrument": "glass",
+          "degree": 5,
+          "octave": 5
+        },
+        {
+          "vertex": 35,
+          "instrument": "glass",
+          "degree": 5,
+          "octave": 5
+        },
+        {
+          "vertex": 42,
+          "instrument": "glass",
+          "degree": 5,
+          "octave": 5
+        },
+        {
+          "vertex": 68,
+          "instrument": "glass",
+          "degree": 5,
+          "octave": 5
+        }
+      ]
+    },
+    {
+      "layer": 3,
+      "secondsAfterPulse": 1.125,
+      "notes": [
+        {
+          "vertex": 5,
+          "instrument": "glass",
+          "degree": 4,
+          "octave": 5
+        },
+        {
+          "vertex": 34,
+          "instrument": "glass",
+          "degree": 4,
+          "octave": 5
+        },
+        {
+          "vertex": 88,
+          "instrument": "glass",
+          "degree": 4,
+          "octave": 5
+        },
+        {
+          "vertex": 65,
+          "instrument": "glass",
+          "degree": 4,
+          "octave": 5
+        }
+      ]
+    },
+    {
+      "layer": 4,
+      "secondsAfterPulse": 1.5,
+      "notes": [
+        {
+          "vertex": 7,
+          "instrument": "kalimba",
+          "degree": 2,
+          "octave": 5
+        },
+        {
+          "vertex": 32,
+          "instrument": "kalimba",
+          "degree": 2,
+          "octave": 5
+        },
+        {
+          "vertex": 43,
+          "instrument": "kalimba",
+          "degree": 2,
+          "octave": 5
+        },
+        {
+          "vertex": 67,
+          "instrument": "kalimba",
+          "degree": 2,
+          "octave": 5
+        }
+      ]
+    },
+    {
+      "layer": 5,
+      "secondsAfterPulse": 1.875,
+      "notes": [
+        {
+          "vertex": 4,
+          "instrument": "kalimba",
+          "degree": 1,
+          "octave": 5
+        },
+        {
+          "vertex": 31,
+          "instrument": "kalimba",
+          "degree": 1,
+          "octave": 5
+        },
+        {
+          "vertex": 44,
+          "instrument": "kalimba",
+          "degree": 1,
+          "octave": 5
+        },
+        {
+          "vertex": 64,
+          "instrument": "kalimba",
+          "degree": 1,
+          "octave": 5
+        }
+      ]
+    },
+    {
+      "layer": 6,
+      "secondsAfterPulse": 2.25,
+      "notes": [
+        {
+          "vertex": 0,
+          "instrument": "kalimba",
+          "degree": 0,
+          "octave": 5
+        },
+        {
+          "vertex": 12,
+          "instrument": "kalimba",
+          "degree": 0,
+          "octave": 5
+        },
+        {
+          "vertex": 45,
+          "instrument": "kalimba",
+          "degree": 0,
+          "octave": 5
+        },
+        {
+          "vertex": 61,
+          "instrument": "kalimba",
+          "degree": 0,
+          "octave": 5
+        }
+      ]
+    },
+    {
+      "layer": 7,
+      "secondsAfterPulse": 2.625,
+      "notes": [
+        {
+          "vertex": 22,
+          "instrument": "marimba",
+          "degree": 5,
+          "octave": 4
+        },
+        {
+          "vertex": 60,
+          "instrument": "marimba",
+          "degree": 5,
+          "octave": 4
+        },
+        {
+          "vertex": 47,
+          "instrument": "marimba",
+          "degree": 5,
+          "octave": 4
+        },
+        {
+          "vertex": 79,
+          "instrument": "marimba",
+          "degree": 5,
+          "octave": 4
+        }
+      ]
+    },
+    {
+      "layer": 8,
+      "secondsAfterPulse": 3,
+      "notes": [
+        {
+          "vertex": 16,
+          "instrument": "marimba",
+          "degree": 4,
+          "octave": 4
+        },
+        {
+          "vertex": 21,
+          "instrument": "marimba",
+          "degree": 4,
+          "octave": 4
+        },
+        {
+          "vertex": 78,
+          "instrument": "marimba",
+          "degree": 4,
+          "octave": 4
+        },
+        {
+          "vertex": 74,
+          "instrument": "marimba",
+          "degree": 4,
+          "octave": 4
+        }
+      ]
+    },
+    {
+      "layer": 9,
+      "secondsAfterPulse": 3.375,
+      "notes": [
+        {
+          "vertex": 25,
+          "instrument": "marimba",
+          "degree": 2,
+          "octave": 4
+        },
+        {
+          "vertex": 58,
+          "instrument": "marimba",
+          "degree": 2,
+          "octave": 4
+        },
+        {
+          "vertex": 89,
+          "instrument": "marimba",
+          "degree": 2,
+          "octave": 4
+        },
+        {
+          "vertex": 81,
+          "instrument": "marimba",
+          "degree": 2,
+          "octave": 4
+        }
+      ]
+    },
+    {
+      "layer": 10,
+      "secondsAfterPulse": 3.75,
+      "notes": [
+        {
+          "vertex": 17,
+          "instrument": "piano",
+          "degree": 1,
+          "octave": 4
+        },
+        {
+          "vertex": 20,
+          "instrument": "piano",
+          "degree": 1,
+          "octave": 4
+        },
+        {
+          "vertex": 77,
+          "instrument": "piano",
+          "degree": 1,
+          "octave": 4
+        },
+        {
+          "vertex": 75,
+          "instrument": "piano",
+          "degree": 1,
+          "octave": 4
+        }
+      ]
+    },
+    {
+      "layer": 11,
+      "secondsAfterPulse": 4.125,
+      "notes": [
+        {
+          "vertex": 27,
+          "instrument": "piano",
+          "degree": 0,
+          "octave": 4
+        },
+        {
+          "vertex": 55,
+          "instrument": "piano",
+          "degree": 0,
+          "octave": 4
+        },
+        {
+          "vertex": 50,
+          "instrument": "piano",
+          "degree": 0,
+          "octave": 4
+        },
+        {
+          "vertex": 83,
+          "instrument": "piano",
+          "degree": 0,
+          "octave": 4
+        }
+      ]
+    },
+    {
+      "layer": 12,
+      "secondsAfterPulse": 4.5,
+      "notes": [
+        {
+          "vertex": 52,
+          "instrument": "piano",
+          "degree": 4,
+          "octave": 3
+        },
+        {
+          "vertex": 90,
+          "instrument": "piano",
+          "degree": 4,
+          "octave": 3
+        }
+      ]
+    },
+    {
+      "layer": 13,
+      "secondsAfterPulse": 4.875,
+      "notes": [
+        {
+          "vertex": 54,
+          "instrument": "piano",
+          "degree": 0,
+          "octave": 3
+        },
+        {
+          "vertex": 53,
+          "instrument": "piano",
+          "degree": 0,
+          "octave": 3
+        }
+      ]
+    }
+  ],
+  "browserImport": "passed",
+  "browserPlayback": "running observed via Pause button; audio listening and live onset measurement not performed",
+  "browserUrl": "http://127.0.0.1:5417/BongoPlanet/",
+  "browserProof": "evidence/north-pole-trickle/browser-playback.jpg",
+  "browserControls": {
+    "tempo": "40 BPM",
+    "sparkInterval": "8 beats",
+    "sparkTravel": 13,
+    "infinite": false,
+    "emitNewSparks": true,
+    "selectedPiece": "Generator 1"
+  },
+  "permanentPreset": {
+    "id": "N01",
+    "name": "North Pole Trickle",
+    "group": "Favorites",
+    "position": 3,
+    "fixture": "public/fixtures/N01.json",
+    "productionBuildContainsFixture": true,
+    "fixtureMatchesOriginalComposition": true,
+    "browserMenu": "passed",
+    "browserPresetLoading": "passed",
+    "build": "passed",
+    "targetedTests": {
+      "files": [
+        "tests/composition-file.test.ts",
+        "tests/classics.test.ts"
+      ],
+      "passed": 31,
+      "failed": 0
+    }
+  }
+}

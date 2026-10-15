@@ -1,0 +1,37 @@
+{
+  "kind": "source-only candidate04",
+  "updatedUtc": "2026-10-12T03:42:31.885498+00:00",
+  "controls": {
+    "count": 11,
+    "exitCode": 0,
+    "toolChunk": "63f169",
+    "processesOrSignals": false
+  },
+  "priorReadOnlyInventory": {
+    "rows": 1012,
+    "exitCode": 0,
+    "toolChunk": "92e7c5"
+  },
+  "bindings": [
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/root-controller.py",
+      "bytes": 11444,
+      "sha256": "8a9ec1e4cbe3bcaa004a067020723d5cc9be8d5388e74d308e812e01020ae537"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/root-controller-controls.py",
+      "bytes": 7984,
+      "sha256": "8a1cfa6d3860fa273e2903b24b059c4655ac7f727413a845c478314a11af7dda"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/Root-Controller-Plan.md",
+      "bytes": 3630,
+      "sha256": "a7fb7c60500ba84dcbf0becd5c9de9f78d08c52ca3e3658d80ebf3c48063c6b3"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/Root-BufferedAmount-Semantics.md",
+      "bytes": 1054,
+      "sha256": "896b911911caca2389a8b314fa013b4799c538da2d2591cd7a37bfc9079d74c6"
+    }
+  ]
+}

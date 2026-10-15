@@ -1,0 +1,610 @@
+{
+  "title": "Bongo Planet worker control-clock probe preparation",
+  "date": "2026-10-11T20:44:52.099Z",
+  "sourceSha256": "a44d8b7840f8f3af24d574d6056d05fef77e315345f441ee09835158912e979c",
+  "workerSha256": "0af897f8fab58063d79d4c879b06994e5e602d87ccff16ce51ab03b2a08ef47c",
+  "syntaxPass": true,
+  "workerLaunched": false,
+  "browserLaunched": false,
+  "audioOpened": false,
+  "intentionalLoadRun": false,
+  "clock": {
+    "samples": [
+      {
+        "beforeHrNs": "946791204043791",
+        "performanceMs": 119.703917,
+        "afterHrNs": "946791204052458",
+        "offsetLowerNs": "946791084339873",
+        "offsetUpperNs": "946791084348542",
+        "widthNs": "8669"
+      },
+      {
+        "beforeHrNs": "946791204066291",
+        "performanceMs": 119.718542,
+        "afterHrNs": "946791204066875",
+        "offsetLowerNs": "946791084347748",
+        "offsetUpperNs": "946791084348334",
+        "widthNs": "586"
+      },
+      {
+        "beforeHrNs": "946791204069291",
+        "performanceMs": 119.721292,
+        "afterHrNs": "946791204069666",
+        "offsetLowerNs": "946791084347998",
+        "offsetUpperNs": "946791084348375",
+        "widthNs": "377"
+      },
+      {
+        "beforeHrNs": "946791204071583",
+        "performanceMs": 119.723584,
+        "afterHrNs": "946791204071916",
+        "offsetLowerNs": "946791084347998",
+        "offsetUpperNs": "946791084348333",
+        "widthNs": "335"
+      },
+      {
+        "beforeHrNs": "946791204073666",
+        "performanceMs": 119.726084,
+        "afterHrNs": "946791204075041",
+        "offsetLowerNs": "946791084347581",
+        "offsetUpperNs": "946791084348958",
+        "widthNs": "1377"
+      },
+      {
+        "beforeHrNs": "946791204081708",
+        "performanceMs": 119.733875,
+        "afterHrNs": "946791204082208",
+        "offsetLowerNs": "946791084347832",
+        "offsetUpperNs": "946791084348334",
+        "widthNs": "502"
+      },
+      {
+        "beforeHrNs": "946791204083916",
+        "performanceMs": 119.735959,
+        "afterHrNs": "946791204084250",
+        "offsetLowerNs": "946791084347956",
+        "offsetUpperNs": "946791084348292",
+        "widthNs": "336"
+      },
+      {
+        "beforeHrNs": "946791204085875",
+        "performanceMs": 119.737875,
+        "afterHrNs": "946791204086208",
+        "offsetLowerNs": "946791084347999",
+        "offsetUpperNs": "946791084348334",
+        "widthNs": "335"
+      },
+      {
+        "beforeHrNs": "946791204087833",
+        "performanceMs": 119.74,
+        "afterHrNs": "946791204088416",
+        "offsetLowerNs": "946791084347832",
+        "offsetUpperNs": "946791084348417",
+        "widthNs": "585"
+      },
+      {
+        "beforeHrNs": "946791204152291",
+        "performanceMs": 119.805292,
+        "afterHrNs": "946791204153958",
+        "offsetLowerNs": "946791084346998",
+        "offsetUpperNs": "946791084348667",
+        "widthNs": "1669"
+      },
+      {
+        "beforeHrNs": "946791204158708",
+        "performanceMs": 119.81075,
+        "afterHrNs": "946791204159041",
+        "offsetLowerNs": "946791084347957",
+        "offsetUpperNs": "946791084348292",
+        "widthNs": "335"
+      },
+      {
+        "beforeHrNs": "946791204160875",
+        "performanceMs": 119.812792,
+        "afterHrNs": "946791204161041",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348250",
+        "widthNs": "168"
+      },
+      {
+        "beforeHrNs": "946791204161458",
+        "performanceMs": 119.813459,
+        "afterHrNs": "946791204161666",
+        "offsetLowerNs": "946791084347998",
+        "offsetUpperNs": "946791084348208",
+        "widthNs": "210"
+      },
+      {
+        "beforeHrNs": "946791204162000",
+        "performanceMs": 119.813917,
+        "afterHrNs": "946791204162125",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204162458",
+        "performanceMs": 119.814375,
+        "afterHrNs": "946791204162583",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204162875",
+        "performanceMs": 119.814792,
+        "afterHrNs": "946791204163000",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204163291",
+        "performanceMs": 119.815209,
+        "afterHrNs": "946791204163458",
+        "offsetLowerNs": "946791084348081",
+        "offsetUpperNs": "946791084348250",
+        "widthNs": "169"
+      },
+      {
+        "beforeHrNs": "946791204163750",
+        "performanceMs": 119.815667,
+        "afterHrNs": "946791204163875",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204164166",
+        "performanceMs": 119.816084,
+        "afterHrNs": "946791204164291",
+        "offsetLowerNs": "946791084348081",
+        "offsetUpperNs": "946791084348208",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204164583",
+        "performanceMs": 119.8165,
+        "afterHrNs": "946791204164708",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204165000",
+        "performanceMs": 119.816917,
+        "afterHrNs": "946791204165125",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204165416",
+        "performanceMs": 119.817334,
+        "afterHrNs": "946791204165541",
+        "offsetLowerNs": "946791084348081",
+        "offsetUpperNs": "946791084348208",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204165833",
+        "performanceMs": 119.81775,
+        "afterHrNs": "946791204165958",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204166250",
+        "performanceMs": 119.818167,
+        "afterHrNs": "946791204166375",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204166666",
+        "performanceMs": 119.818584,
+        "afterHrNs": "946791204166791",
+        "offsetLowerNs": "946791084348081",
+        "offsetUpperNs": "946791084348208",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204167083",
+        "performanceMs": 119.819,
+        "afterHrNs": "946791204167208",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204167500",
+        "performanceMs": 119.819417,
+        "afterHrNs": "946791204167625",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204167958",
+        "performanceMs": 119.819834,
+        "afterHrNs": "946791204168041",
+        "offsetLowerNs": "946791084348123",
+        "offsetUpperNs": "946791084348208",
+        "widthNs": "85"
+      },
+      {
+        "beforeHrNs": "946791204168375",
+        "performanceMs": 119.820292,
+        "afterHrNs": "946791204168500",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204168833",
+        "performanceMs": 119.820709,
+        "afterHrNs": "946791204168916",
+        "offsetLowerNs": "946791084348123",
+        "offsetUpperNs": "946791084348208",
+        "widthNs": "85"
+      },
+      {
+        "beforeHrNs": "946791204169250",
+        "performanceMs": 119.821125,
+        "afterHrNs": "946791204169375",
+        "offsetLowerNs": "946791084348124",
+        "offsetUpperNs": "946791084348251",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204169666",
+        "performanceMs": 119.821584,
+        "afterHrNs": "946791204169791",
+        "offsetLowerNs": "946791084348081",
+        "offsetUpperNs": "946791084348208",
+        "widthNs": "127"
+      }
+    ],
+    "chosen": {
+      "beforeHrNs": "946791204167958",
+      "performanceMs": 119.819834,
+      "afterHrNs": "946791204168041",
+      "offsetLowerNs": "946791084348123",
+      "offsetUpperNs": "946791084348208",
+      "widthNs": "85"
+    },
+    "offsetNs": "946791084348165"
+  },
+  "heldOutClock": {
+    "samples": [
+      {
+        "beforeHrNs": "946791204191375",
+        "performanceMs": 119.8435,
+        "afterHrNs": "946791204191750",
+        "offsetLowerNs": "946791084347874",
+        "offsetUpperNs": "946791084348251",
+        "widthNs": "377"
+      },
+      {
+        "beforeHrNs": "946791204192666",
+        "performanceMs": 119.844584,
+        "afterHrNs": "946791204192833",
+        "offsetLowerNs": "946791084348081",
+        "offsetUpperNs": "946791084348250",
+        "widthNs": "169"
+      },
+      {
+        "beforeHrNs": "946791204194833",
+        "performanceMs": 119.84675,
+        "afterHrNs": "946791204194958",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204195291",
+        "performanceMs": 119.847209,
+        "afterHrNs": "946791204195416",
+        "offsetLowerNs": "946791084348081",
+        "offsetUpperNs": "946791084348208",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204195833",
+        "performanceMs": 119.84775,
+        "afterHrNs": "946791204195958",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204196250",
+        "performanceMs": 119.848167,
+        "afterHrNs": "946791204196375",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204196666",
+        "performanceMs": 119.848584,
+        "afterHrNs": "946791204196791",
+        "offsetLowerNs": "946791084348081",
+        "offsetUpperNs": "946791084348208",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204197083",
+        "performanceMs": 119.849,
+        "afterHrNs": "946791204197208",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204197500",
+        "performanceMs": 119.849417,
+        "afterHrNs": "946791204197625",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204197916",
+        "performanceMs": 119.849834,
+        "afterHrNs": "946791204198041",
+        "offsetLowerNs": "946791084348081",
+        "offsetUpperNs": "946791084348208",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204198333",
+        "performanceMs": 119.85025,
+        "afterHrNs": "946791204198458",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204198750",
+        "performanceMs": 119.850667,
+        "afterHrNs": "946791204198875",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204199166",
+        "performanceMs": 119.851084,
+        "afterHrNs": "946791204199291",
+        "offsetLowerNs": "946791084348081",
+        "offsetUpperNs": "946791084348208",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204199583",
+        "performanceMs": 119.8515,
+        "afterHrNs": "946791204199708",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204200000",
+        "performanceMs": 119.851917,
+        "afterHrNs": "946791204200125",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204200416",
+        "performanceMs": 119.852334,
+        "afterHrNs": "946791204200541",
+        "offsetLowerNs": "946791084348081",
+        "offsetUpperNs": "946791084348208",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204200833",
+        "performanceMs": 119.85275,
+        "afterHrNs": "946791204200958",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204201250",
+        "performanceMs": 119.853167,
+        "afterHrNs": "946791204201375",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204201666",
+        "performanceMs": 119.853584,
+        "afterHrNs": "946791204201791",
+        "offsetLowerNs": "946791084348081",
+        "offsetUpperNs": "946791084348208",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204202083",
+        "performanceMs": 119.854,
+        "afterHrNs": "946791204202208",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204202500",
+        "performanceMs": 119.854417,
+        "afterHrNs": "946791204202625",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204202916",
+        "performanceMs": 119.854834,
+        "afterHrNs": "946791204203041",
+        "offsetLowerNs": "946791084348081",
+        "offsetUpperNs": "946791084348208",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204203333",
+        "performanceMs": 119.85525,
+        "afterHrNs": "946791204203458",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204203750",
+        "performanceMs": 119.855667,
+        "afterHrNs": "946791204203875",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204204166",
+        "performanceMs": 119.856084,
+        "afterHrNs": "946791204204291",
+        "offsetLowerNs": "946791084348081",
+        "offsetUpperNs": "946791084348208",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204204583",
+        "performanceMs": 119.8565,
+        "afterHrNs": "946791204204708",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204205000",
+        "performanceMs": 119.856917,
+        "afterHrNs": "946791204205125",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204205416",
+        "performanceMs": 119.857334,
+        "afterHrNs": "946791204205541",
+        "offsetLowerNs": "946791084348081",
+        "offsetUpperNs": "946791084348208",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204205833",
+        "performanceMs": 119.85775,
+        "afterHrNs": "946791204205958",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204206250",
+        "performanceMs": 119.858167,
+        "afterHrNs": "946791204206375",
+        "offsetLowerNs": "946791084348082",
+        "offsetUpperNs": "946791084348209",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946791204206666",
+        "performanceMs": 119.858584,
+        "afterHrNs": "946791204206833",
+        "offsetLowerNs": "946791084348081",
+        "offsetUpperNs": "946791084348250",
+        "widthNs": "169"
+      },
+      {
+        "beforeHrNs": "946791204207125",
+        "performanceMs": 119.859,
+        "afterHrNs": "946791204207250",
+        "offsetLowerNs": "946791084348124",
+        "offsetUpperNs": "946791084348251",
+        "widthNs": "127"
+      }
+    ],
+    "chosen": {
+      "beforeHrNs": "946791204194833",
+      "performanceMs": 119.84675,
+      "afterHrNs": "946791204194958",
+      "offsetLowerNs": "946791084348082",
+      "offsetUpperNs": "946791084348209",
+      "widthNs": "127"
+    }
+  },
+  "guards": {
+    "heldOutCompatible": true,
+    "injected50msOriginRejected": true,
+    "oldIncarnationRejected": true,
+    "closedIncarnationRejected": true,
+    "errorBeforePredicateRejected": true,
+    "errorAfterPredicateRejected": true,
+    "capacityFailCannotRevive": true
+  },
+  "capacityRegressions": [
+    {
+      "name": "dispatch-pop",
+      "pass": true,
+      "state": {
+        "dead": true,
+        "session": "",
+        "pending": 0,
+        "voices": 0,
+        "objects": 0
+      },
+      "fatal": {
+        "type": "fatal",
+        "incarnation": "dry",
+        "reason": "Receipt count/byte capacity exceeded",
+        "observedHrNs": "1000000000",
+        "mutationHrBeforeNs": "1000000000",
+        "mutationHrAfterNs": "1000000000",
+        "state": {
+          "session": "dry/old",
+          "pending": 0,
+          "activeVoices": 1
+        }
+      }
+    },
+    {
+      "name": "new-epoch-release",
+      "pass": true,
+      "state": {
+        "dead": true,
+        "session": "",
+        "pending": 0,
+        "voices": 0,
+        "objects": 0
+      },
+      "fatal": {
+        "type": "fatal",
+        "incarnation": "dry",
+        "reason": "Receipt count/byte capacity exceeded",
+        "observedHrNs": "1000000000",
+        "mutationHrBeforeNs": "1000000000",
+        "mutationHrAfterNs": "1000000000",
+        "state": {
+          "session": "",
+          "pending": 0,
+          "activeVoices": 0
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "Syntax, held-out clock brackets, pure predicate guards and controlled embedded-source capacity regressions only; no OS scheduling, real Worker, throughput or application qualification."
+  ]
+}

@@ -1,0 +1,17 @@
+# Bongo Planet instrument band
+
+The palette contains Generator, Guitar, Glass, Kalimba, Piano and Marimba. Each instrument is a placeable pitched sound character. The meshes and palette portraits share one editable Three.js factory: rounded geometric silhouettes, glossy eyes, soft pastel colors, no feet. Portraits render from those meshes rather than a separate illustration. Edit look changes each instrument's color and toggles eyes. Geometric Toys is the only style. Edit look offers fixed color swatches, gradient skies and a decorative star field.
+
+The five byte-identical Harmony Bloom 1.3.92 recordings live in public/audio/harmony-bloom. Their extracted provenance, hashes and license status remain in source-manifest.json and research/harmony-bloom/README.md. These are user-requested proprietary samples for this local project; no redistribution license was established. This change does not publish the game or the samples.
+
+Playback remains in the AudioWorklet. The adapter fetches and decodes the complete bank before sending scene/play commands. A failed bank load reports an error and permits a deliberate retry; no synthesized substitute plays. Each pitched voice transposes the recording relative to the measured approximate MIDI 60 root, linearly interpolates PCM, preserves stereo and natural decay, and applies short onset/end/cancel fades, level and master volume. It does not reproduce Harmony Bloom's undocumented effects, looping or native root mapping. At extreme octaves the single recorded pitch changes timbre.
+
+New placements use an 8-second maximum note length, allowing the recording to decay naturally. Shorter note lengths cut the recording with a 20ms ending fade. Route scheduling and passage timing are unchanged. Edits retain the engine's committed voice snapshots.
+
+Scene version 1 adds an optional note instrument field. All five names round-trip through saves, imports, exports, history and companion packets. The app upgrades old note pieces to piano and old beat pieces to pitched marimba, preserving IDs, occupied vertices, level and duration (minimum 50ms); kick/snare/hat map to degrees 0/2/4. Core legacy fixtures remain readable. This means old compositions load with new sampled sounds; Every live palette instrument uses this sample bank; there are no drum or oscillator choices.
+
+The art download includes five new portable instrument GLBs and editable sources. It excludes the proprietary WAV bank. Toy ensemble demonstrates all five instruments with two generators.
+
+The toy interface omits key, scale and rhythm grid while retaining their existing scene metadata. F11–F14 are short familiar song phrases, each performed by a single spark on a saved seam path. The songs preserve their note order, with the toy's constant-speed geometric timing rather than a conventional score's exact durations. Each character remains independently editable. Song generators offer Use automatic routes; moving the generator or changing its reach also releases the authored path. Song path edits affect future emissions and preserve already-emitted journey timing.
+
+All controls are housed in the left panel, ordered as palette, playback, Volume/Tempo, selected-piece editor, scene/look utilities and diagnostics. Individual generator Spark travel replaces the global travel control. Saved piece labels identify each selection, e.g. Guitar 1. The single trash button is both a delete action and the drop target. Generator routing state is explicit (Automatic branches or Saved song path).

@@ -1,0 +1,5 @@
+# Bongo Planet reconnect Source03
+
+Source02 is retained unchanged in source02, Manifest02, its pure controls and compile outputs. The Source02 validator incorrectly expected empty strings for healthy NativeClock failure and closeFailure, although production NativeClock initializes both to literal null and diagnostics exposes them unchanged. Source03 changes only these two predicates to exact null, changes the helper import/binding to final-state03, and adds production-shaped positive observations plus malformed-field negatives. clockEvidenceFailure remains exactly empty string. Undefined, empty string, boolean, number, object and array cannot stand in for either nullable production field.
+
+All Source02 late-fault closure, browser/native independent cleanup, eight-sync/six-position/full-current-snapshot assertions, geometry, resource caps, clock limits and ownership remain unchanged. No actual acquisition is authorized. Root and independent source review precede one separately authorized run.

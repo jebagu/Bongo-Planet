@@ -1,0 +1,12 @@
+{
+  "sourceOnly": true,
+  "execSession": 31396,
+  "outcome": "Completed exit0 before requested SIGTERM; output vector artifact retained",
+  "ownedPid": 15433,
+  "stopSignal": "SIGTERM attempted but PID already absent",
+  "causeScope": "Direct rational composition retains very large denominators; no timing/PCM analysis executed. Exact mechanism is supported by source structure, not a profiler.",
+  "nextBoundedCorrection": "No rerun authorized/needed; compact reference-generator source variant prepared only, not executed.",
+  "terminalToolChunk": "4d1647",
+  "exitCode": 0,
+  "timingScope": "Exact wall runtime not recorded; generation exceeded first10s toolyield and subsequent5s wait. No fabricated elapsed certificate."
+}

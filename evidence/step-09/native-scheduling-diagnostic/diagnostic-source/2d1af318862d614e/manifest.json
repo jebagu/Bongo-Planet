@@ -1,0 +1,228 @@
+{
+  "diagnosticOnly": true,
+  "originalNativeSha256": "97c63e08014aed1ab9ee8c5cbf7166a4f33e0027fbb10f91b305fde32c30f173",
+  "originalBridgeSha256": "c24a37011f631df7a979b5c4010b1b96baa22b6799abae4c231c95246deec460",
+  "files": {
+    "NativeClock.frozen.ts": "97c63e08014aed1ab9ee8c5cbf7166a4f33e0027fbb10f91b305fde32c30f173",
+    "bridge.frozen.ts": "c24a37011f631df7a979b5c4010b1b96baa22b6799abae4c231c95246deec460",
+    "worker.frozen.cjs": "345d132b3bd5e4f56c263b3fc4fb17a3919b1867df1e1c4203ff5fbe85df5696",
+    "NativeClock.instrumented.ts": "5080ab7855839ffa0215d04a85fa194a9499efdfe887e7637ae9e9130f14656f",
+    "bridge.instrumented.ts": "eb68fa9393a6b0b63416b8fa7fcb4fae783bbc0db01415149e018104886cdde5",
+    "worker.instrumented.cjs": "ae030275ee58f8ba4ce21220306851f0ad410a799f31e177dadb646a683fd727",
+    "harness.frozen.ts": "2d1af318862d614ee5ea47b6f532e4828ce8cd7ee1bb3df898097431eea16932"
+  },
+  "patches": [
+    {
+      "label": "worker primitive diagnostic ring",
+      "beforeSha256": "39df20bcb6cc54be0cf65784614bdfca454ed79a0bc550b0b2dce480d2c81c9a",
+      "replacementSha256": "a643b2834693cb145998d5085daa65ca408c9f57f52688e63f4be7404055efd9"
+    },
+    {
+      "label": "timer arm cancel fire",
+      "beforeSha256": "db14e4d7d1df0face359ce0e79ad1ed338c1212880fa4f8fc5bfc3a40a44beda",
+      "replacementSha256": "936b0fab1942198bff0d7708490d9d039fd3bc1deb42ffde0aca8f644314de71"
+    },
+    {
+      "label": "health callback entry",
+      "beforeSha256": "0769bf1e8b8aed8342e59eeb5e25e7f31ae07fe2d694642b77eab481b71f59bd",
+      "replacementSha256": "4841902682ca61638651a574830d1ab17795112a2bc5b7b37750ed7b80797b97"
+    },
+    {
+      "label": "health callback exit and phase wrappers",
+      "beforeSha256": "3706b08ebbef3a95ad8db53a01de319aa454ef361db3f458b897da58990454a9",
+      "replacementSha256": "1873aefe694e952e9f8874ddb7f64fbde83739a2ef9e19eb3b0028f688a16df1"
+    },
+    {
+      "label": "message entry",
+      "beforeSha256": "055c2b37669d2e009f6dbd1d6f3c0b157c1a7ea22ec4d6feeb4112a4a08630a8",
+      "replacementSha256": "d8efbc65a6a1f1b1a1d09ad51ae5b472ce97b1089e39489aac8659ca2c548c89"
+    },
+    {
+      "label": "message exit",
+      "beforeSha256": "312af8fc49c25650caf150abd04bc4593b59b81be9b16a7be8f9c3bde25ab141",
+      "replacementSha256": "7ddefade89c57610df1fa8508ecf1e301f15e9ae3d339f48d2f3f22b5a3faf38"
+    },
+    {
+      "label": "queue sort entry",
+      "beforeSha256": "b03f7e0b1bf5b4b53bb7b185bccaac4ce225159f89ac8d387002d2bfa203343b",
+      "replacementSha256": "63dbbbc4e334d6bbb3e323bbb549a4834d72afb2d8747afef0000854970d5d68"
+    },
+    {
+      "label": "queue sort exit",
+      "beforeSha256": "c62443b34de9e965f5508495c46a597b9f8810fbf9812a34fb7251f62580a1ae",
+      "replacementSha256": "cbfaef94b033fcc86570f09c98737ca9404ec6e59d4074cfc39b637c77e7a00c"
+    },
+    {
+      "label": "actual execution incident",
+      "beforeSha256": "906173e507ec226745e315a4dd54a1cb54f26383b09f8e98d5711ddac62b07c9",
+      "replacementSha256": "b94a8b630a4daf3b320c4120ebf52a04f9a9d407e4aedcd0aa3694918152aed2"
+    },
+    {
+      "label": "final GC drain",
+      "beforeSha256": "f636096867991a6f15f1671866659af65d158a0be5cd28363da3d43c498971ab",
+      "replacementSha256": "2e712649bdf21123c8d1a24af22796843f11fa5a066906696ebcf9295479f0ce"
+    },
+    {
+      "label": "embed instrumented worker",
+      "beforeSha256": "d1d86a4da8585ca79e4830fef8fe4817d2e6bde34cfae3d35708a98b26807f5d",
+      "replacementSha256": "7a04db7bc80d7c380cdf3236d81de966b852437118048de46bbefa9192c146fa"
+    },
+    {
+      "label": "native protocol import",
+      "beforeSha256": "a6724385714ccec7dd663472fe71f147af2abc0880fd06292c7ec77fbe0fa7ef",
+      "replacementSha256": "fb13c37fad93db5d9a53777b7606c425acd1facbb89ae8886101835805633932"
+    },
+    {
+      "label": "native contract import",
+      "beforeSha256": "dbeae3ae8c57988f8a5e69d1ca87dad34bd90a57150a616257583e12c28493ce",
+      "replacementSha256": "2a872aab9e6bf18e6b341f9be38f10076a37f922ebadeb71deee6c925d76946d"
+    },
+    {
+      "label": "parent shared memory",
+      "beforeSha256": "fef2a4fa9781457ca774e74e80c4dc11ecfc44ea093dc549320f216c4e9395ae",
+      "replacementSha256": "a48ef4fe4354904a2fca9b6435e5689f6183945a273fd246aeb3ce808ab22273"
+    },
+    {
+      "label": "worker diagnostic storage",
+      "beforeSha256": "55e5a68fc8e312ff3e63b0ab75331877498c0f1eeca3f58cfa1f2587414fe241",
+      "replacementSha256": "5d77bf1c73436d1ebd7ef616943f6ec018d937426fb889a2666df8d22426cae0"
+    },
+    {
+      "label": "copied bridge clock import",
+      "beforeSha256": "00bb97962a95b1688886482f1db6b0bb0791674eaa5ae8611d92bfb01402e7cd",
+      "replacementSha256": "0646ad0335303ed262f42f11690440c19c2a327441f79979488759aa4f51d974"
+    },
+    {
+      "label": "copied bridge protocol",
+      "beforeSha256": "a6724385714ccec7dd663472fe71f147af2abc0880fd06292c7ec77fbe0fa7ef",
+      "replacementSha256": "fb13c37fad93db5d9a53777b7606c425acd1facbb89ae8886101835805633932"
+    },
+    {
+      "label": "copied bridge RenderClock",
+      "beforeSha256": "b3732008a481f3c741cbd7cc591c88793b1e468d915376127d861d53e56789e7",
+      "replacementSha256": "37122393d4da0e86b6158a2dad5b3315dc3be897f88a0ae9879db083c35a2eec"
+    },
+    {
+      "label": "copied bridge ReceiverClock",
+      "beforeSha256": "dbeae3ae8c57988f8a5e69d1ca87dad34bd90a57150a616257583e12c28493ce",
+      "replacementSha256": "2a872aab9e6bf18e6b341f9be38f10076a37f922ebadeb71deee6c925d76946d"
+    }
+  ],
+  "ring": {
+    "slots": 8192,
+    "words": 16,
+    "headerWords": 16,
+    "byteLength": 1048704,
+    "retentionCapBytes": 6291456
+  },
+  "recordSchema": {
+    "common": [
+      "sequence",
+      "eventCode",
+      "recordHrNs",
+      "13 integer payload fields, zero-padded"
+    ],
+    "event1": [
+      "generation",
+      "intendedDeadlineHrNs",
+      "triggerSequence",
+      "requestedDelayNs",
+      "armBeforeHrNs",
+      "armAfterHrNs",
+      "callerPhase"
+    ],
+    "event2": [
+      "cancelledGeneration",
+      "intendedDeadlineHrNs",
+      "triggerSequence",
+      "cancelBeforeHrNs",
+      "cancelAfterHrNs",
+      "callerPhase"
+    ],
+    "event3": [
+      "callbackEntryHrNs",
+      "phase",
+      "commandSequence",
+      "cpuUserUs",
+      "cpuSystemUs",
+      "cpuBeforeHrNs",
+      "cpuAfterHrNs",
+      "pending",
+      "voices"
+    ],
+    "event4": [
+      "callbackExitHrNs",
+      "phase",
+      "commandSequence",
+      "cpuUserUs",
+      "cpuSystemUs",
+      "cpuBeforeHrNs",
+      "cpuAfterHrNs",
+      "phaseWallDurationNs",
+      "pending",
+      "voices"
+    ],
+    "event5": [
+      "generation",
+      "intendedDeadlineHrNs",
+      "triggerSequence",
+      "timerCallbackEntryHrNs",
+      "armCallerPhase"
+    ],
+    "event6": [
+      "triggerSequence",
+      "intendedDeadlineHrNs",
+      "actualHrNs",
+      "mutationBeforeHrNs",
+      "mutationAfterHrNs",
+      "lateDropBoolean"
+    ],
+    "event7": [
+      "healthEntryHrNs",
+      "healthEntryGapNs",
+      "eluActiveNs",
+      "eluIdleNs",
+      "receiptBytes",
+      "unacknowledgedCommands",
+      "inFlightBatch",
+      "lastHeartbeatHrNs",
+      "heartbeatAgeNs",
+      "budgetAgeNs"
+    ],
+    "event8": [
+      "gcPerformanceStartNs",
+      "gcDurationNs",
+      "gcKind",
+      "gcFlags",
+      "pairBeforeHrNs",
+      "pairPerformanceNs",
+      "pairAfterHrNs"
+    ],
+    "event9": [
+      "workerPortClosed"
+    ],
+    "phases": {
+      "1": "dispatch",
+      "2": "health",
+      "3": "message",
+      "4": "flush",
+      "6": "queue sort"
+    },
+    "independent": [
+      "sequence",
+      "expectedHrNs",
+      "actualHrNs",
+      "cpuUserUs",
+      "cpuSystemUs",
+      "cpuBeforeHrNs",
+      "cpuAfterHrNs",
+      "pid"
+    ]
+  },
+  "invariants": [
+    "No policy constants changed",
+    "No deadline retargeting",
+    "No dropped trigger retry",
+    "No musical receipt/ACK dependency on diagnostic storage"
+  ]
+}

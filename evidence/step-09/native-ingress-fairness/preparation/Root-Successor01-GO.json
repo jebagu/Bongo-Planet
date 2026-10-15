@@ -1,0 +1,324 @@
+{
+  "authorization": "Root authorizes exactly one ingress component acquisition",
+  "utc": "2026-10-12T04:43:58.720552+00:00",
+  "command": [
+    "/usr/local/bin/node",
+    "--import",
+    "tsx",
+    "evidence/step-09/native-ingress-fairness/preparation/ingress-component.ts"
+  ],
+  "environment": {
+    "BONGO_INGRESS_MODE": "successor",
+    "BONGO_INGRESS_EVIDENCE_DIR": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/successor-01",
+    "BONGO_INGRESS_CONTROLLER_RESERVE": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/reserve-successor-01",
+    "BONGO_MOVEMENT_RESOURCE_JOURNAL": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/Successor01-Resource-Claims.jsonl"
+  },
+  "sourceBindings": [
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/Plan01-IndependentReview.md",
+      "bytes": 8954,
+      "sha256": "5e5a8f18ef88e7fc89aaed7d00bbc77b99a930519b38f449e0decfe6a5deff54"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/Plan01.md",
+      "bytes": 3254,
+      "sha256": "a01c882081c719339bcf77ebce4ba765d9b5e1f34d23e31cb10e1178607b78be"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/Plan02.md",
+      "bytes": 5265,
+      "sha256": "08c92add5eb3eef0c2572282798472ddf1ecc8e421b9b1cbf3a3740120d32c71"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/Root-Controller-Checks01.json",
+      "bytes": 1150,
+      "sha256": "de70a5066e816c0b830c854425a8374969ac51fa74b8b720b56f2691c29faa02"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/Root-Controller-Delta01.diff",
+      "bytes": 3843,
+      "sha256": "4bcaee4ad28d2e2866c4b7ede760f00cbca2d2b1b0aa3cca3c38f203bf7e0930"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/Root-Controller-IndependentReview01.md",
+      "bytes": 4885,
+      "sha256": "2de148e5bffccb92395f75c4254dcdd96bab72310ebf1bf117e697ccf2aa2549"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/Root-Controller-Plan01.md",
+      "bytes": 1340,
+      "sha256": "d49d4e6c9aef76974ca808735a91d44da1f3397012c9fc7495bae2bae2884463"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/Source-Review01.md",
+      "bytes": 2569,
+      "sha256": "21bbe2a3da0300dcdfa95673f7631644c6ec260d19026068b2c19b16f133beb7"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/Source01-IndependentReview.md",
+      "bytes": 10096,
+      "sha256": "c7d2a672fdfc8d155f6e2a1387101f78e9e2d9d10b4463dc5977039710ca2b5a"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/age.ts",
+      "bytes": 669,
+      "sha256": "581d4544729c78b4b8736013ab1f24791970fd6560e4e94501ea35e1bbbdd23c"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/bridge-baseline.ts",
+      "bytes": 15867,
+      "sha256": "fb36ff59c15dd1116ad1fe01f9a411dfd6d9aeaa386f3c9b482648bc51cc4059"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/bridge-successor.ts",
+      "bytes": 15868,
+      "sha256": "2ce9c0b75fb31e8376f567c215f7635e7f075ce43fc51d7025ed25c5579ec03f"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/candidate-bindings.json",
+      "bytes": 807,
+      "sha256": "8c3c2a571045791bf027216c397d3a6b2e45a2130e427cbce86de68caf47e7a5"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/fixture.json",
+      "bytes": 424399,
+      "sha256": "2259ff02b13d877a73171dd80e9ef2bb9df42feeebdc58a57a5d3d17698882b5"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/frozen-source/NativeClock.ts",
+      "bytes": 28579,
+      "sha256": "97c63e08014aed1ab9ee8c5cbf7166a4f33e0027fbb10f91b305fde32c30f173"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/frozen-source/ReceiverClock.ts",
+      "bytes": 2945,
+      "sha256": "5dcea0b57e27436674b77bc9eea2a8973f7da87986e962f5f36fa4ca22dab7b8"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/frozen-source/RenderClock.ts",
+      "bytes": 30330,
+      "sha256": "1e389cb2e035c40ed29176854a6432fd4ad2772b13ca3ef735a9865fe8bb054c"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/frozen-source/bridge.ts",
+      "bytes": 15485,
+      "sha256": "c24a37011f631df7a979b5c4010b1b96baa22b6799abae4c231c95246deec460"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/frozen-source/protocol.ts",
+      "bytes": 3569,
+      "sha256": "85f2219aad582737d93ff0a3bfd3afe4f0441ea6065262847a9ec3e301190c37"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/ingress-component.ts",
+      "bytes": 13019,
+      "sha256": "447709ee2eb90b9e5d1e3a5128b0a9c1558ad9b3554728fcc58971f8e130f896"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/ingress-source-controls-checks24.ts",
+      "bytes": 4748,
+      "sha256": "a86ea1f22b1c746c16a9f0351ef1f682592730465997b86965da89458ddfce46"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/ingress-source-controls-failed01.ts",
+      "bytes": 4034,
+      "sha256": "cc58361938a6501ee1589ad57b23379ed8f1e6946afd9d12fd3d054e55e1e367"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/ingress-source-controls-failed02.ts",
+      "bytes": 4037,
+      "sha256": "ce63399bc3d96fdf4ca68afb1ff3957d84c2abddecb62dafd6605036c3170071"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/ingress-source-controls.ts",
+      "bytes": 4843,
+      "sha256": "7bb98a14df0f7d32fd2ddda5b4a027b0fb70da1ad7874b9c83c413b7afa7479c"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/preparation-manifest01.json",
+      "bytes": 9206,
+      "sha256": "f46567c41f6eebeeb5f04183b814736ea82e6ba4ef572101568270b47d1f65a3"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/prepare-candidates.ts",
+      "bytes": 4023,
+      "sha256": "df06567652964b7dae222a50ac2110b7d4a67e24cb63fc0444c71e858e036811"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/root-ingress-controller-controls.py",
+      "bytes": 8002,
+      "sha256": "6f974e8390c2dafdfbc5c53848458c0ff372a13f4a0fe1183e715d9b074c7c20"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/root-ingress-controller.py",
+      "bytes": 11474,
+      "sha256": "5efb2587e424d59a249368529f20faaa71169447cdc1ceec1b786b53993a7503"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/source-checks-initial01.json",
+      "bytes": 1363,
+      "sha256": "22bf29a216b84d4d2fee9e14d0bf7fd56d1d5b047987a06c8fdfe02fb3d3eecf"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/source-checks01.json",
+      "bytes": 3419,
+      "sha256": "72525c6bd30fe0e48210af3ea1e6b99c0c3133910ee8be22f1177dd5af020137"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/source-snapshots01/age.ts",
+      "bytes": 669,
+      "sha256": "581d4544729c78b4b8736013ab1f24791970fd6560e4e94501ea35e1bbbdd23c"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/source-snapshots01/bridge-baseline.ts",
+      "bytes": 15867,
+      "sha256": "fb36ff59c15dd1116ad1fe01f9a411dfd6d9aeaa386f3c9b482648bc51cc4059"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/source-snapshots01/bridge-successor.ts",
+      "bytes": 15868,
+      "sha256": "2ce9c0b75fb31e8376f567c215f7635e7f075ce43fc51d7025ed25c5579ec03f"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/source-snapshots01/candidate-bindings.json",
+      "bytes": 807,
+      "sha256": "8c3c2a571045791bf027216c397d3a6b2e45a2130e427cbce86de68caf47e7a5"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/source-snapshots01/fixture.json",
+      "bytes": 424399,
+      "sha256": "2259ff02b13d877a73171dd80e9ef2bb9df42feeebdc58a57a5d3d17698882b5"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/source-snapshots01/frozen-source/NativeClock.ts",
+      "bytes": 28579,
+      "sha256": "97c63e08014aed1ab9ee8c5cbf7166a4f33e0027fbb10f91b305fde32c30f173"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/source-snapshots01/frozen-source/ReceiverClock.ts",
+      "bytes": 2945,
+      "sha256": "5dcea0b57e27436674b77bc9eea2a8973f7da87986e962f5f36fa4ca22dab7b8"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/source-snapshots01/frozen-source/RenderClock.ts",
+      "bytes": 30330,
+      "sha256": "1e389cb2e035c40ed29176854a6432fd4ad2772b13ca3ef735a9865fe8bb054c"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/source-snapshots01/frozen-source/bridge.ts",
+      "bytes": 15485,
+      "sha256": "c24a37011f631df7a979b5c4010b1b96baa22b6799abae4c231c95246deec460"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/source-snapshots01/frozen-source/protocol.ts",
+      "bytes": 3569,
+      "sha256": "85f2219aad582737d93ff0a3bfd3afe4f0441ea6065262847a9ec3e301190c37"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/source-snapshots01/ingress-component.ts",
+      "bytes": 13019,
+      "sha256": "447709ee2eb90b9e5d1e3a5128b0a9c1558ad9b3554728fcc58971f8e130f896"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/source-snapshots01/ingress-source-controls.ts",
+      "bytes": 4843,
+      "sha256": "7bb98a14df0f7d32fd2ddda5b4a027b0fb70da1ad7874b9c83c413b7afa7479c"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/source-snapshots01/prepare-candidates.ts",
+      "bytes": 4023,
+      "sha256": "df06567652964b7dae222a50ac2110b7d4a67e24cb63fc0444c71e858e036811"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/source-snapshots01/trace.ts",
+      "bytes": 1302,
+      "sha256": "526d25838637a9dba1e847b806c7f0d7a8c0c1203bf73cb7283ef84849c2c95d"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/trace-checks24.ts",
+      "bytes": 1328,
+      "sha256": "09cc9bf3af9ed5ad98993b2a829911e440c87f0f0e2847026fb717c42861c3fe"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/trace.ts",
+      "bytes": 1302,
+      "sha256": "526d25838637a9dba1e847b806c7f0d7a8c0c1203bf73cb7283ef84849c2c95d"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/node_modules/@types/ws/index.d.ts",
+      "bytes": 19189,
+      "sha256": "0143cefdb56a076f7f6cc2520a60469e0b349452f7882c5c2688f69032a8424c"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/node_modules/ws/lib/receiver.js",
+      "bytes": 17439,
+      "sha256": "a6ada33c9a2d54eaf595824b821ea89ca2c6395f89aa06755c52142148274884"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/node_modules/ws/lib/websocket-server.js",
+      "bytes": 17022,
+      "sha256": "6d8dd89a841748c80445fd5fcdb5ba8005369b53cc3525135e11304c8b9c55e5"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/node_modules/ws/lib/websocket.js",
+      "bytes": 37848,
+      "sha256": "7ccf305925f0cdb74e06b75b4c84de134b1bd771a220ef409b24520def08128f"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/node_modules/ws/package.json",
+      "bytes": 1829,
+      "sha256": "c1ef91ca04eb4754c011c5f0e7638b5078ff71104fada400c44ac761cf93e0b1"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/package-lock.json",
+      "bytes": 69267,
+      "sha256": "340acbf950d247e9892446e1e45cc5807255d8450ab9452ae9ae2a185b84cf20"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/package.json",
+      "bytes": 1164,
+      "sha256": "7671f2558370f3d3e854e278b2ef16f489bb07b793543bc26664f3b5b9d9d4fe"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/output/NativeClock.ts",
+      "bytes": 28579,
+      "sha256": "97c63e08014aed1ab9ee8c5cbf7166a4f33e0027fbb10f91b305fde32c30f173"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/output/ReceiverClock.ts",
+      "bytes": 2945,
+      "sha256": "5dcea0b57e27436674b77bc9eea2a8973f7da87986e962f5f36fa4ca22dab7b8"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/output/RenderClock.ts",
+      "bytes": 30330,
+      "sha256": "1e389cb2e035c40ed29176854a6432fd4ad2772b13ca3ef735a9865fe8bb054c"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/output/bridge.ts",
+      "bytes": 15485,
+      "sha256": "c24a37011f631df7a979b5c4010b1b96baa22b6799abae4c231c95246deec460"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/output/protocol.ts",
+      "bytes": 3569,
+      "sha256": "85f2219aad582737d93ff0a3bfd3afe4f0441ea6065262847a9ec3e301190c37"
+    },
+    {
+      "path": "/usr/local/bin/node",
+      "bytes": 225168752,
+      "sha256": "bee93aa79246af48543838ebf99c14d0e81ec66aad600d4f8feb35516d17f5a1"
+    }
+  ],
+  "preflight": {
+    "manifestEntries": 42,
+    "mode": "successor",
+    "productionUntouched": true,
+    "permanentBridgeQuietReady": true,
+    "exclusivePathsAbsent": true,
+    "resourceTopology": "Direct Node main and in-process worker thread; no detached claims expected",
+    "scope": "One frozen successor component; same intended workload, no retry/tuning/cap change, no production/A43 qualification",
+    "baselineTerminalTool": "a8d9e3",
+    "baselineCleanupObserved": true
+  }
+}

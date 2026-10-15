@@ -1,0 +1,23 @@
+{
+  "status": "source-only-corrected-not-executed",
+  "preparedUtc": "2026-10-12T00:18:51.099309+00:00",
+  "sourceSha256": "da2d512084df29a97b42d3e140a9c65ed4b7373a1a5c72b5a6529a28f097c1c7",
+  "originalSha256": "740d3d929a4bcc26512fd2d489022ee82661ee758f990fb31913545645458ecd",
+  "planSha256": "1b84c5232d6e6a2ec3040d44f6c86fd4cd33fd5eea49319646aeaa2f45420542",
+  "actualRuns": 0,
+  "typecheck": {
+    "command": "npm run typecheck",
+    "exit": 0,
+    "seconds": 0.288784833,
+    "toolChunk": "943427",
+    "stdout": "\n> bongo-planet@0.1.0 typecheck\n> tsc --noEmit\n\n",
+    "stderr": ""
+  },
+  "correction": [
+    "Explicit stable shared-rate monotonic origin/1ms precision assumption",
+    "Fresh before/after probes per FPS and short F01 arm",
+    "Per-row raw probes, Node-domain probe age/lead and bracket coverage",
+    "All age upper/combined producer bounds conditional, not continuous clock proof",
+    "No invented drift allowance, deadline change or actual scope expansion"
+  ]
+}

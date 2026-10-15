@@ -1,0 +1,204 @@
+{
+  "title": "Bongo Planet active camera source-only candidate02",
+  "createdUTC": "2026-10-12T03:38:50.076510+00:00",
+  "head": "74a212fa566e62793fdfaac3e2454ecf6e6904dc",
+  "entries": [
+    {
+      "original": "scripts/active-camera-output.spec.ts",
+      "copy": "candidate-02/scripts/active-camera-output.spec.ts",
+      "sha256": "7625199c7555c18e60df892cdc95e2631fcf10a606ed9dc8fac6bfa4311ecdf4",
+      "bytes": 28179,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "scripts/active-camera-observer.ts",
+      "copy": "candidate-02/scripts/active-camera-observer.ts",
+      "sha256": "c6060e1f9869ff98f0c5447a33e9feb307332497ce51b1032574572f045ceb58",
+      "bytes": 10407,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "tests/active-camera-observer.test.ts",
+      "copy": "candidate-02/tests/active-camera-observer.test.ts",
+      "sha256": "4fd1bd68b7f2e193e1c9f39153a387cf275adce99b60f215a53266af7a55e69c",
+      "bytes": 6196,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "evidence/step-08/camera-active-output/preparation/playwright.config.ts",
+      "copy": "candidate-02/evidence/step-08/camera-active-output/preparation/playwright.config.ts",
+      "sha256": "5f0140bb9f47dd407a49a2552cf5a8a1e128f6421154b02d2842583734b8448f",
+      "bytes": 573,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "src/main.ts",
+      "copy": "candidate-02/src/main.ts",
+      "sha256": "6761945b12c918e4877afd1cd4879ea5f9b1470c8a9449f6e04ea77ce6926243",
+      "bytes": 16488,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "src/output/OutputAdapter.ts",
+      "copy": "candidate-02/src/output/OutputAdapter.ts",
+      "sha256": "70d3cb4326689f0348a86a5f1929ca0a3ff6b32d95be24a303944fac53763089",
+      "bytes": 8203,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "src/output/NativeClock.ts",
+      "copy": "candidate-02/src/output/NativeClock.ts",
+      "sha256": "97c63e08014aed1ab9ee8c5cbf7166a4f33e0027fbb10f91b305fde32c30f173",
+      "bytes": 28579,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "src/output/ReceiverClock.ts",
+      "copy": "candidate-02/src/output/ReceiverClock.ts",
+      "sha256": "5dcea0b57e27436674b77bc9eea2a8973f7da87986e962f5f36fa4ca22dab7b8",
+      "bytes": 2945,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "src/output/bridge.ts",
+      "copy": "candidate-02/src/output/bridge.ts",
+      "sha256": "c24a37011f631df7a979b5c4010b1b96baa22b6799abae4c231c95246deec460",
+      "bytes": 15485,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "src/output/protocol.ts",
+      "copy": "candidate-02/src/output/protocol.ts",
+      "sha256": "85f2219aad582737d93ff0a3bfd3afe4f0441ea6065262847a9ec3e301190c37",
+      "bytes": 3569,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "src/audio/AudioAdapter.ts",
+      "copy": "candidate-02/src/audio/AudioAdapter.ts",
+      "sha256": "7559fea28c6ba93c8446a86c462d8e4adc3f40406cac06d9f74dfed27fc8c558",
+      "bytes": 6199,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "src/audio/processor.ts",
+      "copy": "candidate-02/src/audio/processor.ts",
+      "sha256": "429555623b5f55c8df29a00b3ce6d9546a3d85fa2d1ba3e5e6b30d0b142f849b",
+      "bytes": 5839,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "src/audio/protocol.ts",
+      "copy": "candidate-02/src/audio/protocol.ts",
+      "sha256": "6bd21fc0f6f60f4ed4769e72a26e10a51fac170f7cf5c708e069ae58f80cad31",
+      "bytes": 722,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "src/audio/synth.ts",
+      "copy": "candidate-02/src/audio/synth.ts",
+      "sha256": "499f1d4aadfad5ce2c94082f19724eb24e411b4cbe5ccf2515f6d65754619191",
+      "bytes": 5001,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "src/core/engine.ts",
+      "copy": "candidate-02/src/core/engine.ts",
+      "sha256": "19e5cba94b0db6c13b642bd28c90bc1def4bb0bc7ac6b5a95faf1e82bfa9aea3",
+      "bytes": 6475,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "src/core/contracts.ts",
+      "copy": "candidate-02/src/core/contracts.ts",
+      "sha256": "497e8bae2417ccd0652407a9a33dc08a775b56de8e54553465a2ee158ececdfc",
+      "bytes": 3837,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "src/core/geometry.ts",
+      "copy": "candidate-02/src/core/geometry.ts",
+      "sha256": "b6b788d732a900a102d108623033055bc221099a5d91f8e648af16d2905b69bf",
+      "bytes": 2550,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "src/view/SphereView.ts",
+      "copy": "candidate-02/src/view/SphereView.ts",
+      "sha256": "c684476cc5bcf1dfcab1bab157efdde61f983743de2e0d90d4e1f1a6234eddd3",
+      "bytes": 28964,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "src/view/math.ts",
+      "copy": "candidate-02/src/view/math.ts",
+      "sha256": "9e16d927105cccc96de98da15623acc47003a48194a0a3ab373f7b0f9950ad35",
+      "bytes": 1169,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "node_modules/three/examples/jsm/controls/OrbitControls.js",
+      "copy": "candidate-02/node_modules/three/examples/jsm/controls/OrbitControls.js",
+      "sha256": "3d79d07ecb686b4e5d93232eedab255331c1beef711e13164eaa1f68655a5f2b",
+      "bytes": 40755,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "node_modules/three/src/math/Spherical.js",
+      "copy": "candidate-02/node_modules/three/src/math/Spherical.js",
+      "sha256": "71ccc04f9f78ef85a503bc58f05ce0bc042c75c206be50cdb7d8b70988c07f14",
+      "bytes": 3095,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "package.json",
+      "copy": "candidate-02/package.json",
+      "sha256": "7671f2558370f3d3e854e278b2ef16f489bb07b793543bc26664f3b5b9d9d4fe",
+      "bytes": 1164,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "package-lock.json",
+      "copy": "candidate-02/package-lock.json",
+      "sha256": "340acbf950d247e9892446e1e45cc5807255d8450ab9452ae9ae2a185b84cf20",
+      "bytes": 69267,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "tsconfig.json",
+      "copy": "candidate-02/tsconfig.json",
+      "sha256": "78170416782550f0f8947b534a94fe10dccd71bf4b2b8f19c4249561205a9e49",
+      "bytes": 299,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "dist/assets/index-BXks7Y4v.js",
+      "copy": "candidate-02/dist/assets/index-BXks7Y4v.js",
+      "sha256": "32b57ff2dabeadc3d85f8143cd91c50abeea9785ebb1a2f35497ee1db198bb93",
+      "bytes": 697116,
+      "provenance": "local compiled bytes; no new HTTP fetch; future original-response/body gates distinct"
+    },
+    {
+      "original": "dist/assets/processor-DjdrVTs8.js",
+      "copy": "candidate-02/dist/assets/processor-DjdrVTs8.js",
+      "sha256": "0f0b12c981f6d2aedbbde847bb31d55bc9010a6093f2ea93232f6fe3804a6793",
+      "bytes": 105473,
+      "provenance": "local compiled bytes; no new HTTP fetch; future original-response/body gates distinct"
+    },
+    {
+      "original": "evidence/step-08/camera-output-contract/preparation/Active-Source-Plan-02.md",
+      "copy": "candidate-02/evidence/step-08/camera-output-contract/preparation/Active-Source-Plan-02.md",
+      "sha256": "5dcdf937d582d71c24ce5c06372ceffe429e85e34f3e7a52a4e48efcbca3ef58",
+      "bytes": 8257,
+      "provenance": "source preparation snapshot; no browser actual"
+    },
+    {
+      "original": "evidence/step-08/camera-output-contract/preparation/Active-Source-Plan-IndependentReview.md",
+      "copy": "candidate-02/evidence/step-08/camera-output-contract/preparation/Active-Source-Plan-IndependentReview.md",
+      "sha256": "aa8f2adf79ddacb9f053e298dfdbc7982a41854889185dd84435fa5d2f5bbf55",
+      "bytes": 10570,
+      "provenance": "source preparation snapshot; no browser actual"
+    }
+  ],
+  "actualExecuted": false
+}

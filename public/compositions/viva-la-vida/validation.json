@@ -1,0 +1,41 @@
+{
+  "id": "P02",
+  "title": "Viva la Vida",
+  "artist": "Coldplay",
+  "scope": "Four-bar instrumental cover excerpt",
+  "bpm": 138,
+  "phraseBeats": 16,
+  "generators": 3,
+  "pieces": 63,
+  "chordStacks": 12,
+  "maximumStack": 4,
+  "chordProgression": [
+    "D♭",
+    "E♭",
+    "A♭",
+    "Fm"
+  ],
+  "routedVertices": 91,
+  "directedGates": 88,
+  "allTravelFinite": true,
+  "compositionSha256": "9c5b17394f66b0eabf75d82dc6626e8f643ababba2b356cd2bbee1e86e7971ee",
+  "simulation": {
+    "phrases": 8,
+    "writtenHitsAndRestsMatch": true,
+    "maximumEdges": 3,
+    "maximumDecisionsPerQuantum": 4,
+    "lateDrops": 0
+  },
+  "audio": {
+    "file": "viva-la-vida.wav",
+    "seconds": 6.956520833333333,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peak": 0.43937379121780396,
+    "rms": 0.06685654585274993,
+    "maximumVoices": 13,
+    "stolenVoices": 0,
+    "lateDrops": 0,
+    "frameRoundingError": -0.04347826086450368
+  }
+}

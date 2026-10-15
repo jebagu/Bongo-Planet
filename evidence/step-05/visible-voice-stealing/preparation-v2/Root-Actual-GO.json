@@ -1,0 +1,17 @@
+{
+  "recordedUtc": "2026-10-12T02:21:08.006095+00:00",
+  "scope": "One exclusive bounded actual UI counter witness; no timing/physical/human qualification; no fallback or automatic retry",
+  "manifestVerifiedEntries": 10,
+  "sourceReviewSha256": "40de2f95d5ed0b46d3f99e53a8b3e944ee6a5a211ef4297b3dbebb4fc01a8d3f",
+  "servedModuleHashes": {
+    "index-BXks7Y4v.js": "32b57ff2dabeadc3d85f8143cd91c50abeea9785ebb1a2f35497ee1db198bb93",
+    "processor-DjdrVTs8.js": "0f0b12c981f6d2aedbbde847bb31d55bc9010a6093f2ea93232f6fe3804a6793"
+  },
+  "quietAcknowledgements": [
+    "acceptance no executable process active",
+    "sphere no executable process active",
+    "reviewer idle/quiet"
+  ],
+  "previousAttemptPreserved": true,
+  "output": "evidence/step-05/visible-voice-stealing/attempt-02"
+}

@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-12T02:15:31.012724+00:00",
+  "actualExecution": "not run; awaiting reviewer source GO and root actual GO",
+  "sha256": {
+    "scripts/ui-voice-stealing-browser-v2.spec.ts": "9d639018bb932e2b046ce4d07dcd45f344d117fc5c460d292661e43fc6080fd9",
+    "scripts/loaded-module-observer.ts": "1ec6eca3c584187e6df35a5cf37859aa42bb3fd379c43b84b1f93263e03fad2b",
+    "tests/ui-loaded-module-observer.test.ts": "45bb2eb240b1429c3b0badf0474c0e6d69b2d1e85e7d86537aaa5ba2a6f42202"
+  },
+  "configSha256": "a9a1ecd4c70993dde238e04ed5709adb99d6e0986d6214f3c73e351dc933bebb",
+  "v1PreservedSha256": "bb7d5bf1725f53c7d2c6d20cb18e7296e2f1e64844021a40e16b3efb82df000b",
+  "attempt01ReportPreservedSha256": "af3acc50f114ed230e42750f05f6ef69030c9e4faa95098299d76e7c3d34293f",
+  "controls": {
+    "command": "npx vitest run tests/ui-loaded-module-observer.test.ts --reporter=json --outputFile=evidence/step-05/visible-voice-stealing/preparation-v2/observer-controls-01.json",
+    "passed": 16,
+    "failed": 0,
+    "exitCode": 0,
+    "toolChunk": "d6a334",
+    "wallSeconds": 0.473581917
+  },
+  "typecheck": {
+    "command": "npm run typecheck",
+    "exitCode": 0,
+    "toolChunk": "8c7727",
+    "wallSeconds": 0.335523792
+  },
+  "browsersServicesCapturesLaunched": false
+}

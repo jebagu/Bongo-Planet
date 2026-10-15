@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Bongo Planet view acceptance harness</title></head>
+<body style="margin:0;background:#080c15;color:#eaf2f5;font:14px system-ui">
+  <div id="sphere" style="width:800px;height:760px"></div>
+  <button id="palette" style="position:absolute;left:835px;top:70px">Drag a beat</button>
+  <script type="module">
+    import { SphereView } from '../src/view/SphereView.ts';
+    import { emptyLegacyScene as emptyScene, newPiece } from '../src/core/contracts.ts';
+    let scene = emptyScene();
+    const calls = [];
+    const view = new SphereView(document.querySelector('#sphere'), {
+      place(kind, vertex) { calls.push({ type:'place', kind, vertex }); scene.pieces.push(newPiece(kind,vertex,`piece-${calls.length}`)); view.setScene(structuredClone(scene)); },
+      move(id, vertex) { calls.push({ type:'move', id, vertex }); scene.pieces.find(p=>p.id===id).vertex=vertex; view.setScene(structuredClone(scene)); },
+      remove(id) { calls.push({type:'remove',id}); scene.pieces=scene.pieces.filter(p=>p.id!==id); view.setScene(structuredClone(scene)); },
+      select(id) { calls.push({ type:'select', id }); view.setSelected(id); },
+      message(text) { calls.push({ type:'message', text }); },
+    });
+    window.harness = { view, calls, get scene(){ return scene; }, load(next) { scene=next; calls.length=0; view.setScene(structuredClone(scene)); view.setSelected(null); view.setTool(null); } };
+    document.querySelector('#palette').addEventListener('pointerdown',event=>view.beginPaletteDrag('beat',event));
+  </script>
+</body>
+</html>

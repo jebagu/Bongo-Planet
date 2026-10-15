@@ -1,0 +1,25 @@
+{
+  "utc": "2026-10-12T05:22:46.319738+00:00",
+  "manifestEntriesVerified": 42,
+  "manifestSha256": "e956847618b1e8b22bc42968e2932d20f7d15b192009bf44af688c54bd4ebaa5",
+  "assets": [
+    {
+      "url": "http://127.0.0.1:5417/BongoPlanet/assets/index-BXks7Y4v.js",
+      "bytes": 697116,
+      "sha256": "32b57ff2dabeadc3d85f8143cd91c50abeea9785ebb1a2f35497ee1db198bb93"
+    },
+    {
+      "url": "http://127.0.0.1:5417/BongoPlanet/assets/processor-DjdrVTs8.js",
+      "bytes": 105473,
+      "sha256": "0f0b12c981f6d2aedbbde847bb31d55bc9010a6093f2ea93232f6fe3804a6793"
+    }
+  ],
+  "permanentBridge": {
+    "session": "",
+    "pending": 0,
+    "activeVoices": 0,
+    "objects": []
+  },
+  "nativeReady": true,
+  "sourceOnly": true
+}

@@ -1,0 +1,47 @@
+{
+  "utc": "2026-10-12T06:45:49.230826+00:00",
+  "cwd": "/Users/jeremyguillory/Documents/ChatGPT/ripple",
+  "sourceRevision": "f40b29f",
+  "matchedBindings": 178,
+  "assets": [
+    {
+      "url": "http://127.0.0.1:5417/BongoPlanet/assets/index-BXks7Y4v.js",
+      "bytes": 697116,
+      "sha256": "32b57ff2dabeadc3d85f8143cd91c50abeea9785ebb1a2f35497ee1db198bb93"
+    },
+    {
+      "url": "http://127.0.0.1:5417/BongoPlanet/assets/processor-DjdrVTs8.js",
+      "bytes": 105473,
+      "sha256": "0f0b12c981f6d2aedbbde847bb31d55bc9010a6093f2ea93232f6fe3804a6793"
+    }
+  ],
+  "permanentBridgeQuiet": {
+    "session": "",
+    "pending": 0,
+    "activeVoices": 0,
+    "drops": 0,
+    "clock": {
+      "ready": true,
+      "failure": null,
+      "reportedFailures": [],
+      "closeFailure": null,
+      "clockEvidenceFailure": "",
+      "workerIncarnation": "52d65ae2-72e8-472c-b89e-dec5bde22f00"
+    }
+  },
+  "activeOwnedChromeProfileCandidates": [],
+  "freshAbsoluteDisjointPaths": [
+    "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/audio-bridge-clock/attempt-01",
+    "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/audio-bridge-clock/runner-01",
+    "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/audio-bridge-clock/preparation/Root-Actual01-GO.json",
+    "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/audio-bridge-clock/preparation/Root-Actual01-Controller.json",
+    "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/audio-bridge-clock/preparation/Actual01-Resource-Claims.jsonl",
+    "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/audio-bridge-clock/preparation/Root-Actual01-Preflight.json"
+  ],
+  "childTestSeconds": 280,
+  "childGlobalSeconds": 290,
+  "mainSeconds": 285,
+  "totalSeconds": 310,
+  "windows": "Exactly F01 120s then F04 120s; first fault preserves failure, no retry",
+  "scope": "Operational public audio-clock passage diagnostic; effective render/getter relation remains unknown and original timing gate false"
+}

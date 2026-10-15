@@ -1,0 +1,50 @@
+{
+  "scope": "Earlier unreviewed draft checks before further source self-review corrections, not current-candidate compile",
+  "copies": [
+    {
+      "source": "scripts/output-audio-clock.spec.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/checks01-source/output-audio-clock.spec.ts",
+      "sha256": "0c7e4eaadde5347e52bd3d63e7ab41da7443d0014dcb9eb8e34a1433e208f1f5",
+      "bytes": 36581
+    },
+    {
+      "source": "evidence/step-09/audio-bridge-clock/preparation/clock-contract01.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/checks01-source/clock-contract01.ts",
+      "sha256": "fa2cd3b841ed809ea890f0c80fbb1486348c5b829bddbdf48de570ddf4f835b1",
+      "bytes": 4992
+    },
+    {
+      "source": "evidence/step-09/audio-bridge-clock/preparation/clock-controls01.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/checks01-source/clock-controls01.ts",
+      "sha256": "190ea108c2a9ada2129f646cfe62ea3ce3d31c5c54cdad69711f44c881a21e2f",
+      "bytes": 3123
+    },
+    {
+      "source": "evidence/step-09/audio-bridge-clock/preparation/playwright.config.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/checks01-source/playwright.config.ts",
+      "sha256": "a952eb51826a6fdbd3d577e2f6913bd09f823b6c085e295083179e203ea797f0",
+      "bytes": 532
+    },
+    {
+      "source": "evidence/step-09/audio-bridge-clock/preparation/tsconfig.source01.json",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/checks01-source/tsconfig.source01.json",
+      "sha256": "e4111c32bbace363078c7719dbc0704da2bf99285a1cd72f6452136e7249a7f3",
+      "bytes": 168
+    }
+  ],
+  "controls": {
+    "command": "npx tsx evidence/step-09/audio-bridge-clock/preparation/clock-controls01.ts",
+    "tool": "b430d9",
+    "exit": 0,
+    "seconds": 0.463425042,
+    "passed": 31,
+    "output": "ClockControls01.log"
+  },
+  "privateTypecheck": {
+    "command": "npx tsc --noEmit -p evidence/step-09/audio-bridge-clock/preparation/tsconfig.source01.json",
+    "tool": "c2311c",
+    "exit": 0,
+    "seconds": 0.235303792,
+    "output": "typecheck-private-01.log"
+  }
+}

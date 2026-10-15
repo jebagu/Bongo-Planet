@@ -1,0 +1,33 @@
+{
+  "name": "Afrobeat Drum Loop",
+  "genre": "Afrobeat",
+  "presetId": "D05",
+  "bpm": 100,
+  "phraseBeats": 8,
+  "audioLoopBeats": 16,
+  "generators": 4,
+  "soundingPieces": 27,
+  "routedVertices": 92,
+  "directedGates": 88,
+  "allTravelFinite": true,
+  "compositionSha256": "a245ebb877d81fe686b9776e6e56de8776c5185c5667ef16496f65d59cf050ca",
+  "simulation": {
+    "phrases": 8,
+    "writtenHitsAndRestsMatch": true,
+    "maximumEdges": 4,
+    "maximumDecisionsPerQuantum": 5,
+    "lateDrops": 0
+  },
+  "audio": {
+    "file": "Sunwheel.wav",
+    "seconds": 9.6,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peak": 0.18846912682056427,
+    "rms": 0.026360465989239572,
+    "repeatError": 3.725290298461914e-9,
+    "maximumVoices": 12,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

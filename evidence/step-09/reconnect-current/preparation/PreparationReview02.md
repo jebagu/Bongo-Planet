@@ -1,0 +1,11 @@
+# Bongo Planet reconnect preparation02
+
+Candidate `ccf5e2c8c1da632225e3ed3506d790e0779903d3e8bcdabcef5ccab950bef425` corrects the single combined Source01 blocker family: final native and browser fault disposition. See Plan02.md and the exact SourceDelta02.diff. Source01, original Plan.md, all original logs/copies/Manifest01 remain unchanged. No runtime/acquisition was launched.
+
+`final-state02.ts` is a pure fail-closed validator. Native clock/error/unknown-state fields, reportedFailures, closeFailure, clockEvidenceFailure, uncertainty, drops, unexpected musical/error rows and native counters are checked after served-after reads, before close and after close. Normal close requires ready=false plus empty state and ACK/exit0; it cannot hide a previously latched native failure. The final browser observation checks locked/no-context/no-local-events and complete bounded witness/no error/generated traffic. Overall pass requires successful final-browser and final-clock flags in addition to all existing resource flags and no errors/force.
+
+Observation/assertion failures continue through independently attempted producer disconnect, page/context/browser/server close and native close/postclose observation. The button is freshly guarded against disconnected state so cleanup cannot toggle to a new connection. Same oracle/handshake/scene/prefix/ACK requirements and resource ceilings; no tolerance, clock or production changes.
+
+29/29 pure toy controls pass (FinalStateControls02.log, tool3b9972). Complete helper/config/validator/control strict compilation exits0 (tool89603c,0.189589833s), empty verbatim typecheck-complete-02.log. The earlier historical global Source01 check remains retained; root owns the final shared global pass and external controller review/preflight. Source01's23 pure expectation checks remain the underlying independent oracle controls; successor does not claim executing browser assertions.
+
+All selected dependencies have exact successor copies, including reused ownership modules. Manifest02 has unique repository-relative paths and explicitly distinguishes historical Source01 from Source02. Root's in-progress controller/review files are not presumed final or bound here. No browser, receiver, audio context, worker, service, PCM scan or probe was executed. Independent source review and separate root actual GO remain required.

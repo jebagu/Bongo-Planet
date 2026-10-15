@@ -1,0 +1,7 @@
+{
+  "sourceControllerSha256": "5a47d9944dabf16d4ac1f22c1178aa2ed45b6b2f8a77f53803ad0113e3283170",
+  "derivedControllerSha256": "ab44fdd619076af29b7e55a43d68838469603f2b0181638b4c49ae738c065c54",
+  "sourceOnly": true,
+  "scope": "M01 terminalNone/nonpositivePopen classification; raw samples preserved beforeclassification, positiveoverbudgetstillfatal; ownership/budgets/commandunchanged",
+  "controlsSha256": "591fd0dd075214a38d6ac6de4971db9b4274976bd55e751a2bd9c156ef763e87"
+}

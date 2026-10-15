@@ -1,0 +1,148 @@
+{
+  "title": "Bongo Planet source03 selected cleanup preparation",
+  "base": "/Users/jeremyguillory/Documents/ChatGPT/ripple",
+  "actualAcquisition": false,
+  "externalController": "Root-owned separate review pending; intentionally excluded",
+  "entries": [
+    {
+      "path": "scripts/movement-backpressure-live.spec.ts",
+      "bytes": 43773,
+      "sha256": "6ef318ec41ae1e5d32ffa7a8b5f2061c16f8063d1ec9a27898e3e49ae5a7053e"
+    },
+    {
+      "path": "scripts/movement-backpressure-proxy.py",
+      "bytes": 12184,
+      "sha256": "b3417d9279f066513fe3580e9af774d0cbe780d6afabc4ffb8a19848fe4acd0b"
+    },
+    {
+      "path": "tests/movement-backpressure-proxy-controls.py",
+      "bytes": 3490,
+      "sha256": "72abee455c87e6c64ea6ce3321b17d2685d2c7833d334c5fbd9fc1ac12ddc83a"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/timer-observer.ts",
+      "bytes": 984,
+      "sha256": "00131cad68a7d2a790380c4dec2b3828370a8080e29dadfe5677c2573a3a3eff"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/timer-controls.ts",
+      "bytes": 2782,
+      "sha256": "e8f4f55611717ba5ba8fe40c89adc121fa61e537e5805e036459e699f2268e7f"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/trace-contract02.ts",
+      "bytes": 4489,
+      "sha256": "818f403e31f896d536161c85687cce66a8a6a1545a74a210b14c8a09f1d3ca79"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/trace-controls02.ts",
+      "bytes": 4615,
+      "sha256": "a7d8f7a284bf9d928c0a00f40ae2ec86c889a43fc286e5db5ab298965ffe17bb"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/proxy-cleanup03.ts",
+      "bytes": 844,
+      "sha256": "3c2014dd099d866300f7b7fa6cef1eac8c6eede4a54b02f0bec9358f3b3d06e0"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/proxy-cleanup-controls03.ts",
+      "bytes": 1575,
+      "sha256": "1744ec3ce9ac129476e6af23c100deac142c3d37c15342f7d64a7dafb322d3cb"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/playwright.config.ts",
+      "bytes": 406,
+      "sha256": "ddfb03b3a0f02dda05f495526ff5eabc21b4de2b91dc2bc3e401c010d7d69532"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/source-snapshots-03/movement-backpressure-live.spec.ts",
+      "bytes": 43773,
+      "sha256": "6ef318ec41ae1e5d32ffa7a8b5f2061c16f8063d1ec9a27898e3e49ae5a7053e"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/source-snapshots-03/movement-backpressure-proxy-controls.py",
+      "bytes": 3490,
+      "sha256": "72abee455c87e6c64ea6ce3321b17d2685d2c7833d334c5fbd9fc1ac12ddc83a"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/source-snapshots-03/movement-backpressure-proxy.py",
+      "bytes": 12184,
+      "sha256": "b3417d9279f066513fe3580e9af774d0cbe780d6afabc4ffb8a19848fe4acd0b"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/source-snapshots-03/playwright.config.ts",
+      "bytes": 406,
+      "sha256": "ddfb03b3a0f02dda05f495526ff5eabc21b4de2b91dc2bc3e401c010d7d69532"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/source-snapshots-03/proxy-cleanup-controls03.ts",
+      "bytes": 1575,
+      "sha256": "1744ec3ce9ac129476e6af23c100deac142c3d37c15342f7d64a7dafb322d3cb"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/source-snapshots-03/proxy-cleanup03.ts",
+      "bytes": 844,
+      "sha256": "3c2014dd099d866300f7b7fa6cef1eac8c6eede4a54b02f0bec9358f3b3d06e0"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/source-snapshots-03/timer-controls.ts",
+      "bytes": 2782,
+      "sha256": "e8f4f55611717ba5ba8fe40c89adc121fa61e537e5805e036459e699f2268e7f"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/source-snapshots-03/timer-observer.ts",
+      "bytes": 984,
+      "sha256": "00131cad68a7d2a790380c4dec2b3828370a8080e29dadfe5677c2573a3a3eff"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/source-snapshots-03/trace-contract02.ts",
+      "bytes": 4489,
+      "sha256": "818f403e31f896d536161c85687cce66a8a6a1545a74a210b14c8a09f1d3ca79"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/source-snapshots-03/trace-controls02.ts",
+      "bytes": 4615,
+      "sha256": "a7d8f7a284bf9d928c0a00f40ae2ec86c889a43fc286e5db5ab298965ffe17bb"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/source-controls-03.json",
+      "bytes": 2347,
+      "sha256": "7c98544d542163bdb27e80290d453e1282ab0218dcafbcabf38b54d9210e6d80"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/Plan04.md",
+      "bytes": 1826,
+      "sha256": "78074c4fbc1bebde23ada1c79e98731339eae96b2e3d7f17d1669010bc920fe6"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/Source03-Review.md",
+      "bytes": 690,
+      "sha256": "b303ecca4f1c291f769e6b4636bbc608283c431db97908ba5f9e5425c9859406"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/preparation-manifest-source02.json",
+      "bytes": 7700,
+      "sha256": "e007a3b516701b08faa2d546aa4e4a4555d3afaabde491a705cac7b4b20ddd63"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/Source02-IndependentReview.md",
+      "bytes": 8134,
+      "sha256": "81ec3a23c1088a6f817e45177822d92e8731f738e4c7530d9a19d2db0add585c"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/Plan03.md",
+      "bytes": 6256,
+      "sha256": "7926d0ec11ec455c6da2a1dc70ec84e1aeb2d7744e3b3c84a62a41fec6e05389"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/Source02-Review.md",
+      "bytes": 1419,
+      "sha256": "1c843ae1cb7fd8678be38ce7157a4cbefb5c12b9760569a52a18d3515fba46fd"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/source-controls-02.json",
+      "bytes": 3381,
+      "sha256": "e5e14cc59227f6b2b761a20bb739a5f280799d972dca8390a4556016b89b4069"
+    }
+  ]
+}

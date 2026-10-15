@@ -1,0 +1,15 @@
+{
+  "hashes": {
+    "bridge": "c24a37011f631df7a979b5c4010b1b96baa22b6799abae4c231c95246deec460",
+    "NativeClock": "97c63e08014aed1ab9ee8c5cbf7166a4f33e0027fbb10f91b305fde32c30f173",
+    "RenderClock": "1e389cb2e035c40ed29176854a6432fd4ad2772b13ca3ef735a9865fe8bb054c",
+    "ReceiverClock": "5dcea0b57e27436674b77bc9eea2a8973f7da87986e962f5f36fa4ca22dab7b8",
+    "protocol": "85f2219aad582737d93ff0a3bfd3afe4f0441ea6065262847a9ec3e301190c37",
+    "baseline": "fb36ff59c15dd1116ad1fe01f9a411dfd6d9aeaa386f3c9b482648bc51cc4059",
+    "successor": "2ce9c0b75fb31e8376f567c215f7635e7f075ce43fc51d7025ed25c5579ec03f",
+    "fixture": "2259ff02b13d877a73171dd80e9ef2bb9df42feeebdc58a57a5d3d17698882b5"
+  },
+  "onlyCandidateOptionDifference": true,
+  "nativeSourceUnmodified": true,
+  "actualAcquisition": false
+}

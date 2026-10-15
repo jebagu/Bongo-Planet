@@ -1,0 +1,18 @@
+{
+  "sourceOnly": true,
+  "sourceSha256": "45b38fe32006a649911998b32b9766a60e47dc633e44eaee355f83ac255bc3d4",
+  "checks": 4,
+  "checkToolChunk": "555d33",
+  "checkExitCode": 0,
+  "scope": "Finalsource controls/typecheck PASS. Source only; no actual inventory/PCM read/run.",
+  "finalSourceSha256": "45b38fe32006a649911998b32b9766a60e47dc633e44eaee355f83ac255bc3d4",
+  "finalControls": {
+    "toolChunk": "ad332b",
+    "exitCode": 0,
+    "checks": 4
+  },
+  "finalTypecheck": {
+    "toolChunk": "128498",
+    "exitCode": 0
+  }
+}

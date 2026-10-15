@@ -1,0 +1,1 @@
+{"extends":"../../../../tsconfig.json","include":["../../../../scripts/output-reconnect-current.spec.ts","playwright.config.ts","final-state03.ts","final-state-controls03.ts"]}

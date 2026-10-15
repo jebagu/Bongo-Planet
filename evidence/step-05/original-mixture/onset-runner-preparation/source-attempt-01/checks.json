@@ -1,0 +1,41 @@
+{
+  "scope": "Source-only synthetic controls; no actual PCM read/search/capture",
+  "qualificationPassed": false,
+  "sources": [
+    {
+      "path": "scripts/mixture-onset-runner.ts",
+      "snapshot": "evidence/step-05/original-mixture/onset-runner-preparation/source-attempt-01/mixture-onset-runner.ts",
+      "sha256": "384133f99dac372f69dd6c54ef6daefe931d231e7749bce255720393ce5d2135",
+      "bytes": 25478
+    },
+    {
+      "path": "scripts/mixture-production-interval.ts",
+      "snapshot": "evidence/step-05/original-mixture/onset-runner-preparation/source-attempt-01/mixture-production-interval.ts",
+      "sha256": "4fa2e0ead63385d29d9603ea2c576565396ac83c3396bfa9fc7c7f7ec53a5179",
+      "bytes": 5893
+    },
+    {
+      "path": "tests/mixture-onset-runner.test.ts",
+      "snapshot": "evidence/step-05/original-mixture/onset-runner-preparation/source-attempt-01/mixture-onset-runner.test.ts",
+      "sha256": "7c29ba79121a95dddb5c53ca8f8ddf5caec41a46fc4f47ea70e39188f48b74ba",
+      "bytes": 9469
+    }
+  ],
+  "checks": [
+    {
+      "command": "npx vitest run tests/mixture-onset-runner.test.ts",
+      "toolChunk": "893c03",
+      "exitCode": 0,
+      "wallTimeSeconds": 0.611531458,
+      "testsPassed": 18,
+      "reportedVitestDurationMs": 254
+    },
+    {
+      "command": "npm run typecheck",
+      "toolChunk": "4b4856",
+      "exitCode": 1,
+      "wallTimeSeconds": 0.303786667,
+      "error": "tests/mixture-onset-runner.test.ts(116,99): error TS2345: Argument of type '0' is not assignable to parameter of type '4096'."
+    }
+  ]
+}

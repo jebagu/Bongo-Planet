@@ -1,0 +1,36 @@
+{
+  "sourceOnly": true,
+  "entries": [
+    {
+      "original": "scripts/active-camera-output.spec.ts",
+      "copy": "active-camera-output.spec.ts",
+      "sha256": "7625199c7555c18e60df892cdc95e2631fcf10a606ed9dc8fac6bfa4311ecdf4",
+      "bytes": 28179
+    },
+    {
+      "original": "scripts/active-camera-observer.ts",
+      "copy": "active-camera-observer.ts",
+      "sha256": "c6060e1f9869ff98f0c5447a33e9feb307332497ce51b1032574572f045ceb58",
+      "bytes": 10407
+    },
+    {
+      "original": "tests/active-camera-observer.test.ts",
+      "copy": "active-camera-observer.test.ts",
+      "sha256": "4fd1bd68b7f2e193e1c9f39153a387cf275adce99b60f215a53266af7a55e69c",
+      "bytes": 6196
+    }
+  ],
+  "typecheck": {
+    "command": "npm run typecheck",
+    "chunk": "37c7df",
+    "exitCode": 0,
+    "output": "\n> bongo-planet@0.1.0 typecheck\n> tsc --noEmit\n\n"
+  },
+  "pure": "controls-02/pure-results.json11/11; controls03 changed only TypeScript narrowing, no runtime semantic change.",
+  "priorTypecheckPass": {
+    "chunk": "08e5a2",
+    "exitCode": 0,
+    "output": "\n> bongo-planet@0.1.0 typecheck\n> tsc --noEmit\n\n",
+    "scope": "Earlier indexed helper; before strengthened sole-state counters/native before-after witnesses. Superseded by37c7df."
+  }
+}

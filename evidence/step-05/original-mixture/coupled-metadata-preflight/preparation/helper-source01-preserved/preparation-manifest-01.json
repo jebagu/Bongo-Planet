@@ -1,0 +1,124 @@
+{
+  "title": "Bongo Planet coupled metadata preflight source preparation",
+  "base": "/Users/jeremyguillory/Documents/ChatGPT/ripple",
+  "scope": "source-only; actual input scan withheld",
+  "qualificationPassed": false,
+  "entries": [
+    {
+      "path": "scripts/coupled-onset-metadata-preflight.py",
+      "bytes": 26818,
+      "sha256": "876dcb496adb8078b50540925f13e0ced3f24496dafd126c7236e7aa1667b9ec"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/Plan01.md",
+      "bytes": 4368,
+      "sha256": "2bae642a5ac6913fcde19bf7ebb7eb5c0f8fddc4c9b462df1dbc86ea99f4b87f"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/Plan01-IndependentReview.md",
+      "bytes": 7060,
+      "sha256": "a9c4065368c7261cc855d1b1bc601f76f3ec1feb8e4e9a37e2c2e801101c0f57"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/Implementation-Review01.md",
+      "bytes": 4099,
+      "sha256": "f0ebdf2f2c4d85740e44dfc4d6a3af9e90eda34667adaacc5b27cd93ea78ec2d"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/controls.py",
+      "bytes": 8713,
+      "sha256": "fd7df8a4f97a1354cd8eb7d02e7eef6ad18d4b947b947abd87ef06bcbb77429a"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/source-controls-01.json",
+      "bytes": 3567,
+      "sha256": "b44bc20f274189e209ea93be1fbec95bc5336e4534bf347e5ee39c0810a0b44a"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/source-controls-02.json",
+      "bytes": 4086,
+      "sha256": "e9a02b8967f4b52ab24a6f5189d6e299b9c7638aeb8b99940cdb50739766278c"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/stat-only-inputs-01.json",
+      "bytes": 312,
+      "sha256": "7418333efe240dc614f68f403501daa803dcd024f2f7b3a366bf4d738ee69995"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/source-01/Plan01.md",
+      "bytes": 4368,
+      "sha256": "2bae642a5ac6913fcde19bf7ebb7eb5c0f8fddc4c9b462df1dbc86ea99f4b87f"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/source-01/controls.py",
+      "bytes": 8007,
+      "sha256": "4b8ab5a163750ac2750a18c39bfc8b9a80d1be7e2c6d1a8ddb1bebdda7d15e3c"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/source-01/coupled-onset-metadata-preflight.py",
+      "bytes": 25405,
+      "sha256": "27c9b93ae6bbe4e6ccb14ae42a8adf74ca7f16ee5e37934bc7be260b9f9620f1"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/source-02/Implementation-Review01.md",
+      "bytes": 4099,
+      "sha256": "f0ebdf2f2c4d85740e44dfc4d6a3af9e90eda34667adaacc5b27cd93ea78ec2d"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/source-02/Plan01.md",
+      "bytes": 4368,
+      "sha256": "2bae642a5ac6913fcde19bf7ebb7eb5c0f8fddc4c9b462df1dbc86ea99f4b87f"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/source-02/controls.py",
+      "bytes": 8713,
+      "sha256": "fd7df8a4f97a1354cd8eb7d02e7eef6ad18d4b947b947abd87ef06bcbb77429a"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/source-02/coupled-onset-metadata-preflight.py",
+      "bytes": 26818,
+      "sha256": "876dcb496adb8078b50540925f13e0ced3f24496dafd126c7236e7aa1667b9ec"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/Coupled-Onset-Plan01.md",
+      "bytes": 14356,
+      "sha256": "f3dc5891d273586bcb65d79186763c5c5431aa732d4d9730582624988934cc95"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/Coupled-Onset-Bindings01.json",
+      "bytes": 4940,
+      "sha256": "a6129730ba8b74f4f8a2213998a07bf0c959f4f8a820f342211865eb90d6336b"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/Coupled-Root-Scope01.md",
+      "bytes": 1574,
+      "sha256": "3f100999cfb94b374b9dba86359f8a63666f5b30e25bf164ae53b8ecdaa00f09"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/Source-Family-Scope.md",
+      "bytes": 9928,
+      "sha256": "03c07868b57235269febc0a72874a34a634f8ab42fc8154e236ea7f68dd56df0"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/Shared-Worklet-Clock-Premise01.md",
+      "bytes": 1817,
+      "sha256": "7c757f13968d3d480b7f1af377793efae5fa262243d6368c3baac9a6efd8ab30"
+    }
+  ],
+  "actualCommand": [
+    "python3",
+    "scripts/coupled-onset-metadata-preflight.py",
+    "--run",
+    "--output-dir",
+    "<fresh absolute directory>"
+  ],
+  "actualOutputFile": "result.json",
+  "rootControllerStatus": "Separately owned/pending independent disposition; not included or implicitly approved by this manifest.",
+  "originalLargeInputs": "Hash references in fixed source/audited bindings; not rehashed in preparation",
+  "sourceControls": {
+    "check01": 24,
+    "check02": 26,
+    "exitCode": 0,
+    "originalDataRead": false
+  }
+}

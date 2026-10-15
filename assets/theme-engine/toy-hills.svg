@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 550" fill="none">
+  <defs>
+    <linearGradient id="distant" x1="0" y1="110" x2="0" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#99b3ac"/><stop offset="1" stop-color="#4f6e78"/>
+    </linearGradient>
+    <linearGradient id="meadow" x1="0" y1="300" x2="0" y2="550" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#79998a"/><stop offset="1" stop-color="#253e4f"/>
+    </linearGradient>
+  </defs>
+  <!-- Original rounded hills inspired by the quiet parallax layers of 16-bit platformers. -->
+  <path d="M0 346c101-56 164-54 243-15 97-86 201-84 305-19 136-68 252-73 371-20 98-74 215-66 305-5 135-61 259-47 376 12v251H0Z" fill="#9aadb2" opacity=".22"/>
+  <g fill="url(#distant)">
+    <path d="M58 420V231c0-73 112-73 112 0v189Z"/>
+    <path d="M278 430V178c0-93 140-93 140 0v252Z"/>
+    <path d="M453 440V287c0-64 100-64 100 0v153Z"/>
+    <path d="M1168 430V220c0-76 118-76 118 0v210Z"/>
+    <path d="M1358 430V113c0-111 166-111 166 0v317Z"/>
+    <path d="M1496 450V288c0-68 108-68 108 0v162Z"/>
+  </g>
+  <g stroke="#dce2c1" stroke-opacity=".22" stroke-width="12" stroke-linecap="round">
+    <path d="M82 282v-39"/><path d="M305 252v-59"/><path d="M1193 282v-44"/><path d="M1388 212v-73"/>
+  </g>
+  <g fill="#d9ddbd" opacity=".3">
+    <ellipse cx="361" cy="275" rx="6" ry="10"/><ellipse cx="386" cy="311" rx="5" ry="8"/>
+    <ellipse cx="1238" cy="306" rx="5" ry="8"/><ellipse cx="1457" cy="205" rx="7" ry="11"/><ellipse cx="1481" cy="250" rx="5" ry="8"/>
+  </g>
+  <path d="M0 397c119-96 233-84 346-7 105 72 208 73 317 27 142-62 216-85 359-21 139 62 211 48 320-15 100-58 184-46 258 0v169H0Z" fill="url(#meadow)"/>
+  <path d="M0 477c113-45 217-49 345-6 150 50 245 32 380-4 145-38 244-33 390 7 182 51 315 4 485-9v85H0Z" fill="#243b4c" opacity=".66"/>
+</svg>

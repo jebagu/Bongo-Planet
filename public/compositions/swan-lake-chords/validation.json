@@ -1,0 +1,51 @@
+{
+  "id": "C10",
+  "name": "Swan Lake · Tchaikovsky",
+  "sourceId": null,
+  "bpm": 64,
+  "key": 9,
+  "scale": "minor",
+  "cycleBeats": 16,
+  "cycleSeconds": 15,
+  "generators": 1,
+  "soundingPieces": 53,
+  "stackedVertices": 8,
+  "maximumStack": 4,
+  "instruments": {
+    "guitar": 11,
+    "glass": 13,
+    "kalimba": 11,
+    "piano": 16,
+    "bongo-low": 2
+  },
+  "spatial": {
+    "soundingLocations": 29,
+    "largestGapDegrees": 23.800182602175063
+  },
+  "compositionSha256": "45525a166f6b9f4b7d5d59a8da85367a104f505eb1ff6ae7f910e4605a1682b1",
+  "simulation": {
+    "cycles": 8,
+    "stablePatternsMatch": true,
+    "allLayersReached": true,
+    "maximumEdges": 1,
+    "maximumDecisionsPerQuantum": 2,
+    "maximumPending": 4,
+    "lateDrops": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "c1e348b5d1e6ac167b76545aaf9ee7f4e5f88069766613352593e25c9aac118c",
+    "renderedFromCurrentEngineAndSamples": true,
+    "cycles": 1,
+    "seconds": 15,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peak": 0.32305392622947693,
+    "rms": 0.030843725788493634,
+    "repeatError": 1.862645149230957e-9,
+    "boundaryDelta": 0.00035628676414489746,
+    "maximumVoices": 8,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

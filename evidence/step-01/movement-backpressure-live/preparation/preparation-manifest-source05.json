@@ -1,0 +1,69 @@
+{
+  "title": "Bongo Planet source05 artifact-isolation delta",
+  "base": "/Users/jeremyguillory/Documents/ChatGPT/ripple",
+  "actualAcquisition": false,
+  "unchangedHelperSha256": "8f7e454b59a3b9110ac4da2b33daba59bd7cf45525fed38b3dd87557bbd22090",
+  "priorFullPreparationManifest": "evidence/step-01/movement-backpressure-live/preparation/preparation-manifest-source04.json",
+  "entries": [
+    {
+      "path": "scripts/movement-backpressure-live.spec.ts",
+      "bytes": 44526,
+      "sha256": "8f7e454b59a3b9110ac4da2b33daba59bd7cf45525fed38b3dd87557bbd22090"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/playwright.config.ts",
+      "bytes": 738,
+      "sha256": "4de79768089e19729d68dc68dcf226940ddee591e4b5989cf5aadb7cab87c5cb"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/config-controls05.ts",
+      "bytes": 1162,
+      "sha256": "e57e5bbb63f8076414758ac3752f6bb1b98916c4e9b19c2e4efb4d1a465cfe7a"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/playwright-config-source04.ts",
+      "bytes": 406,
+      "sha256": "ddfb03b3a0f02dda05f495526ff5eabc21b4de2b91dc2bc3e401c010d7d69532"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/source-controls-05.json",
+      "bytes": 1585,
+      "sha256": "e05deafa2bd1040223af3be76bb15c4a2468a4795da3833c17380d0e36e6916d"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/Source05-Delta.md",
+      "bytes": 1176,
+      "sha256": "ba049c009e3d2011537c8fd9502c87e7fed09695930bb223c2f3ef6be42ac910"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/Source05-Review.md",
+      "bytes": 732,
+      "sha256": "b738fc95fc0ec2146e58d2ed93f95085333dbb586ebc8b9f581c0fe0d9ee26f2"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/preparation-manifest-source04.json",
+      "bytes": 7510,
+      "sha256": "fe82816d32e2e9d898e34182771ac5cb319e00bcda9bd7bfa9bec39b55181078"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/Source04-IndependentReview.md",
+      "bytes": 6121,
+      "sha256": "f3db22e11babfefa544898ef8fa899036d1715552b37e6778a943022519ab762"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/Root-Shared-Typecheck-04.json",
+      "bytes": 1274,
+      "sha256": "ce2dec39d996d566bdd71c6dc92cf38ae8d34db30444f4a7a324b2b8bcf889d5"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/source-snapshots-05/config-controls05.ts",
+      "bytes": 1162,
+      "sha256": "e57e5bbb63f8076414758ac3752f6bb1b98916c4e9b19c2e4efb4d1a465cfe7a"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/source-snapshots-05/playwright.config.ts",
+      "bytes": 738,
+      "sha256": "4de79768089e19729d68dc68dcf226940ddee591e4b5989cf5aadb7cab87c5cb"
+    }
+  ]
+}

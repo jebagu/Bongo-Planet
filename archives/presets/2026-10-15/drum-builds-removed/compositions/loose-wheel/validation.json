@@ -1,0 +1,149 @@
+{
+  "id": "DB04",
+  "name": "Loose Wheel — Breakbeat Build",
+  "slug": "loose-wheel",
+  "group": "Drum Loops",
+  "genre": "Breakbeat",
+  "description": "A broken kick line, solid backbeat and little ghost notes run cleanly for the first half. Three returning streams then kick up a snare-and-bongo tumble, resolve together, and hand the rhythm back to the original break.",
+  "routing": "Three unequal circuits enter on beat 16, producing a late rolling crest. Five-, seven- and nine-hop returns rebranch for 20 hops, after which the fill is silent and the main break stays unchanged.",
+  "bpm": 144,
+  "key": 0,
+  "scale": "major",
+  "cycleBeats": 32,
+  "cycleSeconds": 13.333333333333334,
+  "generators": 2,
+  "soundingPieces": 67,
+  "occupiedVertices": 57,
+  "activeRoutedVertices": 92,
+  "directedGates": 93,
+  "forks": 1,
+  "sourceHopBudgets": [
+    72,
+    20
+  ],
+  "allTravelFinite": true,
+  "density": {
+    "bins": [
+      {
+        "startBeat": 0,
+        "endBeat": 2,
+        "noteAttacks": 8
+      },
+      {
+        "startBeat": 2,
+        "endBeat": 4,
+        "noteAttacks": 7
+      },
+      {
+        "startBeat": 4,
+        "endBeat": 6,
+        "noteAttacks": 8
+      },
+      {
+        "startBeat": 6,
+        "endBeat": 8,
+        "noteAttacks": 9
+      },
+      {
+        "startBeat": 8,
+        "endBeat": 10,
+        "noteAttacks": 8
+      },
+      {
+        "startBeat": 10,
+        "endBeat": 12,
+        "noteAttacks": 7
+      },
+      {
+        "startBeat": 12,
+        "endBeat": 14,
+        "noteAttacks": 8
+      },
+      {
+        "startBeat": 14,
+        "endBeat": 16,
+        "noteAttacks": 9
+      },
+      {
+        "startBeat": 16,
+        "endBeat": 18,
+        "noteAttacks": 12
+      },
+      {
+        "startBeat": 18,
+        "endBeat": 20,
+        "noteAttacks": 25
+      },
+      {
+        "startBeat": 20,
+        "endBeat": 22,
+        "noteAttacks": 36
+      },
+      {
+        "startBeat": 22,
+        "endBeat": 24,
+        "noteAttacks": 9
+      },
+      {
+        "startBeat": 24,
+        "endBeat": 26,
+        "noteAttacks": 8
+      },
+      {
+        "startBeat": 26,
+        "endBeat": 28,
+        "noteAttacks": 7
+      },
+      {
+        "startBeat": 28,
+        "endBeat": 30,
+        "noteAttacks": 8
+      },
+      {
+        "startBeat": 30,
+        "endBeat": 32,
+        "noteAttacks": 9
+      }
+    ],
+    "initialAttacksPerTwoBeats": 7.5,
+    "peakAttacksPerTwoBeats": 36,
+    "finalAttacksPerTwoBeats": 8,
+    "peakToInitialRatio": 4.8
+  },
+  "instruments": {
+    "bongo-high": 5,
+    "bongo-low": 4,
+    "kick": 16,
+    "snare": 17,
+    "hi-hat": 25
+  },
+  "compositionSha256": "4cea463f5b7a8c7aaa1a47e956f045a5f295108008bd0421114e73d3a70728bd",
+  "simulation": {
+    "cycles": 8,
+    "seconds": 106.66666666666667,
+    "allLayersReached": true,
+    "musicalPatternRepeats": true,
+    "routingPatternRepeats": true,
+    "maximumEdges": 48,
+    "maximumPending": 11,
+    "maximumDecisionsPerQuantum": 48,
+    "lateDrops": 0,
+    "overloads": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "e16ddcaa4f4251048eefef7d0c99570374c0d0c460f4c0640ec7d0b392427115",
+    "renderedFromCurrentEngineAndSamples": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "cycles": 2,
+    "seconds": 26.666666666666668,
+    "peak": 0.17010675370693207,
+    "rms": 0.03078474732324944,
+    "repeatError": 7.450580596923828e-9,
+    "boundaryDelta": 0.0002309996634721756,
+    "maximumVoices": 41,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

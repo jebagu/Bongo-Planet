@@ -1,0 +1,57 @@
+{
+  "id": "AA03",
+  "name": "Kite Weather",
+  "slug": "kite-weather",
+  "group": "Airy & Ambient",
+  "description": "A soft G-pentatonic shimmer unfolds down four meridians. Glass sits above the piano and guitar while thumb-piano notes make a loose, suspended melody.",
+  "routing": "A northern fork sends four streams around long detours into two shared return lanes. Finite travel lets the whole branching wave fade before the next 16-beat launch.",
+  "bpm": 50,
+  "key": 7,
+  "scale": "pentatonic",
+  "cycleBeats": 16,
+  "cycleSeconds": 19.2,
+  "generators": 1,
+  "soundingPieces": 46,
+  "occupiedVertices": 47,
+  "activeRoutedVertices": 90,
+  "directedGates": 93,
+  "forks": 1,
+  "sourceHopBudgets": [
+    37
+  ],
+  "allTravelFinite": true,
+  "instruments": {
+    "guitar": 8,
+    "glass": 14,
+    "kalimba": 18,
+    "piano": 6
+  },
+  "compositionSha256": "832b198c061dfeaefc25fac5cc880a0641abbdc2805e2454e60075cc12e7a106",
+  "simulation": {
+    "cycles": 8,
+    "seconds": 153.6,
+    "allLayersReached": true,
+    "musicalPatternRepeats": true,
+    "routingPatternRepeats": true,
+    "maximumEdges": 13,
+    "maximumPending": 9,
+    "maximumDecisionsPerQuantum": 13,
+    "lateDrops": 0,
+    "overloads": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "c74b56b2857a64caf8d40bf5c677522abc90129209fa4354f5b24c73a1b742f3",
+    "renderedFromCurrentEngineAndSamples": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "seconds": 19.2,
+    "peak": 0.26186731457710266,
+    "rms": 0.02297781562459802,
+    "repeatError": 7.450580596923828e-9,
+    "boundaryDelta": 0,
+    "maximumVoices": 53,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

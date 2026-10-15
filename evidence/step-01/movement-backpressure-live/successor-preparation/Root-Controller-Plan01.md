@@ -1,0 +1,11 @@
+# Bongo Planet — movement successor controller Source01
+
+Source preparation only. No command runs on import; source approval does not authorize an acquisition. Root derives the independently reviewed reconnect wrapper `be9ab712bfa87c99bf291f2e88baaa296ec884a3605016543f42bc62ac1fc8a8` with11 single-occurrence substitutions. Ownership discovery, birth checks, claim-before-inventory ordering, exclusive files, process-group signaling, unreaped-child handling and failure cleanup remain byte-for-byte otherwise unchanged.
+
+Exact authorization: `Root authorizes exactly one movement successor acquisition`. Exact command: `npx playwright test --config=evidence/step-01/movement-backpressure-live/successor-preparation/playwright.config.ts`. Environment uses fresh absolute disjoint `BONGO_MOVEMENT_SUCCESSOR_EVIDENCE_DIR`, `BONGO_MOVEMENT_SUCCESSOR_PLAYWRIGHT_OUTPUT` and root-created exclusive `BONGO_MOVEMENT_RESOURCE_JOURNAL`. GO and controller journal stay outside clearable output directories. Root must check path disjointness; the wrapper does not independently prove it.
+
+Main80s/total100s are unchanged planned containment targets; they are cooperative/detected bounds, not preemption or hard deadlines. Successful disposition requires exactly two browser-server and two proxy claims for the two fresh sequential arms. The helper independently proves graceful per-arm closure before opening the next arm; the outer wrapper retains final ownership/exit disposition and bounded failure cleanup. No additional process roles are permitted.
+
+Twelve pure tests retain the reviewed ownership controls and add five complete mocked runs:2+2 successful claims, and missing/extra browser/proxy cases that must fail with retained claims. Popen, process inventory, signals and sleeps are mocked; no acquired process/socket/browser/native runtime is involved. Initial control01's fake terminal child omitted its `wait` method, causing four control errors. Its exact source and output are preserved in Root-Control-Failed01. Adding that mock method produced12 passing tests in control02. The controller itself was unchanged by this test correction.
+
+Final helper/config binding, shared type checking, separate controller source review, fresh quiet preflight and an exclusive root GO remain required. No movement-pressure witness or A43 pass follows from these source controls.

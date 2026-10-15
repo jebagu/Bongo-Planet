@@ -1,0 +1,101 @@
+{
+  "elapsedMonotonicSeconds": 1.10434325,
+  "maximumSampledRss": 85049344,
+  "workRecords": [
+    {
+      "cells": 0,
+      "comparisons": 1,
+      "voiceEvaluations": 1860,
+      "detailsBytes": 0,
+      "maxFrontier": 0
+    },
+    {
+      "cells": 0,
+      "comparisons": 3,
+      "voiceEvaluations": 10855,
+      "detailsBytes": 0,
+      "maxFrontier": 0
+    },
+    {
+      "cells": 0,
+      "comparisons": 3,
+      "voiceEvaluations": 3975,
+      "detailsBytes": 0,
+      "maxFrontier": 0
+    },
+    {
+      "cells": 0,
+      "comparisons": 2,
+      "voiceEvaluations": 2924,
+      "detailsBytes": 0,
+      "maxFrontier": 0
+    },
+    {
+      "cells": 0,
+      "comparisons": 1,
+      "voiceEvaluations": 1907,
+      "detailsBytes": 0,
+      "maxFrontier": 0
+    },
+    {
+      "cells": 0,
+      "comparisons": 1,
+      "voiceEvaluations": 3718,
+      "detailsBytes": 0,
+      "maxFrontier": 0
+    },
+    {
+      "cells": 0,
+      "comparisons": 1,
+      "voiceEvaluations": 1859,
+      "detailsBytes": 0,
+      "maxFrontier": 0
+    },
+    {
+      "cells": 0,
+      "comparisons": 1,
+      "voiceEvaluations": 1859,
+      "detailsBytes": 0,
+      "maxFrontier": 0
+    },
+    {
+      "cells": 31,
+      "comparisons": 6,
+      "voiceEvaluations": 11837,
+      "detailsBytes": 2747,
+      "maxFrontier": 3
+    },
+    {
+      "cells": 345,
+      "comparisons": 292,
+      "voiceEvaluations": 462145,
+      "detailsBytes": 2777,
+      "maxFrontier": 16
+    },
+    {
+      "cells": 0,
+      "comparisons": 6,
+      "voiceEvaluations": 8594,
+      "detailsBytes": 2803,
+      "maxFrontier": 0
+    },
+    {
+      "cells": 0,
+      "comparisons": 0,
+      "voiceEvaluations": 617,
+      "detailsBytes": 0,
+      "maxFrontier": 0
+    },
+    {
+      "cells": 0,
+      "comparisons": 1,
+      "voiceEvaluations": 2272,
+      "detailsBytes": 0,
+      "maxFrontier": 0
+    }
+  ],
+  "recordingsOpened": false,
+  "actualRunnerExecuted": false,
+  "qualificationPassed": false,
+  "scope": "Small independently generated synthetic cases only; sampled process RSS does not prove full recording workload feasibility."
+}

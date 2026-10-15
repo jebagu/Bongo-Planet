@@ -1,0 +1,245 @@
+{
+  "name": "Bongo Planet",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 670,
+      "sha256": "2accd54d1fd194e69ebee368ae588e8570ae609402f58a0653e1e2ada7d426e5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8496,
+      "sha256": "023d27cd8f548476092410ad21410cbc3c7e9dbee511480ef9686940ed4251f5"
+    },
+    {
+      "path": "art/bongos.png",
+      "bytes": 734718,
+      "sha256": "576e8df7552e77c5196e1a0485f88d3fdd1b4b203e7d9ac0590d406c9f45aa92"
+    },
+    {
+      "path": "art/hi-hat.png",
+      "bytes": 582489,
+      "sha256": "60a48b69d3dd54c5be2e203884543a04a6ad45a91c0c22414a3b36ac442f2217"
+    },
+    {
+      "path": "art/kick.png",
+      "bytes": 865736,
+      "sha256": "50b157666024dca47f495909fa59e30fae74e91bc2a868901ecdc4a2e6c6b0d1"
+    },
+    {
+      "path": "art/manifest.json",
+      "bytes": 2529,
+      "sha256": "43e8bf0ad36a2a7fa1533f26801dc32ef72d1cf476d85931ea930b4a3a8ec68b"
+    },
+    {
+      "path": "art/prompts.json",
+      "bytes": 4420,
+      "sha256": "912a81916207a1b1e17b806c497ca8f7fc29c5c77c30df843403deb8a565a758"
+    },
+    {
+      "path": "art/snare.png",
+      "bytes": 608333,
+      "sha256": "60f5858d95dd719e7ad41e022b4f81b896a966a7b423d1e3f9814bd0efb36786"
+    },
+    {
+      "path": "artwork-board.png",
+      "bytes": 55840,
+      "sha256": "8a4f76c0e55e65a57684f4d711bcfc44a7edd4cffe6e200fc5d2970229fa9a0a"
+    },
+    {
+      "path": "audio/bongo-high-A.wav",
+      "bytes": 59202,
+      "sha256": "0998a2f2df33852e628f19ed49cfb1f222139640185922b2751f184643b12884"
+    },
+    {
+      "path": "audio/bongo-high-B.wav",
+      "bytes": 58084,
+      "sha256": "85a0029b378af5f6109920feb31bb1beef0daa124ef00ff2689ad0c0c2526e7b"
+    },
+    {
+      "path": "audio/bongo-low-A.wav",
+      "bytes": 58962,
+      "sha256": "55726d355d5fd1d3b2dc007ade65baacef9e6e832243d67c4a045fad6b4e1f80"
+    },
+    {
+      "path": "audio/bongo-low-B.wav",
+      "bytes": 60060,
+      "sha256": "666a694a4bb31cf0c51ca1e2b15e2cb48f2ff912873dbe1e680c3604cbc154cb"
+    },
+    {
+      "path": "audio/hat-closed-A.wav",
+      "bytes": 42774,
+      "sha256": "869c3a7c458fc48492ecd7b5e288a05debf48c05ebdf33836fae2a7b11195fa5"
+    },
+    {
+      "path": "audio/hat-closed-B.wav",
+      "bytes": 80390,
+      "sha256": "80858c4f0544878a74ed37ee0ed40d898ee94857129f42f3076d0211232eb16f"
+    },
+    {
+      "path": "audio/hat-open-A.wav",
+      "bytes": 213560,
+      "sha256": "c5aea252417d5024f28472c71f3584458a161e5dfe85a8b607b997b9ac3c8639"
+    },
+    {
+      "path": "audio/hat-open-B.wav",
+      "bytes": 155412,
+      "sha256": "f16c26e7d5fc904205a4fdc43c04f0f5df0732f9c18a6b5ff091aa1d739ce007"
+    },
+    {
+      "path": "audio/kick-A.wav",
+      "bytes": 167974,
+      "sha256": "7fd83df7f3e749b2d2026508fe84c50f92f1f3d32d2235f62eb1f0ee0c59d626"
+    },
+    {
+      "path": "audio/kick-B.wav",
+      "bytes": 165360,
+      "sha256": "3a3952dde1b76e1c41abaf6f24908a55405876443fbb6a7dd955693328af84d2"
+    },
+    {
+      "path": "audio/snare-A.wav",
+      "bytes": 43304,
+      "sha256": "fe130b3232953688305235123fb9d7f717fba8e26d688a88e7f669707ce602a7"
+    },
+    {
+      "path": "audio/snare-B.wav",
+      "bytes": 50456,
+      "sha256": "2c50d1fc77d900dd08a2cdde41c6c80b7fcf99934b96d2aae81c02532c91451f"
+    },
+    {
+      "path": "demos/bongos.wav",
+      "bytes": 1113644,
+      "sha256": "de30238a609b713a51667a09ebbb62d71ff5c4bea0bee969e6bc31e198146412"
+    },
+    {
+      "path": "demos/whole-kit.wav",
+      "bytes": 1113644,
+      "sha256": "d071fa804e9bb56b68ab804916743a49176dfa3d881169068d35fc9a1f145778"
+    },
+    {
+      "path": "favicon-kick.png",
+      "bytes": 7320,
+      "sha256": "37ba483c2a8a9bea7694380269d915d205dad669cb807917c6bd97be3e976a0f"
+    },
+    {
+      "path": "index.html",
+      "bytes": 12898,
+      "sha256": "8e2fe9d21ef1c17ac6ec6acb1af100c65eeb8acf13189c675957789e7d0d6cdc"
+    },
+    {
+      "path": "licenses/VCSL-CC0-1.0.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "path": "licenses/VCSL-README.md",
+      "bytes": 4365,
+      "sha256": "6f7214a188f106c917d6503748485413c3e47cf56bce69f82beb9d16aa0894a9"
+    },
+    {
+      "path": "licenses/Virtuosity-CC0-1.0.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "path": "licenses/Virtuosity-README.md",
+      "bytes": 2312,
+      "sha256": "53e3b1fecbbc9b71db173543b6204251b9f2363dac036aaaa7db3da7091b781a"
+    },
+    {
+      "path": "make_preview.py",
+      "bytes": 9394,
+      "sha256": "a6e7fb576cb1953ea7e91ec1cdb902b290e40212cb13d31be31ad4b431316f07"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 39961,
+      "sha256": "fed511141060903a04596e98fe2288d560e08bfd6f302ca66a3a144e9cdb3dd7"
+    },
+    {
+      "path": "originals/BongoH_Hit1_v2_rr1_Mid.wav",
+      "bytes": 209356,
+      "sha256": "dd9b6239a151702966a995937f74ac022c9bb950c967277fbd16beaced0c9e1a"
+    },
+    {
+      "path": "originals/BongoH_Hit1_v2_rr2_Mid.wav",
+      "bytes": 177716,
+      "sha256": "03d4653d70e2180643872da4ebb94845f4da81b8d8f9ba2c7df3a611bd9d65ac"
+    },
+    {
+      "path": "originals/BongoL_Hit1_v2_rr1_Mid.wav",
+      "bytes": 168720,
+      "sha256": "0ee22ac30a27a1e91fbba58e0c4b36b28ea6c508dad5f11b10bdb9db07f2b443"
+    },
+    {
+      "path": "originals/BongoL_Hit1_v2_rr2_Mid.wav",
+      "bytes": 209296,
+      "sha256": "0933627d939145e57ff95e93ce3618b0c35f8de6ed6f0f4bfad42f8dd66f8fa5"
+    },
+    {
+      "path": "originals/HiHat_HitC_v2_rr1_Mid.wav",
+      "bytes": 247272,
+      "sha256": "e1fb54c9a030800038abcebbed1c056fb74bdeec627315f3cd5fd893c6e6b031"
+    },
+    {
+      "path": "originals/HiHat_HitC_v2_rr2_Mid.wav",
+      "bytes": 250072,
+      "sha256": "72830eafed387f4b4b5904d4d6f1da23e13b48986fa1bc09d7c5771eafbb3a1a"
+    },
+    {
+      "path": "originals/HiHat_HitO_rr1_Mid.wav",
+      "bytes": 1026612,
+      "sha256": "fa492ec14cc6924b43ad5fcf9e9a0f406d926998835bde2eb5847cd15ad25be7"
+    },
+    {
+      "path": "originals/HiHat_HitO_rr2_Mid.wav",
+      "bytes": 1086072,
+      "sha256": "f71f21883f6fe5466d15610ef0e9241ba3851c821858a958f8a6a75bff774760"
+    },
+    {
+      "path": "originals/kickmic_kick_snoff_vl3_rr1.flac",
+      "bytes": 97631,
+      "sha256": "4f5ce76c313c39f3f3af340deee3c5d2058632b6d1c6c1aab561d3f2433f30d4"
+    },
+    {
+      "path": "originals/kickmic_kick_snoff_vl3_rr2.flac",
+      "bytes": 95182,
+      "sha256": "a8150dac10dff5f34a581e2359dd98dc245571aaaeed23c3228e8b02516574e5"
+    },
+    {
+      "path": "originals/snaremic_snare_center_vl12.flac",
+      "bytes": 75327,
+      "sha256": "7b31072ff17b74785fadf3039c990da577b988f183d7bb8da50ee4e3f074a764"
+    },
+    {
+      "path": "originals/snaremic_snare_center_vl13.flac",
+      "bytes": 78489,
+      "sha256": "c114876e77aebb86e38898b7dc55b8a670d4f60943c15e44ac41d979ba21124b"
+    },
+    {
+      "path": "prepare.py",
+      "bytes": 10416,
+      "sha256": "24d4688993bebb752c2f689d87b5b3121c54f01f44d652ac5a66c07fd62ccbcf"
+    },
+    {
+      "path": "provenance/browser-checks.json",
+      "bytes": 2909,
+      "sha256": "915e99155ccfcb119f017b1427ffa3be3b52a919f4e892afa240577d53edd3f6"
+    },
+    {
+      "path": "provenance/research-notes.md",
+      "bytes": 2009,
+      "sha256": "5ce778b5e3869a2f9747bfa03f654cde0e6d120a45be9e3bca0c8fe04906d305"
+    },
+    {
+      "path": "selection.json",
+      "bytes": 9021,
+      "sha256": "2c254e88526d5d0aaedb9b6a634fa520e50998bd09f1e3101de639866e6c795f"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 6509,
+      "sha256": "7781955cd0540da4cf1c1c5b0c3c8aa952282edc433f8b6c5d4d873137fc5bd5"
+    }
+  ]
+}

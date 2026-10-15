@@ -1,0 +1,9 @@
+# Bongo Planet active camera — ownership source readback
+
+The bounded ownership successor is ready for independent source review. Source02-Bindings freezes the current helper, observer, pure test, unchanged config and reused stable durable-journal contract. Separate exact diffs preserve the original source01 baseline in candidate-02. Original Manifest-01 is untouched; new outputs are additive.
+
+Pure observer/ownership controls passed15/15 in `aff50f`, exit0. The original11 observation cases remain; four new fake-resource cases cover synchronous claim-before-readiness, abandonment/late fulfillment, claim and close exceptions, and second-resource rejection. The final helper additionally adds independent page closure/process exit-code+signal retention; that cleanup-only source delta does not change the observer pure predicates. Global typecheck `30ef3c` passed, exit0, against this final helper and the sibling's stable Movement Source03. No executable remains active. No browser/service/native process/port probe was started.
+
+Success requires one exact durable browser claim, all page/context/connection/server/native/HTTP/audio closure witnesses and no forcedBrowser/error latch. Late acquisitions remain observable to root's journal owner even if the cooperative test await has already failed. Missing claim, late readiness, uncertain process exit or forced cleanup cannot be called success. The root controller is a separately owned reviewed prerequisite, not an implicit effect of the new helper.
+
+The scientific/geometry/music scope is unchanged: genuine sole local numerical/native voice with complete observed history and finite world-coordinate movement during camera gestures. Genuinely loaded worklet-body bytes, acoustics, venue presentation, continuous interior clock proof and universal sustained-source acceptance remain unqualified. No gate or ledger was edited.

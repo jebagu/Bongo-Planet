@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "topology": "icosa-3v-v1",
+  "settings": {
+    "bpm": 120,
+    "key": 0,
+    "scale": "major",
+    "travel": 0.75,
+    "quantization": 0.25,
+    "volume": 0.65
+  },
+  "pieces": [
+    {
+      "id": "gen-3",
+      "vertex": 0,
+      "kind": "generator",
+      "period": 3,
+      "phase": 0,
+      "reach": 180,
+      "enabled": true
+    },
+    {
+      "id": "gen-4",
+      "vertex": 91,
+      "kind": "generator",
+      "period": 4,
+      "phase": 0,
+      "reach": 180,
+      "enabled": true
+    },
+    {
+      "id": "shared-a",
+      "vertex": 1,
+      "kind": "note",
+      "degree": 0,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 0.6,
+      "level": 0.65
+    },
+    {
+      "id": "shared-b",
+      "vertex": 2,
+      "kind": "note",
+      "degree": 0,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 0.6,
+      "level": 0.65
+    },
+    {
+      "id": "hat",
+      "vertex": 3,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 0.25,
+      "level": 0.7
+    }
+  ]
+}

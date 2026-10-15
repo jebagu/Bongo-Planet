@@ -1,0 +1,842 @@
+{
+  "version": 1,
+  "topology": "icosa-3v-v1",
+  "settings": {
+    "bpm": 120,
+    "key": 0,
+    "scale": "major",
+    "travel": 0.75,
+    "quantization": 0.25,
+    "volume": 0.65
+  },
+  "pieces": [
+    {
+      "id": "g0",
+      "vertex": 0,
+      "kind": "generator",
+      "period": 1,
+      "phase": 0,
+      "reach": 180,
+      "enabled": true
+    },
+    {
+      "id": "g1",
+      "vertex": 1,
+      "kind": "generator",
+      "period": 1,
+      "phase": 0,
+      "reach": 180,
+      "enabled": true
+    },
+    {
+      "id": "g2",
+      "vertex": 2,
+      "kind": "generator",
+      "period": 1,
+      "phase": 0,
+      "reach": 180,
+      "enabled": true
+    },
+    {
+      "id": "g3",
+      "vertex": 3,
+      "kind": "generator",
+      "period": 1,
+      "phase": 0,
+      "reach": 180,
+      "enabled": true
+    },
+    {
+      "id": "n4",
+      "vertex": 4,
+      "kind": "note",
+      "degree": 4,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n5",
+      "vertex": 5,
+      "kind": "note",
+      "degree": 5,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n6",
+      "vertex": 6,
+      "kind": "note",
+      "degree": 6,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n7",
+      "vertex": 7,
+      "kind": "note",
+      "degree": 0,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n8",
+      "vertex": 8,
+      "kind": "note",
+      "degree": 1,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n9",
+      "vertex": 9,
+      "kind": "note",
+      "degree": 2,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n10",
+      "vertex": 10,
+      "kind": "note",
+      "degree": 3,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n11",
+      "vertex": 11,
+      "kind": "note",
+      "degree": 4,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n12",
+      "vertex": 12,
+      "kind": "note",
+      "degree": 5,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n13",
+      "vertex": 13,
+      "kind": "note",
+      "degree": 6,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n14",
+      "vertex": 14,
+      "kind": "note",
+      "degree": 0,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n15",
+      "vertex": 15,
+      "kind": "note",
+      "degree": 1,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n16",
+      "vertex": 16,
+      "kind": "note",
+      "degree": 2,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n17",
+      "vertex": 17,
+      "kind": "note",
+      "degree": 3,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n18",
+      "vertex": 18,
+      "kind": "note",
+      "degree": 4,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n19",
+      "vertex": 19,
+      "kind": "note",
+      "degree": 5,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n20",
+      "vertex": 20,
+      "kind": "note",
+      "degree": 6,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n21",
+      "vertex": 21,
+      "kind": "note",
+      "degree": 0,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n22",
+      "vertex": 22,
+      "kind": "note",
+      "degree": 1,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n23",
+      "vertex": 23,
+      "kind": "note",
+      "degree": 2,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n24",
+      "vertex": 24,
+      "kind": "note",
+      "degree": 3,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n25",
+      "vertex": 25,
+      "kind": "note",
+      "degree": 4,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n26",
+      "vertex": 26,
+      "kind": "note",
+      "degree": 5,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n27",
+      "vertex": 27,
+      "kind": "note",
+      "degree": 6,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n28",
+      "vertex": 28,
+      "kind": "note",
+      "degree": 0,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n29",
+      "vertex": 29,
+      "kind": "note",
+      "degree": 1,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n30",
+      "vertex": 30,
+      "kind": "note",
+      "degree": 2,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n31",
+      "vertex": 31,
+      "kind": "note",
+      "degree": 3,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n32",
+      "vertex": 32,
+      "kind": "note",
+      "degree": 4,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n33",
+      "vertex": 33,
+      "kind": "note",
+      "degree": 5,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n34",
+      "vertex": 34,
+      "kind": "note",
+      "degree": 6,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n35",
+      "vertex": 35,
+      "kind": "note",
+      "degree": 0,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n36",
+      "vertex": 36,
+      "kind": "note",
+      "degree": 1,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n37",
+      "vertex": 37,
+      "kind": "note",
+      "degree": 2,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n38",
+      "vertex": 38,
+      "kind": "note",
+      "degree": 3,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n39",
+      "vertex": 39,
+      "kind": "note",
+      "degree": 4,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n40",
+      "vertex": 40,
+      "kind": "note",
+      "degree": 5,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n41",
+      "vertex": 41,
+      "kind": "note",
+      "degree": 6,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n42",
+      "vertex": 42,
+      "kind": "note",
+      "degree": 0,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n43",
+      "vertex": 43,
+      "kind": "note",
+      "degree": 1,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n44",
+      "vertex": 44,
+      "kind": "note",
+      "degree": 2,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n45",
+      "vertex": 45,
+      "kind": "note",
+      "degree": 3,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n46",
+      "vertex": 46,
+      "kind": "note",
+      "degree": 4,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "n47",
+      "vertex": 47,
+      "kind": "note",
+      "degree": 5,
+      "octave": 4,
+      "timbre": "sine",
+      "duration": 8,
+      "level": 0.65
+    },
+    {
+      "id": "b48",
+      "vertex": 48,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b49",
+      "vertex": 49,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b50",
+      "vertex": 50,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b51",
+      "vertex": 51,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b52",
+      "vertex": 52,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b53",
+      "vertex": 53,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b54",
+      "vertex": 54,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b55",
+      "vertex": 55,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b56",
+      "vertex": 56,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b57",
+      "vertex": 57,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b58",
+      "vertex": 58,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b59",
+      "vertex": 59,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b60",
+      "vertex": 60,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b61",
+      "vertex": 61,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b62",
+      "vertex": 62,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b63",
+      "vertex": 63,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b64",
+      "vertex": 64,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b65",
+      "vertex": 65,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b66",
+      "vertex": 66,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b67",
+      "vertex": 67,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b68",
+      "vertex": 68,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b69",
+      "vertex": 69,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b70",
+      "vertex": 70,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b71",
+      "vertex": 71,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b72",
+      "vertex": 72,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b73",
+      "vertex": 73,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b74",
+      "vertex": 74,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b75",
+      "vertex": 75,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b76",
+      "vertex": 76,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b77",
+      "vertex": 77,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b78",
+      "vertex": 78,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b79",
+      "vertex": 79,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b80",
+      "vertex": 80,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b81",
+      "vertex": 81,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b82",
+      "vertex": 82,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b83",
+      "vertex": 83,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b84",
+      "vertex": 84,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b85",
+      "vertex": 85,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b86",
+      "vertex": 86,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b87",
+      "vertex": 87,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b88",
+      "vertex": 88,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b89",
+      "vertex": 89,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b90",
+      "vertex": 90,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    },
+    {
+      "id": "b91",
+      "vertex": 91,
+      "kind": "beat",
+      "sound": "kick",
+      "decay": 4,
+      "level": 0.7
+    }
+  ]
+}

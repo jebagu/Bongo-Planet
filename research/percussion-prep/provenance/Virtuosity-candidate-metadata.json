@@ -1,0 +1,98 @@
+[
+  {
+    "name": "kickmic_kick_snoff_vl3_rr1.flac",
+    "source_path": "Samples/kickmic/kick/kickmic_kick_snoff_vl3_rr1.flac",
+    "source_url": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/kickmic/kick/kickmic_kick_snoff_vl3_rr1.flac",
+    "sha256": "4f5ce76c313c39f3f3af340deee3c5d2058632b6d1c6c1aab561d3f2433f30d4",
+    "bytes": 97631,
+    "sample_rate": "48000",
+    "channels": 1,
+    "bits_per_sample": 0,
+    "duration": "2.160750",
+    "bits_per_raw_sample": "24"
+  },
+  {
+    "name": "kickmic_kick_snoff_vl3_rr2.flac",
+    "source_path": "Samples/kickmic/kick/kickmic_kick_snoff_vl3_rr2.flac",
+    "source_url": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/kickmic/kick/kickmic_kick_snoff_vl3_rr2.flac",
+    "sha256": "a8150dac10dff5f34a581e2359dd98dc245571aaaeed23c3228e8b02516574e5",
+    "bytes": 95182,
+    "sample_rate": "48000",
+    "channels": 1,
+    "bits_per_sample": 0,
+    "duration": "2.139042",
+    "bits_per_raw_sample": "24"
+  },
+  {
+    "name": "snaremic_snare_center_vl12.flac",
+    "source_path": "Samples/snaremic/snare/snaremic_snare_center_vl12.flac",
+    "source_url": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/snaremic/snare/snaremic_snare_center_vl12.flac",
+    "sha256": "7b31072ff17b74785fadf3039c990da577b988f183d7bb8da50ee4e3f074a764",
+    "bytes": 75327,
+    "sample_rate": "48000",
+    "channels": 1,
+    "bits_per_sample": 0,
+    "duration": "1.582000",
+    "bits_per_raw_sample": "24"
+  },
+  {
+    "name": "snaremic_snare_center_vl13.flac",
+    "source_path": "Samples/snaremic/snare/snaremic_snare_center_vl13.flac",
+    "source_url": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/snaremic/snare/snaremic_snare_center_vl13.flac",
+    "sha256": "c114876e77aebb86e38898b7dc55b8a670d4f60943c15e44ac41d979ba21124b",
+    "bytes": 78489,
+    "sample_rate": "48000",
+    "channels": 1,
+    "bits_per_sample": 0,
+    "duration": "1.664312",
+    "bits_per_raw_sample": "24"
+  },
+  {
+    "name": "mid_hh_closed_vl2_rr1.flac",
+    "source_path": "Samples/mid/hh/mid_hh_closed_vl2_rr1.flac",
+    "source_url": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/hh/mid_hh_closed_vl2_rr1.flac",
+    "sha256": "ca9a6b1ce1d274c329a987e21f22d34a9001bb1869d53f5b00cc88c0128199a3",
+    "bytes": 83468,
+    "sample_rate": "48000",
+    "channels": 2,
+    "bits_per_sample": 0,
+    "duration": "0.626646",
+    "bits_per_raw_sample": "24"
+  },
+  {
+    "name": "mid_hh_closed_vl2_rr2.flac",
+    "source_path": "Samples/mid/hh/mid_hh_closed_vl2_rr2.flac",
+    "source_url": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/hh/mid_hh_closed_vl2_rr2.flac",
+    "sha256": "8cd1197e7726cc9bcf6b074464c4a42dc00e02a9d402f392bc9d3cb4330d4b96",
+    "bytes": 78372,
+    "sample_rate": "48000",
+    "channels": 2,
+    "bits_per_sample": 0,
+    "duration": "0.585604",
+    "bits_per_raw_sample": "24"
+  },
+  {
+    "name": "mid_hh_open_vl2_rr1.flac",
+    "source_path": "Samples/mid/hh/mid_hh_open_vl2_rr1.flac",
+    "source_url": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/hh/mid_hh_open_vl2_rr1.flac",
+    "sha256": "b2ab26c09f890523c054a262993cb4f80f9de0b7272b8eb14e4770ccdb3d053a",
+    "bytes": 953760,
+    "sample_rate": "48000",
+    "channels": 2,
+    "bits_per_sample": 0,
+    "duration": "7.841479",
+    "bits_per_raw_sample": "24"
+  },
+  {
+    "name": "mid_hh_open_vl2_rr2.flac",
+    "source_path": "Samples/mid/hh/mid_hh_open_vl2_rr2.flac",
+    "source_url": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/hh/mid_hh_open_vl2_rr2.flac",
+    "sha256": "38ab2fc7e4da6d93d5cbac6e6e5a80b4c660c4d1cb6848dbb7bc4529ed64725c",
+    "bytes": 881035,
+    "sample_rate": "48000",
+    "channels": 2,
+    "bits_per_sample": 0,
+    "duration": "7.199687",
+    "bits_per_raw_sample": "24"
+  }
+]

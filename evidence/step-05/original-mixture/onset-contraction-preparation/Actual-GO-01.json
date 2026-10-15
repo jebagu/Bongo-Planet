@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-12T01:44:17.166751+00:00",
+  "scope": "One exclusive bounded conditional onset-contraction actual on preserved capture. Unchanged caps/model/tolerance; not qualification.",
+  "verifiedFiles": 35,
+  "runnerSHA": "f9a66bfc1446bb60f069dee8d182da64987a3bd75f432a054ca168b07052ceab",
+  "independentReviewSHA": "bf0aec026c90d14d49ff1cb036a74c6df2a6f78ef7baed57db27e6b09329fbcb",
+  "output": "evidence/step-05/original-mixture/onset-contraction-mvp/attempt-01",
+  "priorFailedAttemptPreserved": true,
+  "preflightSchemaError": {
+    "chunk": "b08149",
+    "exit": 1,
+    "message": "KeyError entries; actual not launched; corrected after reading manifest files schema"
+  }
+}

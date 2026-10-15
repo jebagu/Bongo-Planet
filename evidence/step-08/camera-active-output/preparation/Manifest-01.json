@@ -1,0 +1,344 @@
+{
+  "title": "Bongo Planet active camera source-only preparation manifest01",
+  "createdUTC": "2026-10-12T03:39:47.264560+00:00",
+  "actualExecuted": false,
+  "base": "evidence/step-08/camera-active-output/preparation",
+  "entries": [
+    {
+      "file": "Configuration-Typecheck-02.json",
+      "bytes": 938,
+      "sha256": "0cd2ab0eaec655e0fe5b781f365cac01783967bca916da3b69ebe51487785add"
+    },
+    {
+      "file": "Configuration-Typecheck-03.json",
+      "bytes": 321,
+      "sha256": "915eb6ae638a1fd65227aac11bca649dcd9b2f2f3d46544dd74f8e6d9a2282a8"
+    },
+    {
+      "file": "Packaging-Failure-01.json",
+      "bytes": 715,
+      "sha256": "36b69560df9394f136975a1cd2b24e139fd882b1a0cca7aec2af82bba891d4eb"
+    },
+    {
+      "file": "Plan.md",
+      "bytes": 6852,
+      "sha256": "1924820e0db8fe1ddb0d210e6cb127136c87f541243b24806147a0872828aa6d"
+    },
+    {
+      "file": "Preparation-Review.md",
+      "bytes": 3826,
+      "sha256": "0d9ebc676ba1f88ed492435167f6fc77ea620f9990677a60cadf1fd0e6d440fa"
+    },
+    {
+      "file": "Source-Bindings-02.json",
+      "bytes": 8744,
+      "sha256": "ce9b683d96808aaf5ab168f17baba3d3e64840b38ca64e6bfddcb73a9402eff6"
+    },
+    {
+      "file": "candidate-01/evidence/step-08/camera-active-output/preparation/playwright.config.ts",
+      "bytes": 573,
+      "sha256": "5f0140bb9f47dd407a49a2552cf5a8a1e128f6421154b02d2842583734b8448f"
+    },
+    {
+      "file": "candidate-01/scripts/active-camera-observer.ts",
+      "bytes": 10407,
+      "sha256": "c6060e1f9869ff98f0c5447a33e9feb307332497ce51b1032574572f045ceb58"
+    },
+    {
+      "file": "candidate-01/scripts/active-camera-output.spec.ts",
+      "bytes": 28179,
+      "sha256": "7625199c7555c18e60df892cdc95e2631fcf10a606ed9dc8fac6bfa4311ecdf4"
+    },
+    {
+      "file": "candidate-01/src/audio/AudioAdapter.ts",
+      "bytes": 6199,
+      "sha256": "7559fea28c6ba93c8446a86c462d8e4adc3f40406cac06d9f74dfed27fc8c558"
+    },
+    {
+      "file": "candidate-01/src/audio/processor.ts",
+      "bytes": 5839,
+      "sha256": "429555623b5f55c8df29a00b3ce6d9546a3d85fa2d1ba3e5e6b30d0b142f849b"
+    },
+    {
+      "file": "candidate-01/src/audio/protocol.ts",
+      "bytes": 722,
+      "sha256": "6bd21fc0f6f60f4ed4769e72a26e10a51fac170f7cf5c708e069ae58f80cad31"
+    },
+    {
+      "file": "candidate-01/src/audio/synth.ts",
+      "bytes": 5001,
+      "sha256": "499f1d4aadfad5ce2c94082f19724eb24e411b4cbe5ccf2515f6d65754619191"
+    },
+    {
+      "file": "candidate-01/src/core/contracts.ts",
+      "bytes": 3837,
+      "sha256": "497e8bae2417ccd0652407a9a33dc08a775b56de8e54553465a2ee158ececdfc"
+    },
+    {
+      "file": "candidate-01/src/core/engine.ts",
+      "bytes": 6475,
+      "sha256": "19e5cba94b0db6c13b642bd28c90bc1def4bb0bc7ac6b5a95faf1e82bfa9aea3"
+    },
+    {
+      "file": "candidate-01/src/main.ts",
+      "bytes": 16488,
+      "sha256": "6761945b12c918e4877afd1cd4879ea5f9b1470c8a9449f6e04ea77ce6926243"
+    },
+    {
+      "file": "candidate-01/src/output/NativeClock.ts",
+      "bytes": 28579,
+      "sha256": "97c63e08014aed1ab9ee8c5cbf7166a4f33e0027fbb10f91b305fde32c30f173"
+    },
+    {
+      "file": "candidate-01/src/output/OutputAdapter.ts",
+      "bytes": 8203,
+      "sha256": "70d3cb4326689f0348a86a5f1929ca0a3ff6b32d95be24a303944fac53763089"
+    },
+    {
+      "file": "candidate-01/src/output/ReceiverClock.ts",
+      "bytes": 2945,
+      "sha256": "5dcea0b57e27436674b77bc9eea2a8973f7da87986e962f5f36fa4ca22dab7b8"
+    },
+    {
+      "file": "candidate-01/src/output/bridge.ts",
+      "bytes": 15485,
+      "sha256": "c24a37011f631df7a979b5c4010b1b96baa22b6799abae4c231c95246deec460"
+    },
+    {
+      "file": "candidate-01/src/output/protocol.ts",
+      "bytes": 3569,
+      "sha256": "85f2219aad582737d93ff0a3bfd3afe4f0441ea6065262847a9ec3e301190c37"
+    },
+    {
+      "file": "candidate-01/tests/active-camera-observer.test.ts",
+      "bytes": 6196,
+      "sha256": "4fd1bd68b7f2e193e1c9f39153a387cf275adce99b60f215a53266af7a55e69c"
+    },
+    {
+      "file": "candidate-02/dist/assets/index-BXks7Y4v.js",
+      "bytes": 697116,
+      "sha256": "32b57ff2dabeadc3d85f8143cd91c50abeea9785ebb1a2f35497ee1db198bb93"
+    },
+    {
+      "file": "candidate-02/dist/assets/processor-DjdrVTs8.js",
+      "bytes": 105473,
+      "sha256": "0f0b12c981f6d2aedbbde847bb31d55bc9010a6093f2ea93232f6fe3804a6793"
+    },
+    {
+      "file": "candidate-02/evidence/step-08/camera-active-output/preparation/playwright.config.ts",
+      "bytes": 573,
+      "sha256": "5f0140bb9f47dd407a49a2552cf5a8a1e128f6421154b02d2842583734b8448f"
+    },
+    {
+      "file": "candidate-02/evidence/step-08/camera-output-contract/preparation/Active-Source-Plan-02.md",
+      "bytes": 8257,
+      "sha256": "5dcdf937d582d71c24ce5c06372ceffe429e85e34f3e7a52a4e48efcbca3ef58"
+    },
+    {
+      "file": "candidate-02/evidence/step-08/camera-output-contract/preparation/Active-Source-Plan-IndependentReview.md",
+      "bytes": 10570,
+      "sha256": "aa8f2adf79ddacb9f053e298dfdbc7982a41854889185dd84435fa5d2f5bbf55"
+    },
+    {
+      "file": "candidate-02/node_modules/three/examples/jsm/controls/OrbitControls.js",
+      "bytes": 40755,
+      "sha256": "3d79d07ecb686b4e5d93232eedab255331c1beef711e13164eaa1f68655a5f2b"
+    },
+    {
+      "file": "candidate-02/node_modules/three/src/math/Spherical.js",
+      "bytes": 3095,
+      "sha256": "71ccc04f9f78ef85a503bc58f05ce0bc042c75c206be50cdb7d8b70988c07f14"
+    },
+    {
+      "file": "candidate-02/package-lock.json",
+      "bytes": 69267,
+      "sha256": "340acbf950d247e9892446e1e45cc5807255d8450ab9452ae9ae2a185b84cf20"
+    },
+    {
+      "file": "candidate-02/package.json",
+      "bytes": 1164,
+      "sha256": "7671f2558370f3d3e854e278b2ef16f489bb07b793543bc26664f3b5b9d9d4fe"
+    },
+    {
+      "file": "candidate-02/scripts/active-camera-observer.ts",
+      "bytes": 10407,
+      "sha256": "c6060e1f9869ff98f0c5447a33e9feb307332497ce51b1032574572f045ceb58"
+    },
+    {
+      "file": "candidate-02/scripts/active-camera-output.spec.ts",
+      "bytes": 28179,
+      "sha256": "7625199c7555c18e60df892cdc95e2631fcf10a606ed9dc8fac6bfa4311ecdf4"
+    },
+    {
+      "file": "candidate-02/src/audio/AudioAdapter.ts",
+      "bytes": 6199,
+      "sha256": "7559fea28c6ba93c8446a86c462d8e4adc3f40406cac06d9f74dfed27fc8c558"
+    },
+    {
+      "file": "candidate-02/src/audio/processor.ts",
+      "bytes": 5839,
+      "sha256": "429555623b5f55c8df29a00b3ce6d9546a3d85fa2d1ba3e5e6b30d0b142f849b"
+    },
+    {
+      "file": "candidate-02/src/audio/protocol.ts",
+      "bytes": 722,
+      "sha256": "6bd21fc0f6f60f4ed4769e72a26e10a51fac170f7cf5c708e069ae58f80cad31"
+    },
+    {
+      "file": "candidate-02/src/audio/synth.ts",
+      "bytes": 5001,
+      "sha256": "499f1d4aadfad5ce2c94082f19724eb24e411b4cbe5ccf2515f6d65754619191"
+    },
+    {
+      "file": "candidate-02/src/core/contracts.ts",
+      "bytes": 3837,
+      "sha256": "497e8bae2417ccd0652407a9a33dc08a775b56de8e54553465a2ee158ececdfc"
+    },
+    {
+      "file": "candidate-02/src/core/engine.ts",
+      "bytes": 6475,
+      "sha256": "19e5cba94b0db6c13b642bd28c90bc1def4bb0bc7ac6b5a95faf1e82bfa9aea3"
+    },
+    {
+      "file": "candidate-02/src/core/geometry.ts",
+      "bytes": 2550,
+      "sha256": "b6b788d732a900a102d108623033055bc221099a5d91f8e648af16d2905b69bf"
+    },
+    {
+      "file": "candidate-02/src/main.ts",
+      "bytes": 16488,
+      "sha256": "6761945b12c918e4877afd1cd4879ea5f9b1470c8a9449f6e04ea77ce6926243"
+    },
+    {
+      "file": "candidate-02/src/output/NativeClock.ts",
+      "bytes": 28579,
+      "sha256": "97c63e08014aed1ab9ee8c5cbf7166a4f33e0027fbb10f91b305fde32c30f173"
+    },
+    {
+      "file": "candidate-02/src/output/OutputAdapter.ts",
+      "bytes": 8203,
+      "sha256": "70d3cb4326689f0348a86a5f1929ca0a3ff6b32d95be24a303944fac53763089"
+    },
+    {
+      "file": "candidate-02/src/output/ReceiverClock.ts",
+      "bytes": 2945,
+      "sha256": "5dcea0b57e27436674b77bc9eea2a8973f7da87986e962f5f36fa4ca22dab7b8"
+    },
+    {
+      "file": "candidate-02/src/output/bridge.ts",
+      "bytes": 15485,
+      "sha256": "c24a37011f631df7a979b5c4010b1b96baa22b6799abae4c231c95246deec460"
+    },
+    {
+      "file": "candidate-02/src/output/protocol.ts",
+      "bytes": 3569,
+      "sha256": "85f2219aad582737d93ff0a3bfd3afe4f0441ea6065262847a9ec3e301190c37"
+    },
+    {
+      "file": "candidate-02/src/view/SphereView.ts",
+      "bytes": 28964,
+      "sha256": "c684476cc5bcf1dfcab1bab157efdde61f983743de2e0d90d4e1f1a6234eddd3"
+    },
+    {
+      "file": "candidate-02/src/view/math.ts",
+      "bytes": 1169,
+      "sha256": "9e16d927105cccc96de98da15623acc47003a48194a0a3ab373f7b0f9950ad35"
+    },
+    {
+      "file": "candidate-02/tests/active-camera-observer.test.ts",
+      "bytes": 6196,
+      "sha256": "4fd1bd68b7f2e193e1c9f39153a387cf275adce99b60f215a53266af7a55e69c"
+    },
+    {
+      "file": "candidate-02/tsconfig.json",
+      "bytes": 299,
+      "sha256": "78170416782550f0f8947b534a94fe10dccd71bf4b2b8f19c4249561205a9e49"
+    },
+    {
+      "file": "controls-01/Typecheck.json",
+      "bytes": 673,
+      "sha256": "440ec7c08970eff70f1dcf8a85a0d27b31d76aa06a8c7d34e5a3cf83e0dcf368"
+    },
+    {
+      "file": "controls-01/active-camera-observer.test.ts",
+      "bytes": 5577,
+      "sha256": "b83907d37501c3b8e8322911b27e32ac856e16bfd57d8f36e36a7904dc8ab32e"
+    },
+    {
+      "file": "controls-01/active-camera-observer.ts",
+      "bytes": 10123,
+      "sha256": "d1ab5378327cdf7e9559f528b1bd9979e328a52232101fe8002c84f541e986c4"
+    },
+    {
+      "file": "controls-01/active-camera-output.spec.ts",
+      "bytes": 27170,
+      "sha256": "9b9acd9e62306f04249cfd8ab575628243659871124e52e144e8702b14884947"
+    },
+    {
+      "file": "controls-01/pure-results.json",
+      "bytes": 5016,
+      "sha256": "a4715bcd8d8e9cda46b97d716ec8c6dd2e962bd9c700a7efca8c62e0453f4259"
+    },
+    {
+      "file": "controls-02/Execution.json",
+      "bytes": 1552,
+      "sha256": "31c6b131eee0a62b70f9f0bb0d8d392e0fe6f1810451d83b3a0718483cec2e3f"
+    },
+    {
+      "file": "controls-02/Source-Bindings.json",
+      "bytes": 758,
+      "sha256": "1d33eb2129bc90304520168448d7e3f0c886857418a5c752812c0db774e7f392"
+    },
+    {
+      "file": "controls-02/active-camera-observer.test.ts",
+      "bytes": 6169,
+      "sha256": "360f551a53a7bd88e51f8ca5828c4d8ec31a130e220417fdc7c5b3c884b3c299"
+    },
+    {
+      "file": "controls-02/active-camera-observer.ts",
+      "bytes": 10407,
+      "sha256": "c6060e1f9869ff98f0c5447a33e9feb307332497ce51b1032574572f045ceb58"
+    },
+    {
+      "file": "controls-02/active-camera-output.spec.ts",
+      "bytes": 28179,
+      "sha256": "7625199c7555c18e60df892cdc95e2631fcf10a606ed9dc8fac6bfa4311ecdf4"
+    },
+    {
+      "file": "controls-02/pure-results.json",
+      "bytes": 5468,
+      "sha256": "58ccbbd6a9051a5aa307f2d785ddaa337e1f9930d51d12b98637b4f26ef9b283"
+    },
+    {
+      "file": "controls-03/Execution.json",
+      "bytes": 1271,
+      "sha256": "87b55b538b9a702ec5cbb53a063a7115237ebb775b3dcaede6b05eec081be383"
+    },
+    {
+      "file": "controls-03/active-camera-observer.test.ts",
+      "bytes": 6196,
+      "sha256": "4fd1bd68b7f2e193e1c9f39153a387cf275adce99b60f215a53266af7a55e69c"
+    },
+    {
+      "file": "controls-03/active-camera-observer.ts",
+      "bytes": 10407,
+      "sha256": "c6060e1f9869ff98f0c5447a33e9feb307332497ce51b1032574572f045ceb58"
+    },
+    {
+      "file": "controls-03/active-camera-output.spec.ts",
+      "bytes": 28179,
+      "sha256": "7625199c7555c18e60df892cdc95e2631fcf10a606ed9dc8fac6bfa4311ecdf4"
+    },
+    {
+      "file": "playwright.config.ts",
+      "bytes": 573,
+      "sha256": "5f0140bb9f47dd407a49a2552cf5a8a1e128f6421154b02d2842583734b8448f"
+    }
+  ],
+  "files": 66,
+  "bytes": 1435187,
+  "exclusions": [
+    "Manifest-01.json itself; future independent reviews/actual/controller outputs not yet present"
+  ],
+  "scope": "Candidate02 and prior failed preparation snapshots/checks preserved; no acceptance or actual claim."
+}

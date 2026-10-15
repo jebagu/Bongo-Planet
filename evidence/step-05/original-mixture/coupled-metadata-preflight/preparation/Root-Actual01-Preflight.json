@@ -1,0 +1,46 @@
+{
+  "utc": "2026-10-12T06:11:04.194301+00:00",
+  "cwd": "/Users/jeremyguillory/Documents/ChatGPT/ripple",
+  "sourceRevision": "ce82c54",
+  "verifiedSourceBindings": 26,
+  "interpreter": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+  "pythonVersion": "3.14.4 (main, Apr  7 2026, 13:13:20) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "originalInputsStatOnly": [
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-05/original-mixture/binary-capture-01/quantums.jsonl",
+      "bytes": 19565814
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-05/original-mixture/binary-capture-01/events.jsonl",
+      "bytes": 82290733
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-05/original-mixture/binary-capture-01/report.json",
+      "bytes": 142316
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-05/original-mixture/binary-capture-01/independent-audit.json",
+      "bytes": 72458
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-05/original-mixture/group-inventory/attempt-01/inventory.json",
+      "bytes": 2799609
+    }
+  ],
+  "originalStreamsNotRead": true,
+  "PCMExcluded": true,
+  "freshAbsoluteDisjointPaths": [
+    "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-05/original-mixture/coupled-metadata-preflight/attempt-01",
+    "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/Root-Actual01-GO.json",
+    "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/Root-Actual01-Controller.json",
+    "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/Actual01-Resource-Claims.jsonl",
+    "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/Root-Actual01-Preflight.json"
+  ],
+  "mainWallSeconds": 125,
+  "totalWallSeconds": 135,
+  "helperWallSeconds": 120,
+  "childSampledRssLimitBytes": 268435456,
+  "helperMaximumRssLimitBytes": 268435456,
+  "workLimit": 50000000,
+  "scope": "One conditional metadata feasibility acquisition; no waveform/onset gate closure"
+}

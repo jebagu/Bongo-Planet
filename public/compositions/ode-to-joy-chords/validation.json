@@ -1,0 +1,51 @@
+{
+  "id": "C08",
+  "name": "Ode to Joy · Beethoven",
+  "sourceId": null,
+  "bpm": 60,
+  "key": 0,
+  "scale": "major",
+  "cycleBeats": 16,
+  "cycleSeconds": 16,
+  "generators": 1,
+  "soundingPieces": 66,
+  "stackedVertices": 8,
+  "maximumStack": 4,
+  "instruments": {
+    "guitar": 8,
+    "glass": 8,
+    "kalimba": 8,
+    "piano": 38,
+    "bongo-low": 4
+  },
+  "spatial": {
+    "soundingLocations": 42,
+    "largestGapDegrees": 23.800182602175063
+  },
+  "compositionSha256": "30447906383db2bdf9081ca79472003eebf469fd25e6f60cf6f6d21b7ed8d642",
+  "simulation": {
+    "cycles": 8,
+    "stablePatternsMatch": true,
+    "allLayersReached": true,
+    "maximumEdges": 1,
+    "maximumDecisionsPerQuantum": 2,
+    "maximumPending": 4,
+    "lateDrops": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "f6539b86369c17ba3cdc8e79fa813f9697b28670efdd3e589877b230150d0f2c",
+    "renderedFromCurrentEngineAndSamples": true,
+    "cycles": 1,
+    "seconds": 16,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peak": 0.3718332052230835,
+    "rms": 0.07026371005300684,
+    "repeatError": 2.3283064365386963e-10,
+    "boundaryDelta": 0.000004245608579367399,
+    "maximumVoices": 6,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

@@ -1,0 +1,29 @@
+# Bongo Planet — ingress component pair readback
+
+The single baseline failed native command admission; the single successor completed the full fixed position workload. This supports a bounded comparative result for the uncompressed installed `ws` text path and unchanged native module. It is not a production acceptance, freshness, onset or audio result. No component, browser, socket, test or acquisition was rerun for this readback.
+
+| Retained denominator | Baseline | Successor |
+|---|---:|---:|
+| Intended / attempted / local send completions / parsed commands | 1,313 each | 1,313 each |
+| Intended positions | 1,292 | 1,292 |
+| Position records accepted | 866 | 1,292 |
+| Healthy command-exit admission observations | 881 | 1,313 |
+| Fixture parent applied-hook callbacks | 94 | 1,313 |
+| Additional cleanup applied-hook callbacks | 0 | 1 |
+| Retained exact ordered OSC position prefix | 156 | 1,292 |
+| Verified completed latest-object map | No completed map | All 92 objects |
+| Observed parent outstanding peak | 787 commands / 262,026 bytes | 5 commands / 1,650 bytes |
+
+Both source candidates are byte-identical except `allowSynchronousEvents:true` versus `false`. They retain `perMessageDeflate:false`; both negotiated extension strings are empty. The helper SHA is `447709ee2eb90b9e5d1e3a5128b0a9c1558ad9b3554728fcc58971f8e130f896`. Frozen NativeClock remains `97c63e08014aed1ab9ee8c5cbf7166a4f33e0027fbb10f91b305fde32c30f173`; limits are unchanged. Prep bindings saying `actualAcquisition:false` describe preparation, not the later actual report. The two fixtures match byte-for-byte; actual intended packets match the fixed recipe with their independent per-arm base timestamps. Node recomputed every original JSON send byte length and SHA, and Python independently joined all original indices/packets and decoded/re-encoded every retained OSC address, type tag and three big-endian Float32 coordinates.
+
+Both arms begin with 92 objects and zero outstanding parent/worker commands before the burst. The baseline receives/parses all 1,219 burst packets over 49.583167ms, with no burst applied-hook callback interleaved. After message881 / position866 it has 787 commands and 262,026 bytes outstanding. The next parsed message882 / position867 causes `Native command count/byte capacity exceeded`: the first failed message-exit occurs at Node321.167875ms, 36.424625ms after the first burst parsed callback. The command-count cap is 8,192; the byte cap is 262,144. The record retains one admission rejection and 431 later stale-session rejections, comprising the remaining 426 positions and six heartbeats. Client close is1011, `receiver clock failed`. These public boundary observations locate the admission failure without claiming an unobserved internal peak or exact original worker-execution time.
+
+The successor receives/parses the same 1,219 intended burst packets over96.485125ms. Parent applied hooks occur between1,155 successive burst parsed callbacks; all fixture command sequences1–1,313 are retained in order. At the full-denominator snapshot both parent and worker queues are empty, all1,292 OSC packets match intended coordinates in original order, all92 objects equal their last intended positions/timestamps, and there are no drops/failures. Applied sequence1,314 is the later cleanup-generated stop, not a duplicate fixture command. These observations support better parent ACK interleaving in this one control; they do not establish universal scheduling fairness, compressed-path behavior or an OS cause.
+
+The baseline's94 applied-hook callbacks are not evidence that only94 commands executed in the worker. NativeClock decrements received ACK state before suppressing public applied hooks when failure is latched. Its parent outstanding count falls from787 to723 before close, and its worker snapshot shows additional outstanding receipts. The156 retained OSC datagrams are an exact ordered prefix (92 initial plus64 burst); raw retention was sampled before cleanup and ended early. The unretained accepted tail is therefore **not** a demonstrated UDP delivery-loss count. No completed final92-object position map or full drain is certified for baseline.
+
+Age remains a separate diagnostic. The fixture intentionally stamps burst positions at relative offsets from−260ms to0; it is a compact replay burst, not a50Hz end-to-end movement freshness witness. Accepted-position p95/max are283.967291/285.587291ms for baseline866 positions and285.822250/291.286208ms for successor1,292 positions. Both40ms p95 and60ms maximum numeric flags are false. Baseline age is only an accepted-prefix distribution; successor includes the complete intended position denominator. No timestamp fitting/recentering or omissions improve these numbers.
+
+The original helpers ran0.179396208s and0.267095125s respectively; root external controllers reported0.592925s /0.592951s, exit1 /0. Reports retain graceful client/bridge closure and native closed-ACK plus observed exit0 in both arms. Baseline lacks the helper's `nativeClosed` boolean because its late-failure assertion throws after the native close certificate: preserve that failed assertion, do not infer a missing close from the absent boolean. Root independently recorded no forced cleanup/remaining owned process. Those root-owned lifecycle files remain separate and are excluded from this selected pair manifest as requested; helper certificates and observations remain bound in original report bytes.
+
+Readback files: [Pair-Readback.json](Pair-Readback.json), [send byte/SHA joins](Pair-Send-Encoding-Readback.json), [baseline report](baseline-01/report.json), [successor report](successor-01/report.json). `readbackSucceeded` describes these retained consistency checks; `qualificationPassed` stays false. The earlier failed backpressure acquisition and all prior frozen records remain unchanged.

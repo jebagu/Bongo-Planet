@@ -1,0 +1,1291 @@
+{
+  "name": "Bongo Planet",
+  "prepared_date": "2026-10-14",
+  "version": 1,
+  "status": "Five core percussion voices integrated; optional open hi-hat remains research-only",
+  "format": {
+    "container": "WAV",
+    "encoding": "PCM signed 16-bit",
+    "channels": 1,
+    "sample_rate": 48000,
+    "pcm_bitrate_bits_per_second": 768000
+  },
+  "sources": [
+    {
+      "id": "vcsl",
+      "name": "Versilian Community Sample Library",
+      "license": "CC0-1.0",
+      "repository": "https://github.com/sgossner/VCSL",
+      "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+      "license_path": "licenses/VCSL-CC0-1.0.txt",
+      "license_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "id": "virtuosity",
+      "name": "Virtuosity Drums",
+      "license": "CC0-1.0",
+      "repository": "https://github.com/sfzinstruments/virtuosity_drums",
+      "commit": "9f04cf9a734527edfbb0a4eee1f674e45bbf71bc",
+      "license_path": "licenses/Virtuosity-CC0-1.0.txt",
+      "license_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    }
+  ],
+  "samples": [
+    {
+      "id": "bongo-high-A",
+      "voice": "bongo-high",
+      "label": "High bongo",
+      "art": "bongos",
+      "variant": "A",
+      "library": "vcsl",
+      "optional": false,
+      "target_peak_dbfs": -9,
+      "variant_note": "Same source velocity (v2), true round-robin takes.",
+      "source_filename": "BongoH_Hit1_v2_rr1_Mid.wav",
+      "source_path": "Membranophones/Struck Membranophones/Bongos/BongoH_Hit1_v2_rr1_Mid.wav",
+      "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Bongos/BongoH_Hit1_v2_rr1_Mid.wav",
+      "source_sha256": "dd9b6239a151702966a995937f74ac022c9bb950c967277fbd16beaced0c9e1a",
+      "license": "CC0-1.0",
+      "path": "audio/bongo-high-A.wav",
+      "original_path": "originals/BongoH_Hit1_v2_rr1_Mid.wav",
+      "original": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bits": 16,
+        "seconds": 1.186236,
+        "bytes": 209356
+      },
+      "prepared": {
+        "channels": 1,
+        "sample_rate": 48000,
+        "bits": 16,
+        "seconds": 0.616229,
+        "bytes": 59202,
+        "sha256": "0998a2f2df33852e628f19ed49cfb1f222139640185922b2751f184643b12884",
+        "peak_dbfs": -8.9996,
+        "true_peak_dbfs_4x": -8.9995,
+        "onset_ms_at_minus_45_db": 1.0
+      },
+      "processing": {
+        "mono_energy_change_db": -3.541,
+        "removed_dc": 0.0,
+        "trim_start_seconds": 0.007229,
+        "trim_end_seconds": 0.562792,
+        "gain_db": 14.6475,
+        "source_energy_retained": 0.99996717,
+        "fade_in_ms": 0.125,
+        "fade_out_ms": 10,
+        "fade_out_start_level_relative_to_peak_db": -50.3514,
+        "resampling": "FFmpeg swresample, 64-tap filter, phase_shift 10, cutoff 0.97, 48 kHz",
+        "dither": "deterministic TPDF, 1 LSB peak-to-peak per uniform component",
+        "eq_compression_reverb_pitch_shift": "none"
+      },
+      "checks": {
+        "finite": true,
+        "no_clipped_samples": true,
+        "true_peak_below_minus_3_dbfs": true,
+        "onset_within_2_ms": true,
+        "tail_energy_retention_above_99_9_percent": true,
+        "quiet_fade_out": true
+      }
+    },
+    {
+      "id": "bongo-high-B",
+      "voice": "bongo-high",
+      "label": "High bongo",
+      "art": "bongos",
+      "variant": "B",
+      "library": "vcsl",
+      "optional": false,
+      "target_peak_dbfs": -9,
+      "variant_note": "Same source velocity (v2), true round-robin takes.",
+      "source_filename": "BongoH_Hit1_v2_rr2_Mid.wav",
+      "source_path": "Membranophones/Struck Membranophones/Bongos/BongoH_Hit1_v2_rr2_Mid.wav",
+      "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Bongos/BongoH_Hit1_v2_rr2_Mid.wav",
+      "source_sha256": "03d4653d70e2180643872da4ebb94845f4da81b8d8f9ba2c7df3a611bd9d65ac",
+      "license": "CC0-1.0",
+      "path": "audio/bongo-high-B.wav",
+      "original_path": "originals/BongoH_Hit1_v2_rr2_Mid.wav",
+      "original": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bits": 16,
+        "seconds": 1.006871,
+        "bytes": 177716
+      },
+      "prepared": {
+        "channels": 1,
+        "sample_rate": 48000,
+        "bits": 16,
+        "seconds": 0.604583,
+        "bytes": 58084,
+        "sha256": "85a0029b378af5f6109920feb31bb1beef0daa124ef00ff2689ad0c0c2526e7b",
+        "peak_dbfs": -8.9996,
+        "true_peak_dbfs_4x": -8.9951,
+        "onset_ms_at_minus_45_db": 1.0
+      },
+      "processing": {
+        "mono_energy_change_db": -3.4804,
+        "removed_dc": 0.0,
+        "trim_start_seconds": 0.007271,
+        "trim_end_seconds": 0.395021,
+        "gain_db": 19.4941,
+        "source_energy_retained": 0.99996828,
+        "fade_in_ms": 0.125,
+        "fade_out_ms": 10,
+        "fade_out_start_level_relative_to_peak_db": -55.5479,
+        "resampling": "FFmpeg swresample, 64-tap filter, phase_shift 10, cutoff 0.97, 48 kHz",
+        "dither": "deterministic TPDF, 1 LSB peak-to-peak per uniform component",
+        "eq_compression_reverb_pitch_shift": "none"
+      },
+      "checks": {
+        "finite": true,
+        "no_clipped_samples": true,
+        "true_peak_below_minus_3_dbfs": true,
+        "onset_within_2_ms": true,
+        "tail_energy_retention_above_99_9_percent": true,
+        "quiet_fade_out": true
+      }
+    },
+    {
+      "id": "bongo-low-A",
+      "voice": "bongo-low",
+      "label": "Low bongo",
+      "art": "bongos",
+      "variant": "A",
+      "library": "vcsl",
+      "optional": false,
+      "target_peak_dbfs": -9,
+      "variant_note": "Same source velocity (v2), true round-robin takes.",
+      "source_filename": "BongoL_Hit1_v2_rr1_Mid.wav",
+      "source_path": "Membranophones/Struck Membranophones/Bongos/BongoL_Hit1_v2_rr1_Mid.wav",
+      "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Bongos/BongoL_Hit1_v2_rr1_Mid.wav",
+      "source_sha256": "0ee22ac30a27a1e91fbba58e0c4b36b28ea6c508dad5f11b10bdb9db07f2b443",
+      "license": "CC0-1.0",
+      "path": "audio/bongo-low-A.wav",
+      "original_path": "originals/BongoL_Hit1_v2_rr1_Mid.wav",
+      "original": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bits": 16,
+        "seconds": 0.955873,
+        "bytes": 168720
+      },
+      "prepared": {
+        "channels": 1,
+        "sample_rate": 48000,
+        "bits": 16,
+        "seconds": 0.613729,
+        "bytes": 58962,
+        "sha256": "55726d355d5fd1d3b2dc007ade65baacef9e6e832243d67c4a045fad6b4e1f80",
+        "peak_dbfs": -8.9996,
+        "true_peak_dbfs_4x": -8.9993,
+        "onset_ms_at_minus_45_db": 1.0208
+      },
+      "processing": {
+        "mono_energy_change_db": -1.2756,
+        "removed_dc": 0.0,
+        "trim_start_seconds": 0.004542,
+        "trim_end_seconds": 0.337604,
+        "gain_db": 14.9967,
+        "source_energy_retained": 0.99999273,
+        "fade_in_ms": 0.125,
+        "fade_out_ms": 10,
+        "fade_out_start_level_relative_to_peak_db": -55.4426,
+        "resampling": "FFmpeg swresample, 64-tap filter, phase_shift 10, cutoff 0.97, 48 kHz",
+        "dither": "deterministic TPDF, 1 LSB peak-to-peak per uniform component",
+        "eq_compression_reverb_pitch_shift": "none"
+      },
+      "checks": {
+        "finite": true,
+        "no_clipped_samples": true,
+        "true_peak_below_minus_3_dbfs": true,
+        "onset_within_2_ms": true,
+        "tail_energy_retention_above_99_9_percent": true,
+        "quiet_fade_out": true
+      }
+    },
+    {
+      "id": "bongo-low-B",
+      "voice": "bongo-low",
+      "label": "Low bongo",
+      "art": "bongos",
+      "variant": "B",
+      "library": "vcsl",
+      "optional": false,
+      "target_peak_dbfs": -9,
+      "variant_note": "Same source velocity (v2), true round-robin takes.",
+      "source_filename": "BongoL_Hit1_v2_rr2_Mid.wav",
+      "source_path": "Membranophones/Struck Membranophones/Bongos/BongoL_Hit1_v2_rr2_Mid.wav",
+      "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Bongos/BongoL_Hit1_v2_rr2_Mid.wav",
+      "source_sha256": "0933627d939145e57ff95e93ce3618b0c35f8de6ed6f0f4bfad42f8dd66f8fa5",
+      "license": "CC0-1.0",
+      "path": "audio/bongo-low-B.wav",
+      "original_path": "originals/BongoL_Hit1_v2_rr2_Mid.wav",
+      "original": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bits": 16,
+        "seconds": 1.185896,
+        "bytes": 209296
+      },
+      "prepared": {
+        "channels": 1,
+        "sample_rate": 48000,
+        "bits": 16,
+        "seconds": 0.625167,
+        "bytes": 60060,
+        "sha256": "666a694a4bb31cf0c51ca1e2b15e2cb48f2ff912873dbe1e680c3604cbc154cb",
+        "peak_dbfs": -9.0004,
+        "true_peak_dbfs_4x": -9.0004,
+        "onset_ms_at_minus_45_db": 1.0
+      },
+      "processing": {
+        "mono_energy_change_db": -1.2075,
+        "removed_dc": 0.0,
+        "trim_start_seconds": 0.007687,
+        "trim_end_seconds": 0.553042,
+        "gain_db": 8.8846,
+        "source_energy_retained": 0.99999029,
+        "fade_in_ms": 0.125,
+        "fade_out_ms": 10,
+        "fade_out_start_level_relative_to_peak_db": -50.7641,
+        "resampling": "FFmpeg swresample, 64-tap filter, phase_shift 10, cutoff 0.97, 48 kHz",
+        "dither": "deterministic TPDF, 1 LSB peak-to-peak per uniform component",
+        "eq_compression_reverb_pitch_shift": "none"
+      },
+      "checks": {
+        "finite": true,
+        "no_clipped_samples": true,
+        "true_peak_below_minus_3_dbfs": true,
+        "onset_within_2_ms": true,
+        "tail_energy_retention_above_99_9_percent": true,
+        "quiet_fade_out": true
+      }
+    },
+    {
+      "id": "kick-A",
+      "voice": "kick",
+      "label": "Kick",
+      "art": "kick",
+      "variant": "A",
+      "library": "virtuosity",
+      "optional": false,
+      "target_peak_dbfs": -6,
+      "variant_note": "Close kick mic; snares off; source velocity layer 3, true round-robin takes.",
+      "source_filename": "kickmic_kick_snoff_vl3_rr1.flac",
+      "source_path": "Samples/kickmic/kick/kickmic_kick_snoff_vl3_rr1.flac",
+      "source_url": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/kickmic/kick/kickmic_kick_snoff_vl3_rr1.flac",
+      "source_sha256": "4f5ce76c313c39f3f3af340deee3c5d2058632b6d1c6c1aab561d3f2433f30d4",
+      "license": "CC0-1.0",
+      "path": "audio/kick-A.wav",
+      "original_path": "originals/kickmic_kick_snoff_vl3_rr1.flac",
+      "original": {
+        "channels": 1,
+        "sample_rate": 48000,
+        "bits": 24,
+        "seconds": 2.16075,
+        "bytes": 97631
+      },
+      "prepared": {
+        "channels": 1,
+        "sample_rate": 48000,
+        "bits": 16,
+        "seconds": 1.749271,
+        "bytes": 167974,
+        "sha256": "7fd83df7f3e749b2d2026508fe84c50f92f1f3d32d2235f62eb1f0ee0c59d626",
+        "peak_dbfs": -6.0005,
+        "true_peak_dbfs_4x": -6.0002,
+        "onset_ms_at_minus_45_db": 1.0
+      },
+      "processing": {
+        "mono_energy_change_db": 0.0,
+        "removed_dc": 5.364418029785156e-06,
+        "trim_start_seconds": 0.003792,
+        "trim_end_seconds": 0.407687,
+        "gain_db": 3.2716,
+        "source_energy_retained": 0.99998358,
+        "fade_in_ms": 0.125,
+        "fade_out_ms": 10,
+        "fade_out_start_level_relative_to_peak_db": -51.4668,
+        "resampling": "FFmpeg swresample, 64-tap filter, phase_shift 10, cutoff 0.97, 48 kHz",
+        "dither": "deterministic TPDF, 1 LSB peak-to-peak per uniform component",
+        "eq_compression_reverb_pitch_shift": "none"
+      },
+      "checks": {
+        "finite": true,
+        "no_clipped_samples": true,
+        "true_peak_below_minus_3_dbfs": true,
+        "onset_within_2_ms": true,
+        "tail_energy_retention_above_99_9_percent": true,
+        "quiet_fade_out": true
+      }
+    },
+    {
+      "id": "kick-B",
+      "voice": "kick",
+      "label": "Kick",
+      "art": "kick",
+      "variant": "B",
+      "library": "virtuosity",
+      "optional": false,
+      "target_peak_dbfs": -6,
+      "variant_note": "Close kick mic; snares off; source velocity layer 3, true round-robin takes.",
+      "source_filename": "kickmic_kick_snoff_vl3_rr2.flac",
+      "source_path": "Samples/kickmic/kick/kickmic_kick_snoff_vl3_rr2.flac",
+      "source_url": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/kickmic/kick/kickmic_kick_snoff_vl3_rr2.flac",
+      "source_sha256": "a8150dac10dff5f34a581e2359dd98dc245571aaaeed23c3228e8b02516574e5",
+      "license": "CC0-1.0",
+      "path": "audio/kick-B.wav",
+      "original_path": "originals/kickmic_kick_snoff_vl3_rr2.flac",
+      "original": {
+        "channels": 1,
+        "sample_rate": 48000,
+        "bits": 24,
+        "seconds": 2.139042,
+        "bytes": 95182
+      },
+      "prepared": {
+        "channels": 1,
+        "sample_rate": 48000,
+        "bits": 16,
+        "seconds": 1.722042,
+        "bytes": 165360,
+        "sha256": "3a3952dde1b76e1c41abaf6f24908a55405876443fbb6a7dd955693328af84d2",
+        "peak_dbfs": -5.9999,
+        "true_peak_dbfs_4x": -5.9998,
+        "onset_ms_at_minus_45_db": 1.0
+      },
+      "processing": {
+        "mono_energy_change_db": 0.0,
+        "removed_dc": -1.5497207641601562e-06,
+        "trim_start_seconds": 0.004125,
+        "trim_end_seconds": 0.412875,
+        "gain_db": 5.8915,
+        "source_energy_retained": 0.99997995,
+        "fade_in_ms": 0.125,
+        "fade_out_ms": 10,
+        "fade_out_start_level_relative_to_peak_db": -50.1481,
+        "resampling": "FFmpeg swresample, 64-tap filter, phase_shift 10, cutoff 0.97, 48 kHz",
+        "dither": "deterministic TPDF, 1 LSB peak-to-peak per uniform component",
+        "eq_compression_reverb_pitch_shift": "none"
+      },
+      "checks": {
+        "finite": true,
+        "no_clipped_samples": true,
+        "true_peak_below_minus_3_dbfs": true,
+        "onset_within_2_ms": true,
+        "tail_energy_retention_above_99_9_percent": true,
+        "quiet_fade_out": true
+      }
+    },
+    {
+      "id": "snare-A",
+      "voice": "snare",
+      "label": "Snare",
+      "art": "snare",
+      "variant": "A",
+      "library": "virtuosity",
+      "optional": false,
+      "target_peak_dbfs": -9,
+      "variant_note": "Close snare mic; center hits, snares on. Adjacent source velocity layers 12 and 13 are level-matched alternates, not true same-layer round robins.",
+      "source_filename": "snaremic_snare_center_vl12.flac",
+      "source_path": "Samples/snaremic/snare/snaremic_snare_center_vl12.flac",
+      "source_url": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/snaremic/snare/snaremic_snare_center_vl12.flac",
+      "source_sha256": "7b31072ff17b74785fadf3039c990da577b988f183d7bb8da50ee4e3f074a764",
+      "license": "CC0-1.0",
+      "path": "audio/snare-A.wav",
+      "original_path": "originals/snaremic_snare_center_vl12.flac",
+      "original": {
+        "channels": 1,
+        "sample_rate": 48000,
+        "bits": 24,
+        "seconds": 1.582,
+        "bytes": 75327
+      },
+      "prepared": {
+        "channels": 1,
+        "sample_rate": 48000,
+        "bits": 16,
+        "seconds": 0.450625,
+        "bytes": 43304,
+        "sha256": "fe130b3232953688305235123fb9d7f717fba8e26d688a88e7f669707ce602a7",
+        "peak_dbfs": -8.9996,
+        "true_peak_dbfs_4x": -8.9889,
+        "onset_ms_at_minus_45_db": 1.0
+      },
+      "processing": {
+        "mono_energy_change_db": 0.0,
+        "removed_dc": 0.0,
+        "trim_start_seconds": 0.004667,
+        "trim_end_seconds": 1.126708,
+        "gain_db": 10.1815,
+        "source_energy_retained": 0.99995174,
+        "fade_in_ms": 0.125,
+        "fade_out_ms": 10,
+        "fade_out_start_level_relative_to_peak_db": -52.2525,
+        "resampling": "FFmpeg swresample, 64-tap filter, phase_shift 10, cutoff 0.97, 48 kHz",
+        "dither": "deterministic TPDF, 1 LSB peak-to-peak per uniform component",
+        "eq_compression_reverb_pitch_shift": "none"
+      },
+      "checks": {
+        "finite": true,
+        "no_clipped_samples": true,
+        "true_peak_below_minus_3_dbfs": true,
+        "onset_within_2_ms": true,
+        "tail_energy_retention_above_99_9_percent": true,
+        "quiet_fade_out": true
+      }
+    },
+    {
+      "id": "snare-B",
+      "voice": "snare",
+      "label": "Snare",
+      "art": "snare",
+      "variant": "B",
+      "library": "virtuosity",
+      "optional": false,
+      "target_peak_dbfs": -9,
+      "variant_note": "Close snare mic; center hits, snares on. Adjacent source velocity layers 12 and 13 are level-matched alternates, not true same-layer round robins.",
+      "source_filename": "snaremic_snare_center_vl13.flac",
+      "source_path": "Samples/snaremic/snare/snaremic_snare_center_vl13.flac",
+      "source_url": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/snaremic/snare/snaremic_snare_center_vl13.flac",
+      "source_sha256": "c114876e77aebb86e38898b7dc55b8a670d4f60943c15e44ac41d979ba21124b",
+      "license": "CC0-1.0",
+      "path": "audio/snare-B.wav",
+      "original_path": "originals/snaremic_snare_center_vl13.flac",
+      "original": {
+        "channels": 1,
+        "sample_rate": 48000,
+        "bits": 24,
+        "seconds": 1.664312,
+        "bytes": 78489
+      },
+      "prepared": {
+        "channels": 1,
+        "sample_rate": 48000,
+        "bits": 16,
+        "seconds": 0.525125,
+        "bytes": 50456,
+        "sha256": "2c50d1fc77d900dd08a2cdde41c6c80b7fcf99934b96d2aae81c02532c91451f",
+        "peak_dbfs": -9.0004,
+        "true_peak_dbfs_4x": -9.0004,
+        "onset_ms_at_minus_45_db": 1.0
+      },
+      "processing": {
+        "mono_energy_change_db": 0.0,
+        "removed_dc": 0.0,
+        "trim_start_seconds": 0.005104,
+        "trim_end_seconds": 1.134083,
+        "gain_db": 10.1462,
+        "source_energy_retained": 0.99996752,
+        "fade_in_ms": 0.125,
+        "fade_out_ms": 10,
+        "fade_out_start_level_relative_to_peak_db": -55.393,
+        "resampling": "FFmpeg swresample, 64-tap filter, phase_shift 10, cutoff 0.97, 48 kHz",
+        "dither": "deterministic TPDF, 1 LSB peak-to-peak per uniform component",
+        "eq_compression_reverb_pitch_shift": "none"
+      },
+      "checks": {
+        "finite": true,
+        "no_clipped_samples": true,
+        "true_peak_below_minus_3_dbfs": true,
+        "onset_within_2_ms": true,
+        "tail_energy_retention_above_99_9_percent": true,
+        "quiet_fade_out": true
+      }
+    },
+    {
+      "id": "hat-closed-A",
+      "voice": "hat-closed",
+      "label": "Closed hi-hat",
+      "art": "hi-hat",
+      "variant": "A",
+      "library": "vcsl",
+      "optional": false,
+      "target_peak_dbfs": -15,
+      "variant_note": "Same source velocity (v2), true round-robin takes.",
+      "source_filename": "HiHat_HitC_v2_rr1_Mid.wav",
+      "source_path": "Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitC_v2_rr1_Mid.wav",
+      "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Hi-Hat%20Cymbal/HiHat_HitC_v2_rr1_Mid.wav",
+      "source_sha256": "e1fb54c9a030800038abcebbed1c056fb74bdeec627315f3cd5fd893c6e6b031",
+      "license": "CC0-1.0",
+      "path": "audio/hat-closed-A.wav",
+      "original_path": "originals/HiHat_HitC_v2_rr1_Mid.wav",
+      "original": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bits": 16,
+        "seconds": 1.401179,
+        "bytes": 247272
+      },
+      "prepared": {
+        "channels": 1,
+        "sample_rate": 48000,
+        "bits": 16,
+        "seconds": 0.445104,
+        "bytes": 42774,
+        "sha256": "869c3a7c458fc48492ecd7b5e288a05debf48c05ebdf33836fae2a7b11195fa5",
+        "peak_dbfs": -15.0001,
+        "true_peak_dbfs_4x": -14.6121,
+        "onset_ms_at_minus_45_db": 1.0
+      },
+      "processing": {
+        "mono_energy_change_db": -2.8206,
+        "removed_dc": 0.0,
+        "trim_start_seconds": 0.006271,
+        "trim_end_seconds": 0.949812,
+        "gain_db": 13.5774,
+        "source_energy_retained": 0.99987418,
+        "fade_in_ms": 0.125,
+        "fade_out_ms": 10,
+        "fade_out_start_level_relative_to_peak_db": -53.4895,
+        "resampling": "FFmpeg swresample, 64-tap filter, phase_shift 10, cutoff 0.97, 48 kHz",
+        "dither": "deterministic TPDF, 1 LSB peak-to-peak per uniform component",
+        "eq_compression_reverb_pitch_shift": "none"
+      },
+      "checks": {
+        "finite": true,
+        "no_clipped_samples": true,
+        "true_peak_below_minus_3_dbfs": true,
+        "onset_within_2_ms": true,
+        "tail_energy_retention_above_99_9_percent": true,
+        "quiet_fade_out": true
+      }
+    },
+    {
+      "id": "hat-closed-B",
+      "voice": "hat-closed",
+      "label": "Closed hi-hat",
+      "art": "hi-hat",
+      "variant": "B",
+      "library": "vcsl",
+      "optional": false,
+      "target_peak_dbfs": -15,
+      "variant_note": "Same source velocity (v2), true round-robin takes.",
+      "source_filename": "HiHat_HitC_v2_rr2_Mid.wav",
+      "source_path": "Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitC_v2_rr2_Mid.wav",
+      "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Hi-Hat%20Cymbal/HiHat_HitC_v2_rr2_Mid.wav",
+      "source_sha256": "72830eafed387f4b4b5904d4d6f1da23e13b48986fa1bc09d7c5771eafbb3a1a",
+      "license": "CC0-1.0",
+      "path": "audio/hat-closed-B.wav",
+      "original_path": "originals/HiHat_HitC_v2_rr2_Mid.wav",
+      "original": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bits": 16,
+        "seconds": 1.417052,
+        "bytes": 250072
+      },
+      "prepared": {
+        "channels": 1,
+        "sample_rate": 48000,
+        "bits": 16,
+        "seconds": 0.836938,
+        "bytes": 80390,
+        "sha256": "80858c4f0544878a74ed37ee0ed40d898ee94857129f42f3076d0211232eb16f",
+        "peak_dbfs": -15.0001,
+        "true_peak_dbfs_4x": -13.1285,
+        "onset_ms_at_minus_45_db": 1.0
+      },
+      "processing": {
+        "mono_energy_change_db": -2.9151,
+        "removed_dc": 0.0,
+        "trim_start_seconds": 0.006146,
+        "trim_end_seconds": 0.573979,
+        "gain_db": 16.2199,
+        "source_energy_retained": 0.99995684,
+        "fade_in_ms": 0.125,
+        "fade_out_ms": 10,
+        "fade_out_start_level_relative_to_peak_db": -55.1445,
+        "resampling": "FFmpeg swresample, 64-tap filter, phase_shift 10, cutoff 0.97, 48 kHz",
+        "dither": "deterministic TPDF, 1 LSB peak-to-peak per uniform component",
+        "eq_compression_reverb_pitch_shift": "none"
+      },
+      "checks": {
+        "finite": true,
+        "no_clipped_samples": true,
+        "true_peak_below_minus_3_dbfs": true,
+        "onset_within_2_ms": true,
+        "tail_energy_retention_above_99_9_percent": true,
+        "quiet_fade_out": true
+      }
+    },
+    {
+      "id": "hat-open-A",
+      "voice": "hat-open",
+      "label": "Open hi-hat",
+      "art": "hi-hat",
+      "variant": "A",
+      "library": "vcsl",
+      "optional": true,
+      "target_peak_dbfs": -15,
+      "variant_note": "Optional accent; true round-robin takes. Future use needs the closed hat to choke its tail.",
+      "source_filename": "HiHat_HitO_rr1_Mid.wav",
+      "source_path": "Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitO_rr1_Mid.wav",
+      "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Hi-Hat%20Cymbal/HiHat_HitO_rr1_Mid.wav",
+      "source_sha256": "fa492ec14cc6924b43ad5fcf9e9a0f406d926998835bde2eb5847cd15ad25be7",
+      "license": "CC0-1.0",
+      "path": "audio/hat-open-A.wav",
+      "original_path": "originals/HiHat_HitO_rr1_Mid.wav",
+      "original": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bits": 16,
+        "seconds": 5.819206,
+        "bytes": 1026612
+      },
+      "prepared": {
+        "channels": 1,
+        "sample_rate": 48000,
+        "bits": 16,
+        "seconds": 2.224125,
+        "bytes": 213560,
+        "sha256": "c5aea252417d5024f28472c71f3584458a161e5dfe85a8b607b997b9ac3c8639",
+        "peak_dbfs": -15.0001,
+        "true_peak_dbfs_4x": -14.9627,
+        "onset_ms_at_minus_45_db": 1.0
+      },
+      "processing": {
+        "mono_energy_change_db": -3.294,
+        "removed_dc": 0.0,
+        "trim_start_seconds": 0.007292,
+        "trim_end_seconds": 3.587792,
+        "gain_db": -0.8031,
+        "source_energy_retained": 0.99998603,
+        "fade_in_ms": 0.125,
+        "fade_out_ms": 10,
+        "fade_out_start_level_relative_to_peak_db": -52.3988,
+        "resampling": "FFmpeg swresample, 64-tap filter, phase_shift 10, cutoff 0.97, 48 kHz",
+        "dither": "deterministic TPDF, 1 LSB peak-to-peak per uniform component",
+        "eq_compression_reverb_pitch_shift": "none"
+      },
+      "checks": {
+        "finite": true,
+        "no_clipped_samples": true,
+        "true_peak_below_minus_3_dbfs": true,
+        "onset_within_2_ms": true,
+        "tail_energy_retention_above_99_9_percent": true,
+        "quiet_fade_out": true
+      }
+    },
+    {
+      "id": "hat-open-B",
+      "voice": "hat-open",
+      "label": "Open hi-hat",
+      "art": "hi-hat",
+      "variant": "B",
+      "library": "vcsl",
+      "optional": true,
+      "target_peak_dbfs": -15,
+      "variant_note": "Optional accent; true round-robin takes. Future use needs the closed hat to choke its tail.",
+      "source_filename": "HiHat_HitO_rr2_Mid.wav",
+      "source_path": "Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitO_rr2_Mid.wav",
+      "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Hi-Hat%20Cymbal/HiHat_HitO_rr2_Mid.wav",
+      "source_sha256": "f71f21883f6fe5466d15610ef0e9241ba3851c821858a958f8a6a75bff774760",
+      "license": "CC0-1.0",
+      "path": "audio/hat-open-B.wav",
+      "original_path": "originals/HiHat_HitO_rr2_Mid.wav",
+      "original": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bits": 16,
+        "seconds": 6.156281,
+        "bytes": 1086072
+      },
+      "prepared": {
+        "channels": 1,
+        "sample_rate": 48000,
+        "bits": 16,
+        "seconds": 1.618417,
+        "bytes": 155412,
+        "sha256": "f16c26e7d5fc904205a4fdc43c04f0f5df0732f9c18a6b5ff091aa1d739ce007",
+        "peak_dbfs": -14.9986,
+        "true_peak_dbfs_4x": -14.8739,
+        "onset_ms_at_minus_45_db": 1.0
+      },
+      "processing": {
+        "mono_energy_change_db": -3.2488,
+        "removed_dc": 0.0,
+        "trim_start_seconds": 0.007375,
+        "trim_end_seconds": 4.5305,
+        "gain_db": -2.2168,
+        "source_energy_retained": 0.9999892,
+        "fade_in_ms": 0.125,
+        "fade_out_ms": 10,
+        "fade_out_start_level_relative_to_peak_db": -50.1906,
+        "resampling": "FFmpeg swresample, 64-tap filter, phase_shift 10, cutoff 0.97, 48 kHz",
+        "dither": "deterministic TPDF, 1 LSB peak-to-peak per uniform component",
+        "eq_compression_reverb_pitch_shift": "none"
+      },
+      "checks": {
+        "finite": true,
+        "no_clipped_samples": true,
+        "true_peak_below_minus_3_dbfs": true,
+        "onset_within_2_ms": true,
+        "tail_energy_retention_above_99_9_percent": true,
+        "quiet_fade_out": true
+      }
+    }
+  ],
+  "demos": [
+    {
+      "name": "bongos",
+      "path": "demos/bongos.wav",
+      "bpm": 100,
+      "bars": 4,
+      "seconds": 11.6,
+      "peak_dbfs": -15.345,
+      "sha256": "de30238a609b713a51667a09ebbb62d71ff5c4bea0bee969e6bc31e198146412",
+      "events": [
+        {
+          "sample": "bongo-low-A",
+          "seconds": 0.0,
+          "gain": 0.48
+        },
+        {
+          "sample": "bongo-low-B",
+          "seconds": 1.05,
+          "gain": 0.48
+        },
+        {
+          "sample": "bongo-low-A",
+          "seconds": 1.5,
+          "gain": 0.48
+        },
+        {
+          "sample": "bongo-high-A",
+          "seconds": 0.45,
+          "gain": 0.44
+        },
+        {
+          "sample": "bongo-high-B",
+          "seconds": 0.9,
+          "gain": 0.32
+        },
+        {
+          "sample": "bongo-high-A",
+          "seconds": 1.65,
+          "gain": 0.44
+        },
+        {
+          "sample": "bongo-high-B",
+          "seconds": 2.1,
+          "gain": 0.32
+        },
+        {
+          "sample": "bongo-low-B",
+          "seconds": 2.4,
+          "gain": 0.48
+        },
+        {
+          "sample": "bongo-low-A",
+          "seconds": 3.45,
+          "gain": 0.48
+        },
+        {
+          "sample": "bongo-low-B",
+          "seconds": 3.9,
+          "gain": 0.48
+        },
+        {
+          "sample": "bongo-high-A",
+          "seconds": 2.85,
+          "gain": 0.44
+        },
+        {
+          "sample": "bongo-high-B",
+          "seconds": 3.3,
+          "gain": 0.32
+        },
+        {
+          "sample": "bongo-high-A",
+          "seconds": 4.05,
+          "gain": 0.44
+        },
+        {
+          "sample": "bongo-high-B",
+          "seconds": 4.5,
+          "gain": 0.32
+        },
+        {
+          "sample": "bongo-low-A",
+          "seconds": 4.8,
+          "gain": 0.48
+        },
+        {
+          "sample": "bongo-low-B",
+          "seconds": 5.85,
+          "gain": 0.48
+        },
+        {
+          "sample": "bongo-low-A",
+          "seconds": 6.3,
+          "gain": 0.48
+        },
+        {
+          "sample": "bongo-high-A",
+          "seconds": 5.25,
+          "gain": 0.44
+        },
+        {
+          "sample": "bongo-high-B",
+          "seconds": 5.7,
+          "gain": 0.32
+        },
+        {
+          "sample": "bongo-high-A",
+          "seconds": 6.45,
+          "gain": 0.44
+        },
+        {
+          "sample": "bongo-high-B",
+          "seconds": 6.9,
+          "gain": 0.32
+        },
+        {
+          "sample": "bongo-low-B",
+          "seconds": 7.2,
+          "gain": 0.48
+        },
+        {
+          "sample": "bongo-low-A",
+          "seconds": 8.25,
+          "gain": 0.48
+        },
+        {
+          "sample": "bongo-low-B",
+          "seconds": 8.7,
+          "gain": 0.48
+        },
+        {
+          "sample": "bongo-high-A",
+          "seconds": 7.65,
+          "gain": 0.44
+        },
+        {
+          "sample": "bongo-high-B",
+          "seconds": 8.1,
+          "gain": 0.32
+        },
+        {
+          "sample": "bongo-high-A",
+          "seconds": 8.85,
+          "gain": 0.44
+        },
+        {
+          "sample": "bongo-high-B",
+          "seconds": 9.3,
+          "gain": 0.32
+        }
+      ],
+      "scope": "Offline audition render, no game scheduling or integration"
+    },
+    {
+      "name": "whole-kit",
+      "path": "demos/whole-kit.wav",
+      "bpm": 100,
+      "bars": 4,
+      "seconds": 11.6,
+      "peak_dbfs": -7.2408,
+      "sha256": "d071fa804e9bb56b68ab804916743a49176dfa3d881169068d35fc9a1f145778",
+      "events": [
+        {
+          "sample": "bongo-low-A",
+          "seconds": 0.0,
+          "gain": 0.48
+        },
+        {
+          "sample": "bongo-low-B",
+          "seconds": 1.05,
+          "gain": 0.48
+        },
+        {
+          "sample": "bongo-low-A",
+          "seconds": 1.5,
+          "gain": 0.48
+        },
+        {
+          "sample": "bongo-high-A",
+          "seconds": 0.45,
+          "gain": 0.44
+        },
+        {
+          "sample": "bongo-high-B",
+          "seconds": 0.9,
+          "gain": 0.32
+        },
+        {
+          "sample": "bongo-high-A",
+          "seconds": 1.65,
+          "gain": 0.44
+        },
+        {
+          "sample": "bongo-high-B",
+          "seconds": 2.1,
+          "gain": 0.32
+        },
+        {
+          "sample": "kick-A",
+          "seconds": 0.0,
+          "gain": 0.68
+        },
+        {
+          "sample": "kick-B",
+          "seconds": 1.2,
+          "gain": 0.68
+        },
+        {
+          "sample": "snare-A",
+          "seconds": 0.6,
+          "gain": 0.68
+        },
+        {
+          "sample": "snare-B",
+          "seconds": 1.8,
+          "gain": 0.68
+        },
+        {
+          "sample": "hat-closed-A",
+          "seconds": 0.0,
+          "gain": 0.44
+        },
+        {
+          "sample": "hat-closed-B",
+          "seconds": 0.3,
+          "gain": 0.32
+        },
+        {
+          "sample": "hat-closed-A",
+          "seconds": 0.6,
+          "gain": 0.44
+        },
+        {
+          "sample": "hat-closed-B",
+          "seconds": 0.9,
+          "gain": 0.32
+        },
+        {
+          "sample": "hat-closed-A",
+          "seconds": 1.2,
+          "gain": 0.44
+        },
+        {
+          "sample": "hat-closed-B",
+          "seconds": 1.5,
+          "gain": 0.32
+        },
+        {
+          "sample": "hat-closed-A",
+          "seconds": 1.8,
+          "gain": 0.44
+        },
+        {
+          "sample": "hat-closed-B",
+          "seconds": 2.1,
+          "gain": 0.32
+        },
+        {
+          "sample": "bongo-low-B",
+          "seconds": 2.4,
+          "gain": 0.48
+        },
+        {
+          "sample": "bongo-low-A",
+          "seconds": 3.45,
+          "gain": 0.48
+        },
+        {
+          "sample": "bongo-low-B",
+          "seconds": 3.9,
+          "gain": 0.48
+        },
+        {
+          "sample": "bongo-high-A",
+          "seconds": 2.85,
+          "gain": 0.44
+        },
+        {
+          "sample": "bongo-high-B",
+          "seconds": 3.3,
+          "gain": 0.32
+        },
+        {
+          "sample": "bongo-high-A",
+          "seconds": 4.05,
+          "gain": 0.44
+        },
+        {
+          "sample": "bongo-high-B",
+          "seconds": 4.5,
+          "gain": 0.32
+        },
+        {
+          "sample": "kick-A",
+          "seconds": 2.4,
+          "gain": 0.68
+        },
+        {
+          "sample": "kick-B",
+          "seconds": 3.6,
+          "gain": 0.68
+        },
+        {
+          "sample": "snare-A",
+          "seconds": 3.0,
+          "gain": 0.68
+        },
+        {
+          "sample": "snare-B",
+          "seconds": 4.2,
+          "gain": 0.68
+        },
+        {
+          "sample": "hat-closed-A",
+          "seconds": 2.4,
+          "gain": 0.44
+        },
+        {
+          "sample": "hat-closed-B",
+          "seconds": 2.7,
+          "gain": 0.32
+        },
+        {
+          "sample": "hat-closed-A",
+          "seconds": 3.0,
+          "gain": 0.44
+        },
+        {
+          "sample": "hat-closed-B",
+          "seconds": 3.3,
+          "gain": 0.32
+        },
+        {
+          "sample": "hat-closed-A",
+          "seconds": 3.6,
+          "gain": 0.44
+        },
+        {
+          "sample": "hat-closed-B",
+          "seconds": 3.9,
+          "gain": 0.32
+        },
+        {
+          "sample": "hat-closed-A",
+          "seconds": 4.2,
+          "gain": 0.44
+        },
+        {
+          "sample": "hat-closed-B",
+          "seconds": 4.5,
+          "gain": 0.32
+        },
+        {
+          "sample": "bongo-low-A",
+          "seconds": 4.8,
+          "gain": 0.48
+        },
+        {
+          "sample": "bongo-low-B",
+          "seconds": 5.85,
+          "gain": 0.48
+        },
+        {
+          "sample": "bongo-low-A",
+          "seconds": 6.3,
+          "gain": 0.48
+        },
+        {
+          "sample": "bongo-high-A",
+          "seconds": 5.25,
+          "gain": 0.44
+        },
+        {
+          "sample": "bongo-high-B",
+          "seconds": 5.7,
+          "gain": 0.32
+        },
+        {
+          "sample": "bongo-high-A",
+          "seconds": 6.45,
+          "gain": 0.44
+        },
+        {
+          "sample": "bongo-high-B",
+          "seconds": 6.9,
+          "gain": 0.32
+        },
+        {
+          "sample": "kick-A",
+          "seconds": 4.8,
+          "gain": 0.68
+        },
+        {
+          "sample": "kick-B",
+          "seconds": 6.0,
+          "gain": 0.68
+        },
+        {
+          "sample": "snare-A",
+          "seconds": 5.4,
+          "gain": 0.68
+        },
+        {
+          "sample": "snare-B",
+          "seconds": 6.6,
+          "gain": 0.68
+        },
+        {
+          "sample": "hat-closed-A",
+          "seconds": 4.8,
+          "gain": 0.44
+        },
+        {
+          "sample": "hat-closed-B",
+          "seconds": 5.1,
+          "gain": 0.32
+        },
+        {
+          "sample": "hat-closed-A",
+          "seconds": 5.4,
+          "gain": 0.44
+        },
+        {
+          "sample": "hat-closed-B",
+          "seconds": 5.7,
+          "gain": 0.32
+        },
+        {
+          "sample": "hat-closed-A",
+          "seconds": 6.0,
+          "gain": 0.44
+        },
+        {
+          "sample": "hat-closed-B",
+          "seconds": 6.3,
+          "gain": 0.32
+        },
+        {
+          "sample": "hat-closed-A",
+          "seconds": 6.6,
+          "gain": 0.44
+        },
+        {
+          "sample": "hat-closed-B",
+          "seconds": 6.9,
+          "gain": 0.32
+        },
+        {
+          "sample": "bongo-low-B",
+          "seconds": 7.2,
+          "gain": 0.48
+        },
+        {
+          "sample": "bongo-low-A",
+          "seconds": 8.25,
+          "gain": 0.48
+        },
+        {
+          "sample": "bongo-low-B",
+          "seconds": 8.7,
+          "gain": 0.48
+        },
+        {
+          "sample": "bongo-high-A",
+          "seconds": 7.65,
+          "gain": 0.44
+        },
+        {
+          "sample": "bongo-high-B",
+          "seconds": 8.1,
+          "gain": 0.32
+        },
+        {
+          "sample": "bongo-high-A",
+          "seconds": 8.85,
+          "gain": 0.44
+        },
+        {
+          "sample": "bongo-high-B",
+          "seconds": 9.3,
+          "gain": 0.32
+        },
+        {
+          "sample": "kick-A",
+          "seconds": 7.2,
+          "gain": 0.68
+        },
+        {
+          "sample": "kick-B",
+          "seconds": 8.4,
+          "gain": 0.68
+        },
+        {
+          "sample": "snare-A",
+          "seconds": 7.8,
+          "gain": 0.68
+        },
+        {
+          "sample": "snare-B",
+          "seconds": 9.0,
+          "gain": 0.68
+        },
+        {
+          "sample": "hat-closed-A",
+          "seconds": 7.2,
+          "gain": 0.44
+        },
+        {
+          "sample": "hat-closed-B",
+          "seconds": 7.5,
+          "gain": 0.32
+        },
+        {
+          "sample": "hat-closed-A",
+          "seconds": 7.8,
+          "gain": 0.44
+        },
+        {
+          "sample": "hat-closed-B",
+          "seconds": 8.1,
+          "gain": 0.32
+        },
+        {
+          "sample": "hat-closed-A",
+          "seconds": 8.4,
+          "gain": 0.44
+        },
+        {
+          "sample": "hat-closed-B",
+          "seconds": 8.7,
+          "gain": 0.32
+        },
+        {
+          "sample": "hat-closed-A",
+          "seconds": 9.0,
+          "gain": 0.44
+        },
+        {
+          "sample": "hat-closed-B",
+          "seconds": 9.3,
+          "gain": 0.32
+        }
+      ],
+      "scope": "Offline audition render, no game scheduling or integration"
+    }
+  ],
+  "checks_passed": true,
+  "audio_quality_note": "Technical checks do not substitute for human listening approval.",
+  "integration": {
+    "date": "2026-10-14",
+    "local_url": "http://127.0.0.1:5417/BongoPlanet/",
+    "voices": [
+      "bongo-high",
+      "bongo-low",
+      "kick",
+      "snare",
+      "hi-hat"
+    ],
+    "public_source_manifest": "public/audio/percussion/source-manifest.json"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "command": "npm run typecheck",
+  "toolChunk": "885546",
+  "exitCode": 1,
+  "stdout": "\n> bongo-planet@0.1.0 typecheck\n> tsc --noEmit\n\nscripts/movement-backpressure-live.spec.ts(96,292): error TS1128: Declaration or statement expected.\nscripts/movement-backpressure-live.spec.ts(96,295): error TS1005: ';' expected.\n",
+  "scope": "First source03 check: sibling draft parse failure, no camera diagnostic; no actual run.",
+  "cameraSourceSHA256": "a0a9dc7db15b4fff568b2a6b1cfeb41a93b47a7f2f265e2895fba45cfde099b1",
+  "recordedUTC": "2026-10-12T02:54:43.398974+00:00"
+}

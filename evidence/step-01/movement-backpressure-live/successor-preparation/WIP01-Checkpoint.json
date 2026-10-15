@@ -1,0 +1,38 @@
+{
+  "title": "Bongo Planet movement successor WIP01 typed source checkpoint",
+  "createdAt": "2026-10-12T06:43:50.457498+00:00",
+  "scope": "Source preparation only; not frozen implementation GO; pure controls/complete package pending",
+  "privateTypecheck": {
+    "tool": "5e27ca",
+    "exit": 0,
+    "seconds": 0.230800625,
+    "output": "typecheck-private-WIP01.log"
+  },
+  "precedingRootGlobalFailure": "Root68cd5e v.time unknown fixed; root owns its actual failure log",
+  "files": [
+    {
+      "source": "scripts/movement-backpressure-successor.spec.ts",
+      "copy": "evidence/step-01/movement-backpressure-live/successor-preparation/wip01-typecheck-snapshot/scripts/movement-backpressure-successor.spec.ts",
+      "bytes": 55828,
+      "sha256": "f31dd6a3006690a232f06ae5f8745c7cb23f27d1fa19d2f98edd91b9840cbad2"
+    },
+    {
+      "source": "evidence/step-01/movement-backpressure-live/successor-preparation/successor-contract01.ts",
+      "copy": "evidence/step-01/movement-backpressure-live/successor-preparation/wip01-typecheck-snapshot/evidence/step-01/movement-backpressure-live/successor-preparation/successor-contract01.ts",
+      "bytes": 2910,
+      "sha256": "6a2353ce59478c470a0590858cf83009ce7a9d0461390adb82ba14bbfd52e18c"
+    },
+    {
+      "source": "evidence/step-01/movement-backpressure-live/successor-preparation/playwright.config.ts",
+      "copy": "evidence/step-01/movement-backpressure-live/successor-preparation/wip01-typecheck-snapshot/evidence/step-01/movement-backpressure-live/successor-preparation/playwright.config.ts",
+      "bytes": 876,
+      "sha256": "4cebff58ec87b2e0efe9f8241c4f18fda0ba05eb8bab5ebcf2d26774da317f08"
+    },
+    {
+      "source": "evidence/step-01/movement-backpressure-live/successor-preparation/tsconfig.source01.json",
+      "copy": "evidence/step-01/movement-backpressure-live/successor-preparation/wip01-typecheck-snapshot/evidence/step-01/movement-backpressure-live/successor-preparation/tsconfig.source01.json",
+      "bytes": 189,
+      "sha256": "b57c66b9702a11521e8cc1fdc83c267d9e442b04e3d4930ea560775fc1bef117"
+    }
+  ]
+}

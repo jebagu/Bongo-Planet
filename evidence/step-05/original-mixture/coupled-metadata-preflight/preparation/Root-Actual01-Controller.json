@@ -1,0 +1,166 @@
+{
+  "startedUtc": "2026-10-12T06:11:15.973610+00:00",
+  "goSha256": "60c265c92cb36bbe8a4eb95f7796b619660a3ee0f253df808d03635bc0b985f1",
+  "command": [
+    "python3",
+    "scripts/coupled-onset-metadata-preflight.py",
+    "--run",
+    "--output-dir",
+    "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-05/original-mixture/coupled-metadata-preflight/attempt-01"
+  ],
+  "environment": {
+    "BONGO_METADATA_EVIDENCE_DIR": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-05/original-mixture/coupled-metadata-preflight/attempt-01",
+    "BONGO_MOVEMENT_RESOURCE_JOURNAL": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/Actual01-Resource-Claims.jsonl"
+  },
+  "mainWallSeconds": 125,
+  "totalWallSeconds": 135,
+  "forcedCleanup": false,
+  "errors": [],
+  "claims": [],
+  "owned": {},
+  "rssSamples": [
+    {
+      "elapsedSeconds": 0.057262292015366256,
+      "rssKiB": 34496
+    },
+    {
+      "elapsedSeconds": 0.22377020900603384,
+      "rssKiB": 59472
+    },
+    {
+      "elapsedSeconds": 0.3822221669834107,
+      "rssKiB": 59952
+    },
+    {
+      "elapsedSeconds": 0.5422099590068683,
+      "rssKiB": 60112
+    },
+    {
+      "elapsedSeconds": 0.6991411249618977,
+      "rssKiB": 63408
+    },
+    {
+      "elapsedSeconds": 0.864822292001918,
+      "rssKiB": 68288
+    },
+    {
+      "elapsedSeconds": 1.0300820840056986,
+      "rssKiB": 73344
+    },
+    {
+      "elapsedSeconds": 1.1888497089967132,
+      "rssKiB": 78592
+    },
+    {
+      "elapsedSeconds": 1.3477888340130448,
+      "rssKiB": 85488
+    },
+    {
+      "elapsedSeconds": 1.5064493749523535,
+      "rssKiB": 92240
+    },
+    {
+      "elapsedSeconds": 1.6647325420053676,
+      "rssKiB": 98432
+    },
+    {
+      "elapsedSeconds": 1.826117541990243,
+      "rssKiB": 105856
+    },
+    {
+      "elapsedSeconds": 1.9900612919591367,
+      "rssKiB": 112256
+    },
+    {
+      "elapsedSeconds": 2.146893791970797,
+      "rssKiB": 118624
+    },
+    {
+      "elapsedSeconds": 2.308054208988324,
+      "rssKiB": 124752
+    },
+    {
+      "elapsedSeconds": 2.464266209048219,
+      "rssKiB": 130736
+    },
+    {
+      "elapsedSeconds": 2.6263479590415955,
+      "rssKiB": 131440
+    },
+    {
+      "elapsedSeconds": 2.7830127089982852,
+      "rssKiB": 131440
+    },
+    {
+      "elapsedSeconds": 2.9497806249419227,
+      "rssKiB": 132560
+    },
+    {
+      "elapsedSeconds": 3.1149505419889465,
+      "rssKiB": 132608
+    },
+    {
+      "elapsedSeconds": 3.27389208402019,
+      "rssKiB": 132608
+    },
+    {
+      "elapsedSeconds": 3.4393165840301663,
+      "rssKiB": 132608
+    },
+    {
+      "elapsedSeconds": 3.6076107500120997,
+      "rssKiB": 132608
+    },
+    {
+      "elapsedSeconds": 3.773250999976881,
+      "rssKiB": 132624
+    },
+    {
+      "elapsedSeconds": 3.9363930840045214,
+      "rssKiB": 132624
+    },
+    {
+      "elapsedSeconds": 4.100622458965518,
+      "rssKiB": 132624
+    },
+    {
+      "elapsedSeconds": 4.268467999994755,
+      "rssKiB": 133376
+    },
+    {
+      "elapsedSeconds": 4.433312334003858,
+      "rssKiB": 133376
+    },
+    {
+      "elapsedSeconds": 4.593879499938339,
+      "rssKiB": 133376
+    },
+    {
+      "elapsedSeconds": 4.760757541982457,
+      "rssKiB": 133584
+    },
+    {
+      "elapsedSeconds": 4.926936042029411,
+      "rssKiB": 133584
+    },
+    {
+      "elapsedSeconds": 5.093607167014852,
+      "rssKiB": 123344
+    }
+  ],
+  "maximumObservedRssKiB": 133584,
+  "mainPid": 61083,
+  "mainGroup": 61083,
+  "mainIdentity": {
+    "pid": 61083,
+    "parent": 61082,
+    "group": 61083,
+    "birth": "Mon Oct 12 09:11:15 2026",
+    "stat": "Rs",
+    "command": "/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/coupled-onset-metadata-preflight.py --run --output-dir /Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-05/original-mixture/coupled-metadata-preflight/attempt-01"
+  },
+  "childExitCode": 1,
+  "remainingOwned": {},
+  "elapsedSeconds": 5.311720125027932,
+  "endedUtc": "2026-10-12T06:11:21.285369+00:00"
+}

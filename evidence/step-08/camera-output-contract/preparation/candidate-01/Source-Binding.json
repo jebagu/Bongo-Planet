@@ -1,0 +1,59 @@
+{
+  "scope": "Source-only camera contract candidate; copies unchanged production dependencies for exact future source contract. No services/probes/browser.",
+  "files": [
+    {
+      "source": "scripts/camera-output-contract.spec.ts",
+      "copy": "candidate-01/camera-output-contract.spec.ts",
+      "sha256": "1697d8afa1e8fb364f62716a0de0ab7b998bf4a4a6ec6cd9b56b87ab7ff184e0",
+      "bytes": 15516
+    },
+    {
+      "source": "src/output/bridge.ts",
+      "copy": "candidate-01/bridge.ts",
+      "sha256": "c24a37011f631df7a979b5c4010b1b96baa22b6799abae4c231c95246deec460",
+      "bytes": 15485
+    },
+    {
+      "source": "src/output/NativeClock.ts",
+      "copy": "candidate-01/NativeClock.ts",
+      "sha256": "97c63e08014aed1ab9ee8c5cbf7166a4f33e0027fbb10f91b305fde32c30f173",
+      "bytes": 28579
+    },
+    {
+      "source": "src/output/ReceiverClock.ts",
+      "copy": "candidate-01/ReceiverClock.ts",
+      "sha256": "5dcea0b57e27436674b77bc9eea2a8973f7da87986e962f5f36fa4ca22dab7b8",
+      "bytes": 2945
+    },
+    {
+      "source": "src/output/protocol.ts",
+      "copy": "candidate-01/protocol.ts",
+      "sha256": "85f2219aad582737d93ff0a3bfd3afe4f0441ea6065262847a9ec3e301190c37",
+      "bytes": 3569
+    },
+    {
+      "source": "src/view/SphereView.ts",
+      "copy": "candidate-01/SphereView.ts",
+      "sha256": "c684476cc5bcf1dfcab1bab157efdde61f983743de2e0d90d4e1f1a6234eddd3",
+      "bytes": 28964
+    },
+    {
+      "source": "src/main.ts",
+      "copy": "candidate-01/main.ts",
+      "sha256": "6761945b12c918e4877afd1cd4879ea5f9b1470c8a9449f6e04ea77ce6926243",
+      "bytes": 16488
+    },
+    {
+      "source": "public/fixtures/F07.json",
+      "copy": "candidate-01/F07.json",
+      "sha256": "4b0502200e3ca8dd690eff0b12abf7122290164dd7b730eb8333a500b22b252c",
+      "bytes": 1286
+    },
+    {
+      "source": "evidence/step-08/camera-output-contract/preparation/playwright.config.ts",
+      "copy": "playwright.config.ts",
+      "sha256": "7fd215cf28e9045fbe3c3059f1b4e4bcf5941c38f6234ce7361fec0d26782800",
+      "bytes": 438
+    }
+  ]
+}

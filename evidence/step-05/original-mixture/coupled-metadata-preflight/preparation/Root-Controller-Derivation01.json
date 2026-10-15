@@ -1,0 +1,64 @@
+{
+  "sourceControllerSha256": "be9ab712bfa87c99bf291f2e88baaa296ec884a3605016543f42bc62ac1fc8a8",
+  "derivedControllerSha256": "5a47d9944dabf16d4ac1f22c1178aa2ed45b6b2f8a77f53803ad0113e3283170",
+  "sourceOnly": true,
+  "changes": [
+    [
+      "Bongo Planet: one approved reconnect acquisition",
+      "Bongo Planet: one approved metadata acquisition"
+    ],
+    [
+      "Root authorizes exactly one reconnect acquisition",
+      "Root authorizes exactly one metadata acquisition"
+    ],
+    [
+      "    expected = [\"npx\", \"playwright\", \"test\", \"--config=evidence/step-09/reconnect-current/preparation/playwright.config.ts\"]\n    if command != expected:\n        raise ValueError(\"Unexpected command\")\n",
+      ""
+    ],
+    [
+      "BONGO_RECONNECT_EVIDENCE_DIR",
+      "BONGO_METADATA_EVIDENCE_DIR"
+    ],
+    [
+      "    runner = Path(env[\"BONGO_RECONNECT_PLAYWRIGHT_OUTPUT\"])\n",
+      ""
+    ],
+    [
+      "[journal_path, claims_path, output, runner]",
+      "[journal_path, claims_path, output]"
+    ],
+    [
+      "    for entry in go[\"sourceBindings\"]:",
+      "    expected = [\"python3\", \"scripts/coupled-onset-metadata-preflight.py\", \"--run\", \"--output-dir\", str(output)]\n    if command != expected or not output.is_absolute():\n        raise ValueError(\"Unexpected command or nonabsolute output\")\n    for entry in go[\"sourceBindings\"]:"
+    ],
+    [
+      "\"mainWallSeconds\": 35,",
+      "\"mainWallSeconds\": 125,"
+    ],
+    [
+      "\"totalWallSeconds\": 50,",
+      "\"totalWallSeconds\": 135,"
+    ],
+    [
+      "started >= 35:",
+      "started >= 125:"
+    ],
+    [
+      "record[\"elapsedSeconds\"] > 50:",
+      "record[\"elapsedSeconds\"] > 135:"
+    ],
+    [
+      "kinds.count(\"browser-server\") != 1",
+      "kinds.count(\"browser-server\") != 0"
+    ],
+    [
+      "Successful reconnect run lacks its sole browser resource claim",
+      "Successful metadata run has unexpected process resource claims"
+    ]
+  ],
+  "additionalChanges": "Sample child RSS independently at observed inventory boundaries, KiB explicit256MiB/2048row limits; terminal PID race distinct from unknown-live RSS; truthful no-child header, preserve over-budget RSS sample before failure",
+  "mainSeconds": 125,
+  "totalSeconds": 135,
+  "rssSamplingNotPeakCertificate": true,
+  "expectedBrowserProxyClaims": 0
+}

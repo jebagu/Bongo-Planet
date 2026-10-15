@@ -1,0 +1,15 @@
+{
+  "sourceOnly": true,
+  "configurationTypecheck": {
+    "chunk": "a44c87",
+    "exitCode": 1,
+    "command": "npx tsc --noEmit --target ES2022 --module ESNext --moduleResolution Bundler --strict --skipLibCheck evidence/step-08/camera-active-output/preparation/playwright.config.ts",
+    "output": "error TS5112: tsconfig.json is present but will not be loaded if files are specified on commandline. Use '--ignoreConfig' to skip this error.\n"
+  },
+  "sourceCopy": {
+    "chunk": "4b6833",
+    "exitCode": 1,
+    "failure": "FileNotFoundError: src/core/music.ts",
+    "scope": "Preparation inventory filename error. Existing partial candidate01 left intact. No runtime launched, no source behavior changed."
+  }
+}

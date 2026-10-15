@@ -1,0 +1,45 @@
+{
+  "id": "P05",
+  "title": "Take On Me",
+  "artist": "a-ha",
+  "scope": "Four-bar instrumental cover excerpt",
+  "bpm": 166,
+  "phraseBeats": 16,
+  "generators": 3,
+  "pieces": 50,
+  "chordStacks": 4,
+  "maximumStack": 4,
+  "chordProgression": [
+    "Bm",
+    "E",
+    "A",
+    "D"
+  ],
+  "routedVertices": 91,
+  "directedGates": 88,
+  "allTravelFinite": true,
+  "spatial": {
+    "soundingLocations": 29,
+    "largestGapDegrees": 23.800182602175095
+  },
+  "compositionSha256": "28cfdf068d9e8a5e74109ad72cec261d95b7919f6c08abbc99e290ab165011f6",
+  "simulation": {
+    "phrases": 8,
+    "writtenHitsAndRestsMatch": true,
+    "maximumEdges": 3,
+    "maximumDecisionsPerQuantum": 4,
+    "lateDrops": 0
+  },
+  "audio": {
+    "file": "take-on-me.wav",
+    "seconds": 5.783125,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peak": 0.448690265417099,
+    "rms": 0.08871825024836336,
+    "maximumVoices": 16,
+    "stolenVoices": 0,
+    "lateDrops": 0,
+    "frameRoundingError": -0.3614457831135951
+  }
+}

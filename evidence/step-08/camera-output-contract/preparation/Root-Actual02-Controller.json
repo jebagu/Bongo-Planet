@@ -1,0 +1,22 @@
+{
+  "command": [
+    "npx",
+    "playwright",
+    "test",
+    "--config=evidence/step-08/camera-output-contract/preparation/playwright-03.config.ts"
+  ],
+  "environment": {
+    "BONGO_CAMERA_EVIDENCE_DIR": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-output-contract/attempt-02",
+    "BONGO_CAMERA_PLAYWRIGHT_OUTPUT": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-output-contract/runner-02"
+  },
+  "ownedPid": 37853,
+  "ownedProcessGroup": 37853,
+  "startedUtc": "2026-10-12T03:01:47.780056+00:00",
+  "externalWallSeconds": 50,
+  "termGraceSeconds": 3,
+  "forcedCleanup": false,
+  "GO_sha256": "273397905b4e33fd3e8ccea30521bcc1231e251809bfb10df04dee796e9941a3",
+  "endedUtc": "2026-10-12T03:01:54.245870+00:00",
+  "elapsedSeconds": 6.467746790964156,
+  "childExitCode": 0
+}

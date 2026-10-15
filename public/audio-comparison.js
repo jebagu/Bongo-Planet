@@ -1,0 +1,33 @@
+// Diagnostic-only passive tap: existing audible connection stays untouched.
+const frame=document.querySelector('#instrument'), button=document.querySelector('#capture'), state=document.querySelector('#state'), result=document.querySelector('#result');
+let recording=false;const registeredContexts=new WeakSet();let downloadUrls=[];
+frame.onload=()=>{const latency=document.querySelector('#latency').value;if(latency!=='default'){const NativeContext=frame.contentWindow.AudioContext;frame.contentWindow.AudioContext=class extends NativeContext{constructor(options){super({...options,latencyHint:latency});}};}button.disabled=false;state.textContent='Choose a constellation below, then record.';};
+document.querySelector('#latency').onchange=async()=>{if(recording)return;button.disabled=true;try{await frame.contentWindow.__bongo?.audio.dispose();}catch{}frame.src='./';};
+const worklet=`class Tap extends AudioWorkletProcessor {
+ constructor(){super();this.remaining=0;this.buffer=new Float32Array(8192);this.used=0;this.startFrame=0;this.startTime=0;this.port.onmessage=e=>{if(e.data.type==='start'){this.remaining=e.data.frames;this.used=0;this.first=true;}};}
+ process(inputs,outputs){for(const bus of outputs)for(const channel of bus)channel.fill(0);const input=inputs[0]?.[0];if(!input||!this.remaining)return true;
+ if(this.first){this.startFrame=currentFrame;this.startTime=currentTime;this.first=false;this.port.postMessage({type:'start',frame:currentFrame,time:currentTime,sampleRate});}
+ const n=Math.min(input.length,this.remaining);this.buffer.set(input.subarray(0,n),this.used);this.used+=n;this.remaining-=n;
+ if(this.used===this.buffer.length||!this.remaining){const samples=this.buffer.slice(0,this.used);this.port.postMessage({type:'pcm',samples},[samples.buffer]);this.used=0;}
+ if(!this.remaining)this.port.postMessage({type:'done',endFrame:currentFrame+n,endTime:currentTime+n/sampleRate});return true;
+ }}registerProcessor('bongo-comparison-tap',Tap);`;
+button.onclick=async()=>{
+ if(recording)return;recording=true;button.disabled=true;result.textContent='';for(const url of downloadUrls)URL.revokeObjectURL(url);downloadUrls=[];document.querySelector('#downloads').replaceChildren();
+ const w=frame.contentWindow,b=w.__bongo,scene=b.scene,events=[],statuses=[],chunks=[];let tap,moduleUrl,timer;const originalEvents=b.audio.onEvents,originalStatus=b.audio.onStatus;
+ try{
+ state.textContent='Enabling sound…';await b.audio.enable();const context=b.audio.context,node=b.audio.node;
+ if(!registeredContexts.has(context)){moduleUrl=URL.createObjectURL(new Blob([worklet],{type:'text/javascript'}));await context.audioWorklet.addModule(moduleUrl);registeredContexts.add(context);}
+ tap=new AudioWorkletNode(context,'bongo-comparison-tap',{numberOfInputs:1,numberOfOutputs:1,outputChannelCount:[1],channelCount:1,channelCountMode:'explicit'});
+ const metadata={schema:1,latencyHint:document.querySelector('#latency').value,browser:document.querySelector('#browser').value,fixture:w.document.querySelector('#fixture').value,scene,userAgent:navigator.userAgent,sampleRate:context.sampleRate,baseLatency:context.baseLatency,outputLatency:context.outputLatency,sinkId:context.sinkId??'default',destination:{channelCount:context.destination.channelCount,maxChannelCount:context.destination.maxChannelCount,channelCountMode:context.destination.channelCountMode},scripts:[...w.document.scripts].map(x=>x.src),capture:'mono Float32 PCM at output of product AudioWorklet before browser/device output',startedAt:new Date().toISOString()};
+ b.audio.onEvents=ev=>{events.push(...structuredClone(ev));originalEvents?.(ev);};b.audio.onStatus=s=>{statuses.push(structuredClone(s));originalStatus?.(s);};
+ const complete=new Promise((resolve,reject)=>{timer=setTimeout(()=>reject(Error('Recording exceeded 25 seconds')),25000);tap.port.onmessage=({data})=>{if(data.type==='start')metadata.start=data;else if(data.type==='pcm')chunks.push(data.samples);else if(data.type==='done'){metadata.end=data;resolve();}};});
+ node.connect(tap);tap.connect(context.destination);tap.port.postMessage({type:'start',frames:Math.round(context.sampleRate*12)});b.audio.play();state.textContent='Recording 12 seconds of raw output…';await complete;clearTimeout(timer);b.audio.pause();
+ const length=chunks.reduce((n,x)=>n+x.length,0),pcm=new Float32Array(length);let offset=0;for(const chunk of chunks){pcm.set(chunk,offset);offset+=chunk.length;}
+ const bytes=new Uint8Array(pcm.buffer);let binary='';for(let i=0;i<bytes.length;i+=8192)binary+=String.fromCharCode(...bytes.subarray(i,i+8192));
+ const payload={...metadata,events,statuses,frames:length,pcmBase64:btoa(binary)};
+ const header=new ArrayBuffer(44),view=new DataView(header);const word=(offset,value)=>{for(let i=0;i<value.length;i++)view.setUint8(offset+i,value.charCodeAt(i));};word(0,'RIFF');view.setUint32(4,36+bytes.length,true);word(8,'WAVE');word(12,'fmt ');view.setUint32(16,16,true);view.setUint16(20,3,true);view.setUint16(22,1,true);view.setUint32(24,context.sampleRate,true);view.setUint32(28,context.sampleRate*4,true);view.setUint16(32,4,true);view.setUint16(34,32,true);word(36,'data');view.setUint32(40,bytes.length,true);
+ const metadataOnly={...payload};delete metadataOnly.pcmBase64;const stem=`Bongo-Planet-${metadata.browser}-${metadata.fixture}`;for(const [label,blob,extension] of [['Download WAV',new Blob([header,bytes],{type:'audio/wav'}),'wav'],['Download capture details',new Blob([JSON.stringify(metadataOnly,null,2)],{type:'application/json'}),'json']]){const a=document.createElement('a');a.textContent=label+' · ';a.href=URL.createObjectURL(blob);a.download=stem+'.'+extension;downloadUrls.push(a.href);document.querySelector('#downloads').append(a);}
+ let saved={localDownloads:true};try{const response=await fetch('http://127.0.0.1:5519/capture',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});if(!response.ok)throw Error(await response.text());saved=await response.json();}catch(error){saved={localDownloads:true,collector:String(error)};}
+ result.textContent=JSON.stringify({...saved,sampleRate:metadata.sampleRate,baseLatency:metadata.baseLatency,outputLatency:metadata.outputLatency,scenePieces:scene.pieces.length,events:events.length,lastStatus:statuses.at(-1)},null,2);state.textContent='Recording ready. Playback paused.';
+ }catch(error){state.textContent=String(error);b?.audio.pause();}finally{clearTimeout(timer);if(tap){try{b.audio.node.disconnect(tap);}catch{}try{tap.disconnect();}catch{}try{tap.port.close();}catch{}}if(moduleUrl)URL.revokeObjectURL(moduleUrl);b.audio.onEvents=originalEvents;b.audio.onStatus=originalStatus;recording=false;button.disabled=false;}
+};

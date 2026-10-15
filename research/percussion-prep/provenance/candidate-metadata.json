@@ -1,0 +1,192 @@
+[
+  {
+    "name": "BongoH_Hit1_v2_rr1_Mid.wav",
+    "source_path": "Membranophones/Struck Membranophones/Bongos/BongoH_Hit1_v2_rr1_Mid.wav",
+    "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Bongos/BongoH_Hit1_v2_rr1_Mid.wav",
+    "sha256": "dd9b6239a151702966a995937f74ac022c9bb950c967277fbd16beaced0c9e1a",
+    "bytes": 209356,
+    "sample_rate": "44100",
+    "channels": 2,
+    "bits_per_sample": 16,
+    "duration": "1.186236"
+  },
+  {
+    "name": "BongoH_Hit1_v2_rr2_Mid.wav",
+    "source_path": "Membranophones/Struck Membranophones/Bongos/BongoH_Hit1_v2_rr2_Mid.wav",
+    "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Bongos/BongoH_Hit1_v2_rr2_Mid.wav",
+    "sha256": "03d4653d70e2180643872da4ebb94845f4da81b8d8f9ba2c7df3a611bd9d65ac",
+    "bytes": 177716,
+    "sample_rate": "44100",
+    "channels": 2,
+    "bits_per_sample": 16,
+    "duration": "1.006871"
+  },
+  {
+    "name": "BongoL_Hit1_v2_rr1_Mid.wav",
+    "source_path": "Membranophones/Struck Membranophones/Bongos/BongoL_Hit1_v2_rr1_Mid.wav",
+    "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Bongos/BongoL_Hit1_v2_rr1_Mid.wav",
+    "sha256": "0ee22ac30a27a1e91fbba58e0c4b36b28ea6c508dad5f11b10bdb9db07f2b443",
+    "bytes": 168720,
+    "sample_rate": "44100",
+    "channels": 2,
+    "bits_per_sample": 16,
+    "duration": "0.955873"
+  },
+  {
+    "name": "BongoL_Hit1_v2_rr2_Mid.wav",
+    "source_path": "Membranophones/Struck Membranophones/Bongos/BongoL_Hit1_v2_rr2_Mid.wav",
+    "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Bongos/BongoL_Hit1_v2_rr2_Mid.wav",
+    "sha256": "0933627d939145e57ff95e93ce3618b0c35f8de6ed6f0f4bfad42f8dd66f8fa5",
+    "bytes": 209296,
+    "sample_rate": "44100",
+    "channels": 2,
+    "bits_per_sample": 16,
+    "duration": "1.185896"
+  },
+  {
+    "name": "BDrumNew_hit_v2_rr1_Sum.wav",
+    "source_path": "Membranophones/Struck Membranophones/Bass Drum 1/BDrumNew_hit_v2_rr1_Sum.wav",
+    "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Bass%20Drum%201/BDrumNew_hit_v2_rr1_Sum.wav",
+    "sha256": "56827fe9b55f282a0db851e242bc24660d339a0e358b182966aea047240c1136",
+    "bytes": 281616,
+    "sample_rate": "44100",
+    "channels": 2,
+    "bits_per_sample": 16,
+    "duration": "1.596213"
+  },
+  {
+    "name": "BDrumNew_hit_v2_rr2_Sum.wav",
+    "source_path": "Membranophones/Struck Membranophones/Bass Drum 1/BDrumNew_hit_v2_rr2_Sum.wav",
+    "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Bass%20Drum%201/BDrumNew_hit_v2_rr2_Sum.wav",
+    "sha256": "f1f8979de26f8efe278fe778da7bdce2a39fbfb9f2cbf345e38ce8c66f171b59",
+    "bytes": 302396,
+    "sample_rate": "44100",
+    "channels": 2,
+    "bits_per_sample": 16,
+    "duration": "1.714014"
+  },
+  {
+    "name": "bdrum_muted_mp_rr1.wav",
+    "source_path": "Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_muted_mp_rr1.wav",
+    "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Bass%20Drum%203%20-%20Legacy/bdrum_muted_mp_rr1.wav",
+    "sha256": "62d8589563678873e7f9b7d1dbd41b4f52fd5bd47a5aa2a3b194a732c4bff31e",
+    "bytes": 829612,
+    "sample_rate": "44100",
+    "channels": 2,
+    "bits_per_sample": 24,
+    "duration": "3.135170",
+    "bits_per_raw_sample": "24"
+  },
+  {
+    "name": "bdrum_muted_mp_rr2.wav",
+    "source_path": "Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_muted_mp_rr2.wav",
+    "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Bass%20Drum%203%20-%20Legacy/bdrum_muted_mp_rr2.wav",
+    "sha256": "5df82fd7340a80a676aff13d2d44ffe2554008b7ecda813b237499d15d65a09a",
+    "bytes": 593836,
+    "sample_rate": "44100",
+    "channels": 2,
+    "bits_per_sample": 24,
+    "duration": "2.244104",
+    "bits_per_raw_sample": "24"
+  },
+  {
+    "name": "bdrum_muted_mf_rr1.wav",
+    "source_path": "Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_muted_mf_rr1.wav",
+    "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Bass%20Drum%203%20-%20Legacy/bdrum_muted_mf_rr1.wav",
+    "sha256": "7b8702ec8eeb6efef65d6e50282ab766ea867b7027f242f67d252e02add7537e",
+    "bytes": 768484,
+    "sample_rate": "44100",
+    "channels": 2,
+    "bits_per_sample": 24,
+    "duration": "2.904150",
+    "bits_per_raw_sample": "24"
+  },
+  {
+    "name": "Snare3M_HitSN_v2_rr1_Mid.wav",
+    "source_path": "Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_HitSN_v2_rr1_Mid.wav",
+    "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Snare%20Drum%2C%20Modern%202/Snare3M_HitSN_v2_rr1_Mid.wav",
+    "sha256": "db5a241f5758dc5e3d2fb953e495226f2b43b6453eefe6889014c32d82a5d15e",
+    "bytes": 154688,
+    "sample_rate": "44100",
+    "channels": 2,
+    "bits_per_sample": 16,
+    "duration": "0.876667"
+  },
+  {
+    "name": "Snare3M_HitSN_v2_rr2_Mid.wav",
+    "source_path": "Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_HitSN_v2_rr2_Mid.wav",
+    "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Snare%20Drum%2C%20Modern%202/Snare3M_HitSN_v2_rr2_Mid.wav",
+    "sha256": "b24ca98e34f47101cb599ea3f594b43bdf3b81e9a4fba65ab0b341061da4b775",
+    "bytes": 156568,
+    "sample_rate": "44100",
+    "channels": 2,
+    "bits_per_sample": 16,
+    "duration": "0.887324"
+  },
+  {
+    "name": "Snare4_HitSN_v2_rr1_Mid.wav",
+    "source_path": "Membranophones/Struck Membranophones/Snare Drum, Modern 3/Snare4_HitSN_v2_rr1_Mid.wav",
+    "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Snare%20Drum%2C%20Modern%203/Snare4_HitSN_v2_rr1_Mid.wav",
+    "sha256": "ef3d567a517ce2ccca8a933eac0cba1aca6bfc1129f17773d13da5fce769eff2",
+    "bytes": 153432,
+    "sample_rate": "44100",
+    "channels": 2,
+    "bits_per_sample": 16,
+    "duration": "0.869546"
+  },
+  {
+    "name": "Snare4_HitSN_v2_rr2_Mid.wav",
+    "source_path": "Membranophones/Struck Membranophones/Snare Drum, Modern 3/Snare4_HitSN_v2_rr2_Mid.wav",
+    "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Snare%20Drum%2C%20Modern%203/Snare4_HitSN_v2_rr2_Mid.wav",
+    "sha256": "f79ab2c3343ac5360128cd4c6753a540e00d32ea72bfef2a9e232a469d2f566a",
+    "bytes": 136828,
+    "sample_rate": "44100",
+    "channels": 2,
+    "bits_per_sample": 16,
+    "duration": "0.775420"
+  },
+  {
+    "name": "HiHat_HitC_v2_rr1_Mid.wav",
+    "source_path": "Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitC_v2_rr1_Mid.wav",
+    "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Hi-Hat%20Cymbal/HiHat_HitC_v2_rr1_Mid.wav",
+    "sha256": "e1fb54c9a030800038abcebbed1c056fb74bdeec627315f3cd5fd893c6e6b031",
+    "bytes": 247272,
+    "sample_rate": "44100",
+    "channels": 2,
+    "bits_per_sample": 16,
+    "duration": "1.401179"
+  },
+  {
+    "name": "HiHat_HitC_v2_rr2_Mid.wav",
+    "source_path": "Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitC_v2_rr2_Mid.wav",
+    "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Hi-Hat%20Cymbal/HiHat_HitC_v2_rr2_Mid.wav",
+    "sha256": "72830eafed387f4b4b5904d4d6f1da23e13b48986fa1bc09d7c5771eafbb3a1a",
+    "bytes": 250072,
+    "sample_rate": "44100",
+    "channels": 2,
+    "bits_per_sample": 16,
+    "duration": "1.417052"
+  },
+  {
+    "name": "HiHat_HitO_rr1_Mid.wav",
+    "source_path": "Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitO_rr1_Mid.wav",
+    "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Hi-Hat%20Cymbal/HiHat_HitO_rr1_Mid.wav",
+    "sha256": "fa492ec14cc6924b43ad5fcf9e9a0f406d926998835bde2eb5847cd15ad25be7",
+    "bytes": 1026612,
+    "sample_rate": "44100",
+    "channels": 2,
+    "bits_per_sample": 16,
+    "duration": "5.819206"
+  },
+  {
+    "name": "HiHat_HitO_rr2_Mid.wav",
+    "source_path": "Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitO_rr2_Mid.wav",
+    "source_url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Hi-Hat%20Cymbal/HiHat_HitO_rr2_Mid.wav",
+    "sha256": "f71f21883f6fe5466d15610ef0e9241ba3851c821858a958f8a6a75bff774760",
+    "bytes": 1086072,
+    "sample_rate": "44100",
+    "channels": 2,
+    "bits_per_sample": 16,
+    "duration": "6.156281"
+  }
+]

@@ -1,0 +1,393 @@
+{
+  "authorization": "Root authorizes exactly one movement acquisition",
+  "utc": "2026-10-12T04:09:07.924429+00:00",
+  "command": [
+    "npx",
+    "playwright",
+    "test",
+    "--config=evidence/step-01/movement-backpressure-live/preparation/playwright.config.ts"
+  ],
+  "environment": {
+    "BONGO_MOVEMENT_LIVE_OUTPUT": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/attempt-01",
+    "BONGO_MOVEMENT_PLAYWRIGHT_OUTPUT": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/runner-01",
+    "BONGO_MOVEMENT_RESOURCE_JOURNAL": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/Actual01-Resource-Claims.jsonl",
+    "BONGO_MOVEMENT_MAIN_SHA": "32b57ff2dabeadc3d85f8143cd91c50abeea9785ebb1a2f35497ee1db198bb93",
+    "BONGO_MOVEMENT_PROCESSOR_SHA": "0f0b12c981f6d2aedbbde847bb31d55bc9010a6093f2ea93232f6fe3804a6793"
+  },
+  "sourceBindings": [
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/dist/assets/index-BXks7Y4v.js",
+      "bytes": 697116,
+      "sha256": "32b57ff2dabeadc3d85f8143cd91c50abeea9785ebb1a2f35497ee1db198bb93"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/dist/assets/processor-DjdrVTs8.js",
+      "bytes": 105473,
+      "sha256": "0f0b12c981f6d2aedbbde847bb31d55bc9010a6093f2ea93232f6fe3804a6793"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/Plan04.md",
+      "bytes": 1826,
+      "sha256": "78074c4fbc1bebde23ada1c79e98731339eae96b2e3d7f17d1669010bc920fe6"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/Plan05.md",
+      "bytes": 1648,
+      "sha256": "f06fca741126dc82d82468a978b94137b11d01512562ebe6f1375cda667aef50"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/Root-Controller-IndependentReview-04.md",
+      "bytes": 3215,
+      "sha256": "8a878f0448c1cb46053c7c52a04749006909e153a235fc89bfac460108261522"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/Root-Controller-Source-Checks-04.json",
+      "bytes": 1379,
+      "sha256": "6e2785297d58daa8ecfc31fd46ecf8fa5c3576152e1f9f149f8a12c2a9ae593b"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/Root-Shared-Typecheck-04.json",
+      "bytes": 1274,
+      "sha256": "ce2dec39d996d566bdd71c6dc92cf38ae8d34db30444f4a7a324b2b8bcf889d5"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/Source03-IndependentReview.md",
+      "bytes": 4163,
+      "sha256": "bc87ca67cbbc471c5be9fcc87674847db1e4952ffbfc328972f424a943264af1"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/Source03-Review.md",
+      "bytes": 690,
+      "sha256": "b303ecca4f1c291f769e6b4636bbc608283c431db97908ba5f9e5425c9859406"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/Source04-IndependentReview.md",
+      "bytes": 6121,
+      "sha256": "f3db22e11babfefa544898ef8fa899036d1715552b37e6778a943022519ab762"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/Source04-Review.md",
+      "bytes": 594,
+      "sha256": "e1ed864cd001f3fbe9bc568b735ac63392faf355ccc124273b8eae2ccf83f02b"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/Source05-Delta.md",
+      "bytes": 1176,
+      "sha256": "ba049c009e3d2011537c8fd9502c87e7fed09695930bb223c2f3ef6be42ac910"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/Source05-IndependentReview.md",
+      "bytes": 3599,
+      "sha256": "0bb6e5580d210a067c4569e4895474d288f4fd54e0f4f2a7877de739fad2bc29"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/Source05-Review.md",
+      "bytes": 732,
+      "sha256": "b738fc95fc0ec2146e58d2ed93f95085333dbb586ebc8b9f581c0fe0d9ee26f2"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/config-controls05.ts",
+      "bytes": 1162,
+      "sha256": "e57e5bbb63f8076414758ac3752f6bb1b98916c4e9b19c2e4efb4d1a465cfe7a"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/owned-termination-controls04.ts",
+      "bytes": 1750,
+      "sha256": "b21aa2d20a1db1e0a7fdf269de11a4ce9ae286d5d632929c8c120fa9e2d3184c"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/owned-termination04.ts",
+      "bytes": 725,
+      "sha256": "1011ab83a1bc24ef1eeb281e6bf660e23fbe2af48e66e2ff2fdb4d16b92edfbb"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/playwright-config-source04.ts",
+      "bytes": 406,
+      "sha256": "ddfb03b3a0f02dda05f495526ff5eabc21b4de2b91dc2bc3e401c010d7d69532"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/playwright.config.ts",
+      "bytes": 738,
+      "sha256": "4de79768089e19729d68dc68dcf226940ddee591e4b5989cf5aadb7cab87c5cb"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/preparation-manifest-source03.json",
+      "bytes": 6305,
+      "sha256": "3f249e4fe0e927945754007130e3ef2bfedc255ebceedc53283ec5303c7b257e"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/preparation-manifest-source04.json",
+      "bytes": 7510,
+      "sha256": "fe82816d32e2e9d898e34182771ac5cb319e00bcda9bd7bfa9bec39b55181078"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/preparation-manifest-source05.json",
+      "bytes": 2970,
+      "sha256": "6d25828cf4e3d1e0727b2a8fea7c5f68aaac1bcd6f15b0a9ffaefbcb774c014d"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/proxy-cleanup-controls03.ts",
+      "bytes": 1575,
+      "sha256": "1744ec3ce9ac129476e6af23c100deac142c3d37c15342f7d64a7dafb322d3cb"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/proxy-cleanup03.ts",
+      "bytes": 844,
+      "sha256": "3c2014dd099d866300f7b7fa6cef1eac8c6eede4a54b02f0bec9358f3b3d06e0"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/root-controller.py",
+      "bytes": 11444,
+      "sha256": "8a9ec1e4cbe3bcaa004a067020723d5cc9be8d5388e74d308e812e01020ae537"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/source-controls-03.json",
+      "bytes": 2347,
+      "sha256": "7c98544d542163bdb27e80290d453e1282ab0218dcafbcabf38b54d9210e6d80"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/source-controls-04.json",
+      "bytes": 2764,
+      "sha256": "8d9213b1bba685056ac1d83d83b1b803add85d25c442b3b131e67f8ada2b500d"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/source-controls-05.json",
+      "bytes": 1585,
+      "sha256": "e05deafa2bd1040223af3be76bb15c4a2468a4795da3833c17380d0e36e6916d"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/source-snapshots-04/movement-backpressure-live.spec.ts",
+      "bytes": 44526,
+      "sha256": "8f7e454b59a3b9110ac4da2b33daba59bd7cf45525fed38b3dd87557bbd22090"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/source-snapshots-04/movement-backpressure-proxy-controls.py",
+      "bytes": 3490,
+      "sha256": "72abee455c87e6c64ea6ce3321b17d2685d2c7833d334c5fbd9fc1ac12ddc83a"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/source-snapshots-04/movement-backpressure-proxy.py",
+      "bytes": 12184,
+      "sha256": "b3417d9279f066513fe3580e9af774d0cbe780d6afabc4ffb8a19848fe4acd0b"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/source-snapshots-04/owned-termination-controls04.ts",
+      "bytes": 1750,
+      "sha256": "b21aa2d20a1db1e0a7fdf269de11a4ce9ae286d5d632929c8c120fa9e2d3184c"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/source-snapshots-04/owned-termination04.ts",
+      "bytes": 725,
+      "sha256": "1011ab83a1bc24ef1eeb281e6bf660e23fbe2af48e66e2ff2fdb4d16b92edfbb"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/source-snapshots-04/playwright.config.ts",
+      "bytes": 406,
+      "sha256": "ddfb03b3a0f02dda05f495526ff5eabc21b4de2b91dc2bc3e401c010d7d69532"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/source-snapshots-04/proxy-cleanup-controls03.ts",
+      "bytes": 1575,
+      "sha256": "1744ec3ce9ac129476e6af23c100deac142c3d37c15342f7d64a7dafb322d3cb"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/source-snapshots-04/proxy-cleanup03.ts",
+      "bytes": 844,
+      "sha256": "3c2014dd099d866300f7b7fa6cef1eac8c6eede4a54b02f0bec9358f3b3d06e0"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/source-snapshots-04/timer-controls.ts",
+      "bytes": 2782,
+      "sha256": "e8f4f55611717ba5ba8fe40c89adc121fa61e537e5805e036459e699f2268e7f"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/source-snapshots-04/timer-observer.ts",
+      "bytes": 984,
+      "sha256": "00131cad68a7d2a790380c4dec2b3828370a8080e29dadfe5677c2573a3a3eff"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/source-snapshots-04/trace-contract02.ts",
+      "bytes": 4489,
+      "sha256": "818f403e31f896d536161c85687cce66a8a6a1545a74a210b14c8a09f1d3ca79"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/source-snapshots-04/trace-controls02.ts",
+      "bytes": 4615,
+      "sha256": "a7d8f7a284bf9d928c0a00f40ae2ec86c889a43fc286e5db5ab298965ffe17bb"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/source-snapshots-05/config-controls05.ts",
+      "bytes": 1162,
+      "sha256": "e57e5bbb63f8076414758ac3752f6bb1b98916c4e9b19c2e4efb4d1a465cfe7a"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/source-snapshots-05/playwright.config.ts",
+      "bytes": 738,
+      "sha256": "4de79768089e19729d68dc68dcf226940ddee591e4b5989cf5aadb7cab87c5cb"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/timer-controls.ts",
+      "bytes": 2782,
+      "sha256": "e8f4f55611717ba5ba8fe40c89adc121fa61e537e5805e036459e699f2268e7f"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/timer-observer.ts",
+      "bytes": 984,
+      "sha256": "00131cad68a7d2a790380c4dec2b3828370a8080e29dadfe5677c2573a3a3eff"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/trace-contract02.ts",
+      "bytes": 4489,
+      "sha256": "818f403e31f896d536161c85687cce66a8a6a1545a74a210b14c8a09f1d3ca79"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/trace-controls02.ts",
+      "bytes": 4615,
+      "sha256": "a7d8f7a284bf9d928c0a00f40ae2ec86c889a43fc286e5db5ab298965ffe17bb"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/scripts/movement-backpressure-live.spec.ts",
+      "bytes": 44526,
+      "sha256": "8f7e454b59a3b9110ac4da2b33daba59bd7cf45525fed38b3dd87557bbd22090"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/scripts/movement-backpressure-proxy.py",
+      "bytes": 12184,
+      "sha256": "b3417d9279f066513fe3580e9af774d0cbe780d6afabc4ffb8a19848fe4acd0b"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/audio/AudioAdapter.ts",
+      "bytes": 6199,
+      "sha256": "7559fea28c6ba93c8446a86c462d8e4adc3f40406cac06d9f74dfed27fc8c558"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/audio/index.ts",
+      "bytes": 143,
+      "sha256": "c5bac7d6066ef12c055b057c4dc8dfc99a10a87ec577b2d312f88180ccc4b744"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/audio/processor.ts",
+      "bytes": 5839,
+      "sha256": "429555623b5f55c8df29a00b3ce6d9546a3d85fa2d1ba3e5e6b30d0b142f849b"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/audio/protocol.ts",
+      "bytes": 722,
+      "sha256": "6bd21fc0f6f60f4ed4769e72a26e10a51fac170f7cf5c708e069ae58f80cad31"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/audio/synth.ts",
+      "bytes": 5001,
+      "sha256": "499f1d4aadfad5ce2c94082f19724eb24e411b4cbe5ccf2515f6d65754619191"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/core/contracts.ts",
+      "bytes": 3837,
+      "sha256": "497e8bae2417ccd0652407a9a33dc08a775b56de8e54553465a2ee158ececdfc"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/core/engine.ts",
+      "bytes": 6475,
+      "sha256": "19e5cba94b0db6c13b642bd28c90bc1def4bb0bc7ac6b5a95faf1e82bfa9aea3"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/core/geometry.ts",
+      "bytes": 2550,
+      "sha256": "b6b788d732a900a102d108623033055bc221099a5d91f8e648af16d2905b69bf"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/core/history.ts",
+      "bytes": 1527,
+      "sha256": "71f9ef8099f2f0c04c2776565dca882580a5d16f13cfeb8e3bbd4e0682182b2f"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/main.ts",
+      "bytes": 16488,
+      "sha256": "6761945b12c918e4877afd1cd4879ea5f9b1470c8a9449f6e04ea77ce6926243"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/output/NativeClock.ts",
+      "bytes": 28579,
+      "sha256": "97c63e08014aed1ab9ee8c5cbf7166a4f33e0027fbb10f91b305fde32c30f173"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/output/OutputAdapter.ts",
+      "bytes": 8203,
+      "sha256": "70d3cb4326689f0348a86a5f1929ca0a3ff6b32d95be24a303944fac53763089"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/output/ReceiverClock.ts",
+      "bytes": 2945,
+      "sha256": "5dcea0b57e27436674b77bc9eea2a8973f7da87986e962f5f36fa4ca22dab7b8"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/output/RenderClock.ts",
+      "bytes": 30330,
+      "sha256": "1e389cb2e035c40ed29176854a6432fd4ad2772b13ca3ef735a9865fe8bb054c"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/output/bridge.ts",
+      "bytes": 15485,
+      "sha256": "c24a37011f631df7a979b5c4010b1b96baa22b6799abae4c231c95246deec460"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/output/protocol.ts",
+      "bytes": 3569,
+      "sha256": "85f2219aad582737d93ff0a3bfd3afe4f0441ea6065262847a9ec3e301190c37"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/view/SphereView.ts",
+      "bytes": 28964,
+      "sha256": "c684476cc5bcf1dfcab1bab157efdde61f983743de2e0d90d4e1f1a6234eddd3"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/view/index.ts",
+      "bytes": 43,
+      "sha256": "95196153670e3468d4241c85b40a23b1970cd362d0d23124eb0571b04dd3e1a4"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/view/math.ts",
+      "bytes": 1169,
+      "sha256": "9e16d927105cccc96de98da15623acc47003a48194a0a3ab373f7b0f9950ad35"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/tests/movement-backpressure-proxy-controls.py",
+      "bytes": 3490,
+      "sha256": "72abee455c87e6c64ea6ce3321b17d2685d2c7833d334c5fbd9fc1ac12ddc83a"
+    }
+  ],
+  "preflight": {
+    "source05Files": 12,
+    "parent04Files": 33,
+    "parentConfigOnlySubstitution": "Old config exact archive playwright-config-source04.ts; actual current config4de79768 bound separately",
+    "sourceBindings": 68,
+    "servedAssets": [
+      {
+        "name": "index-BXks7Y4v.js",
+        "bytes": 697116,
+        "sha256": "32b57ff2dabeadc3d85f8143cd91c50abeea9785ebb1a2f35497ee1db198bb93"
+      },
+      {
+        "name": "processor-DjdrVTs8.js",
+        "bytes": 105473,
+        "sha256": "0f0b12c981f6d2aedbbde847bb31d55bc9010a6093f2ea93232f6fe3804a6793"
+      }
+    ],
+    "privatePortsAbsent": [
+      5426,
+      5427,
+      5428
+    ],
+    "privatePortsInventoryExitCode": 1,
+    "permanentBridge": {
+      "session": "",
+      "pending": 0,
+      "activeVoices": 0,
+      "objects": 0,
+      "ready": true,
+      "uncertaintyMs": 1.807667
+    },
+    "priorPrivateChromeProfiles": 0,
+    "scope": "Exactly one fixed drain/sustain acquisition, no retry/tuning; conditional numerical companion and original sender timer; no physical release or loaded-worklet-body qualification"
+  }
+}

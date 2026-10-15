@@ -1,0 +1,8 @@
+{
+  "scope": "Readback checker name typo only; all13 manifest entries matched before the erroneous spelling assertion. No source/test/actual failure.",
+  "commandPurpose": "Verify actual13 hashes and presence of cleanup record",
+  "toolChunk": "1588c0",
+  "exitCode": 1,
+  "failure": "AssertionError: expected RootCleanupReadback.json, actual retained filename is Root-CleanupReadback.json.",
+  "sourceChanged": false
+}

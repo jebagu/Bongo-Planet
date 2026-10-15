@@ -1,0 +1,37 @@
+{
+  "title": "Bongo Planet source03 late proxy fault controls",
+  "savedUtc": "2026-10-12T03:49:26.433205+00:00",
+  "actualAcquisition": false,
+  "sources": {
+    "scripts/movement-backpressure-live.spec.ts": "6ef318ec41ae1e5d32ffa7a8b5f2061c16f8063d1ec9a27898e3e49ae5a7053e",
+    "scripts/movement-backpressure-proxy.py": "b3417d9279f066513fe3580e9af774d0cbe780d6afabc4ffb8a19848fe4acd0b",
+    "tests/movement-backpressure-proxy-controls.py": "72abee455c87e6c64ea6ce3321b17d2685d2c7833d334c5fbd9fc1ac12ddc83a",
+    "evidence/step-01/movement-backpressure-live/preparation/timer-observer.ts": "00131cad68a7d2a790380c4dec2b3828370a8080e29dadfe5677c2573a3a3eff",
+    "evidence/step-01/movement-backpressure-live/preparation/timer-controls.ts": "e8f4f55611717ba5ba8fe40c89adc121fa61e537e5805e036459e699f2268e7f",
+    "evidence/step-01/movement-backpressure-live/preparation/trace-contract02.ts": "818f403e31f896d536161c85687cce66a8a6a1545a74a210b14c8a09f1d3ca79",
+    "evidence/step-01/movement-backpressure-live/preparation/trace-controls02.ts": "a7d8f7a284bf9d928c0a00f40ae2ec86c889a43fc286e5db5ab298965ffe17bb",
+    "evidence/step-01/movement-backpressure-live/preparation/proxy-cleanup03.ts": "3c2014dd099d866300f7b7fa6cef1eac8c6eede4a54b02f0bec9358f3b3d06e0",
+    "evidence/step-01/movement-backpressure-live/preparation/proxy-cleanup-controls03.ts": "1744ec3ce9ac129476e6af23c100deac142c3d37c15342f7d64a7dafb322d3cb",
+    "evidence/step-01/movement-backpressure-live/preparation/playwright.config.ts": "ddfb03b3a0f02dda05f495526ff5eabc21b4de2b91dc2bc3e401c010d7d69532"
+  },
+  "checks": [
+    {
+      "command": "npx tsx evidence/step-01/movement-backpressure-live/preparation/proxy-cleanup-controls03.ts",
+      "toolChunk": "aeff80",
+      "exitCode": 0,
+      "elapsedSeconds": 0.2442785,
+      "controls": 11,
+      "realProcessSpawn": false
+    },
+    {
+      "command": "npm run typecheck",
+      "toolChunk": "30ef3c",
+      "exitCode": 0,
+      "runBy": "sphere_view",
+      "output": "\n> bongo-planet@0.1.0 typecheck\n> tsc --noEmit\n\n",
+      "scope": "Shared whole-project check including stable movement source03; no duplicate execution"
+    }
+  ],
+  "earlierControls": "source-controls-02.json preserved; no unchanged control rerun",
+  "controller": "Separate root-owned controller disposition pending; no actual authorization"
+}

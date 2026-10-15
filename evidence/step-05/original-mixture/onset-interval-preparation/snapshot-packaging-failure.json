@@ -1,0 +1,7 @@
+{
+  "toolChunk": "4681b0",
+  "exitCode": 1,
+  "scope": "Source evidence snapshot filename assembly, after source-controls-02 metadata write; no control/PCM/math execution",
+  "error": "TypeError PosixPath + str",
+  "correction": "Parenthesized filename before joining path; existing metadata preserved"
+}

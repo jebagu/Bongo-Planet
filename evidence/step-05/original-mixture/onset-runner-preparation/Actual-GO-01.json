@@ -1,0 +1,20 @@
+{
+  "decision": "Root GO for ONE exclusive conditional-feasibility actual after independent source GO and both workers quiet acknowledgments",
+  "preparedUTC": "2026-10-12T01:20:14.995755+00:00",
+  "output": "evidence/step-05/original-mixture/onset-mvp/attempt-01",
+  "bindings": {
+    "scripts/mixture-onset-runner.ts": "d590ec9e74750e003fd3bf2754b503a7a0ec604a65142a00baf66d801fadc1ae",
+    "scripts/mixture-production-interval.ts": "4fa2e0ead63385d29d9603ea2c576565396ac83c3396bfa9fc7c7f7ec53a5179",
+    "scripts/mixture-onset-interval.ts": "32d08b01e412b7556765ec20442d409f4f15a34f6536208ef03005689cc42f42",
+    "scripts/mixture-timing-oracle.ts": "82a90a5254680efcaeb68e7584be1a8568ce9c0e1a23dced029d2560ab154551",
+    "evidence/step-05/original-mixture/onset-runner-preparation/Source-IndependentReview.md": "b41b1c14fbabead4387066ef08087fe6618c65e09a9fd44a2ba05e0f332850a3",
+    "evidence/step-05/original-mixture/onset-runner-preparation/manifest-source-01.json": "c65868564e80baca7d0c5c4557d53b033eafd8a946ca816ae8af31ac7b7a90dc"
+  },
+  "limits": {
+    "seconds": 120,
+    "sampledResidentBytes": 268435456,
+    "cooperativeNotHardRealTime": true
+  },
+  "qualificationApproved": false,
+  "automaticRetryOrCapIncrease": false
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Bongo Planet source05 output isolation controls",
+  "savedUtc": "2026-10-12T04:03:39.115673+00:00",
+  "actualAcquisition": false,
+  "helperSha256": "8f7e454b59a3b9110ac4da2b33daba59bd7cf45525fed38b3dd87557bbd22090",
+  "configSha256": "4de79768089e19729d68dc68dcf226940ddee591e4b5989cf5aadb7cab87c5cb",
+  "controlsSha256": "e57e5bbb63f8076414758ac3752f6bb1b98916c4e9b19c2e4efb4d1a465cfe7a",
+  "checks": [
+    {
+      "command": "npx tsc --noEmit --target ES2022 --module ESNext --moduleResolution Bundler --strict --skipLibCheck --types node evidence/step-01/movement-backpressure-live/preparation/playwright.config.ts",
+      "toolChunk": "6ba855",
+      "exitCode": 1,
+      "elapsedSeconds": 0.128696541,
+      "output": "error TS5112: tsconfig.json is present but will not be loaded if files are specified on commandline. Use '--ignoreConfig' to skip this error.\n"
+    },
+    {
+      "command": "npx tsx evidence/step-01/movement-backpressure-live/preparation/config-controls05.ts",
+      "toolChunk": "524a94",
+      "exitCode": 0,
+      "elapsedSeconds": 0.483654375,
+      "output": "{\"status\":\"passed-config-source-controls\",\"controls\":4,\"browserLaunch\":false,\"artifactDirectoryCreated\":false}\n"
+    },
+    {
+      "command": "npx tsc --ignoreConfig --noEmit --target ES2022 --module ESNext --moduleResolution Bundler --strict --skipLibCheck --types node evidence/step-01/movement-backpressure-live/preparation/playwright.config.ts",
+      "toolChunk": "235558",
+      "exitCode": 0,
+      "elapsedSeconds": 0.152990333,
+      "output": ""
+    }
+  ]
+}

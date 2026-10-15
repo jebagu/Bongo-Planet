@@ -1,0 +1,7 @@
+# Bongo Planet — pointer cancellation ownership repair
+
+The original production presentation attempt02 failed with an uncaught releasePointerCapture NotFoundError. A piece pointerdown is consumed by SphereView, but its pointercancel propagated to OrbitControls, whose permanent cancel listener tried releasing an untracked pointer. The repair consumes cancellation only for the active piece drag; camera cancellation still propagates.
+
+Two focused installed-Chrome component checks passed: synthetic touch cancellation/competing pointers/focus loss preserve state without page errors; a camera-owned cancellation on a browser-active mouse pointer leaves actual subsequent orbit usable without page errors. Command: `PLAYWRIGHT_JSON_OUTPUT_NAME=evidence/step-04/pointer-cancel-repair/browser-results.json npx playwright test tests/view-browser.spec.ts --grep "touch cancellation|camera cancellation" --reporter=list,json --output=evidence/step-04/pointer-cancel-repair/test-results`. Dev server used permanent5417/BongoPlanet URL. Physical touch and the repaired built-production presentation audit remain unqualified.
+
+Independent review found the initial camera test could be satisfied by later mouseup cleanup. Strengthened camera attempt02 asserts actual capture is true after native mousedown and false immediately after cancellation, before mouseup; that focused test passed1/1. Original weaker2/2 results are retained separately.

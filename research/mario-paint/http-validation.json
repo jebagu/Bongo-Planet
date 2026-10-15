@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-11T18:05:47.691Z",
+  "url": "http://127.0.0.1:5417/BongoPlanet/research/mario-paint/index.html",
+  "standalonePage": true,
+  "icons": 15,
+  "nativeWavs": 195,
+  "sourceWavs": 16,
+  "archiveBytes": 9162706,
+  "status": "pass",
+  "scope": "HTTP route and file integrity; browser playback tested separately in preview-validation.json"
+}

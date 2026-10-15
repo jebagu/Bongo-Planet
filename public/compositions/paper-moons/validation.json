@@ -1,0 +1,60 @@
+{
+  "id": "AA01",
+  "name": "Paper Moons",
+  "slug": "paper-moons",
+  "group": "Airy & Ambient",
+  "description": "Four unhurried D-pentatonic voices: low piano, high glass, little kalimba answers and a warm guitar floor. Open fifths and ninths hang across the gaps.",
+  "routing": "Four staggered finite lanes divide the entire globe, starting on beats 0, 2, 8 and 10. Silent junctions separate the notes; each lane ends before its next launch.",
+  "bpm": 40,
+  "key": 2,
+  "scale": "pentatonic",
+  "cycleBeats": 16,
+  "cycleSeconds": 24,
+  "generators": 4,
+  "soundingPieces": 43,
+  "occupiedVertices": 39,
+  "activeRoutedVertices": 92,
+  "directedGates": 88,
+  "forks": 0,
+  "sourceHopBudgets": [
+    23,
+    23,
+    23,
+    19
+  ],
+  "allTravelFinite": true,
+  "instruments": {
+    "guitar": 8,
+    "glass": 13,
+    "kalimba": 9,
+    "piano": 13
+  },
+  "compositionSha256": "aed9b67e8bbb258f71aadc66109bb29a74da02c2f9eb68528296705cdbdbc9ad",
+  "simulation": {
+    "cycles": 8,
+    "seconds": 192,
+    "allLayersReached": true,
+    "musicalPatternRepeats": true,
+    "routingPatternRepeats": true,
+    "maximumEdges": 2,
+    "maximumPending": 3,
+    "maximumDecisionsPerQuantum": 2,
+    "lateDrops": 0,
+    "overloads": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "cdda9283f8804965fe7289d188d110b20baca758762939d8474ced729197debc",
+    "renderedFromCurrentEngineAndSamples": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "seconds": 24,
+    "peak": 0.1886967420578003,
+    "rms": 0.02518020126177425,
+    "repeatError": 3.725290298461914e-9,
+    "boundaryDelta": 0.00006772531196475029,
+    "maximumVoices": 13,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

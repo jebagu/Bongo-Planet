@@ -1,0 +1,33 @@
+{
+  "utc": "2026-10-12T01:58:36.622496+00:00",
+  "readOnlyHttp": true,
+  "browserLaunched": false,
+  "html": {
+    "url": "http://127.0.0.1:5417/BongoPlanet/",
+    "status": 200,
+    "bytes": 485,
+    "sha256": "8122c701feb6796438e64ecc3dbf4678381e81cfc0944a3e54ec0920ef4065f2"
+  },
+  "main": {
+    "url": "http://127.0.0.1:5417/BongoPlanet/assets/index-BXks7Y4v.js",
+    "status": 200,
+    "bytes": 697116,
+    "sha256": "32b57ff2dabeadc3d85f8143cd91c50abeea9785ebb1a2f35497ee1db198bb93",
+    "expectedSha256": "32b57ff2dabeadc3d85f8143cd91c50abeea9785ebb1a2f35497ee1db198bb93"
+  },
+  "processor": {
+    "url": "http://127.0.0.1:5417/BongoPlanet/assets/processor-DjdrVTs8.js",
+    "status": 200,
+    "bytes": 105473,
+    "sha256": "0f0b12c981f6d2aedbbde847bb31d55bc9010a6093f2ea93232f6fe3804a6793",
+    "expectedSha256": "0f0b12c981f6d2aedbbde847bb31d55bc9010a6093f2ea93232f6fe3804a6793"
+  },
+  "fixture": {
+    "url": "http://127.0.0.1:5417/BongoPlanet/fixtures/F08.json",
+    "status": 200,
+    "bytes": 14510,
+    "sha256": "43e73a354480d4c5d644cb440e9394251f9aa70a3116c78be777bc41375a86a3",
+    "expectedSha256": "43e73a354480d4c5d644cb440e9394251f9aa70a3116c78be777bc41375a86a3"
+  },
+  "allExpectedHashesMatch": true
+}

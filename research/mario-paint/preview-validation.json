@@ -1,0 +1,61 @@
+{
+  "checkedAt": "2026-10-11T18:05:46.044329+00:00",
+  "browser": "Codex in-app browser, existing user tab",
+  "server": "Vite built preview, port 5417",
+  "url": "http://127.0.0.1:5417/BongoPlanet/research/mario-paint/index.html",
+  "status": "pass",
+  "standalonePage": true,
+  "icons": 15,
+  "brokenIcons": 0,
+  "nativeNotesDecoded": 195,
+  "decodeFailures": 0,
+  "originalPlaybackInstruments": 15,
+  "directNoteClickUnlocksAudio": true,
+  "audioState": "running",
+  "all13SequenceFinished": true,
+  "stopCancelsScheduledVoices": true,
+  "sampler": {
+    "sampleIndex": 13,
+    "ratesTested": [
+      2,
+      0.5
+    ],
+    "loopStatesTested": [
+      true,
+      false
+    ],
+    "boatSourceIndicesTested": [
+      0,
+      16
+    ]
+  },
+  "peakAudioGraphSignal": 0.36391,
+  "finalSession": {
+    "decoded": 195,
+    "playbackStarts": 14,
+    "peakSignal": 0.32171,
+    "activeVoicesAfterSequence": 0
+  },
+  "responsive": [
+    {
+      "override": [
+        390,
+        844
+      ],
+      "effectiveCssWidth": 312,
+      "scrollWidth": 312,
+      "nativePlaybackSignal": 0.31648
+    },
+    {
+      "override": [
+        1360,
+        1100
+      ],
+      "effectiveCssWidth": 1121,
+      "scrollWidth": 1121
+    }
+  ],
+  "browserErrors": [],
+  "browserWarnings": [],
+  "limits": "Audio graph and browser behavior verified; no physical speaker listening test. Playback starts include scheduled sources."
+}

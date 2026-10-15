@@ -1,0 +1,106 @@
+{
+  "scope": "Selected source-only onset MVP package; no actual recordings opened/search/capture; prior TS failure and source revisions retained",
+  "qualificationPassed": false,
+  "entries": [
+    {
+      "path": "evidence/step-05/original-mixture/onset-runner-preparation/MVP-Implementation.md",
+      "bytes": 6856,
+      "sha256": "4f60f338f4a11e62437270cd0a9827e9c0ebf2fecd9e6375d7d0ed590f1ae355"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-runner-preparation/Plan-source-0dd4808c.md",
+      "bytes": 13380,
+      "sha256": "0dd4808c2c7ebbe1c8018f0f119a8cc76866f725d30ff5011868cd859e6c33fc"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-runner-preparation/Plan.md",
+      "bytes": 14917,
+      "sha256": "7a1cb9a0727774a3a69826b566f2d697f6e4d2167a1ba7424d9af69300260a22"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-runner-preparation/source-attempt-01/checks.json",
+      "bytes": 1555,
+      "sha256": "9d6c2636a702cf36d507611a28d31767a1c42ac148d550c3e5bf36c95e65ded1"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-runner-preparation/source-attempt-01/mixture-onset-runner.test.ts",
+      "bytes": 9469,
+      "sha256": "7c29ba79121a95dddb5c53ca8f8ddf5caec41a46fc4f47ea70e39188f48b74ba"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-runner-preparation/source-attempt-01/mixture-onset-runner.ts",
+      "bytes": 25478,
+      "sha256": "384133f99dac372f69dd6c54ef6daefe931d231e7749bce255720393ce5d2135"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-runner-preparation/source-attempt-01/mixture-production-interval.ts",
+      "bytes": 5893,
+      "sha256": "4fa2e0ead63385d29d9603ea2c576565396ac83c3396bfa9fc7c7f7ec53a5179"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-runner-preparation/source-attempt-02/checks.json",
+      "bytes": 1541,
+      "sha256": "b38a8b80a8b67d49668a946201f2b179b9a96d7d90b8beacd4495627d3e1cdaa"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-runner-preparation/source-attempt-02/measured-controls.json",
+      "bytes": 2105,
+      "sha256": "51e9fec9ce5884fac1563199048fcaafed51af31bc2fd3ac2d32ea1f74bab81a"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-runner-preparation/source-attempt-02/mixture-onset-runner.test.ts",
+      "bytes": 12417,
+      "sha256": "f0565d023630ff1987ef66d8a6196a5dc3432a9516f7d5e62051dee14873369e"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-runner-preparation/source-attempt-02/mixture-onset-runner.ts",
+      "bytes": 27413,
+      "sha256": "813f4705843c38f7b33e9d81616e9a4171e10a0ec97af0824c310394f438b3e8"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-runner-preparation/source-attempt-02/mixture-production-interval.ts",
+      "bytes": 5893,
+      "sha256": "4fa2e0ead63385d29d9603ea2c576565396ac83c3396bfa9fc7c7f7ec53a5179"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-runner-preparation/source-attempt-03/checks.json",
+      "bytes": 1528,
+      "sha256": "c771ae5355c3e411bee75f98fcd7f6d95f740d7a7c93c72f638719447a4e1c8c"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-runner-preparation/source-attempt-03/measured-controls.json",
+      "bytes": 2106,
+      "sha256": "2ade4d11ddfe405bc16cc4f37e27c72ef42395dd2c427fcf416b2bad18a6ead6"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-runner-preparation/source-attempt-03/mixture-onset-runner.test.ts",
+      "bytes": 12417,
+      "sha256": "f0565d023630ff1987ef66d8a6196a5dc3432a9516f7d5e62051dee14873369e"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-runner-preparation/source-attempt-03/mixture-onset-runner.ts",
+      "bytes": 27880,
+      "sha256": "d590ec9e74750e003fd3bf2754b503a7a0ec604a65142a00baf66d801fadc1ae"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-runner-preparation/source-attempt-03/mixture-production-interval.ts",
+      "bytes": 5893,
+      "sha256": "4fa2e0ead63385d29d9603ea2c576565396ac83c3396bfa9fc7c7f7ec53a5179"
+    },
+    {
+      "path": "scripts/mixture-onset-runner.ts",
+      "bytes": 27880,
+      "sha256": "d590ec9e74750e003fd3bf2754b503a7a0ec604a65142a00baf66d801fadc1ae"
+    },
+    {
+      "path": "scripts/mixture-production-interval.ts",
+      "bytes": 5893,
+      "sha256": "4fa2e0ead63385d29d9603ea2c576565396ac83c3396bfa9fc7c7f7ec53a5179"
+    },
+    {
+      "path": "tests/mixture-onset-runner.test.ts",
+      "bytes": 12417,
+      "sha256": "f0565d023630ff1987ef66d8a6196a5dc3432a9516f7d5e62051dee14873369e"
+    }
+  ]
+}

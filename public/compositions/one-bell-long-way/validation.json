@@ -1,0 +1,54 @@
+{
+  "id": "MR01",
+  "name": "One Bell, Long Way",
+  "slug": "one-bell-long-way",
+  "group": "Minimal Routing",
+  "description": "One D glass bell. The same note returns in small unequal clusters, with long stretches of silent spark travel.",
+  "routing": "A closed 92-junction circuit with two forward bypasses and a 104-hop budget. Copies return by different routes, revisit the single bell, then expire before the next launch.",
+  "bpm": 40,
+  "key": 2,
+  "scale": "pentatonic",
+  "cycleBeats": 32,
+  "cycleSeconds": 48,
+  "generators": 1,
+  "soundingPieces": 1,
+  "occupiedVertices": 2,
+  "activeRoutedVertices": 92,
+  "directedGates": 94,
+  "forks": 2,
+  "sourceHopBudgets": [
+    104
+  ],
+  "allTravelFinite": true,
+  "instruments": {
+    "glass": 1
+  },
+  "compositionSha256": "ba85487de013fe8dce2eaf03e374dc60be8b3453af12ff2a524ae2f3505622b8",
+  "simulation": {
+    "cycles": 8,
+    "seconds": 384,
+    "allLayersReached": true,
+    "musicalPatternRepeats": true,
+    "routingPatternRepeats": true,
+    "maximumEdges": 5,
+    "maximumPending": 1,
+    "maximumDecisionsPerQuantum": 5,
+    "lateDrops": 0,
+    "overloads": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "01afe9745c3352c5736045e7c233d44f8017d0bbc7247adef0393b9f875361af",
+    "renderedFromCurrentEngineAndSamples": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "seconds": 48,
+    "peak": 0.15227527916431427,
+    "rms": 0.004324873202868298,
+    "repeatError": 7.450580596923828e-9,
+    "boundaryDelta": 0,
+    "maximumVoices": 2,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

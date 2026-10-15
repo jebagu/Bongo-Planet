@@ -1,0 +1,30 @@
+{
+  "scope": "source preparation only; actual witness not run",
+  "files": [
+    {
+      "path": "evidence/step-05/visible-voice-stealing/preparation/Plan.md",
+      "bytes": 3669,
+      "sha256": "aae195e8b5794fb10fecc93222417cf119c7bb662d67b51ac1aaf1dc1e1e4389"
+    },
+    {
+      "path": "evidence/step-05/visible-voice-stealing/preparation/harness-source.ts",
+      "bytes": 11794,
+      "sha256": "bb7d5bf1725f53c7d2c6d20cb18e7296e2f1e64844021a40e16b3efb82df000b"
+    },
+    {
+      "path": "evidence/step-05/visible-voice-stealing/preparation/playwright.config.ts",
+      "bytes": 421,
+      "sha256": "62c9a234b5293ce2a707d319542a59df995239678479b2bce5b21c3ac00495ad"
+    },
+    {
+      "path": "evidence/step-05/visible-voice-stealing/preparation/source-preparation.json",
+      "bytes": 1060,
+      "sha256": "cc7d0feb5636cdb1c45b724888d41816ce38129a74010be7177cb991b380361c"
+    },
+    {
+      "path": "scripts/ui-voice-stealing-browser.spec.ts",
+      "bytes": 11794,
+      "sha256": "bb7d5bf1725f53c7d2c6d20cb18e7296e2f1e64844021a40e16b3efb82df000b"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# Bongo Planet — first bounded onset runner scope
+
+Root reviewed proposed Plan.md SHA0dd4808c2c7ebbe1c8018f0f119a8cc76866f725d30ff5011868cd859e6c33fc and authorized source implementation/independent synthetic controls only. No actual recording read, search or new capture is authorized by this note. Source review and a later explicit root GO remain separate.
+
+Implement the smallest useful sequential F02/F03 runner around compact data and existing reviewed primitives. Create all468 inventory result rows before analysis; the initial68 F02/F03 rows are the implementation target. Dense rows and their stall targets remain explicitly unattempted/unsupported in this initial stage. This stage cannot meet the required120-onset fixture/stall coverage on its own.
+
+F02 should distinguish the common group origin and independent admission, with distinct-component omission/delay/extra alternatives. F03 may initially measure against fixed neighboring voices, but its result must name that assumption and retain unexcluded joint-neighbor branches. Whole-domain alias coverage, ownership branches and resource exhaustion must remain visible. A favorable local fit cannot silently stand in for their exclusion.
+
+Following independent plan review, distinguish cells not excluded by interval bounds from concrete compatible parameter witnesses. Pointwise interval inclusion alone does not establish one parameter choice compatible with every sample. A measured row requires a concrete complete-support and attack witness; its outer entrance bound must also retain every nonexcluded/unexplored cell, or the row stays unresolved. Controls must expose this distinction.
+
+Freeze source-level numerical assumptions and compatibility/attack thresholds before actual GO. Propagate the proposed2^-40 transcendental error assumptions at calls; they remain assumptions about the runtime, not certified browser accuracy. Account for exact production Math.PI, coefficient-expression/basic-operation rounding and final Float32 conversion separately. Do not replace this accounting with a fitted output epsilon. Keep native640, independent epochs, original strict fidelity failures and the100ms-delay negative unchanged.
+
+Own new runner/helper/tests and this preparation subtree; preserve the existing interval module, frozen oracle, production sources, recordings and other workers' edits. Controls use independently constructed counterexamples. Keep the declared120second/256MiB and frontier/work/detail budgets, final guard, exclusive output and no automatic retries. A resource-limited or conditional result is a useful feasibility report; it is not a closed acceptance gate.

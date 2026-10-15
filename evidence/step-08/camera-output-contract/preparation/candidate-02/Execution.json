@@ -1,0 +1,9 @@
+{
+  "scope": "SOURCE ONLY; no Playwright/browser/native bridge/service/port probe",
+  "command": "npm run typecheck",
+  "chunkId": "741712",
+  "exitCode": 0,
+  "wallSeconds": 0.320063125,
+  "actualAuthorized": false,
+  "sourceChecksOnly": true
+}

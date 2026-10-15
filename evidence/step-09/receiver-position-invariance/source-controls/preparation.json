@@ -1,0 +1,57 @@
+{
+  "status": "source-only-prepared-not-executed",
+  "preparedUtc": "2026-10-12T00:08:02.801576+00:00",
+  "sourceSha256": "740d3d929a4bcc26512fd2d489022ee82661ee758f990fb31913545645458ecd",
+  "temporaryPorts": {
+    "httpWebSocket": 5424,
+    "udp": 5425
+  },
+  "productionServicesUntouched": true,
+  "command": "npx tsc --noEmit --ignoreConfig --target es2023 --module esnext --moduleResolution bundler --lib es2023,dom --types node --skipLibCheck --strict scripts/receiver-position-invariance-audit.ts",
+  "typecheckObservations": [
+    {
+      "chunk": "e5fd53",
+      "exit": 1,
+      "seconds": 0.197805375,
+      "errors": [
+        "TS2339 ready union line65",
+        "TS2345 ArrayBufferView generic line77",
+        "TS7022 preceding line114"
+      ],
+      "captureTimeSourceNotRetained": true
+    },
+    {
+      "chunk": "1f11e4",
+      "exit": 0,
+      "seconds": 0.189515416
+    },
+    {
+      "chunk": "6f9f3e",
+      "exit": 0,
+      "seconds": 0.200557375
+    },
+    {
+      "chunk": "02924f",
+      "exit": 1,
+      "seconds": 0.200433833,
+      "errors": [
+        "TS2339 ready union in new health observer line70"
+      ],
+      "captureTimeSourceNotRetained": true
+    },
+    {
+      "chunk": "a4c02e",
+      "exit": 0,
+      "seconds": 0.208863125
+    },
+    {
+      "chunk": "79c373",
+      "exit": 0,
+      "seconds": 0.214307875,
+      "bindsRetainedCurrentSource": true
+    }
+  ],
+  "actualBrowserReceiverRuns": 0,
+  "fixtureQualification": "not run",
+  "sourceControlNote": "Prior compiler observations preserved; only final source snapshot is retained, not a reconstruction of earlier failure sources."
+}

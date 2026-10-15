@@ -1,0 +1,56 @@
+{
+  "base": "/Users/jeremyguillory/Documents/ChatGPT/ripple",
+  "scope": "source-only v2 observer; actual browser feasibility unmeasured",
+  "entries": [
+    {
+      "path": "evidence/step-05/visible-voice-stealing/preparation-v2/Plan.md",
+      "bytes": 5040,
+      "sha256": "e88d3a119b6eb2341ca103817de157cdb78893d676aedcd52d4cade8a8bb8387"
+    },
+    {
+      "path": "evidence/step-05/visible-voice-stealing/preparation-v2/loaded-module-observer.ts",
+      "bytes": 5976,
+      "sha256": "1ec6eca3c584187e6df35a5cf37859aa42bb3fd379c43b84b1f93263e03fad2b"
+    },
+    {
+      "path": "evidence/step-05/visible-voice-stealing/preparation-v2/observer-controls-01.json",
+      "bytes": 6731,
+      "sha256": "a1c42c3354d5300d72f67d87d5516f0536469aa3653431c298577e50110990c6"
+    },
+    {
+      "path": "evidence/step-05/visible-voice-stealing/preparation-v2/playwright.config.ts",
+      "bytes": 424,
+      "sha256": "a9a1ecd4c70993dde238e04ed5709adb99d6e0986d6214f3c73e351dc933bebb"
+    },
+    {
+      "path": "evidence/step-05/visible-voice-stealing/preparation-v2/source-preparation.json",
+      "bytes": 1267,
+      "sha256": "93c6743e4bfdc37f0db74fca1637c1b45a9df2a8e3065a4a8c6d8f97494de8ba"
+    },
+    {
+      "path": "evidence/step-05/visible-voice-stealing/preparation-v2/ui-loaded-module-observer.test.ts",
+      "bytes": 5533,
+      "sha256": "45bb2eb240b1429c3b0badf0474c0e6d69b2d1e85e7d86537aaa5ba2a6f42202"
+    },
+    {
+      "path": "evidence/step-05/visible-voice-stealing/preparation-v2/ui-voice-stealing-browser-v2.spec.ts",
+      "bytes": 14247,
+      "sha256": "9d639018bb932e2b046ce4d07dcd45f344d117fc5c460d292661e43fc6080fd9"
+    },
+    {
+      "path": "scripts/ui-voice-stealing-browser-v2.spec.ts",
+      "bytes": 14247,
+      "sha256": "9d639018bb932e2b046ce4d07dcd45f344d117fc5c460d292661e43fc6080fd9"
+    },
+    {
+      "path": "scripts/loaded-module-observer.ts",
+      "bytes": 5976,
+      "sha256": "1ec6eca3c584187e6df35a5cf37859aa42bb3fd379c43b84b1f93263e03fad2b"
+    },
+    {
+      "path": "tests/ui-loaded-module-observer.test.ts",
+      "bytes": 5533,
+      "sha256": "45bb2eb240b1429c3b0badf0474c0e6d69b2d1e85e7d86537aaa5ba2a6f42202"
+    }
+  ]
+}

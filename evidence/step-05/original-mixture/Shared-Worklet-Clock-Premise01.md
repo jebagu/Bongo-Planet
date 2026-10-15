@@ -1,0 +1,9 @@
+# Bongo Planet — shared worklet clock source premise
+
+Root primary-source readback, 2026-10-12; no new runtime or PCM scan. The [W3C AudioWorkletGlobalScope definition](https://www.w3.org/TR/webaudio-1.0/#AudioWorkletGlobalScope) specifies one global scope per AudioContext. Its currentFrame is the context current-frame internal slot, and currentTime is the context time of the processed block. [Graph rendering](https://www.w3.org/TR/webaudio-1.0/#rendering-loop) advances these between render quanta.
+
+Inference to check against the retained acquisition source: if the observer and product processors belong to the same AudioContext and are connected in the same render graph, their raw worklet global clock refers to the same quantum while that graph block is processed. This is a documented runtime-conformance premise, not an observed product-private previousEnd/engine.now value, and not a main-thread wall-clock map. Product effective cursor and command-boundary floors still require the literal recurrence and recorded command history.
+
+The next coupled execution plan should examine this premise rather than treating product and observer raw clocks as independently free. Establish their shared context/wiring, whether product processes every retained observer block, and whether an omitted product block or graph latency is actually permissible for this graph. Keep any unverified exception conservative. A fixed shared raw clock can remove an invented phase degree of freedom; it does not establish the initial previousEnd or consume grouping by itself.
+
+This is a source constraint proposal only. No original fidelity result, timing error, tolerance, event denominator or gate changes. Exact128-frame size remains a recorded acquisition property, not a universal claim about all versions of Web Audio.

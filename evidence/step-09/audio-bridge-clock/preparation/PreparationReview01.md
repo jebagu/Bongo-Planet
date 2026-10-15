@@ -1,0 +1,9 @@
+# Bongo Planet operational clock Source01 preparation
+
+Helper SHA256 8abe7e7290405775f4f4ec41ae9c5d4d9961f15950bb7b9e7c11ba450183044e; pure comparison SHA256 8611e2fe3a05cfc9b8a2c7883ef431b022f8f65cbe280fa0b37f399c87d93e46. This candidate implements the reviewed resource plan and retains unknown effective/getter terms as unresolved. It cannot qualify S09-A9; native/physical timing remains separate.
+
+32/32 pure controls pass (tool32358a, exit0), using independent synthetic clock/ID observations and no product/native/browser imports. Final private strict compile including helper/config/pure modules passes (tool9a8c6e, exit0). Earlier nullable arithmetic type failure tool00af01 is preserved with its exact source snapshot/log; tools113a67 and9a8c6e pass after correction. Earlier unreviewed drafts/checks remain. No actual/browser/audio/worker/service/probe/PCM access occurred and no owned executable remains active. Root owns the required final shared typecheck, final source preflight and any separate one-shot runtime authorization.
+
+Private configuration fixes one worker, retries0,280s test/290s global ceilings and fresh absolute BONGO_AUDIO_CLOCK_PLAYWRIGHT_OUTPUT. Fresh disjoint evidence output uses BONGO_AUDIO_CLOCK_EVIDENCE_DIR and the existing exclusive durable resource journal. The separately root-owned reviewed controller fixes the intended command and285/310s allowances. Their bindings are retained here without changing those files or running them.
+
+The manifest binds selected runtime/ownership sources, immutable fixture/golden rows, exact source copies, source-plan decisions/reviews, pure controls, all retained compile logs and the root controller/review. It excludes mutable ledgers, caches, old raw PCM and acquisition files. No acceptance decision follows from source validation.

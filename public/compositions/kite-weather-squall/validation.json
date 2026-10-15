@@ -1,0 +1,147 @@
+{
+  "id": "BR03",
+  "name": "Kite Weather — Squall",
+  "slug": "kite-weather-squall",
+  "group": "favorites - with loops",
+  "sourceId": "AA03",
+  "description": "The original G-pentatonic world opens with a few distant landmarks. Shorter notes and a faster underlying grid allow a much larger returning wave to break into a rapid shower, then clear into a long quiet interval.",
+  "routing": "The original four meridians and 90-junction network remain. A 63-hop budget permits another round of returns through the four-way northern fork. Sparse six-hop note spacing starts gently; unequal returns fill the spaces with faster layers before all descendants expire together.",
+  "bpm": 144,
+  "key": 7,
+  "scale": "pentatonic",
+  "cycleBeats": 32,
+  "cycleSeconds": 13.333333333333334,
+  "generators": 1,
+  "soundingPieces": 21,
+  "occupiedVertices": 22,
+  "activeRoutedVertices": 90,
+  "directedGates": 93,
+  "forks": 1,
+  "sourceHopBudgets": [
+    63
+  ],
+  "allTravelFinite": true,
+  "density": {
+    "bins": [
+      {
+        "startBeat": 0,
+        "endBeat": 2,
+        "noteAttacks": 8
+      },
+      {
+        "startBeat": 2,
+        "endBeat": 4,
+        "noteAttacks": 5
+      },
+      {
+        "startBeat": 4,
+        "endBeat": 6,
+        "noteAttacks": 9
+      },
+      {
+        "startBeat": 6,
+        "endBeat": 8,
+        "noteAttacks": 19
+      },
+      {
+        "startBeat": 8,
+        "endBeat": 10,
+        "noteAttacks": 17
+      },
+      {
+        "startBeat": 10,
+        "endBeat": 12,
+        "noteAttacks": 30
+      },
+      {
+        "startBeat": 12,
+        "endBeat": 14,
+        "noteAttacks": 40
+      },
+      {
+        "startBeat": 14,
+        "endBeat": 16,
+        "noteAttacks": 69
+      },
+      {
+        "startBeat": 16,
+        "endBeat": 18,
+        "noteAttacks": 0
+      },
+      {
+        "startBeat": 18,
+        "endBeat": 20,
+        "noteAttacks": 0
+      },
+      {
+        "startBeat": 20,
+        "endBeat": 22,
+        "noteAttacks": 0
+      },
+      {
+        "startBeat": 22,
+        "endBeat": 24,
+        "noteAttacks": 0
+      },
+      {
+        "startBeat": 24,
+        "endBeat": 26,
+        "noteAttacks": 0
+      },
+      {
+        "startBeat": 26,
+        "endBeat": 28,
+        "noteAttacks": 0
+      },
+      {
+        "startBeat": 28,
+        "endBeat": 30,
+        "noteAttacks": 0
+      },
+      {
+        "startBeat": 30,
+        "endBeat": 32,
+        "noteAttacks": 0
+      }
+    ],
+    "initialAttacksPerTwoBeats": 6.5,
+    "peakAttacksPerTwoBeats": 69,
+    "finalAttacksPerTwoBeats": 0,
+    "peakToInitialRatio": 10.615384615384615
+  },
+  "instruments": {
+    "guitar": 3,
+    "glass": 7,
+    "kalimba": 9,
+    "piano": 2
+  },
+  "compositionSha256": "8ad8cb4919a9a3a20f7c91436e353bdd741ecc5c3816d65352b3546236bbb60a",
+  "simulation": {
+    "cycles": 8,
+    "seconds": 106.66666666666667,
+    "allLayersReached": true,
+    "musicalPatternRepeats": true,
+    "routingPatternRepeats": true,
+    "maximumEdges": 43,
+    "maximumPending": 13,
+    "maximumDecisionsPerQuantum": 43,
+    "lateDrops": 0,
+    "overloads": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "68dab8ae49935f7c28a481394d72ddc52153297cc5255c7aa344bce93007c5db",
+    "renderedFromCurrentEngineAndSamples": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "cycles": 1,
+    "seconds": 13.333333333333334,
+    "peak": 0.2990165948867798,
+    "rms": 0.02234943105552573,
+    "repeatError": 1.4901161193847656e-8,
+    "boundaryDelta": 0,
+    "maximumVoices": 36,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

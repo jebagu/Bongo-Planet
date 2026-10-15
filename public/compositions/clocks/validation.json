@@ -1,0 +1,41 @@
+{
+  "id": "P01",
+  "title": "Clocks",
+  "artist": "Coldplay",
+  "scope": "Four-bar instrumental cover excerpt",
+  "bpm": 132,
+  "phraseBeats": 16,
+  "generators": 3,
+  "pieces": 63,
+  "chordStacks": 4,
+  "maximumStack": 4,
+  "chordProgression": [
+    "E♭",
+    "B♭m",
+    "B♭m",
+    "Fm"
+  ],
+  "routedVertices": 91,
+  "directedGates": 88,
+  "allTravelFinite": true,
+  "compositionSha256": "7d3334759c0993a7c616eb7a05e4a64734f0c0b4da23eef82dcef61d5a65b19f",
+  "simulation": {
+    "phrases": 8,
+    "writtenHitsAndRestsMatch": true,
+    "maximumEdges": 3,
+    "maximumDecisionsPerQuantum": 4,
+    "lateDrops": 0
+  },
+  "audio": {
+    "file": "clocks.wav",
+    "seconds": 7.272729166666666,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peak": 0.49303001165390015,
+    "rms": 0.09488994420327883,
+    "maximumVoices": 12,
+    "stolenVoices": 0,
+    "lateDrops": 0,
+    "frameRoundingError": 0.09090909094084054
+  }
+}

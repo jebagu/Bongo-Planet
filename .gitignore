@@ -1,0 +1,24 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+.DS_Store
+*.log
+release/*.tar.gz
+release/github/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Raw measurement recordings/frames remain local and are included in the candidate archive.
+evidence/**/*.f32
+evidence/**/*.wav
+evidence/**/frames/
+evidence/**/*.zip
+evidence/**/capture-*/
+.gstack/
+__pycache__/
+*.py[cod]
+# The public Site snapshot has its own Git history and publishing workflow.
+sites/

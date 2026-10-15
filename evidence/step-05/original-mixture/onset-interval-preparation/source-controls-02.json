@@ -1,0 +1,19 @@
+{
+  "preparationOnly": true,
+  "qualificationPassed": false,
+  "actualPCMSearchOrAnalysisExecuted": false,
+  "sourceSha256": "32d08b01e412b7556765ec20442d409f4f15a34f6536208ef03005689cc42f42",
+  "testSha256": "b397c5a685ca7bfdf49e1994b4e6fa3f03a2a8a405f4a411ea166dd306fb3b35",
+  "controls": {
+    "command": "npx vitest run tests/mixture-onset-interval.test.ts",
+    "exitCode": 0,
+    "testCount": 23,
+    "reportedDurationMs": 123,
+    "toolChunk": "a1f52e",
+    "typecheckCommand": "npm run typecheck",
+    "typecheckExitCode": 1,
+    "typecheckScope": "Only sibling-owned receiver-position-contained.ts158 undefined Identity errors; no owned-source errors. Original failure remains retained."
+  },
+  "delta": "Reject non-number interval endpoints and clarify external cancellation fade; independent literal1/3 bracket replaces helper-derived expected endpoint. Original module/test snapshots preserved.",
+  "recordedAt": "2026-10-12T00:33:56.056150+00:00"
+}

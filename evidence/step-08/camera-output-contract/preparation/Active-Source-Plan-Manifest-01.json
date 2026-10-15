@@ -1,0 +1,20 @@
+{
+  "scope": "SEPARATE prospective SOURCE ONLY active sustained-source plan. No implementation, executable search, browser/audio/receiver run or acceptance closure. Plan01 expression preserved; plan02 corrects conservative lifetime. Neither is actual source03 scope.",
+  "files": [
+    {
+      "path": "Active-Source-Plan.md",
+      "bytes": 7860,
+      "sha256": "6400c6badc781e4c37b5639e2be9e7ef07fcdfe3b9e60e0a14012d9a3ea54ec7"
+    },
+    {
+      "path": "Active-Source-Plan-02.md",
+      "bytes": 8257,
+      "sha256": "5dcdf937d582d71c24ce5c06372ceffe429e85e34f3e7a52a4e48efcbca3ef58"
+    },
+    {
+      "path": "Active-Source-Plan-01-to-02.diff",
+      "bytes": 3616,
+      "sha256": "e1345bdc100f36f925732dd36ede2e1de1ba3ca6b50531be2442b92c0e3b4d56"
+    }
+  ]
+}

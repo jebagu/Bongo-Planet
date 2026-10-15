@@ -1,0 +1,61 @@
+{
+  "id": "AA04",
+  "name": "Blue Greenhouse",
+  "slug": "blue-greenhouse",
+  "group": "Airy & Ambient",
+  "description": "C-major-seven, F-major-nine and A-minor colors overlap like small sunlit rooms. Piano and guitar carry the low harmony; glass, kalimba and marimba answer above.",
+  "routing": "Four globe-spanning lanes interlock eight- and 16-beat sources with different phase offsets. Slow simultaneous layers and empty junctions give the harmony space.",
+  "bpm": 40,
+  "key": 0,
+  "scale": "major",
+  "cycleBeats": 16,
+  "cycleSeconds": 24,
+  "generators": 4,
+  "soundingPieces": 50,
+  "occupiedVertices": 46,
+  "activeRoutedVertices": 92,
+  "directedGates": 88,
+  "forks": 0,
+  "sourceHopBudgets": [
+    27,
+    23,
+    21,
+    17
+  ],
+  "allTravelFinite": true,
+  "instruments": {
+    "guitar": 11,
+    "glass": 14,
+    "kalimba": 8,
+    "piano": 13,
+    "marimba": 4
+  },
+  "compositionSha256": "0a4b32b5bc07e5c1372cb7ca3037e066c6b65f79ed039a48722500cc83b2f376",
+  "simulation": {
+    "cycles": 8,
+    "seconds": 192,
+    "allLayersReached": true,
+    "musicalPatternRepeats": true,
+    "routingPatternRepeats": true,
+    "maximumEdges": 3,
+    "maximumPending": 4,
+    "maximumDecisionsPerQuantum": 3,
+    "lateDrops": 0,
+    "overloads": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "48cb2ebcb1d3eaf5ad3d97ca41272bbd5e86d7bed788759926f27824c114e651",
+    "renderedFromCurrentEngineAndSamples": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "seconds": 24,
+    "peak": 0.20128098130226135,
+    "rms": 0.02995893782794194,
+    "repeatError": 7.450580596923828e-9,
+    "boundaryDelta": 0.00024564284831285477,
+    "maximumVoices": 20,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

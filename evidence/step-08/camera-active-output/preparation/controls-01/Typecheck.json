@@ -1,0 +1,8 @@
+{
+  "command": "npm run typecheck",
+  "toolChunk": "3d879d",
+  "exitCode": 1,
+  "sourceSHA256": "9b9acd9e62306f04249cfd8ab575628243659871124e52e144e8702b14884947",
+  "stdout": "\n> bongo-planet@0.1.0 typecheck\n> tsc --noEmit\n\nscripts/active-camera-output.spec.ts(66,199): error TS2550: Property 'findLast' does not exist on type '(LocalObservation & { fresh: boolean; })[]'. Do you need to change your target library? Try changing the 'lib' compiler option to 'es2023' or later.\nscripts/active-camera-output.spec.ts(66,208): error TS7006: Parameter 'r' implicitly has an 'any' type.\n",
+  "scope": "Owned source lib target mismatch; no native/browser/server actual."
+}

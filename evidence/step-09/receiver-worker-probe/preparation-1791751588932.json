@@ -1,0 +1,648 @@
+{
+  "title": "Bongo Planet worker control-clock probe preparation",
+  "date": "2026-10-11T20:46:28.930Z",
+  "sourceSha256": "4b3e786e3b946ba309cb1155040c39e7c6eac5cc60446da15b7350bb8bf0ccb2",
+  "workerSha256": "3a901a4fab4850fb0b73d8257a3233245eb8d5e02ef4d30e8301cb4926af7f39",
+  "syntaxPass": true,
+  "workerLaunched": false,
+  "browserLaunched": false,
+  "audioOpened": false,
+  "intentionalLoadRun": false,
+  "clock": {
+    "samples": [
+      {
+        "beforeHrNs": "946888030895000",
+        "performanceMs": 126.548666,
+        "afterHrNs": "946888030902625",
+        "offsetLowerNs": "946887904346333",
+        "offsetUpperNs": "946887904353960",
+        "widthNs": "7627"
+      },
+      {
+        "beforeHrNs": "946888030915708",
+        "performanceMs": 126.562625,
+        "afterHrNs": "946888030916333",
+        "offsetLowerNs": "946887904353082",
+        "offsetUpperNs": "946887904353709",
+        "widthNs": "627"
+      },
+      {
+        "beforeHrNs": "946888030918875",
+        "performanceMs": 126.565541,
+        "afterHrNs": "946888030919208",
+        "offsetLowerNs": "946887904353333",
+        "offsetUpperNs": "946887904353668",
+        "widthNs": "335"
+      },
+      {
+        "beforeHrNs": "946888030921166",
+        "performanceMs": 126.567833,
+        "afterHrNs": "946888030921541",
+        "offsetLowerNs": "946887904353332",
+        "offsetUpperNs": "946887904353709",
+        "widthNs": "377"
+      },
+      {
+        "beforeHrNs": "946888030923291",
+        "performanceMs": 126.570333,
+        "afterHrNs": "946888030925166",
+        "offsetLowerNs": "946887904352957",
+        "offsetUpperNs": "946887904354834",
+        "widthNs": "1877"
+      },
+      {
+        "beforeHrNs": "946888030931750",
+        "performanceMs": 126.578583,
+        "afterHrNs": "946888030932250",
+        "offsetLowerNs": "946887904353166",
+        "offsetUpperNs": "946887904353668",
+        "widthNs": "502"
+      },
+      {
+        "beforeHrNs": "946888030934000",
+        "performanceMs": 126.580666,
+        "afterHrNs": "946888030934333",
+        "offsetLowerNs": "946887904353333",
+        "offsetUpperNs": "946887904353668",
+        "widthNs": "335"
+      },
+      {
+        "beforeHrNs": "946888030936041",
+        "performanceMs": 126.582666,
+        "afterHrNs": "946888030936333",
+        "offsetLowerNs": "946887904353374",
+        "offsetUpperNs": "946887904353668",
+        "widthNs": "294"
+      },
+      {
+        "beforeHrNs": "946888030938083",
+        "performanceMs": 126.584875,
+        "afterHrNs": "946888030938666",
+        "offsetLowerNs": "946887904353207",
+        "offsetUpperNs": "946887904353792",
+        "widthNs": "585"
+      },
+      {
+        "beforeHrNs": "946888031003750",
+        "performanceMs": 126.651208,
+        "afterHrNs": "946888031005083",
+        "offsetLowerNs": "946887904352541",
+        "offsetUpperNs": "946887904353876",
+        "widthNs": "1335"
+      },
+      {
+        "beforeHrNs": "946888031010083",
+        "performanceMs": 126.656875,
+        "afterHrNs": "946888031010458",
+        "offsetLowerNs": "946887904353207",
+        "offsetUpperNs": "946887904353584",
+        "widthNs": "377"
+      },
+      {
+        "beforeHrNs": "946888031012333",
+        "performanceMs": 126.658916,
+        "afterHrNs": "946888031012458",
+        "offsetLowerNs": "946887904353416",
+        "offsetUpperNs": "946887904353543",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031012916",
+        "performanceMs": 126.6595,
+        "afterHrNs": "946888031013041",
+        "offsetLowerNs": "946887904353415",
+        "offsetUpperNs": "946887904353542",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031013416",
+        "performanceMs": 126.659958,
+        "afterHrNs": "946888031013541",
+        "offsetLowerNs": "946887904353457",
+        "offsetUpperNs": "946887904353584",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031013875",
+        "performanceMs": 126.660416,
+        "afterHrNs": "946888031014000",
+        "offsetLowerNs": "946887904353458",
+        "offsetUpperNs": "946887904353585",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031014291",
+        "performanceMs": 126.660875,
+        "afterHrNs": "946888031014416",
+        "offsetLowerNs": "946887904353415",
+        "offsetUpperNs": "946887904353542",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031014750",
+        "performanceMs": 126.661291,
+        "afterHrNs": "946888031014875",
+        "offsetLowerNs": "946887904353458",
+        "offsetUpperNs": "946887904353585",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031015166",
+        "performanceMs": 126.66175,
+        "afterHrNs": "946888031015333",
+        "offsetLowerNs": "946887904353415",
+        "offsetUpperNs": "946887904353584",
+        "widthNs": "169"
+      },
+      {
+        "beforeHrNs": "946888031015625",
+        "performanceMs": 126.662208,
+        "afterHrNs": "946888031015750",
+        "offsetLowerNs": "946887904353416",
+        "offsetUpperNs": "946887904353543",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031016083",
+        "performanceMs": 126.662666,
+        "afterHrNs": "946888031016208",
+        "offsetLowerNs": "946887904353416",
+        "offsetUpperNs": "946887904353543",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031016541",
+        "performanceMs": 126.663083,
+        "afterHrNs": "946888031016625",
+        "offsetLowerNs": "946887904353457",
+        "offsetUpperNs": "946887904353543",
+        "widthNs": "86"
+      },
+      {
+        "beforeHrNs": "946888031016958",
+        "performanceMs": 126.663541,
+        "afterHrNs": "946888031017083",
+        "offsetLowerNs": "946887904353416",
+        "offsetUpperNs": "946887904353543",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031017416",
+        "performanceMs": 126.664,
+        "afterHrNs": "946888031017541",
+        "offsetLowerNs": "946887904353415",
+        "offsetUpperNs": "946887904353542",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031017875",
+        "performanceMs": 126.664416,
+        "afterHrNs": "946888031018000",
+        "offsetLowerNs": "946887904353458",
+        "offsetUpperNs": "946887904353585",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031018291",
+        "performanceMs": 126.664875,
+        "afterHrNs": "946888031018416",
+        "offsetLowerNs": "946887904353415",
+        "offsetUpperNs": "946887904353542",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031018750",
+        "performanceMs": 126.665291,
+        "afterHrNs": "946888031018875",
+        "offsetLowerNs": "946887904353458",
+        "offsetUpperNs": "946887904353585",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031019166",
+        "performanceMs": 126.66575,
+        "afterHrNs": "946888031019291",
+        "offsetLowerNs": "946887904353415",
+        "offsetUpperNs": "946887904353542",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031019583",
+        "performanceMs": 126.666166,
+        "afterHrNs": "946888031019708",
+        "offsetLowerNs": "946887904353416",
+        "offsetUpperNs": "946887904353543",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031020041",
+        "performanceMs": 126.666625,
+        "afterHrNs": "946888031020166",
+        "offsetLowerNs": "946887904353415",
+        "offsetUpperNs": "946887904353542",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031020500",
+        "performanceMs": 126.667041,
+        "afterHrNs": "946888031020625",
+        "offsetLowerNs": "946887904353458",
+        "offsetUpperNs": "946887904353585",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031020916",
+        "performanceMs": 126.6675,
+        "afterHrNs": "946888031021041",
+        "offsetLowerNs": "946887904353415",
+        "offsetUpperNs": "946887904353542",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031021375",
+        "performanceMs": 126.667916,
+        "afterHrNs": "946888031021500",
+        "offsetLowerNs": "946887904353458",
+        "offsetUpperNs": "946887904353585",
+        "widthNs": "127"
+      }
+    ],
+    "chosen": {
+      "beforeHrNs": "946888031016541",
+      "performanceMs": 126.663083,
+      "afterHrNs": "946888031016625",
+      "offsetLowerNs": "946887904353457",
+      "offsetUpperNs": "946887904353543",
+      "widthNs": "86"
+    },
+    "offsetNs": "946887904353500"
+  },
+  "heldOutClock": {
+    "samples": [
+      {
+        "beforeHrNs": "946888031042916",
+        "performanceMs": 126.689708,
+        "afterHrNs": "946888031043291",
+        "offsetLowerNs": "946887904353207",
+        "offsetUpperNs": "946887904353584",
+        "widthNs": "377"
+      },
+      {
+        "beforeHrNs": "946888031044291",
+        "performanceMs": 126.690875,
+        "afterHrNs": "946888031044416",
+        "offsetLowerNs": "946887904353415",
+        "offsetUpperNs": "946887904353542",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031044750",
+        "performanceMs": 126.691333,
+        "afterHrNs": "946888031044916",
+        "offsetLowerNs": "946887904353416",
+        "offsetUpperNs": "946887904353584",
+        "widthNs": "168"
+      },
+      {
+        "beforeHrNs": "946888031045208",
+        "performanceMs": 126.691791,
+        "afterHrNs": "946888031045333",
+        "offsetLowerNs": "946887904353416",
+        "offsetUpperNs": "946887904353543",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031045666",
+        "performanceMs": 126.692208,
+        "afterHrNs": "946888031045791",
+        "offsetLowerNs": "946887904353457",
+        "offsetUpperNs": "946887904353584",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031046083",
+        "performanceMs": 126.692666,
+        "afterHrNs": "946888031046208",
+        "offsetLowerNs": "946887904353416",
+        "offsetUpperNs": "946887904353543",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031046541",
+        "performanceMs": 126.693125,
+        "afterHrNs": "946888031046666",
+        "offsetLowerNs": "946887904353415",
+        "offsetUpperNs": "946887904353542",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031047000",
+        "performanceMs": 126.693541,
+        "afterHrNs": "946888031047083",
+        "offsetLowerNs": "946887904353458",
+        "offsetUpperNs": "946887904353543",
+        "widthNs": "85"
+      },
+      {
+        "beforeHrNs": "946888031047458",
+        "performanceMs": 126.694,
+        "afterHrNs": "946888031047583",
+        "offsetLowerNs": "946887904353457",
+        "offsetUpperNs": "946887904353584",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031047875",
+        "performanceMs": 126.694458,
+        "afterHrNs": "946888031048000",
+        "offsetLowerNs": "946887904353416",
+        "offsetUpperNs": "946887904353543",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031048333",
+        "performanceMs": 126.694916,
+        "afterHrNs": "946888031048458",
+        "offsetLowerNs": "946887904353416",
+        "offsetUpperNs": "946887904353543",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031048750",
+        "performanceMs": 126.695333,
+        "afterHrNs": "946888031048916",
+        "offsetLowerNs": "946887904353416",
+        "offsetUpperNs": "946887904353584",
+        "widthNs": "168"
+      },
+      {
+        "beforeHrNs": "946888031049208",
+        "performanceMs": 126.695791,
+        "afterHrNs": "946888031049333",
+        "offsetLowerNs": "946887904353416",
+        "offsetUpperNs": "946887904353543",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031049625",
+        "performanceMs": 126.696208,
+        "afterHrNs": "946888031049791",
+        "offsetLowerNs": "946887904353416",
+        "offsetUpperNs": "946887904353584",
+        "widthNs": "168"
+      },
+      {
+        "beforeHrNs": "946888031050083",
+        "performanceMs": 126.696666,
+        "afterHrNs": "946888031050208",
+        "offsetLowerNs": "946887904353416",
+        "offsetUpperNs": "946887904353543",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031050541",
+        "performanceMs": 126.697083,
+        "afterHrNs": "946888031050666",
+        "offsetLowerNs": "946887904353457",
+        "offsetUpperNs": "946887904353584",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031050958",
+        "performanceMs": 126.697541,
+        "afterHrNs": "946888031051083",
+        "offsetLowerNs": "946887904353416",
+        "offsetUpperNs": "946887904353543",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031051416",
+        "performanceMs": 126.697958,
+        "afterHrNs": "946888031051541",
+        "offsetLowerNs": "946887904353457",
+        "offsetUpperNs": "946887904353584",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031051833",
+        "performanceMs": 126.698416,
+        "afterHrNs": "946888031051958",
+        "offsetLowerNs": "946887904353416",
+        "offsetUpperNs": "946887904353543",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031052291",
+        "performanceMs": 126.698833,
+        "afterHrNs": "946888031052416",
+        "offsetLowerNs": "946887904353457",
+        "offsetUpperNs": "946887904353584",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031052708",
+        "performanceMs": 126.699291,
+        "afterHrNs": "946888031052833",
+        "offsetLowerNs": "946887904353416",
+        "offsetUpperNs": "946887904353543",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031053125",
+        "performanceMs": 126.699708,
+        "afterHrNs": "946888031053250",
+        "offsetLowerNs": "946887904353416",
+        "offsetUpperNs": "946887904353543",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031053541",
+        "performanceMs": 126.700125,
+        "afterHrNs": "946888031053708",
+        "offsetLowerNs": "946887904353415",
+        "offsetUpperNs": "946887904353584",
+        "widthNs": "169"
+      },
+      {
+        "beforeHrNs": "946888031054000",
+        "performanceMs": 126.700583,
+        "afterHrNs": "946888031054125",
+        "offsetLowerNs": "946887904353416",
+        "offsetUpperNs": "946887904353543",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031054458",
+        "performanceMs": 126.701,
+        "afterHrNs": "946888031054583",
+        "offsetLowerNs": "946887904353457",
+        "offsetUpperNs": "946887904353584",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031054875",
+        "performanceMs": 126.701458,
+        "afterHrNs": "946888031055000",
+        "offsetLowerNs": "946887904353416",
+        "offsetUpperNs": "946887904353543",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031055291",
+        "performanceMs": 126.701875,
+        "afterHrNs": "946888031055416",
+        "offsetLowerNs": "946887904353415",
+        "offsetUpperNs": "946887904353542",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031055750",
+        "performanceMs": 126.702333,
+        "afterHrNs": "946888031055875",
+        "offsetLowerNs": "946887904353416",
+        "offsetUpperNs": "946887904353543",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031056166",
+        "performanceMs": 126.70275,
+        "afterHrNs": "946888031056291",
+        "offsetLowerNs": "946887904353415",
+        "offsetUpperNs": "946887904353542",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031056625",
+        "performanceMs": 126.703166,
+        "afterHrNs": "946888031056708",
+        "offsetLowerNs": "946887904353458",
+        "offsetUpperNs": "946887904353543",
+        "widthNs": "85"
+      },
+      {
+        "beforeHrNs": "946888031057041",
+        "performanceMs": 126.703625,
+        "afterHrNs": "946888031057166",
+        "offsetLowerNs": "946887904353415",
+        "offsetUpperNs": "946887904353542",
+        "widthNs": "127"
+      },
+      {
+        "beforeHrNs": "946888031057458",
+        "performanceMs": 126.704041,
+        "afterHrNs": "946888031057583",
+        "offsetLowerNs": "946887904353416",
+        "offsetUpperNs": "946887904353543",
+        "widthNs": "127"
+      }
+    ],
+    "chosen": {
+      "beforeHrNs": "946888031047000",
+      "performanceMs": 126.693541,
+      "afterHrNs": "946888031047083",
+      "offsetLowerNs": "946887904353458",
+      "offsetUpperNs": "946887904353543",
+      "widthNs": "85"
+    }
+  },
+  "guards": {
+    "heldOutCompatible": true,
+    "injected50msOriginRejected": true,
+    "oldIncarnationRejected": true,
+    "closedIncarnationRejected": true,
+    "errorBeforePredicateRejected": true,
+    "errorAfterPredicateRejected": true,
+    "capacityFailCannotRevive": true
+  },
+  "capacityRegressions": [
+    {
+      "name": "dispatch-pop",
+      "pass": true,
+      "state": {
+        "dead": true,
+        "session": "",
+        "pending": 0,
+        "voices": 0,
+        "objects": 0
+      },
+      "fatal": {
+        "type": "fatal",
+        "incarnation": "dry",
+        "reason": "Receipt count/byte capacity exceeded",
+        "observedHrNs": "1000000000",
+        "mutationHrBeforeNs": "1000000000",
+        "mutationHrAfterNs": "1000000000",
+        "state": {
+          "session": "dry/old",
+          "pending": 0,
+          "activeVoices": 1
+        }
+      }
+    },
+    {
+      "name": "new-epoch-release",
+      "pass": true,
+      "state": {
+        "dead": true,
+        "session": "",
+        "pending": 0,
+        "voices": 0,
+        "objects": 0
+      },
+      "fatal": {
+        "type": "fatal",
+        "incarnation": "dry",
+        "reason": "Receipt count/byte capacity exceeded",
+        "observedHrNs": "1000000000",
+        "mutationHrBeforeNs": "1000000000",
+        "mutationHrAfterNs": "1000000000",
+        "state": {
+          "session": "",
+          "pending": 0,
+          "activeVoices": 0
+        }
+      }
+    },
+    {
+      "name": "late-voice-rollback",
+      "pass": true,
+      "state": {
+        "dead": false,
+        "voices": 64,
+        "oldest": "old-0",
+        "controlPresent": false
+      },
+      "late": {
+        "type": "late-drop",
+        "session": "dry/old",
+        "observedHrNs": "1020100000",
+        "id": "control",
+        "nodeId": "node",
+        "position": [
+          0,
+          0,
+          1
+        ],
+        "intendedHrNs": "1000000000",
+        "actualHrNs": "1020100000",
+        "mutationHrBeforeNs": "1019900000",
+        "mutationHrAfterNs": "1020100000",
+        "beforeErrorMs": 19.9,
+        "errorMs": 20.1,
+        "mockVoiceAttempted": true,
+        "mockVoiceWritten": false,
+        "lateMutationRolledBack": true,
+        "rollback": {
+          "rollbackHrBeforeNs": "1020100000",
+          "rollbackHrAfterNs": "1020100000",
+          "restoredEvictedId": "old-0"
+        },
+        "activeVoices": 64,
+        "pending": 0
+      }
+    }
+  ],
+  "limitations": [
+    "Syntax, held-out clock brackets, pure predicate guards and controlled embedded-source capacity regressions only; no OS scheduling, real Worker, throughput or application qualification."
+  ]
+}

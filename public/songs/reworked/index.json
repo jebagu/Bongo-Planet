@@ -1,0 +1,845 @@
+{
+  "title": "Bongo Planet — Reworked covers",
+  "tracks": [
+    {
+      "id": "R-S01",
+      "sourceId": "S01",
+      "title": "Ode to Joy",
+      "artist": "Ludwig van Beethoven",
+      "feel": "chamber",
+      "lead": "piano",
+      "bpm": 126,
+      "originalBpm": 114,
+      "nodes": 68,
+      "originalNodes": 23,
+      "instruments": 60,
+      "percussion": 0,
+      "leadLevels": [
+        0.5262586992000001,
+        0.8625463451274736
+      ],
+      "description": "A stronger forward pulse, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-S01-Ode-to-Joy.json"
+    },
+    {
+      "id": "R-S02",
+      "sourceId": "S02",
+      "title": "When the Saints Go Marching In",
+      "artist": "Traditional spiritual",
+      "feel": "soul",
+      "lead": "piano",
+      "bpm": 140,
+      "originalBpm": 126,
+      "nodes": 68,
+      "originalNodes": 23,
+      "instruments": 60,
+      "percussion": 14,
+      "leadLevels": [
+        0.4623207264,
+        0.8625463451274736
+      ],
+      "description": "A stronger forward pulse, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-S02-When-the-Saints-Go-Marching-In.json"
+    },
+    {
+      "id": "R-S03",
+      "sourceId": "S03",
+      "title": "Simple Gifts",
+      "artist": "Joseph Brackett",
+      "feel": "folk",
+      "lead": "guitar",
+      "bpm": 112,
+      "originalBpm": 108,
+      "nodes": 68,
+      "originalNodes": 23,
+      "instruments": 60,
+      "percussion": 7,
+      "leadLevels": [
+        0.5262586992000001,
+        0.8625463451274736
+      ],
+      "description": "An easy forward pulse, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-S03-Simple-Gifts.json"
+    },
+    {
+      "id": "R-S04",
+      "sourceId": "S04",
+      "title": "Drunken Sailor",
+      "artist": "Traditional sea shanty",
+      "feel": "rock",
+      "lead": "guitar",
+      "bpm": 148,
+      "originalBpm": 132,
+      "nodes": 71,
+      "originalNodes": 23,
+      "instruments": 63,
+      "percussion": 14,
+      "leadLevels": [
+        0.5801776369318337,
+        0.8583226549219864
+      ],
+      "description": "A stronger forward pulse, with accented riffs, short drum answers, and space around the hook.",
+      "file": "R-S04-Drunken-Sailor.json"
+    },
+    {
+      "id": "R-S05",
+      "sourceId": "S05",
+      "title": "Scarborough Fair",
+      "artist": "Traditional English ballad",
+      "feel": "lyrical",
+      "lead": "guitar",
+      "bpm": 86,
+      "originalBpm": 88,
+      "nodes": 68,
+      "originalNodes": 23,
+      "instruments": 60,
+      "percussion": 0,
+      "leadLevels": [
+        0.5262586992000001,
+        0.8625463451274736
+      ],
+      "description": "A relaxed, singing pace, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-S05-Scarborough-Fair.json"
+    },
+    {
+      "id": "R-S06",
+      "sourceId": "S06",
+      "title": "Sakura",
+      "artist": "Traditional Japanese melody",
+      "feel": "nocturne",
+      "lead": "piano",
+      "bpm": 84,
+      "originalBpm": 84,
+      "nodes": 73,
+      "originalNodes": 23,
+      "instruments": 65,
+      "percussion": 0,
+      "leadLevels": [
+        0.5598496800000001,
+        0.8194113092116896
+      ],
+      "description": "A relaxed, singing pace, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-S06-Sakura.json"
+    },
+    {
+      "id": "R-S07",
+      "sourceId": "S07",
+      "title": "Amazing Grace",
+      "artist": "Traditional NEW BRITAIN tune",
+      "feel": "lyrical",
+      "lead": "guitar",
+      "bpm": 96,
+      "originalBpm": 92,
+      "nodes": 71,
+      "originalNodes": 46,
+      "instruments": 63,
+      "percussion": 0,
+      "leadLevels": [
+        0.5598496800000001,
+        0.8432776580236805
+      ],
+      "description": "A relaxed, singing pace, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-S07-Amazing-Grace.json"
+    },
+    {
+      "id": "R-S08",
+      "sourceId": "S08",
+      "title": "Auld Lang Syne",
+      "artist": "Traditional Scottish melody",
+      "feel": "folk",
+      "lead": "piano",
+      "bpm": 110,
+      "originalBpm": 102,
+      "nodes": 76,
+      "originalNodes": 46,
+      "instruments": 68,
+      "percussion": 7,
+      "leadLevels": [
+        0.442647504,
+        0.8432776580236805
+      ],
+      "description": "A stronger forward pulse, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-S08-Auld-Lang-Syne.json"
+    },
+    {
+      "id": "R-S09",
+      "sourceId": "S09",
+      "title": "Greensleeves",
+      "artist": "Traditional English melody",
+      "feel": "lyrical",
+      "lead": "guitar",
+      "bpm": 120,
+      "originalBpm": 112,
+      "nodes": 72,
+      "originalNodes": 46,
+      "instruments": 64,
+      "percussion": 0,
+      "leadLevels": [
+        0.4623207264,
+        0.750231658611421
+      ],
+      "description": "A stronger forward pulse, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-S09-Greensleeves.json"
+    },
+    {
+      "id": "R-S10",
+      "sourceId": "S10",
+      "title": "Oh! Susanna",
+      "artist": "Stephen Foster",
+      "feel": "folk",
+      "lead": "piano",
+      "bpm": 156,
+      "originalBpm": 138,
+      "nodes": 76,
+      "originalNodes": 46,
+      "instruments": 68,
+      "percussion": 7,
+      "leadLevels": [
+        0.442647504,
+        0.8432776580236805
+      ],
+      "description": "A stronger forward pulse, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-S10-Oh-Susanna.json"
+    },
+    {
+      "id": "R-S11",
+      "sourceId": "S11",
+      "title": "Shenandoah",
+      "artist": "Traditional American folk melody",
+      "feel": "lyrical",
+      "lead": "guitar",
+      "bpm": 80,
+      "originalBpm": 78,
+      "nodes": 76,
+      "originalNodes": 46,
+      "instruments": 68,
+      "percussion": 0,
+      "leadLevels": [
+        0.442647504,
+        0.8432776580236805
+      ],
+      "description": "A relaxed, singing pace, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-S11-Shenandoah.json"
+    },
+    {
+      "id": "R-S12",
+      "sourceId": "S12",
+      "title": "Brahms’ Lullaby",
+      "artist": "Johannes Brahms",
+      "feel": "nocturne",
+      "lead": "piano",
+      "bpm": 84,
+      "originalBpm": 88,
+      "nodes": 76,
+      "originalNodes": 46,
+      "instruments": 68,
+      "percussion": 0,
+      "leadLevels": [
+        0.4721573376,
+        0.8162089950787653
+      ],
+      "description": "A relaxed, singing pace, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-S12-Brahms-Lullaby.json"
+    },
+    {
+      "id": "R-S13",
+      "sourceId": "S13",
+      "title": "Pachelbel’s Canon",
+      "artist": "Johann Pachelbel",
+      "feel": "baroque",
+      "lead": "piano",
+      "bpm": 108,
+      "originalBpm": 96,
+      "nodes": 68,
+      "originalNodes": 76,
+      "instruments": 60,
+      "percussion": 0,
+      "leadLevels": [
+        0.5262586992000001,
+        0.8625463451274736
+      ],
+      "description": "A stronger forward pulse, with shaped arpeggios, overlapping piano notes, and a steady low foundation.",
+      "file": "R-S13-Pachelbels-Canon.json"
+    },
+    {
+      "id": "R-S14",
+      "sourceId": "S14",
+      "title": "New World Largo",
+      "artist": "Antonín Dvořák, Symphony No. 9",
+      "feel": "lyrical",
+      "lead": "piano",
+      "bpm": 76,
+      "originalBpm": 74,
+      "nodes": 71,
+      "originalNodes": 76,
+      "instruments": 63,
+      "percussion": 0,
+      "leadLevels": [
+        0.5308008167674224,
+        0.8097383536999871
+      ],
+      "description": "A relaxed, singing pace, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-S14-New-World-Largo.json"
+    },
+    {
+      "id": "R-S21",
+      "sourceId": "S21",
+      "title": "Let It Be",
+      "artist": "The Beatles",
+      "feel": "lyrical",
+      "lead": "piano",
+      "bpm": 82,
+      "originalBpm": 78,
+      "nodes": 74,
+      "originalNodes": 84,
+      "instruments": 66,
+      "percussion": 0,
+      "leadLevels": [
+        0.5262586992000001,
+        0.8166909652644473
+      ],
+      "description": "A relaxed, singing pace, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-S21-Let-It-Be.json"
+    },
+    {
+      "id": "R-S22",
+      "sourceId": "S22",
+      "title": "Stand by Me",
+      "artist": "Ben E. King",
+      "feel": "soul",
+      "lead": "guitar",
+      "bpm": 124,
+      "originalBpm": 116,
+      "nodes": 76,
+      "originalNodes": 86,
+      "instruments": 68,
+      "percussion": 14,
+      "leadLevels": [
+        0.442647504,
+        0.8432776580236805
+      ],
+      "description": "A stronger forward pulse, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-S22-Stand-by-Me.json"
+    },
+    {
+      "id": "R-S23",
+      "sourceId": "S23",
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "feel": "dance",
+      "lead": "guitar",
+      "bpm": 124,
+      "originalBpm": 117,
+      "nodes": 76,
+      "originalNodes": 88,
+      "instruments": 68,
+      "percussion": 14,
+      "leadLevels": [
+        0.442647504,
+        0.8432776580236805
+      ],
+      "description": "An easy forward pulse, with accented riffs, short drum answers, and space around the hook.",
+      "file": "R-S23-Billie-Jean.json"
+    },
+    {
+      "id": "R-S24",
+      "sourceId": "S24",
+      "title": "Take On Me",
+      "artist": "a-ha",
+      "feel": "dance",
+      "lead": "piano",
+      "bpm": 176,
+      "originalBpm": 166,
+      "nodes": 77,
+      "originalNodes": 84,
+      "instruments": 69,
+      "percussion": 14,
+      "leadLevels": [
+        0.5644738021312183,
+        0.84244524
+      ],
+      "description": "A stronger forward pulse, with accented riffs, short drum answers, and space around the hook.",
+      "file": "R-S24-Take-On-Me.json"
+    },
+    {
+      "id": "R-S25",
+      "sourceId": "S25",
+      "title": "Lean on Me",
+      "artist": "Bill Withers",
+      "feel": "soul",
+      "lead": "piano",
+      "bpm": 102,
+      "originalBpm": 92,
+      "nodes": 76,
+      "originalNodes": 82,
+      "instruments": 68,
+      "percussion": 14,
+      "leadLevels": [
+        0.442647504,
+        0.8432776580236805
+      ],
+      "description": "A stronger forward pulse, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-S25-Lean-on-Me.json"
+    },
+    {
+      "id": "R-S26",
+      "sourceId": "S26",
+      "title": "Imagine",
+      "artist": "John Lennon",
+      "feel": "lyrical",
+      "lead": "piano",
+      "bpm": 78,
+      "originalBpm": 76,
+      "nodes": 67,
+      "originalNodes": 82,
+      "instruments": 59,
+      "percussion": 0,
+      "leadLevels": [
+        0.5598496800000001,
+        0.8432776580236805
+      ],
+      "description": "A relaxed, singing pace, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-S26-Imagine.json"
+    },
+    {
+      "id": "R-S27",
+      "sourceId": "S27",
+      "title": "Seven Nation Army",
+      "artist": "The White Stripes",
+      "feel": "rock",
+      "lead": "guitar",
+      "bpm": 138,
+      "originalBpm": 124,
+      "nodes": 67,
+      "originalNodes": 86,
+      "instruments": 59,
+      "percussion": 14,
+      "leadLevels": [
+        0.5598496800000001,
+        0.8432776580236805
+      ],
+      "description": "A stronger forward pulse, with accented riffs, short drum answers, and space around the hook.",
+      "file": "R-S27-Seven-Nation-Army.json"
+    },
+    {
+      "id": "R-S28",
+      "sourceId": "S28",
+      "title": "Another One Bites the Dust",
+      "artist": "Queen",
+      "feel": "soul",
+      "lead": "guitar",
+      "bpm": 120,
+      "originalBpm": 110,
+      "nodes": 76,
+      "originalNodes": 84,
+      "instruments": 68,
+      "percussion": 14,
+      "leadLevels": [
+        0.40497537600000005,
+        0.8432776580236805
+      ],
+      "description": "A stronger forward pulse, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-S28-Another-One-Bites-the-Dust.json"
+    },
+    {
+      "id": "R-S29",
+      "sourceId": "S29",
+      "title": "Sweet Child O’ Mine",
+      "artist": "Guns N’ Roses",
+      "feel": "rock",
+      "lead": "guitar",
+      "bpm": 140,
+      "originalBpm": 125,
+      "nodes": 76,
+      "originalNodes": 88,
+      "instruments": 68,
+      "percussion": 14,
+      "leadLevels": [
+        0.442647504,
+        0.8432776580236805
+      ],
+      "description": "A stronger forward pulse, with accented riffs, short drum answers, and space around the hook.",
+      "file": "R-S29-Sweet-Child-O-Mine.json"
+    },
+    {
+      "id": "R-S30",
+      "sourceId": "S30",
+      "title": "Clocks",
+      "artist": "Coldplay",
+      "feel": "rock",
+      "lead": "piano",
+      "bpm": 148,
+      "originalBpm": 130,
+      "nodes": 76,
+      "originalNodes": 88,
+      "instruments": 68,
+      "percussion": 14,
+      "leadLevels": [
+        0.442647504,
+        0.8432776580236805
+      ],
+      "description": "A stronger forward pulse, with accented riffs, short drum answers, and space around the hook.",
+      "file": "R-S30-Clocks.json"
+    },
+    {
+      "id": "R-S31",
+      "sourceId": "S31",
+      "title": "Nothing Else Matters",
+      "artist": "Metallica",
+      "feel": "nocturne",
+      "lead": "guitar",
+      "bpm": 88,
+      "originalBpm": 84,
+      "nodes": 76,
+      "originalNodes": 84,
+      "instruments": 68,
+      "percussion": 0,
+      "leadLevels": [
+        0.4721573376,
+        0.850993199024451
+      ],
+      "description": "A relaxed, singing pace, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-S31-Nothing-Else-Matters.json"
+    },
+    {
+      "id": "R-S32",
+      "sourceId": "S32",
+      "title": "(I Can’t Get No) Satisfaction",
+      "artist": "The Rolling Stones",
+      "feel": "rock",
+      "lead": "guitar",
+      "bpm": 152,
+      "originalBpm": 136,
+      "nodes": 72,
+      "originalNodes": 86,
+      "instruments": 64,
+      "percussion": 14,
+      "leadLevels": [
+        0.5374556928,
+        0.7835606352756147
+      ],
+      "description": "A stronger forward pulse, with accented riffs, short drum answers, and space around the hook.",
+      "file": "R-S32-I-Cant-Get-No-Satisfaction.json"
+    },
+    {
+      "id": "R-S33",
+      "sourceId": "S33",
+      "title": "Prelude in C Major",
+      "artist": "J. S. Bach",
+      "feel": "baroque",
+      "lead": "piano",
+      "bpm": 118,
+      "originalBpm": 94,
+      "nodes": 92,
+      "originalNodes": 88,
+      "instruments": 84,
+      "percussion": 0,
+      "leadLevels": [
+        0.4229742816,
+        0.8667553849396119
+      ],
+      "description": "A stronger forward pulse, with shaped arpeggios, overlapping piano notes, and a steady low foundation.",
+      "file": "R-S33-Prelude-in-C-Major.json"
+    },
+    {
+      "id": "R-S34",
+      "sourceId": "S34",
+      "title": "Minuet in G",
+      "artist": "Christian Petzold",
+      "feel": "chamber",
+      "lead": "piano",
+      "bpm": 120,
+      "originalBpm": 108,
+      "nodes": 72,
+      "originalNodes": 82,
+      "instruments": 64,
+      "percussion": 0,
+      "leadLevels": [
+        0.5262586992000001,
+        0.7577509947848833
+      ],
+      "description": "A stronger forward pulse, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-S34-Minuet-in-G.json"
+    },
+    {
+      "id": "R-S35",
+      "sourceId": "S35",
+      "title": "Eine kleine Nachtmusik",
+      "artist": "W. A. Mozart",
+      "feel": "chamber",
+      "lead": "piano",
+      "bpm": 148,
+      "originalBpm": 130,
+      "nodes": 74,
+      "originalNodes": 86,
+      "instruments": 66,
+      "percussion": 0,
+      "leadLevels": [
+        0.5220107541495697,
+        0.8356620949086675
+      ],
+      "description": "A stronger forward pulse, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-S35-Eine-kleine-Nachtmusik.json"
+    },
+    {
+      "id": "R-S36",
+      "sourceId": "S36",
+      "title": "Moonlight Sonata",
+      "artist": "Ludwig van Beethoven",
+      "feel": "nocturne",
+      "lead": "piano",
+      "bpm": 66,
+      "originalBpm": 64,
+      "nodes": 88,
+      "originalNodes": 86,
+      "instruments": 80,
+      "percussion": 0,
+      "leadLevels": [
+        0.43197373440000003,
+        0.8345980114137813
+      ],
+      "description": "A relaxed, singing pace, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-S36-Moonlight-Sonata.json"
+    },
+    {
+      "id": "R-S37",
+      "sourceId": "S37",
+      "title": "Swan Lake",
+      "artist": "Pyotr Ilyich Tchaikovsky",
+      "feel": "chamber",
+      "lead": "piano",
+      "bpm": 86,
+      "originalBpm": 82,
+      "nodes": 73,
+      "originalNodes": 84,
+      "instruments": 65,
+      "percussion": 0,
+      "leadLevels": [
+        0.49183056,
+        0.8194113092116896
+      ],
+      "description": "An easy forward pulse, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-S37-Swan-Lake.json"
+    },
+    {
+      "id": "R-S38",
+      "sourceId": "S38",
+      "title": "Fly Me to the Moon",
+      "artist": "Bart Howard",
+      "feel": "jazz",
+      "lead": "piano",
+      "bpm": 126,
+      "originalBpm": 112,
+      "nodes": 69,
+      "originalNodes": 84,
+      "instruments": 61,
+      "percussion": 0,
+      "leadLevels": [
+        0.5400909207289344,
+        0.86698248
+      ],
+      "description": "A stronger forward pulse, with long-short phrasing, offbeat chord replies, and a soft bass walk.",
+      "file": "R-S38-Fly-Me-to-the-Moon.json"
+    },
+    {
+      "id": "R-S39",
+      "sourceId": "S39",
+      "title": "Autumn Leaves",
+      "artist": "Joseph Kosma",
+      "feel": "jazz",
+      "lead": "guitar",
+      "bpm": 108,
+      "originalBpm": 92,
+      "nodes": 76,
+      "originalNodes": 86,
+      "instruments": 68,
+      "percussion": 0,
+      "leadLevels": [
+        0.40497537600000005,
+        0.8415034026181185
+      ],
+      "description": "A stronger forward pulse, with long-short phrasing, offbeat chord replies, and a soft bass walk.",
+      "file": "R-S39-Autumn-Leaves.json"
+    },
+    {
+      "id": "R-S40",
+      "sourceId": "S40",
+      "title": "In the Mood",
+      "artist": "Joe Garland / Glenn Miller",
+      "feel": "jazz",
+      "lead": "piano",
+      "bpm": 168,
+      "originalBpm": 152,
+      "nodes": 76,
+      "originalNodes": 88,
+      "instruments": 68,
+      "percussion": 0,
+      "leadLevels": [
+        0.40497537600000005,
+        0.8432776580236805
+      ],
+      "description": "A stronger forward pulse, with long-short phrasing, offbeat chord replies, and a soft bass walk.",
+      "file": "R-S40-In-the-Mood.json"
+    },
+    {
+      "id": "R-S41",
+      "sourceId": "S41",
+      "title": "Super Mario Bros. — Ground Theme",
+      "artist": "Koji Kondo",
+      "feel": "dance",
+      "lead": "piano",
+      "bpm": 176,
+      "originalBpm": 168,
+      "nodes": 67,
+      "originalNodes": 72,
+      "instruments": 59,
+      "percussion": 14,
+      "leadLevels": [
+        0.5598496800000001,
+        0.8432776580236805
+      ],
+      "description": "A stronger forward pulse, with accented riffs, short drum answers, and space around the hook.",
+      "file": "R-S41-Super-Mario-Bros-Ground-Theme.json"
+    },
+    {
+      "id": "R-S42",
+      "sourceId": "S42",
+      "title": "The Legend of Zelda — Overworld",
+      "artist": "Koji Kondo",
+      "feel": "chamber",
+      "lead": "piano",
+      "bpm": 156,
+      "originalBpm": 144,
+      "nodes": 68,
+      "originalNodes": 76,
+      "instruments": 60,
+      "percussion": 0,
+      "leadLevels": [
+        0.5262586992000001,
+        0.7577509947848833
+      ],
+      "description": "A stronger forward pulse, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-S42-The-Legend-of-Zelda-Overworld.json"
+    },
+    {
+      "id": "R-S43",
+      "sourceId": "S43",
+      "title": "Tetris — Type A (Korobeiniki)",
+      "artist": "Traditional / Hirokazu Tanaka",
+      "feel": "dance",
+      "lead": "piano",
+      "bpm": 82,
+      "originalBpm": 75,
+      "nodes": 92,
+      "originalNodes": 92,
+      "instruments": 91,
+      "percussion": 23,
+      "leadLevels": [
+        0.5525204994808193,
+        0.7775286245158468
+      ],
+      "description": "The full 92-node Tetris journey, with stronger piano accents and shorter offbeat replies. Its 82 BPM grid gives the main theme a 164 BPM feel, with a compact bridge and a held final A before the loop returns.",
+      "file": "R-S43-Tetris-Type-A-Korobeiniki.json"
+    },
+    {
+      "id": "R-S44",
+      "sourceId": "S44",
+      "title": "Final Fantasy — Prelude",
+      "artist": "Nobuo Uematsu",
+      "feel": "baroque",
+      "lead": "piano",
+      "bpm": 116,
+      "originalBpm": 100,
+      "nodes": 92,
+      "originalNodes": 72,
+      "instruments": 84,
+      "percussion": 0,
+      "leadLevels": [
+        0.4229742816,
+        0.8667553849396119
+      ],
+      "description": "A stronger forward pulse, with shaped arpeggios, overlapping piano notes, and a steady low foundation.",
+      "file": "R-S44-Final-Fantasy-Prelude.json"
+    },
+    {
+      "id": "R-F11",
+      "sourceId": "F11",
+      "title": "Twinkle, Twinkle, Little Star",
+      "artist": "Traditional",
+      "feel": "folk",
+      "lead": "piano",
+      "bpm": 104,
+      "originalBpm": 96,
+      "nodes": 67,
+      "originalNodes": 8,
+      "instruments": 59,
+      "percussion": 7,
+      "leadLevels": [
+        0.5598496800000001,
+        0.8432776580236805
+      ],
+      "description": "A stronger forward pulse, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-F11-Twinkle-Twinkle-Little-Star.json"
+    },
+    {
+      "id": "R-F12",
+      "sourceId": "F12",
+      "title": "Mary Had a Little Lamb",
+      "artist": "Traditional",
+      "feel": "folk",
+      "lead": "guitar",
+      "bpm": 112,
+      "originalBpm": 100,
+      "nodes": 67,
+      "originalNodes": 8,
+      "instruments": 59,
+      "percussion": 7,
+      "leadLevels": [
+        0.5598496800000001,
+        0.8432776580236805
+      ],
+      "description": "A stronger forward pulse, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-F12-Mary-Had-a-Little-Lamb.json"
+    },
+    {
+      "id": "R-F13",
+      "sourceId": "F13",
+      "title": "Row, Row, Row Your Boat",
+      "artist": "Traditional",
+      "feel": "folk",
+      "lead": "guitar",
+      "bpm": 108,
+      "originalBpm": 92,
+      "nodes": 74,
+      "originalNodes": 11,
+      "instruments": 66,
+      "percussion": 7,
+      "leadLevels": [
+        0.5038647120000002,
+        0.782757225727486
+      ],
+      "description": "A stronger forward pulse, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-F13-Row-Row-Row-Your-Boat.json"
+    },
+    {
+      "id": "R-F14",
+      "sourceId": "F14",
+      "title": "Frère Jacques",
+      "artist": "Traditional",
+      "feel": "folk",
+      "lead": "piano",
+      "bpm": 112,
+      "originalBpm": 88,
+      "nodes": 68,
+      "originalNodes": 9,
+      "instruments": 60,
+      "percussion": 7,
+      "leadLevels": [
+        0.5262586992000001,
+        0.8625463451274736
+      ],
+      "description": "A stronger forward pulse, with a rising and falling melody, ringing chord answers, and room at the ends of phrases.",
+      "file": "R-F14-Frere-Jacques.json"
+    }
+  ]
+}

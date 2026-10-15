@@ -1,0 +1,45 @@
+{
+  "startedUtc": "2026-10-12T04:44:02.728647+00:00",
+  "goSha256": "6ba9331d08ce9dd81823ddb2a4ca355ddf290a092d4555a3f9326f8a5bd50b03",
+  "command": [
+    "/usr/local/bin/node",
+    "--import",
+    "tsx",
+    "evidence/step-09/native-ingress-fairness/preparation/ingress-component.ts"
+  ],
+  "environment": {
+    "BONGO_INGRESS_MODE": "successor",
+    "BONGO_INGRESS_EVIDENCE_DIR": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/successor-01",
+    "BONGO_INGRESS_CONTROLLER_RESERVE": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/reserve-successor-01",
+    "BONGO_MOVEMENT_RESOURCE_JOURNAL": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-09/native-ingress-fairness/preparation/Successor01-Resource-Claims.jsonl"
+  },
+  "mainWallSeconds": 25,
+  "totalWallSeconds": 35,
+  "forcedCleanup": false,
+  "errors": [],
+  "claims": [],
+  "owned": {
+    "51193": {
+      "pid": 51193,
+      "parent": 51190,
+      "group": 51190,
+      "birth": "Mon Oct 12 07:44:02 2026",
+      "stat": "R",
+      "command": "/Users/jeremyguillory/Documents/ChatGPT/ripple/node_modules/@esbuild/darwin-arm64/bin/esbuild --service=0.28.2 --ping"
+    }
+  },
+  "mainPid": 51190,
+  "mainGroup": 51190,
+  "mainIdentity": {
+    "pid": 51190,
+    "parent": 51189,
+    "group": 51190,
+    "birth": "Mon Oct 12 07:44:02 2026",
+    "stat": "Rs",
+    "command": "/usr/local/bin/node --import tsx evidence/step-09/native-ingress-fairness/preparation/ingress-component.ts"
+  },
+  "childExitCode": 0,
+  "remainingOwned": {},
+  "elapsedSeconds": 0.5929513750597835,
+  "endedUtc": "2026-10-12T04:44:03.321583+00:00"
+}

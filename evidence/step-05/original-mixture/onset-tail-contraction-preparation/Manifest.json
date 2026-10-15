@@ -1,0 +1,140 @@
+{
+  "scope": "V3 source-only preparation; first failed control preserved, corrected16/16 source controls plus strict typecheck. No actual authorization/recording analysis/qualification.",
+  "files": [
+    {
+      "path": "Plan.md",
+      "bytes": 2900,
+      "sha256": "e669fdc21db7c0565883cf8ef33244b2dc5b015e875a473eecaad3e41f1ab3da"
+    },
+    {
+      "path": "Preparation-Review.md",
+      "bytes": 3068,
+      "sha256": "eb98accfc34300b833aebe6f646496df43bcadf6d032c0886ec256f8368d1cc6"
+    },
+    {
+      "path": "controls-01/Execution.json",
+      "bytes": 912,
+      "sha256": "dd375b324eb438406f595edf93fd59c154f4143a84099aadda4854f9acde66cc"
+    },
+    {
+      "path": "controls-01/Source-Binding.json",
+      "bytes": 767,
+      "sha256": "bf8fe305a79a144f8a4f6c96b2b5527ad5286b298206c7db54bccb786f441768"
+    },
+    {
+      "path": "controls-01/measured-controls.json",
+      "bytes": 564502,
+      "sha256": "140a438bfde1b6c00532f9294f28d61882b80f31b645eb64a2c1c5cd6bd9be3f"
+    },
+    {
+      "path": "controls-01/mixture-onset-interval.ts",
+      "bytes": 10151,
+      "sha256": "32d08b01e412b7556765ec20442d409f4f15a34f6536208ef03005689cc42f42"
+    },
+    {
+      "path": "controls-01/mixture-onset-runner-v2.ts",
+      "bytes": 36542,
+      "sha256": "f9a66bfc1446bb60f069dee8d182da64987a3bd75f432a054ca168b07052ceab"
+    },
+    {
+      "path": "controls-01/mixture-onset-runner-v3.ts",
+      "bytes": 42472,
+      "sha256": "2f2d3c3931ec8749dc2e56e6e560236edc0f5a3b1683117d7b7ce1eb0b9d4098"
+    },
+    {
+      "path": "controls-01/mixture-onset-runner.ts",
+      "bytes": 27880,
+      "sha256": "d590ec9e74750e003fd3bf2754b503a7a0ec604a65142a00baf66d801fadc1ae"
+    },
+    {
+      "path": "controls-01/mixture-onset-tail-contraction.test.ts",
+      "bytes": 15282,
+      "sha256": "90904dfb3418a0166f6a85d0dd8cd3204b99a69d3dd8cc1652ce3b05b4494a1a"
+    },
+    {
+      "path": "controls-01/mixture-production-interval.ts",
+      "bytes": 5893,
+      "sha256": "4fa2e0ead63385d29d9603ea2c576565396ac83c3396bfa9fc7c7f7ec53a5179"
+    },
+    {
+      "path": "controls-01/mixture-timing-oracle.ts",
+      "bytes": 6791,
+      "sha256": "82a90a5254680efcaeb68e7584be1a8568ce9c0e1a23dced029d2560ab154551"
+    },
+    {
+      "path": "controls-01/unit-results.json",
+      "bytes": 8673,
+      "sha256": "6529b16a4957a1204954404c0cac8882906441c8cbb93ba7f68dc2ae84a7bb32"
+    },
+    {
+      "path": "controls-02/Controls01-to-02.diff",
+      "bytes": 2220,
+      "sha256": "caa60a67fc706996e3215225a7cd1c38eb4fa899d762db4459c01535fc6a230b"
+    },
+    {
+      "path": "controls-02/Copy-Preparation-Failure.json",
+      "bytes": 241,
+      "sha256": "6c0536ef941e12c5cdec6a9b5f2945b8a14b60ce41ea4833602676fbcef54e1e"
+    },
+    {
+      "path": "controls-02/Execution.json",
+      "bytes": 912,
+      "sha256": "f0583b6d8afc9eccc4ddc7f9444da8ef323dadfe4b41f79bfa09615e4998762f"
+    },
+    {
+      "path": "controls-02/Source-Binding.json",
+      "bytes": 767,
+      "sha256": "47ef191372dcff7583d33398c167a385c2c84d553e07c6a3f41732a477f43400"
+    },
+    {
+      "path": "controls-02/V2-to-V3.diff",
+      "bytes": 15291,
+      "sha256": "5343bad6303995988d47831e3a5c3e093302aed0afdab1109686d89e493a5bbf"
+    },
+    {
+      "path": "controls-02/measured-controls.json",
+      "bytes": 564510,
+      "sha256": "a10dc72e70c374dab0dfc4f85a53e5d13904b11e60de8a7249b63ec62de11252"
+    },
+    {
+      "path": "controls-02/mixture-onset-interval.ts",
+      "bytes": 10151,
+      "sha256": "32d08b01e412b7556765ec20442d409f4f15a34f6536208ef03005689cc42f42"
+    },
+    {
+      "path": "controls-02/mixture-onset-runner-v2.ts",
+      "bytes": 36542,
+      "sha256": "f9a66bfc1446bb60f069dee8d182da64987a3bd75f432a054ca168b07052ceab"
+    },
+    {
+      "path": "controls-02/mixture-onset-runner-v3.ts",
+      "bytes": 42472,
+      "sha256": "2f2d3c3931ec8749dc2e56e6e560236edc0f5a3b1683117d7b7ce1eb0b9d4098"
+    },
+    {
+      "path": "controls-02/mixture-onset-runner.ts",
+      "bytes": 27880,
+      "sha256": "d590ec9e74750e003fd3bf2754b503a7a0ec604a65142a00baf66d801fadc1ae"
+    },
+    {
+      "path": "controls-02/mixture-onset-tail-contraction.test.ts",
+      "bytes": 15436,
+      "sha256": "a4a1647de01de1a2bbe90141b9adca8872df93739af5935aded8e689713ff327"
+    },
+    {
+      "path": "controls-02/mixture-production-interval.ts",
+      "bytes": 5893,
+      "sha256": "4fa2e0ead63385d29d9603ea2c576565396ac83c3396bfa9fc7c7f7ec53a5179"
+    },
+    {
+      "path": "controls-02/mixture-timing-oracle.ts",
+      "bytes": 6791,
+      "sha256": "82a90a5254680efcaeb68e7584be1a8568ce9c0e1a23dced029d2560ab154551"
+    },
+    {
+      "path": "controls-02/unit-results.json",
+      "bytes": 7553,
+      "sha256": "e311989c47a5510ffb41d3da48450a007cd68e837276b483bd327578282afaaf"
+    }
+  ]
+}

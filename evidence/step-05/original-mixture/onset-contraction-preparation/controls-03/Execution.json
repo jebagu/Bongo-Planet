@@ -1,0 +1,17 @@
+{
+  "commands": [
+    {
+      "command": "BONGO_CONTRACTION_CONTROL_OUTPUT=evidence/step-05/original-mixture/onset-contraction-preparation/controls-03 npm test -- tests/mixture-onset-contraction.test.ts --reporter=json --outputFile=evidence/step-05/original-mixture/onset-contraction-preparation/controls-03/unit-results.json",
+      "chunk": "ebd254",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run typecheck",
+      "chunk": "c53ca1",
+      "exitCode": 0
+    }
+  ],
+  "recordingsOpened": false,
+  "actualRunnerExecuted": false,
+  "servicesLaunched": false
+}

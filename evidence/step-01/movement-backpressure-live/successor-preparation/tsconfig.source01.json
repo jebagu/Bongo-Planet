@@ -1,0 +1,1 @@
+{"extends":"../../../../tsconfig.json","include":["../../../../scripts/movement-backpressure-successor.spec.ts","playwright.config.ts","successor-contract01.ts","successor-controls01.ts"]}

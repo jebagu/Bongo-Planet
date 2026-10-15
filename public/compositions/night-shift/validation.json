@@ -1,0 +1,33 @@
+{
+  "name": "Techno Drum Loop",
+  "genre": "Techno",
+  "presetId": "D02",
+  "bpm": 128,
+  "phraseBeats": 8,
+  "audioLoopBeats": 16,
+  "generators": 4,
+  "soundingPieces": 38,
+  "routedVertices": 92,
+  "directedGates": 88,
+  "allTravelFinite": true,
+  "compositionSha256": "06dab45c07c599be29cfbcb5ea2409e2f7a35b1c88fd03a50588b202ff2e5293",
+  "simulation": {
+    "phrases": 8,
+    "writtenHitsAndRestsMatch": true,
+    "maximumEdges": 4,
+    "maximumDecisionsPerQuantum": 5,
+    "lateDrops": 0
+  },
+  "audio": {
+    "file": "Night-Shift.wav",
+    "seconds": 7.5,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peak": 0.2067842036485672,
+    "rms": 0.040214938156357426,
+    "repeatError": 7.450580596923828e-9,
+    "maximumVoices": 17,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

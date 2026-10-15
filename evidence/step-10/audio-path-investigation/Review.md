@@ -1,0 +1,21 @@
+# Bongo Planet audio path investigation
+
+This five-minute investigation reproduced three nonconstant adjacent-block repeats in the actual product worklet output tap. The same three 128-sample waveforms appeared as repeated blocks in the actual named SPAT virtual input exactly 640 samples (five render blocks) later. Two waveforms were strongly varied; one was low-range but nonconstant. These observations are inconsistent with an input-only origin for these three events. They do not identify the exact production processor clock values or distinguish product rendering from graph-level block reuse.
+
+The timer ran 300.452 real seconds from 2026-10-11T19:06:11.048Z to 2026-10-11T19:11:11.999Z. Original F06 played with 9 validated edits at 30-second intervals. There were 114976 consecutive independent recorder block indices, 14716928 samples in each path (306.602667 seconds including calibration and tails), and dynamic source/input/render lengths were all 128 samples in this run. Both paths were finite and nonzero; peak was 0.9800000190734863. Browser errors, scheduling late drops, and telemetry drops were zero. Recorder backlog reached two batches and drained to zero. These runtime observations are not acceptance qualification.
+
+| Event | Seconds after timer start | Product → input block index | Unique values | Range | Descriptive class |
+|---|---:|---|---:|---:|---|
+| 1 | 51.992 | 21754 → 21759 | 128 | 1.32382 | strongly-varied |
+| 2 | 177.005 | 68634 → 68639 | 51 | 1.93809 | strongly-varied |
+| 3 | 265.400 | 101782 → 101787 | 62 | 0.000275612 | other-nonconstant |
+
+Each source duplicate coincided with the observer currentFrame repeating the prior frame (-128 sample step error), followed by a +128 step error on the next block. currentTime × 48000 agreed with currentFrame within 1.862645149230957e-9 samples, so these jumps cannot be explained by floating-point rounding. One shared observer supplies both clock fields: it does not expose the clock read inside the production processor. Both paths retain their original recording order and independent monotonically increasing indices.
+
+Twelve independently scheduled native AudioBufferSource clicks, connected directly to the same selected output before product playback, were detected in SPAT input. Every route offset was 640 samples within floating-point rounding (13.333333 ms). Product onset timestamps were not used to fit that constant. For each input duplicate, the exact waveform matches both adjacent source blocks at the calibrated offset. Constant plateaus were excluded from duplicate counts. All nonconstant matches were retained; range and unique counts distinguish nearly flat material from varied waveforms without asserting audibility.
+
+Raw mono Float32 recordings, identical-data Float32 WAVs, original quantum metadata, sixteen-block anomaly windows, frozen capture harness, observer code, fixture, captured application source, and source bundle are retained here. The derivative analyzer deliberately copied one 128-sample block and injected a -128/+128 clock pair into a small derived control; both detections passed. Those controls validate the analyzer only and are not live fault evidence. Original recordings were not repaired, aligned, sorted, resampled, inserted into, or trimmed.
+
+Fetched assets before and after capture match main e0985953a9a9dc53c99a60420ea3ce3e4cf762c5c53056e9a7dafc41397fe85f and processor 155ba49f4f3e41921a86ae4adaa5595bcfe2858f5ebbadc7b28fa3281b50607d. The immutable test URL was http://127.0.0.1:5420/BongoPlanet/; the permanent application URL remains http://127.0.0.1:5417/BongoPlanet/. The exact SPAT input was selected by device ID and track identity verified. No default microphone fallback or global device change was used. The output was unmuted; the observer output was silence so the parallel tap did not double product audio. Cleanup closed the context, stopped input tracks, drained all recorder messages, closed Chrome and the temporary server.
+
+Acceptance remains open. This is neither a thirty-minute rerun nor a listening/audibility result. A separate native aperiodic-source control is needed to distinguish native sample advancement from product use of a repeated shared clock.

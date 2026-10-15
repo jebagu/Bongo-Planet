@@ -1,0 +1,107 @@
+{
+  "name": "Bongo Planet",
+  "assets": [
+    {
+      "path": "art/bongos.png",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        37,
+        1194,
+        1186
+      ],
+      "transparent_pixels": 1070224,
+      "opaque_pixels": 778,
+      "sha256": "576e8df7552e77c5196e1a0485f88d3fdd1b4b203e7d9ac0590d406c9f45aa92",
+      "bytes": 734718,
+      "tool": "built-in image_gen",
+      "reference": "public/art/geometric-toys/beat.png",
+      "prompt_path": "art/prompts.json"
+    },
+    {
+      "path": "art/hi-hat.png",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        37,
+        1208,
+        1206
+      ],
+      "transparent_pixels": 1182451,
+      "opaque_pixels": 879,
+      "sha256": "60a48b69d3dd54c5be2e203884543a04a6ad45a91c0c22414a3b36ac442f2217",
+      "bytes": 582489,
+      "tool": "built-in image_gen",
+      "reference": "public/art/geometric-toys/beat.png",
+      "prompt_path": "art/prompts.json"
+    },
+    {
+      "path": "art/kick.png",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        49,
+        39,
+        1170,
+        1254
+      ],
+      "transparent_pixels": 980305,
+      "opaque_pixels": 841,
+      "sha256": "50b157666024dca47f495909fa59e30fae74e91bc2a868901ecdc4a2e6c6b0d1",
+      "bytes": 865736,
+      "tool": "built-in image_gen",
+      "reference": "public/art/geometric-toys/beat.png",
+      "prompt_path": "art/prompts.json"
+    },
+    {
+      "path": "art/snare.png",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        21,
+        1240,
+        1222
+      ],
+      "transparent_pixels": 1132108,
+      "opaque_pixels": 624,
+      "sha256": "60f5858d95dd719e7ad41e022b4f81b896a966a7b423d1e3f9814bd0efb36786",
+      "bytes": 608333,
+      "tool": "built-in image_gen",
+      "reference": "public/art/geometric-toys/beat.png",
+      "prompt_path": "art/prompts.json"
+    }
+  ],
+  "scope": "Prepared transparent PNG artwork, not integrated; no new 3D game meshes",
+  "favicon": {
+    "path": "favicon-kick.png",
+    "source": "art/kick.png",
+    "pixels": [
+      64,
+      64
+    ],
+    "crop_pixels": [
+      129,
+      130,
+      1000,
+      1000
+    ],
+    "export": "FFmpeg PNG with Lanczos resize; source artwork unchanged",
+    "bytes": 7320,
+    "sha256": "37ba483c2a8a9bea7694380269d915d205dad669cb807917c6bd97be3e976a0f"
+  }
+}

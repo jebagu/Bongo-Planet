@@ -1,0 +1,24 @@
+{
+  "sourceOnly": true,
+  "candidate": "Ownership Source02 successor; initialManifest01 preserved",
+  "entries": [
+    {
+      "original": "scripts/active-camera-output.spec.ts",
+      "copy": "active-camera-output.spec.ts",
+      "bytes": 32018,
+      "sha256": "7d49b2af06e6a4d922a77639b89966679885957519e31d706cfa8181268ebf1e"
+    },
+    {
+      "original": "scripts/active-camera-observer.ts",
+      "copy": "active-camera-observer.ts",
+      "bytes": 11888,
+      "sha256": "715dc4adb4becadeeb419f925d71bdc3de54992c72990baff15450f6ef2e9423"
+    },
+    {
+      "original": "tests/active-camera-observer.test.ts",
+      "copy": "active-camera-observer.test.ts",
+      "bytes": 8113,
+      "sha256": "ed0e0a45d5ea010e4a087bf98d294747223edfccbdb187f910cacda86410bd16"
+    }
+  ]
+}

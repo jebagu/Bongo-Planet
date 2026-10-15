@@ -1,0 +1,33 @@
+{
+  "name": "Breakbeat Drum Loop",
+  "genre": "Breakbeat",
+  "presetId": "D03",
+  "bpm": 144,
+  "phraseBeats": 8,
+  "audioLoopBeats": 16,
+  "generators": 4,
+  "soundingPieces": 33,
+  "routedVertices": 92,
+  "directedGates": 88,
+  "allTravelFinite": true,
+  "compositionSha256": "601b88635b3d9d6f50b0697226532ed406a3101485c0aba5b27f652c268268ce",
+  "simulation": {
+    "phrases": 8,
+    "writtenHitsAndRestsMatch": true,
+    "maximumEdges": 4,
+    "maximumDecisionsPerQuantum": 5,
+    "lateDrops": 0
+  },
+  "audio": {
+    "file": "Loose-Bolts.wav",
+    "seconds": 6.666666666666667,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peak": 0.19061820209026337,
+    "rms": 0.034411193664662845,
+    "repeatError": 3.725290298461914e-9,
+    "maximumVoices": 17,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

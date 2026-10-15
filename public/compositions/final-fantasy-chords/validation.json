@@ -1,0 +1,46 @@
+{
+  "id": "C04",
+  "name": "Final Fantasy — Prelude",
+  "sourceId": "R-S44",
+  "bpm": 96,
+  "key": 0,
+  "scale": "major",
+  "cycleBeats": 16,
+  "cycleSeconds": 10,
+  "generators": 1,
+  "soundingPieces": 84,
+  "stackedVertices": 12,
+  "maximumStack": 4,
+  "instruments": {
+    "guitar": 4,
+    "glass": 8,
+    "kalimba": 8,
+    "piano": 64
+  },
+  "compositionSha256": "cb4904796b9043444334e482b74b32c6af3977d4d8ae15b2ef96459e2dedfc83",
+  "simulation": {
+    "cycles": 8,
+    "stablePatternsMatch": true,
+    "allLayersReached": true,
+    "maximumEdges": 1,
+    "maximumDecisionsPerQuantum": 2,
+    "maximumPending": 4,
+    "lateDrops": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "bbebe08cc0266b23aedace418611695e884f4f7a4139afd0706fb923f38c78e7",
+    "renderedFromCurrentEngineAndSamples": true,
+    "cycles": 1,
+    "seconds": 10,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peak": 0.4318675696849823,
+    "rms": 0.09394829117731868,
+    "repeatError": 1.4901161193847656e-8,
+    "boundaryDelta": 0.001931510865688324,
+    "maximumVoices": 8,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

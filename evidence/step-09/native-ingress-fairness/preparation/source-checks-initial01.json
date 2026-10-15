@@ -1,0 +1,29 @@
+{
+  "actualAcquisition": false,
+  "checks": [
+    {
+      "command": "npx tsx evidence/step-09/native-ingress-fairness/preparation/ingress-source-controls.ts",
+      "toolChunk": "79c917",
+      "exitCode": 1,
+      "elapsedSeconds": 0.3227625,
+      "failure": "Incorrect independent literal expected vertex0 to be the vertex3 corner; actual frozen vertex0 is [-0.5257311121191336,0.8506508083520399,0]",
+      "sourceSnapshot": "ingress-source-controls-failed01.ts",
+      "fixtureChanged": false
+    },
+    {
+      "command": "npx tsc --ignoreConfig --noEmit --target ES2022 --module ESNext --moduleResolution Bundler --strict --skipLibCheck --types node ingress-component.ts ingress-source-controls.ts bridge-baseline.ts bridge-successor.ts (full preparation-relative paths)",
+      "toolChunk": "f04c47",
+      "exitCode": 0,
+      "elapsedSeconds": 0.223700125,
+      "output": ""
+    },
+    {
+      "command": "npx tsx evidence/step-09/native-ingress-fairness/preparation/ingress-source-controls.ts",
+      "toolChunk": "4092c7",
+      "exitCode": 1,
+      "elapsedSeconds": 0.275506959,
+      "failure": "Independent literal OSC expected had one extra zero byte after14-byte path; correct padding14+NUL to16 gives2 zero bytes, not3. Fixture/candidate/production bytes unchanged.",
+      "sourceSnapshot": "ingress-source-controls-failed02.ts"
+    }
+  ]
+}

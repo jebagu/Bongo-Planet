@@ -1,0 +1,149 @@
+{
+  "horizontalOverflow": false,
+  "images": [
+    {
+      "loaded": true,
+      "pixels": [
+        1254,
+        1254
+      ],
+      "src": "art/bongos.png"
+    },
+    {
+      "loaded": true,
+      "pixels": [
+        1254,
+        1254
+      ],
+      "src": "art/kick.png"
+    },
+    {
+      "loaded": true,
+      "pixels": [
+        1254,
+        1254
+      ],
+      "src": "art/snare.png"
+    },
+    {
+      "loaded": true,
+      "pixels": [
+        1254,
+        1254
+      ],
+      "src": "art/hi-hat.png"
+    }
+  ],
+  "players": [
+    {
+      "duration": 11.6,
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "src": "demos/bongos.wav"
+    },
+    {
+      "duration": 11.6,
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "src": "demos/whole-kit.wav"
+    },
+    {
+      "duration": 0.616229,
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "src": "audio/bongo-high-A.wav"
+    },
+    {
+      "duration": 0.604583,
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "src": "audio/bongo-high-B.wav"
+    },
+    {
+      "duration": 0.613729,
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "src": "audio/bongo-low-A.wav"
+    },
+    {
+      "duration": 0.625167,
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "src": "audio/bongo-low-B.wav"
+    },
+    {
+      "duration": 1.749271,
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "src": "audio/kick-A.wav"
+    },
+    {
+      "duration": 1.722042,
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "src": "audio/kick-B.wav"
+    },
+    {
+      "duration": 0.450625,
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "src": "audio/snare-A.wav"
+    },
+    {
+      "duration": 0.525125,
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "src": "audio/snare-B.wav"
+    },
+    {
+      "duration": 0.445104,
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "src": "audio/hat-closed-A.wav"
+    },
+    {
+      "duration": 0.836938,
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "src": "audio/hat-closed-B.wav"
+    },
+    {
+      "duration": 2.224125,
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "src": "audio/hat-open-A.wav"
+    },
+    {
+      "duration": 1.618417,
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "src": "audio/hat-open-B.wav"
+    }
+  ],
+  "url": "http://127.0.0.1:5417/BongoPlanet/research/percussion-prep/index.html",
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "logs": [],
+  "demoPlayback": {
+    "wholeKit": true,
+    "bongos": true,
+    "startingBongosPausedWholeKit": true
+  },
+  "scope": "Desktop in-app browser. Playback state and loading checked; acoustic listening and mobile not verified."
+}

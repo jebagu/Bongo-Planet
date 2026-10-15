@@ -1,0 +1,31 @@
+{
+  "title": "Bongo Planet operational clock Source01 source-only checks",
+  "createdAt": "2026-10-12T06:07:55.018867+00:00",
+  "sourceSha256": "8abe7e7290405775f4f4ec41ae9c5d4d9961f15950bb7b9e7c11ba450183044e",
+  "scope": "Pure clock comparisons and private strict compile; no browser/audio/worker/service/port acquisition",
+  "controls": {
+    "command": "npx tsx evidence/step-09/audio-bridge-clock/preparation/clock-controls01.ts",
+    "tool": "32358a",
+    "exit": 0,
+    "seconds": 0.254210917,
+    "output": "ClockControls03.log",
+    "result": {
+      "title": "Bongo Planet operational clock pure source controls",
+      "passed": 32,
+      "failures": 0,
+      "scope": "Independent synthetic observations only; no runtime acquisition"
+    },
+    "moduleSha256": "8611e2fe3a05cfc9b8a2c7883ef431b022f8f65cbe280fa0b37f399c87d93e46",
+    "controlSha256": "6bd7ba578718ee5bb98a8c9e808e39dd644d2e174ce4e066b657e71ecd2ea1b3"
+  },
+  "privateTypecheck": {
+    "command": "npx tsc --noEmit -p evidence/step-09/audio-bridge-clock/preparation/tsconfig.source01.json",
+    "tool": "9a8c6e",
+    "exit": 0,
+    "seconds": 0.234590125,
+    "output": "typecheck-private-06.log"
+  },
+  "preservedTypeFailure": "TypecheckFailure04.json",
+  "earlierDraftChecks": "DraftChecks01.json",
+  "globalTypecheck": "Root-owned prerequisite before actual; not run here"
+}

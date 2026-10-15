@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'tests',testMatch:'spark-gates-browser.spec.ts',workers:1,timeout:30000,outputDir:'test-results/spark-gates',reporter:[['list'],['json',{outputFile:'evidence/spark-gates/step-07/browser-results.json'}]],use:{viewport:{width:1440,height:1000},baseURL:'http://127.0.0.1:5417/BongoPlanet/',video:{mode:'on',size:{width:1440,height:1000}},launchOptions:{executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',args:['--enable-unsafe-swiftshader']}}});

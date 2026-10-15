@@ -1,0 +1,15 @@
+# Bongo Planet reconnect-current source preparation01
+
+Source-only candidate `e8178523c77518da4c79c32b5d347e2a7ac95a803a7aecb4474cbdb03b37e44b` is ready for independent review. No browser, receiver, native worker, port probe, actual test or acquisition was launched. The private config fixes one test, one worker, retries0,30s/global45s. Root's external controller owns the separate35/50s process containment.
+
+Independent obligations are in Plan.md: two complete six-object snapshots; a disconnected edit deliberately preserves count but removes/moves/adds IDs; eight real handshakes per connection; golden IDs and3φ-edge XYZ; exact wire/receiver/raw OSC ordinals; distinct epoch; matching musical ACK followed by newer native state. Current native state records object count/session and numerical lifecycle, not an object-coordinate array: coordinate proof comes from complete accepted parent positions and independently decoded UDP. The paused scenario never enables audio and does not qualify active-playing reconnect or acoustic output.
+
+Pure source/fixture/arithmetic controls:23/23 pass (`SourceChecks01.json`, tool d6adbc). They check the independently declared oracle/denominator and source obligations; they do not execute the browser assertions. Decimal80 coordinate references and all seven golden integers are retained. No first failed source/typecheck/control attempt occurred in this preparation.
+
+Global strict typecheck: `npx tsc --noEmit`, exit0 (tool f6b117,0.412153042s), verbatim empty output typecheck-01.log. Sibling acceptance was stable/idle and avoided duplication. Config/import private strict typecheck: `npx tsc --noEmit -p evidence/step-09/reconnect-current/preparation/tsconfig.source.json`, exit0 (tool3d7a82,0.192281875s), verbatim empty output typecheck-private-01.log.
+
+Exactly selected source copies are retained, including reused reviewed OwnedBrowserLaunch and appendResourceClaim. Production compiled main32b57ff2… and processor0f0b12c9… are declared immutable asset expectations; their actual original/served before/after bytes would be captured only in an authorized acquisition. Runtime bridge/source copies bind the current source; no stale historical runtime hash is substituted.
+
+Successful cleanup requires page/context/browser disconnect, owned browser close event and exit0, native close acknowledgment/exit0, HTTP closure, no force and exactly one durable browser-server journal claim. Late launch is owned before readiness and independently closed after abandonment; operation timers remain cooperative. Root controller must provide independent owned process/resource absence on actual failures. Disk/assertion errors cannot bypass the independent close attempts. The root controller itself is not yet bound by this worker manifest and will be supplied/reviewed by root before any acquisition.
+
+New files only under owned helper/preparation scope. No production, checklist, ledger, previous evidence, permanent service, camera helper or reused ownership module was edited. Separate root actual GO remains required.

@@ -1,0 +1,74 @@
+[
+  {
+    "file": "mid_hh_open_vl2_rr2.flac",
+    "seconds": 7.1997,
+    "peak_dbfs": -30.97,
+    "p99": 2.3734,
+    "p999": 4.9732,
+    "last_50db": 6.7758,
+    "onset_ms": 0.0
+  },
+  {
+    "file": "snaremic_snare_center_vl13.flac",
+    "seconds": 1.6643,
+    "peak_dbfs": -19.15,
+    "p99": 0.0698,
+    "p999": 0.1668,
+    "last_50db": 0.4902,
+    "onset_ms": 6.104
+  },
+  {
+    "file": "mid_hh_closed_vl2_rr2.flac",
+    "seconds": 0.5856,
+    "peak_dbfs": -34.97,
+    "p99": 0.1812,
+    "p999": 0.3755,
+    "last_50db": 0.5172,
+    "onset_ms": 0.0
+  },
+  {
+    "file": "kickmic_kick_snoff_vl3_rr2.flac",
+    "seconds": 2.139,
+    "peak_dbfs": -11.89,
+    "p99": 0.3893,
+    "p999": 0.9422,
+    "last_50db": 1.6861,
+    "onset_ms": 5.083
+  },
+  {
+    "file": "snaremic_snare_center_vl12.flac",
+    "seconds": 1.582,
+    "peak_dbfs": -19.18,
+    "p99": 0.0619,
+    "p999": 0.1376,
+    "last_50db": 0.4153,
+    "onset_ms": 5.667
+  },
+  {
+    "file": "mid_hh_closed_vl2_rr1.flac",
+    "seconds": 0.6266,
+    "peak_dbfs": -33.7,
+    "p99": 0.1931,
+    "p999": 0.4412,
+    "last_50db": 0.5745,
+    "onset_ms": 0.0
+  },
+  {
+    "file": "kickmic_kick_snoff_vl3_rr1.flac",
+    "seconds": 2.1608,
+    "peak_dbfs": -9.27,
+    "p99": 0.3593,
+    "p999": 0.9037,
+    "last_50db": 1.713,
+    "onset_ms": 1.833
+  },
+  {
+    "file": "mid_hh_open_vl2_rr1.flac",
+    "seconds": 7.8415,
+    "peak_dbfs": -31.03,
+    "p99": 2.5828,
+    "p999": 5.7136,
+    "last_50db": 7.258,
+    "onset_ms": 3.188
+  }
+]

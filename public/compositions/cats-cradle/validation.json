@@ -1,0 +1,56 @@
+{
+  "id": "MR04",
+  "name": "Cat’s Cradle",
+  "slug": "cats-cradle",
+  "group": "Minimal Routing",
+  "description": "Only three E-minor landmarks sound inside a large moving lattice. A soft piano root, a high glass fifth and a kalimba seventh return in increasingly offset groups.",
+  "routing": "Four long meridians fold into two return lanes. The first wave returns to the northern fork and splits again; its finite budget ends before any third complete round can begin.",
+  "bpm": 50,
+  "key": 4,
+  "scale": "minor",
+  "cycleBeats": 24,
+  "cycleSeconds": 28.8,
+  "generators": 1,
+  "soundingPieces": 3,
+  "occupiedVertices": 4,
+  "activeRoutedVertices": 88,
+  "directedGates": 91,
+  "forks": 1,
+  "sourceHopBudgets": [
+    53
+  ],
+  "allTravelFinite": true,
+  "instruments": {
+    "glass": 1,
+    "kalimba": 1,
+    "piano": 1
+  },
+  "compositionSha256": "805cc9381be8c6d8a2cc264de9d7e4759f46649597dea720243d6219f5f806ad",
+  "simulation": {
+    "cycles": 8,
+    "seconds": 230.4,
+    "allLayersReached": true,
+    "musicalPatternRepeats": true,
+    "routingPatternRepeats": true,
+    "maximumEdges": 16,
+    "maximumPending": 4,
+    "maximumDecisionsPerQuantum": 16,
+    "lateDrops": 0,
+    "overloads": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "94368f9d08e71ecbe18b87d694ec974c2b3b6495041e6a097eaddb3924436a0f",
+    "renderedFromCurrentEngineAndSamples": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "seconds": 28.8,
+    "peak": 0.2505469024181366,
+    "rms": 0.013831434018716067,
+    "repeatError": 1.4901161193847656e-8,
+    "boundaryDelta": 0,
+    "maximumVoices": 9,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-12T03:01:26.997945+00:00",
+  "sourceReviewSha256": "317ba4b1f82f1cdf2b55a79eb1ba5af7d0d0bf21d8db31ad50121b5069120414",
+  "manifestSha256": "d57e9d994c3b00c7d9d19ec32310bb335e6691289d539a679d467ca820161473",
+  "verifiedFiles": 61,
+  "verifiedBytes": 541837,
+  "typecheckChunk": "d6a089",
+  "quietLease": "acceptance ACK no owned executable; sphere source-only active-plan; OS markers empty (limited inventory)",
+  "scope": "ONE paused-output camera actual only; no active-source/physical/audio/wholemilestone qualification",
+  "exclusivePaths": [
+    "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-output-contract/attempt-02",
+    "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-output-contract/runner-02"
+  ],
+  "externalController": {
+    "wallSeconds": 50,
+    "termGraceSeconds": 3,
+    "ownedProcessGroup": true,
+    "forcedCleanupFails": true
+  },
+  "authorization": "Root source/binding/resource preflight passed; ONE actual permitted with exact declared command/config. No automaticretry."
+}

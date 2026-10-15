@@ -1,0 +1,55 @@
+{
+  "reviewedBaseSha256": "be9ab712bfa87c99bf291f2e88baaa296ec884a3605016543f42bc62ac1fc8a8",
+  "controllerSha256": "3bd6025bd4c832c0ce49957c6b4b050131f87d8b0708415ee3378c1d58bb2d17",
+  "singleOccurrenceSubstitutions": [
+    [
+      "one approved reconnect acquisition",
+      "one approved movement successor acquisition"
+    ],
+    [
+      "Root authorizes exactly one reconnect acquisition",
+      "Root authorizes exactly one movement successor acquisition"
+    ],
+    [
+      "evidence/step-09/reconnect-current/preparation/playwright.config.ts",
+      "evidence/step-01/movement-backpressure-live/successor-preparation/playwright.config.ts"
+    ],
+    [
+      "BONGO_RECONNECT_EVIDENCE_DIR",
+      "BONGO_MOVEMENT_SUCCESSOR_EVIDENCE_DIR"
+    ],
+    [
+      "BONGO_RECONNECT_PLAYWRIGHT_OUTPUT",
+      "BONGO_MOVEMENT_SUCCESSOR_PLAYWRIGHT_OUTPUT"
+    ],
+    [
+      "\"mainWallSeconds\": 35",
+      "\"mainWallSeconds\": 80"
+    ],
+    [
+      "\"totalWallSeconds\": 50",
+      "\"totalWallSeconds\": 100"
+    ],
+    [
+      "started >= 35",
+      "started >= 80"
+    ],
+    [
+      "record[\"elapsedSeconds\"] > 50",
+      "record[\"elapsedSeconds\"] > 100"
+    ],
+    [
+      "kinds.count(\"proxy\") != 0 or kinds.count(\"browser-server\") != 1",
+      "kinds.count(\"proxy\") != 2 or kinds.count(\"browser-server\") != 2"
+    ],
+    [
+      "Successful reconnect run lacks its sole browser resource claim",
+      "Successful movement successor run lacks its exact two browser and two proxy claims"
+    ]
+  ],
+  "ownershipDiscoveryCleanupUnchanged": true,
+  "mainWallSeconds": 80,
+  "totalWallSeconds": 100,
+  "successBrowserClaims": 2,
+  "successProxyClaims": 2
+}

@@ -1,0 +1,271 @@
+{
+  "name": "Bongo Planet",
+  "date": "2026-10-14",
+  "scope": "Asset preparation only",
+  "samples": {
+    "count": 12,
+    "core": 10,
+    "optional": 2,
+    "all_source_sha256_match": true,
+    "all_prepared_sha256_match": true,
+    "format": "48 kHz, mono, signed 16-bit PCM WAV",
+    "all_numerical_checks_passed": true,
+    "ready_bytes": 1155538,
+    "minimum_retained_source_energy": 0.99987418,
+    "maximum_onset_ms": 1.0208,
+    "highest_estimated_true_peak_dbfs": -5.9998
+  },
+  "artwork": [
+    {
+      "path": "art/bongos.png",
+      "valid_rgba": true,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "significant_alpha_bbox": [
+        119,
+        349,
+        1159,
+        930
+      ],
+      "padding_pixels": 95
+    },
+    {
+      "path": "art/hi-hat.png",
+      "valid_rgba": true,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "significant_alpha_bbox": [
+        173,
+        377,
+        1081,
+        930
+      ],
+      "padding_pixels": 173
+    },
+    {
+      "path": "art/kick.png",
+      "valid_rgba": true,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "significant_alpha_bbox": [
+        175,
+        239,
+        1083,
+        1022
+      ],
+      "padding_pixels": 171
+    },
+    {
+      "path": "art/snare.png",
+      "valid_rgba": true,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "significant_alpha_bbox": [
+        199,
+        357,
+        1055,
+        930
+      ],
+      "padding_pixels": 199
+    }
+  ],
+  "browser": {
+    "horizontalOverflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "pixels": [
+          1254,
+          1254
+        ],
+        "src": "art/bongos.png"
+      },
+      {
+        "loaded": true,
+        "pixels": [
+          1254,
+          1254
+        ],
+        "src": "art/kick.png"
+      },
+      {
+        "loaded": true,
+        "pixels": [
+          1254,
+          1254
+        ],
+        "src": "art/snare.png"
+      },
+      {
+        "loaded": true,
+        "pixels": [
+          1254,
+          1254
+        ],
+        "src": "art/hi-hat.png"
+      }
+    ],
+    "players": [
+      {
+        "duration": 11.6,
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "src": "demos/bongos.wav"
+      },
+      {
+        "duration": 11.6,
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "src": "demos/whole-kit.wav"
+      },
+      {
+        "duration": 0.616229,
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "src": "audio/bongo-high-A.wav"
+      },
+      {
+        "duration": 0.604583,
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "src": "audio/bongo-high-B.wav"
+      },
+      {
+        "duration": 0.613729,
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "src": "audio/bongo-low-A.wav"
+      },
+      {
+        "duration": 0.625167,
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "src": "audio/bongo-low-B.wav"
+      },
+      {
+        "duration": 1.749271,
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "src": "audio/kick-A.wav"
+      },
+      {
+        "duration": 1.722042,
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "src": "audio/kick-B.wav"
+      },
+      {
+        "duration": 0.450625,
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "src": "audio/snare-A.wav"
+      },
+      {
+        "duration": 0.525125,
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "src": "audio/snare-B.wav"
+      },
+      {
+        "duration": 0.445104,
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "src": "audio/hat-closed-A.wav"
+      },
+      {
+        "duration": 0.836938,
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "src": "audio/hat-closed-B.wav"
+      },
+      {
+        "duration": 2.224125,
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "src": "audio/hat-open-A.wav"
+      },
+      {
+        "duration": 1.618417,
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "src": "audio/hat-open-B.wav"
+      }
+    ],
+    "url": "http://127.0.0.1:5417/BongoPlanet/research/percussion-prep/index.html",
+    "viewport": {
+      "height": 720,
+      "width": 1280
+    },
+    "logs": [],
+    "demoPlayback": {
+      "wholeKit": true,
+      "bongos": true,
+      "startingBongosPausedWholeKit": true
+    },
+    "scope": "Desktop in-app browser. Playback state and loading checked; acoustic listening and mobile not verified."
+  },
+  "application_scope": {
+    "this_task_writes_only": "research/percussion-prep/",
+    "game_integration_performed": false,
+    "baseline_files_checked": 252,
+    "other_workspace_files_changed_during_task": [
+      "src/toy-style.css",
+      "src/main.ts",
+      "src/panel.css",
+      "src/core/contracts.ts",
+      "src/core/engine.ts",
+      "src/view/selectionPanel.ts",
+      "src/view/StrutSparkRenderer.ts",
+      "src/view/SphereView.ts",
+      "src/view/SparkGateRenderer.ts",
+      "src/view/SparkGateModel.ts",
+      "src/view/art/appearance.ts",
+      "src/view/art/controls.ts",
+      "public/art/geometric-toys/manifest.json",
+      "public/art/geometric-toys/Bongo-Planet-Assets.zip",
+      "public/art/geometric-toys/source/appearance.ts",
+      "public/art/geometric-toys/source/panel.css",
+      "public/art/geometric-toys/source/effects/core/contracts.ts",
+      "public/art/geometric-toys/source/effects/core/engine.ts",
+      "public/art/geometric-toys/source/effects/view/selectionPanel.ts",
+      "public/art/geometric-toys/source/effects/view/StrutSparkRenderer.ts",
+      "public/art/geometric-toys/source/effects/view/SparkGateRenderer.ts",
+      "public/art/geometric-toys/source/effects/view/SparkGateModel.ts",
+      "tests/spark-gates-appearance.test.ts",
+      "tests/spark-gates.test.ts",
+      "tests/interface-browser.spec.ts",
+      "tests/piece-panel.test.ts",
+      "AGENTS.md"
+    ],
+    "note": "The shared workspace changed during asset preparation. This task wrote no application, public, build, or test files; no whole-workspace unchanged claim is made."
+  },
+  "not_verified": [
+    "Human listening approval",
+    "Mobile layout",
+    "Game integration",
+    "3D percussion meshes",
+    "Venue/device playback and scheduling"
+  ]
+}

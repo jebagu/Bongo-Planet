@@ -1,0 +1,11 @@
+{
+  "command": "npm run typecheck > evidence/step-09/reconnect-current/preparation/Root-Shared-Typecheck02.log 2>&1",
+  "tool": "ce2bea",
+  "exitCode": 0,
+  "log": {
+    "path": "evidence/step-09/reconnect-current/preparation/Root-Shared-Typecheck02.log",
+    "bytes": 48,
+    "sha256": "bdf2cf34b0d3ac77cd4092ecc41ba0bd63120a3645fcf06ab196769e0c1f1a60"
+  },
+  "scope": "Global source02 compilation; no acquisition or source03 claim"
+}

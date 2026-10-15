@@ -1,0 +1,26 @@
+{
+  "repository": "https://github.com/Yoshifanatic1/Mario-Paint-Disassembly",
+  "commit": "730df333bd4110da7965e0ad063c1c5dcf894a73",
+  "paths": [
+    "MPAINT/AsarScripts/AssetPointersAndFiles.asm",
+    "MPAINT/Custom/Asar_Patches_MPAINT.asm",
+    "MPAINT/Misc_Defines_MPAINT.asm",
+    "MPAINT/Notes.txt",
+    "MPAINT/RAM_Map_MPAINT.asm",
+    "MPAINT/RomMap/ROM_Map_MPAINT_JU.asm",
+    "MPAINT/Routine_Macros_MPAINT.asm",
+    "MPAINT/SNES_Macros_MPAINT.asm",
+    "MPAINT/SPC700/ARAM_Map_MPAINT.asm",
+    "MPAINT/SPC700/AudienceSampleBank.asm",
+    "MPAINT/SPC700/ChantingSampleBank.asm",
+    "MPAINT/SPC700/Engine.asm",
+    "MPAINT/SPC700/FlySwattingSampleBank.asm",
+    "MPAINT/SPC700/MainSampleBank.asm",
+    "MPAINT/SPC700/MusicToolSampleBank.asm",
+    "MPAINT/SPC700/SPC700_Macros_MPAINT.asm",
+    "MPAINT/SPC700/TitleScreenSampleBank.asm",
+    "MPAINT/SRAM_Map_MPAINT.asm",
+    "MPAINT/Tables/CreditsText.txt",
+    "LICENSE"
+  ]
+}

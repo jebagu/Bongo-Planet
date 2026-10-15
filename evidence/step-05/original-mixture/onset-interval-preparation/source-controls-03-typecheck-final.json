@@ -1,0 +1,12 @@
+{
+  "preparationOnly": true,
+  "qualificationPassed": false,
+  "command": "npm run typecheck",
+  "exitCode": 0,
+  "toolChunk": "8c896b",
+  "toolWallSeconds": 0.292166959,
+  "sourceSha256": "32d08b01e412b7556765ec20442d409f4f15a34f6536208ef03005689cc42f42",
+  "testSha256": "b397c5a685ca7bfdf49e1994b4e6fa3f03a2a8a405f4a411ea166dd306fb3b35",
+  "priorFailedWholeProjectCheckPreserved": "source-controls-02.json; sibling position-contained TypeScript errors then fixed by owner.",
+  "sourceControlResult": "Final source/test23PASS123ms unchanged; no PCM search or runtime."
+}

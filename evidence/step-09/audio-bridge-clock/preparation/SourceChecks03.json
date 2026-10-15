@@ -1,0 +1,24 @@
+{
+  "title": "Bongo Planet clock Source03 source-only checks",
+  "createdAt": "2026-10-12T06:35:26.089666+00:00",
+  "sourceSha256": "868a08f021d924a6ba97c0722b2fa87f06524ab7a4f03357a861f1ea627029ff",
+  "controls": {
+    "command": "npx tsx evidence/step-09/audio-bridge-clock/preparation/clock-controls03.ts",
+    "tool": "b66392",
+    "exit": 0,
+    "seconds": 0.261186583,
+    "passed": 77,
+    "priorControls": 67,
+    "additionalPersistenceControls": 10,
+    "output": "ClockControls-Source03.log"
+  },
+  "privateTypecheck": {
+    "command": "npx tsc --noEmit -p evidence/step-09/audio-bridge-clock/preparation/tsconfig.source03.json",
+    "tool": "04e5b2",
+    "exit": 0,
+    "seconds": 0.214587792,
+    "output": "typecheck-private-Source03.log"
+  },
+  "globalTypecheck": "Root-owned prerequisite; not run here",
+  "scope": "Pure synthetic mock writers/microtask controls and private strict compile only; no runtime/network/audio/browser/native/PCM access"
+}

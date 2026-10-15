@@ -1,0 +1,351 @@
+{
+  "scope": "Final SOURCE03 preparation plus root ONE actual authorization/controller and actual manifest binding. Active-Source-Plan versions are separate unexecuted proposals (plan01 natural-end expression corrected only in plan02), not source03 runtime or acceptance closure. Prior manifests/failures/BLOCKs unchanged.",
+  "priorManifest04VerifiedEntries": 61,
+  "files": [
+    {
+      "path": "../attempt-01/Actual-IndependentReview.md",
+      "bytes": 8181,
+      "sha256": "a92fead49e4eee5a6416e78cfeebbcde0705510c2a8cd5bf0be8303c9b988c63"
+    },
+    {
+      "path": "../attempt-01/Root-FinalManifest.json",
+      "bytes": 2966,
+      "sha256": "d3de39aaa8f2ea71a0bdec1254c8964d1b6a5488c10eae89dad9caa7456a66ca"
+    },
+    {
+      "path": "../attempt-01/Root-Gate-Decision.md",
+      "bytes": 1843,
+      "sha256": "faf04b1173fca3d617360f0c2d7cc4e4bda4a6c36e3eb774932cf5337f1da155"
+    },
+    {
+      "path": "../attempt-02/Manifest-01.json",
+      "bytes": 2274,
+      "sha256": "175992a45cb5b8c355339aa2fc3ba2d8bef838554b2e4599f05a855ff838bc3b"
+    },
+    {
+      "path": "Active-Source-Plan-01-to-02.diff",
+      "bytes": 3616,
+      "sha256": "e1345bdc100f36f925732dd36ede2e1de1ba3ca6b50531be2442b92c0e3b4d56"
+    },
+    {
+      "path": "Active-Source-Plan-02.md",
+      "bytes": 8257,
+      "sha256": "5dcdf937d582d71c24ce5c06372ceffe429e85e34f3e7a52a4e48efcbca3ef58"
+    },
+    {
+      "path": "Active-Source-Plan.md",
+      "bytes": 7860,
+      "sha256": "6400c6badc781e4c37b5639e2be9e7ef07fcdfe3b9e60e0a14012d9a3ea54ec7"
+    },
+    {
+      "path": "Manifest-01.json",
+      "bytes": 2522,
+      "sha256": "6bb068e1953f4b671109782f9bbb40fe4d3744c45e8667ae8892adab380f6f90"
+    },
+    {
+      "path": "Manifest-02.json",
+      "bytes": 5148,
+      "sha256": "7b962a3a86a0cd8289c3659cc135a982881eaeb7899f346c2cc1a2915858752b"
+    },
+    {
+      "path": "Manifest-03.json",
+      "bytes": 9696,
+      "sha256": "f55247d84f94605e6b120020c9ec2d448d359daae33f611ff74602530b8757f1"
+    },
+    {
+      "path": "Manifest-04.json",
+      "bytes": 10088,
+      "sha256": "d57e9d994c3b00c7d9d19ec32310bb335e6691289d539a679d467ca820161473"
+    },
+    {
+      "path": "Plan-02.md",
+      "bytes": 2478,
+      "sha256": "67c1d805e44a948f1e5d3bb2f1bfb5b240b6bc89e1ba1d7f70756d1fd9035cbf"
+    },
+    {
+      "path": "Plan-03.md",
+      "bytes": 4193,
+      "sha256": "98edb16d78f55413fceef65d9e1a6d1a4847d273f6f8470c2719e4d6d988a44b"
+    },
+    {
+      "path": "Plan.md",
+      "bytes": 4356,
+      "sha256": "df9bb7c26faf67835462ad1028dbd3b8cc1102db8ccb5d139c5792c9481a8d50"
+    },
+    {
+      "path": "Preparation-Completion-03.md",
+      "bytes": 685,
+      "sha256": "3c1f2a3b8ba358b639a167324eef40a7ebd0b8650df01c72517ff2f5e422df5f"
+    },
+    {
+      "path": "Preparation-Review-02.md",
+      "bytes": 1333,
+      "sha256": "d321fe05fb8b902ca97e2be9010ce38e585ee4009e3e23b6f0ac50b850f9733f"
+    },
+    {
+      "path": "Preparation-Review-03.md",
+      "bytes": 2127,
+      "sha256": "04ace15d17bc1dd81bb024566f6dcd79c7f6a1042ad7a331150a42335246e809"
+    },
+    {
+      "path": "Preparation-Review.md",
+      "bytes": 3758,
+      "sha256": "839069344554de5d38f1b0be396b1e551e49cdf4cfd3e694fe82a18a071d87da"
+    },
+    {
+      "path": "Root-Actual02-Controller.json",
+      "bytes": 827,
+      "sha256": "377178456d6ac9e67a2b3c5606d0c23d1af002188d7f318faee764d092f81266"
+    },
+    {
+      "path": "Root-Actual02-GO.json",
+      "bytes": 1068,
+      "sha256": "273397905b4e33fd3e8ccea30521bcc1231e251809bfb10df04dee796e9941a3"
+    },
+    {
+      "path": "Source-IndependentReview.md",
+      "bytes": 5217,
+      "sha256": "3a9845d26e3d9da215de4d04fad16ae7e23cbb397431843db058c1cc1086e463"
+    },
+    {
+      "path": "Source02-IndependentReview.md",
+      "bytes": 3765,
+      "sha256": "8d1be9c6c2c0a9b6c5effd0f98e1d78904b5bf0d81e67062ec64aaf5035063a5"
+    },
+    {
+      "path": "Source03-IndependentReview.md",
+      "bytes": 6299,
+      "sha256": "317ba4b1f82f1cdf2b55a79eb1ba5af7d0d0bf21d8db31ad50121b5069120414"
+    },
+    {
+      "path": "candidate-01/Execution.json",
+      "bytes": 601,
+      "sha256": "ae1e2b503fcdbee1fbe248a3e3a9baaa42afbcc4532017a82c505e21f7f10944"
+    },
+    {
+      "path": "candidate-01/F07.json",
+      "bytes": 1286,
+      "sha256": "4b0502200e3ca8dd690eff0b12abf7122290164dd7b730eb8333a500b22b252c"
+    },
+    {
+      "path": "candidate-01/NativeClock.ts",
+      "bytes": 28579,
+      "sha256": "97c63e08014aed1ab9ee8c5cbf7166a4f33e0027fbb10f91b305fde32c30f173"
+    },
+    {
+      "path": "candidate-01/ReceiverClock.ts",
+      "bytes": 2945,
+      "sha256": "5dcea0b57e27436674b77bc9eea2a8973f7da87986e962f5f36fa4ca22dab7b8"
+    },
+    {
+      "path": "candidate-01/Source-Binding.json",
+      "bytes": 2068,
+      "sha256": "42bbe74ab469ef7e914846ec4df0cc2471f4929791154507eca7958c9c0e33e3"
+    },
+    {
+      "path": "candidate-01/SphereView.ts",
+      "bytes": 28964,
+      "sha256": "c684476cc5bcf1dfcab1bab157efdde61f983743de2e0d90d4e1f1a6234eddd3"
+    },
+    {
+      "path": "candidate-01/bridge.ts",
+      "bytes": 15485,
+      "sha256": "c24a37011f631df7a979b5c4010b1b96baa22b6799abae4c231c95246deec460"
+    },
+    {
+      "path": "candidate-01/camera-output-contract.spec.ts",
+      "bytes": 15516,
+      "sha256": "1697d8afa1e8fb364f62716a0de0ab7b998bf4a4a6ec6cd9b56b87ab7ff184e0"
+    },
+    {
+      "path": "candidate-01/main.ts",
+      "bytes": 16488,
+      "sha256": "6761945b12c918e4877afd1cd4879ea5f9b1470c8a9449f6e04ea77ce6926243"
+    },
+    {
+      "path": "candidate-01/protocol.ts",
+      "bytes": 3569,
+      "sha256": "85f2219aad582737d93ff0a3bfd3afe4f0441ea6065262847a9ec3e301190c37"
+    },
+    {
+      "path": "candidate-02/Candidate01-to-02.diff",
+      "bytes": 11649,
+      "sha256": "f924f4d62dc1dc8f0a6459f0ab07a10f74f083885b7583b97d127926d1cc6d42"
+    },
+    {
+      "path": "candidate-02/Execution.json",
+      "bytes": 246,
+      "sha256": "9928482d4c95a8f2bd0f643f10c4047475d3949e4baa190cf2422ba44dd7bed7"
+    },
+    {
+      "path": "candidate-02/F07.json",
+      "bytes": 1286,
+      "sha256": "4b0502200e3ca8dd690eff0b12abf7122290164dd7b730eb8333a500b22b252c"
+    },
+    {
+      "path": "candidate-02/NativeClock.ts",
+      "bytes": 28579,
+      "sha256": "97c63e08014aed1ab9ee8c5cbf7166a4f33e0027fbb10f91b305fde32c30f173"
+    },
+    {
+      "path": "candidate-02/OutputAdapter.ts",
+      "bytes": 8203,
+      "sha256": "70d3cb4326689f0348a86a5f1929ca0a3ff6b32d95be24a303944fac53763089"
+    },
+    {
+      "path": "candidate-02/ReceiverClock.ts",
+      "bytes": 2945,
+      "sha256": "5dcea0b57e27436674b77bc9eea2a8973f7da87986e962f5f36fa4ca22dab7b8"
+    },
+    {
+      "path": "candidate-02/Source-Binding.json",
+      "bytes": 2468,
+      "sha256": "1ed3abcefb79d8c22c59bad9d608575c3796ce1ed200502407611086e5a4f571"
+    },
+    {
+      "path": "candidate-02/SphereView.ts",
+      "bytes": 28964,
+      "sha256": "c684476cc5bcf1dfcab1bab157efdde61f983743de2e0d90d4e1f1a6234eddd3"
+    },
+    {
+      "path": "candidate-02/bridge.ts",
+      "bytes": 15485,
+      "sha256": "c24a37011f631df7a979b5c4010b1b96baa22b6799abae4c231c95246deec460"
+    },
+    {
+      "path": "candidate-02/camera-output-contract.spec.ts",
+      "bytes": 18329,
+      "sha256": "7926ddce8a18e40369f5d352b278bceb3fcafe539c868cf56721de1fcf15eb26"
+    },
+    {
+      "path": "candidate-02/main.ts",
+      "bytes": 16488,
+      "sha256": "6761945b12c918e4877afd1cd4879ea5f9b1470c8a9449f6e04ea77ce6926243"
+    },
+    {
+      "path": "candidate-02/protocol.ts",
+      "bytes": 3569,
+      "sha256": "85f2219aad582737d93ff0a3bfd3afe4f0441ea6065262847a9ec3e301190c37"
+    },
+    {
+      "path": "candidate-03/Candidate02-to-03.diff",
+      "bytes": 15383,
+      "sha256": "cadd1285171bc3fbfff2c4bea22ec81a5c4457d5a53788e14f7184098e31052a"
+    },
+    {
+      "path": "candidate-03/Config02-to-03.diff",
+      "bytes": 907,
+      "sha256": "b2cc607df4cd693bf11862a112d84cd75b898c54025ce5405c5b0185c555add5"
+    },
+    {
+      "path": "candidate-03/F07.json",
+      "bytes": 1286,
+      "sha256": "4b0502200e3ca8dd690eff0b12abf7122290164dd7b730eb8333a500b22b252c"
+    },
+    {
+      "path": "candidate-03/NativeClock.ts",
+      "bytes": 28579,
+      "sha256": "97c63e08014aed1ab9ee8c5cbf7166a4f33e0027fbb10f91b305fde32c30f173"
+    },
+    {
+      "path": "candidate-03/OrbitControls.js",
+      "bytes": 40755,
+      "sha256": "3d79d07ecb686b4e5d93232eedab255331c1beef711e13164eaa1f68655a5f2b"
+    },
+    {
+      "path": "candidate-03/OutputAdapter.ts",
+      "bytes": 8203,
+      "sha256": "70d3cb4326689f0348a86a5f1929ca0a3ff6b32d95be24a303944fac53763089"
+    },
+    {
+      "path": "candidate-03/ReceiverClock.ts",
+      "bytes": 2945,
+      "sha256": "5dcea0b57e27436674b77bc9eea2a8973f7da87986e962f5f36fa4ca22dab7b8"
+    },
+    {
+      "path": "candidate-03/Source-Binding.json",
+      "bytes": 3321,
+      "sha256": "2c026864128f440790cc13bf157da0684915c1764b5daa8f9bb6749b1ff508ed"
+    },
+    {
+      "path": "candidate-03/SphereView.ts",
+      "bytes": 28964,
+      "sha256": "c684476cc5bcf1dfcab1bab157efdde61f983743de2e0d90d4e1f1a6234eddd3"
+    },
+    {
+      "path": "candidate-03/Spherical.js",
+      "bytes": 3095,
+      "sha256": "71ccc04f9f78ef85a503bc58f05ce0bc042c75c206be50cdb7d8b70988c07f14"
+    },
+    {
+      "path": "candidate-03/bridge.ts",
+      "bytes": 15485,
+      "sha256": "c24a37011f631df7a979b5c4010b1b96baa22b6799abae4c231c95246deec460"
+    },
+    {
+      "path": "candidate-03/camera-output-contract.spec.ts",
+      "bytes": 20626,
+      "sha256": "a0a9dc7db15b4fff568b2a6b1cfeb41a93b47a7f2f265e2895fba45cfde099b1"
+    },
+    {
+      "path": "candidate-03/main.ts",
+      "bytes": 16488,
+      "sha256": "6761945b12c918e4877afd1cd4879ea5f9b1470c8a9449f6e04ea77ce6926243"
+    },
+    {
+      "path": "candidate-03/playwright-03.config.ts",
+      "bytes": 482,
+      "sha256": "22aa26429f3845521ab29f2904d818cf55c00c0ba2beb916f5411ddd34939f9a"
+    },
+    {
+      "path": "candidate-03/protocol.ts",
+      "bytes": 3569,
+      "sha256": "85f2219aad582737d93ff0a3bfd3afe4f0441ea6065262847a9ec3e301190c37"
+    },
+    {
+      "path": "controls-01/Typecheck.json",
+      "bytes": 343,
+      "sha256": "82394fb2affec06ab9327fcb34691390d31bcd26e8d7db57654be8b2c51d243b"
+    },
+    {
+      "path": "controls-01/camera-output-contract.spec.ts",
+      "bytes": 14788,
+      "sha256": "a76a6686ff5b5f62391c43819384cebd777bc9a40af7535c5fdca772b8643de7"
+    },
+    {
+      "path": "controls-03/Typecheck-01.json",
+      "bytes": 577,
+      "sha256": "78820c9810f95e04a2138cd898f8e32ddf790748f9367689c99aaf4eb9f16f86"
+    },
+    {
+      "path": "controls-03/Typecheck-02-stdout.txt",
+      "bytes": 1381,
+      "sha256": "ec8acbbf6f9e4904059d1467b594938235b9d7f97ab2ddab163c01348e80ecb3"
+    },
+    {
+      "path": "controls-03/Typecheck-02.json",
+      "bytes": 714,
+      "sha256": "31726fc52c1775e64ea585da57907bd31cdd1ca65189e315f4f7baf55d89cf11"
+    },
+    {
+      "path": "controls-03/Typecheck-03.json",
+      "bytes": 420,
+      "sha256": "1019b384f72f61b3d4630372aff4a68cceed4b04a50f9d94af8ad8fd2b03d48c"
+    },
+    {
+      "path": "controls-03/camera-output-contract.spec.ts",
+      "bytes": 20626,
+      "sha256": "a0a9dc7db15b4fff568b2a6b1cfeb41a93b47a7f2f265e2895fba45cfde099b1"
+    },
+    {
+      "path": "playwright-03.config.ts",
+      "bytes": 482,
+      "sha256": "22aa26429f3845521ab29f2904d818cf55c00c0ba2beb916f5411ddd34939f9a"
+    },
+    {
+      "path": "playwright.config.ts",
+      "bytes": 438,
+      "sha256": "7fd215cf28e9045fbe3c3059f1b4e4bcf5941c38f6234ce7361fec0d26782800"
+    }
+  ]
+}

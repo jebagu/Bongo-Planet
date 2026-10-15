@@ -1,0 +1,750 @@
+{
+  "authorization": "Root authorizes exactly one active-camera acquisition",
+  "utc": "2026-10-12T04:28:13.259931+00:00",
+  "command": [
+    "npx",
+    "playwright",
+    "test",
+    "--config=evidence/step-08/camera-active-output/preparation/playwright.config.ts"
+  ],
+  "environment": {
+    "BONGO_ACTIVE_CAMERA_EVIDENCE_DIR": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/attempt-02",
+    "BONGO_ACTIVE_CAMERA_PLAYWRIGHT_OUTPUT": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/runner-02",
+    "BONGO_MOVEMENT_RESOURCE_JOURNAL": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Actual02-Resource-Claims.jsonl",
+    "BONGO_ACTIVE_CAMERA_MAIN_SHA": "32b57ff2dabeadc3d85f8143cd91c50abeea9785ebb1a2f35497ee1db198bb93",
+    "BONGO_ACTIVE_CAMERA_PROCESSOR_SHA": "0f0b12c981f6d2aedbbde847bb31d55bc9010a6093f2ea93232f6fe3804a6793"
+  },
+  "sourceBindings": [
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/dist/assets/index-BXks7Y4v.js",
+      "bytes": 697116,
+      "sha256": "32b57ff2dabeadc3d85f8143cd91c50abeea9785ebb1a2f35497ee1db198bb93"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/dist/assets/processor-DjdrVTs8.js",
+      "bytes": 105473,
+      "sha256": "0f0b12c981f6d2aedbbde847bb31d55bc9010a6093f2ea93232f6fe3804a6793"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/Root-Shared-Typecheck-04.json",
+      "bytes": 1274,
+      "sha256": "ce2dec39d996d566bdd71c6dc92cf38ae8d34db30444f4a7a324b2b8bcf889d5"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/trace-contract02.ts",
+      "bytes": 4489,
+      "sha256": "818f403e31f896d536161c85687cce66a8a6a1545a74a210b14c8a09f1d3ca79"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Actual01-Resource-Claims.jsonl",
+      "bytes": 56,
+      "sha256": "12d68db107b4a21254ec990e0144a4a5cf205f5ef006da8874eb643ffdffceda"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Configuration-Typecheck-02.json",
+      "bytes": 938,
+      "sha256": "0cd2ab0eaec655e0fe5b781f365cac01783967bca916da3b69ebe51487785add"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Configuration-Typecheck-03.json",
+      "bytes": 321,
+      "sha256": "915eb6ae638a1fd65227aac11bca649dcd9b2f2f3d46544dd74f8e6d9a2282a8"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Manifest-01.json",
+      "bytes": 11980,
+      "sha256": "b558303837f67a9a116613d97b9ba463bd55149cddafc8b45bcdc00479aef64e"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Manifest-02.json",
+      "bytes": 16123,
+      "sha256": "d3aa4a69172dc1ae52f08139b65dd54e3005d86d50479000e4eae39801234848"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Manifest-03.json",
+      "bytes": 19735,
+      "sha256": "e033ef8e66aa064c62525f4c6da7fe288ae864f4d76379d1e4c8f8084c6813c2"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Observation-Cap-Diagnosis.md",
+      "bytes": 5917,
+      "sha256": "778e0a6605efde0d53ef6934f53b85da98c773ca0dea8e53f0db97b02d48283c"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Packaging-Failure-01.json",
+      "bytes": 715,
+      "sha256": "36b69560df9394f136975a1cd2b24e139fd882b1a0cca7aec2af82bba891d4eb"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Plan.md",
+      "bytes": 6852,
+      "sha256": "1924820e0db8fe1ddb0d210e6cb127136c87f541243b24806147a0872828aa6d"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Plan03-IndependentReview.md",
+      "bytes": 5661,
+      "sha256": "de472fb2fada41fe1c6a8b1188c7de57a77d3f1bc157d78922fad73b3d2605a0"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Plan03.md",
+      "bytes": 4942,
+      "sha256": "da27984eb34cae78c7ae3daeeaec48de8deb36d19aea0f5722856f04bb53636b"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Preparation-Review.md",
+      "bytes": 3826,
+      "sha256": "0d9ebc676ba1f88ed492435167f6fc77ea620f9990677a60cadf1fd0e6d440fa"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Root-Actual01-Controller.json",
+      "bytes": 8809,
+      "sha256": "d68a5884c6112aac32e321d1da42d136bd56ae6f031c9b00999b1ce774612e4c"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Root-Actual01-GO.json",
+      "bytes": 31983,
+      "sha256": "ea7a9b4301270ee81608be84cf5e51d0955165238056038a2778cc1221b3a2db"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Root-Camera-Controller-Delta.diff",
+      "bytes": 3819,
+      "sha256": "56625bcf46216c841e8ff7c546a7edce4c6c402df70283453b6331e55689bdfc"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Root-Camera-Controller-IndependentReview.md",
+      "bytes": 3710,
+      "sha256": "437b227673ae0fc87ac2a1e64d98a2be820a0adc2788b54b013c71f671842dbc"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Root-Camera-Controller-Plan.md",
+      "bytes": 1793,
+      "sha256": "1f63c09037aff8277e0cf974a995a17839300c9c5a66b667c8d01377dd17e0cf"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Root-Camera-Controller-Source-Checks-01.json",
+      "bytes": 1264,
+      "sha256": "c0cb21b38607dc78e337458f64ef79f7f0c72acb8f2ec362d360a7f9c5c7f1bb"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Root-Shared-Typecheck-03.json",
+      "bytes": 2084,
+      "sha256": "b643547962dc0e94776088548decdcbb3c2ca8c27b93c9afdf241255a4752a82"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Root-Source02-Manifest-Readback.json",
+      "bytes": 277,
+      "sha256": "a151e2866c20f038c57c3c8a29f59cab24149b026dedfa6688d57b4d1c4cfc19"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Source-Bindings-02.json",
+      "bytes": 8744,
+      "sha256": "ce9b683d96808aaf5ab168f17baba3d3e64840b38ca64e6bfddcb73a9402eff6"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Source02-Bindings.json",
+      "bytes": 2658,
+      "sha256": "0fd5840db99b222e6ab68414ec6014ee0957a4939ad5a8cac159961881cc180b"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Source02-Controls.diff",
+      "bytes": 3861,
+      "sha256": "c02be4bfa2b7dce64a79739e0f3f2aee93d51b0ea24d4bdf0ce26957ca9eb5d3"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Source02-IndependentReview.md",
+      "bytes": 9053,
+      "sha256": "f27cfd4148bb7bdde1c703d50bd94b30fe6d5f8ad08f7cd69cea2471aebafbd1"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Source02-Main.diff",
+      "bytes": 14430,
+      "sha256": "5965c0dfd2ac575d487d79983b3d07a891251db1aea8f0763c947292bac40161"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Source02-Observer.diff",
+      "bytes": 1838,
+      "sha256": "280c1856e492f5eb42816d68bb43a11212b7af0ca25e47bdf7b21b7e2fd46d48"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Source02-Plan.md",
+      "bytes": 4265,
+      "sha256": "7588a855cf898038ec7a0ae97af958c3c59ad65233255a4d603292a2c45b5291"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Source02-Preparation-Review.md",
+      "bytes": 1891,
+      "sha256": "dbf8b33a97cc87c987561390a87c51dbbd01dae8a598491037795d59e0ae4e8c"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Source03-Bindings.json",
+      "bytes": 1653,
+      "sha256": "51cf72f36ac75e2d4c378b3e2f6605579d9bf716576c0692e70281ea57a01115"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Source03-Controls.diff",
+      "bytes": 9363,
+      "sha256": "a1170c85d56a77097a3b565cc699da543609148a8bc1fd33332b103ee8879790"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Source03-IndependentReview.md",
+      "bytes": 7396,
+      "sha256": "d7cf11e052db4c673601d35fab8e5306b9ffa22face7b10281dbdcda9b8bb1d5"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Source03-Main.diff",
+      "bytes": 11081,
+      "sha256": "b32d085761d35b4a0f4ad6218260c74e920976dcf98dcda55802014233710354"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Source03-Observer.diff",
+      "bytes": 4581,
+      "sha256": "5e03ca77fee53c021f1ddeec69ceda6ce35685a6437547ac9e12caa89c55c3c1"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Source03-Preparation-Review.md",
+      "bytes": 4212,
+      "sha256": "255c355ab00ea1dec88b87faf482ed7b58dded6a1f0529b402a59bff2301277e"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/__pycache__/root-camera-controller.cpython-314.pyc",
+      "bytes": 20733,
+      "sha256": "813638e237fe3386a50d8d62fe5342d0835d0214f7fcccf37c7449ec7176f864"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-01/evidence/step-08/camera-active-output/preparation/playwright.config.ts",
+      "bytes": 573,
+      "sha256": "5f0140bb9f47dd407a49a2552cf5a8a1e128f6421154b02d2842583734b8448f"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-01/scripts/active-camera-observer.ts",
+      "bytes": 10407,
+      "sha256": "c6060e1f9869ff98f0c5447a33e9feb307332497ce51b1032574572f045ceb58"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-01/scripts/active-camera-output.spec.ts",
+      "bytes": 28179,
+      "sha256": "7625199c7555c18e60df892cdc95e2631fcf10a606ed9dc8fac6bfa4311ecdf4"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-01/src/audio/AudioAdapter.ts",
+      "bytes": 6199,
+      "sha256": "7559fea28c6ba93c8446a86c462d8e4adc3f40406cac06d9f74dfed27fc8c558"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-01/src/audio/processor.ts",
+      "bytes": 5839,
+      "sha256": "429555623b5f55c8df29a00b3ce6d9546a3d85fa2d1ba3e5e6b30d0b142f849b"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-01/src/audio/protocol.ts",
+      "bytes": 722,
+      "sha256": "6bd21fc0f6f60f4ed4769e72a26e10a51fac170f7cf5c708e069ae58f80cad31"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-01/src/audio/synth.ts",
+      "bytes": 5001,
+      "sha256": "499f1d4aadfad5ce2c94082f19724eb24e411b4cbe5ccf2515f6d65754619191"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-01/src/core/contracts.ts",
+      "bytes": 3837,
+      "sha256": "497e8bae2417ccd0652407a9a33dc08a775b56de8e54553465a2ee158ececdfc"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-01/src/core/engine.ts",
+      "bytes": 6475,
+      "sha256": "19e5cba94b0db6c13b642bd28c90bc1def4bb0bc7ac6b5a95faf1e82bfa9aea3"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-01/src/main.ts",
+      "bytes": 16488,
+      "sha256": "6761945b12c918e4877afd1cd4879ea5f9b1470c8a9449f6e04ea77ce6926243"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-01/src/output/NativeClock.ts",
+      "bytes": 28579,
+      "sha256": "97c63e08014aed1ab9ee8c5cbf7166a4f33e0027fbb10f91b305fde32c30f173"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-01/src/output/OutputAdapter.ts",
+      "bytes": 8203,
+      "sha256": "70d3cb4326689f0348a86a5f1929ca0a3ff6b32d95be24a303944fac53763089"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-01/src/output/ReceiverClock.ts",
+      "bytes": 2945,
+      "sha256": "5dcea0b57e27436674b77bc9eea2a8973f7da87986e962f5f36fa4ca22dab7b8"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-01/src/output/bridge.ts",
+      "bytes": 15485,
+      "sha256": "c24a37011f631df7a979b5c4010b1b96baa22b6799abae4c231c95246deec460"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-01/src/output/protocol.ts",
+      "bytes": 3569,
+      "sha256": "85f2219aad582737d93ff0a3bfd3afe4f0441ea6065262847a9ec3e301190c37"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-01/tests/active-camera-observer.test.ts",
+      "bytes": 6196,
+      "sha256": "4fd1bd68b7f2e193e1c9f39153a387cf275adce99b60f215a53266af7a55e69c"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/dist/assets/index-BXks7Y4v.js",
+      "bytes": 697116,
+      "sha256": "32b57ff2dabeadc3d85f8143cd91c50abeea9785ebb1a2f35497ee1db198bb93"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/dist/assets/processor-DjdrVTs8.js",
+      "bytes": 105473,
+      "sha256": "0f0b12c981f6d2aedbbde847bb31d55bc9010a6093f2ea93232f6fe3804a6793"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/evidence/step-08/camera-active-output/preparation/playwright.config.ts",
+      "bytes": 573,
+      "sha256": "5f0140bb9f47dd407a49a2552cf5a8a1e128f6421154b02d2842583734b8448f"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/evidence/step-08/camera-output-contract/preparation/Active-Source-Plan-02.md",
+      "bytes": 8257,
+      "sha256": "5dcdf937d582d71c24ce5c06372ceffe429e85e34f3e7a52a4e48efcbca3ef58"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/evidence/step-08/camera-output-contract/preparation/Active-Source-Plan-IndependentReview.md",
+      "bytes": 10570,
+      "sha256": "aa8f2adf79ddacb9f053e298dfdbc7982a41854889185dd84435fa5d2f5bbf55"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/node_modules/three/examples/jsm/controls/OrbitControls.js",
+      "bytes": 40755,
+      "sha256": "3d79d07ecb686b4e5d93232eedab255331c1beef711e13164eaa1f68655a5f2b"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/node_modules/three/src/math/Spherical.js",
+      "bytes": 3095,
+      "sha256": "71ccc04f9f78ef85a503bc58f05ce0bc042c75c206be50cdb7d8b70988c07f14"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/package-lock.json",
+      "bytes": 69267,
+      "sha256": "340acbf950d247e9892446e1e45cc5807255d8450ab9452ae9ae2a185b84cf20"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/package.json",
+      "bytes": 1164,
+      "sha256": "7671f2558370f3d3e854e278b2ef16f489bb07b793543bc26664f3b5b9d9d4fe"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/scripts/active-camera-observer.ts",
+      "bytes": 10407,
+      "sha256": "c6060e1f9869ff98f0c5447a33e9feb307332497ce51b1032574572f045ceb58"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/scripts/active-camera-output.spec.ts",
+      "bytes": 28179,
+      "sha256": "7625199c7555c18e60df892cdc95e2631fcf10a606ed9dc8fac6bfa4311ecdf4"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/src/audio/AudioAdapter.ts",
+      "bytes": 6199,
+      "sha256": "7559fea28c6ba93c8446a86c462d8e4adc3f40406cac06d9f74dfed27fc8c558"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/src/audio/processor.ts",
+      "bytes": 5839,
+      "sha256": "429555623b5f55c8df29a00b3ce6d9546a3d85fa2d1ba3e5e6b30d0b142f849b"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/src/audio/protocol.ts",
+      "bytes": 722,
+      "sha256": "6bd21fc0f6f60f4ed4769e72a26e10a51fac170f7cf5c708e069ae58f80cad31"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/src/audio/synth.ts",
+      "bytes": 5001,
+      "sha256": "499f1d4aadfad5ce2c94082f19724eb24e411b4cbe5ccf2515f6d65754619191"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/src/core/contracts.ts",
+      "bytes": 3837,
+      "sha256": "497e8bae2417ccd0652407a9a33dc08a775b56de8e54553465a2ee158ececdfc"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/src/core/engine.ts",
+      "bytes": 6475,
+      "sha256": "19e5cba94b0db6c13b642bd28c90bc1def4bb0bc7ac6b5a95faf1e82bfa9aea3"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/src/core/geometry.ts",
+      "bytes": 2550,
+      "sha256": "b6b788d732a900a102d108623033055bc221099a5d91f8e648af16d2905b69bf"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/src/main.ts",
+      "bytes": 16488,
+      "sha256": "6761945b12c918e4877afd1cd4879ea5f9b1470c8a9449f6e04ea77ce6926243"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/src/output/NativeClock.ts",
+      "bytes": 28579,
+      "sha256": "97c63e08014aed1ab9ee8c5cbf7166a4f33e0027fbb10f91b305fde32c30f173"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/src/output/OutputAdapter.ts",
+      "bytes": 8203,
+      "sha256": "70d3cb4326689f0348a86a5f1929ca0a3ff6b32d95be24a303944fac53763089"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/src/output/ReceiverClock.ts",
+      "bytes": 2945,
+      "sha256": "5dcea0b57e27436674b77bc9eea2a8973f7da87986e962f5f36fa4ca22dab7b8"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/src/output/bridge.ts",
+      "bytes": 15485,
+      "sha256": "c24a37011f631df7a979b5c4010b1b96baa22b6799abae4c231c95246deec460"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/src/output/protocol.ts",
+      "bytes": 3569,
+      "sha256": "85f2219aad582737d93ff0a3bfd3afe4f0441ea6065262847a9ec3e301190c37"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/src/view/SphereView.ts",
+      "bytes": 28964,
+      "sha256": "c684476cc5bcf1dfcab1bab157efdde61f983743de2e0d90d4e1f1a6234eddd3"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/src/view/math.ts",
+      "bytes": 1169,
+      "sha256": "9e16d927105cccc96de98da15623acc47003a48194a0a3ab373f7b0f9950ad35"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/tests/active-camera-observer.test.ts",
+      "bytes": 6196,
+      "sha256": "4fd1bd68b7f2e193e1c9f39153a387cf275adce99b60f215a53266af7a55e69c"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/candidate-02/tsconfig.json",
+      "bytes": 299,
+      "sha256": "78170416782550f0f8947b534a94fe10dccd71bf4b2b8f19c4249561205a9e49"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-01/Typecheck.json",
+      "bytes": 673,
+      "sha256": "440ec7c08970eff70f1dcf8a85a0d27b31d76aa06a8c7d34e5a3cf83e0dcf368"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-01/active-camera-observer.test.ts",
+      "bytes": 5577,
+      "sha256": "b83907d37501c3b8e8322911b27e32ac856e16bfd57d8f36e36a7904dc8ab32e"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-01/active-camera-observer.ts",
+      "bytes": 10123,
+      "sha256": "d1ab5378327cdf7e9559f528b1bd9979e328a52232101fe8002c84f541e986c4"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-01/active-camera-output.spec.ts",
+      "bytes": 27170,
+      "sha256": "9b9acd9e62306f04249cfd8ab575628243659871124e52e144e8702b14884947"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-01/pure-results.json",
+      "bytes": 5016,
+      "sha256": "a4715bcd8d8e9cda46b97d716ec8c6dd2e962bd9c700a7efca8c62e0453f4259"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-02/Execution.json",
+      "bytes": 1552,
+      "sha256": "31c6b131eee0a62b70f9f0bb0d8d392e0fe6f1810451d83b3a0718483cec2e3f"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-02/Source-Bindings.json",
+      "bytes": 758,
+      "sha256": "1d33eb2129bc90304520168448d7e3f0c886857418a5c752812c0db774e7f392"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-02/active-camera-observer.test.ts",
+      "bytes": 6169,
+      "sha256": "360f551a53a7bd88e51f8ca5828c4d8ec31a130e220417fdc7c5b3c884b3c299"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-02/active-camera-observer.ts",
+      "bytes": 10407,
+      "sha256": "c6060e1f9869ff98f0c5447a33e9feb307332497ce51b1032574572f045ceb58"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-02/active-camera-output.spec.ts",
+      "bytes": 28179,
+      "sha256": "7625199c7555c18e60df892cdc95e2631fcf10a606ed9dc8fac6bfa4311ecdf4"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-02/pure-results.json",
+      "bytes": 5468,
+      "sha256": "58ccbbd6a9051a5aa307f2d785ddaa337e1f9930d51d12b98637b4f26ef9b283"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-03/Execution.json",
+      "bytes": 1271,
+      "sha256": "87b55b538b9a702ec5cbb53a063a7115237ebb775b3dcaede6b05eec081be383"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-03/active-camera-observer.test.ts",
+      "bytes": 6196,
+      "sha256": "4fd1bd68b7f2e193e1c9f39153a387cf275adce99b60f215a53266af7a55e69c"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-03/active-camera-observer.ts",
+      "bytes": 10407,
+      "sha256": "c6060e1f9869ff98f0c5447a33e9feb307332497ce51b1032574572f045ceb58"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-03/active-camera-output.spec.ts",
+      "bytes": 28179,
+      "sha256": "7625199c7555c18e60df892cdc95e2631fcf10a606ed9dc8fac6bfa4311ecdf4"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-04/Source-Bindings.json",
+      "bytes": 781,
+      "sha256": "b5704092e2e92e79990b5a1e090a871358958bffc0c5df1e2ef06472f1a0c576"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-04/active-camera-observer.test.ts",
+      "bytes": 8113,
+      "sha256": "ed0e0a45d5ea010e4a087bf98d294747223edfccbdb187f910cacda86410bd16"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-04/active-camera-observer.ts",
+      "bytes": 11888,
+      "sha256": "715dc4adb4becadeeb419f925d71bdc3de54992c72990baff15450f6ef2e9423"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-04/active-camera-output.spec.ts",
+      "bytes": 32018,
+      "sha256": "7d49b2af06e6a4d922a77639b89966679885957519e31d706cfa8181268ebf1e"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-04/pure-results.json",
+      "bytes": 7213,
+      "sha256": "823e43c4b0429a47af5fca76f4efc9d13a77a9999e0d372470a73f37138929f6"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-05/Source-Bindings.json",
+      "bytes": 791,
+      "sha256": "d85f981dc9f0db2fec3e635174bb9303ff03d1ffa29fbcae2043d5d7de1d4814"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-05/active-camera-observer.test.ts",
+      "bytes": 15109,
+      "sha256": "0bd698cb86a0ebca914f71c67e6db13154d45fa3e0d1fa8e54ae8af5aeced037"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-05/active-camera-observer.ts",
+      "bytes": 16095,
+      "sha256": "376f599b330e3be4bbb010ef71f77da557bf6b421c47a91987c6e2442720ddcc"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-05/active-camera-output.spec.ts",
+      "bytes": 33660,
+      "sha256": "11dcd1f7389ba61d163f0ae2160b9f8f622059d1fda8c3c1d65cf8910286a0cf"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-05/pure-results.json",
+      "bytes": 11298,
+      "sha256": "dd951464e33e83178677eb58e8ef7092dc485aafb0e033ae8e6566fa899d2059"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/playwright.config.ts",
+      "bytes": 573,
+      "sha256": "5f0140bb9f47dd407a49a2552cf5a8a1e128f6421154b02d2842583734b8448f"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/root-camera-controller-controls.py",
+      "bytes": 8001,
+      "sha256": "c9922737b61aa086464e98dde355766b67cbbda0b683786724c7b1642d00c0e6"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/root-camera-controller.py",
+      "bytes": 11459,
+      "sha256": "c30a6e8db423b6cb9eea278ea1acc1f3b0cf21cb29e93c8b56e5987b187b924e"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/source-02/evidence/step-01/movement-backpressure-live/preparation/trace-contract02.ts",
+      "bytes": 4489,
+      "sha256": "818f403e31f896d536161c85687cce66a8a6a1545a74a210b14c8a09f1d3ca79"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/source-02/evidence/step-08/camera-active-output/preparation/playwright.config.ts",
+      "bytes": 573,
+      "sha256": "5f0140bb9f47dd407a49a2552cf5a8a1e128f6421154b02d2842583734b8448f"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/source-02/scripts/active-camera-observer.ts",
+      "bytes": 11888,
+      "sha256": "715dc4adb4becadeeb419f925d71bdc3de54992c72990baff15450f6ef2e9423"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/source-02/scripts/active-camera-output.spec.ts",
+      "bytes": 32329,
+      "sha256": "affae63ddf549367f406f89acbf646214c4b393080b17c0e585febdc4c7e7b7d"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/source-02/tests/active-camera-observer.test.ts",
+      "bytes": 8113,
+      "sha256": "ed0e0a45d5ea010e4a087bf98d294747223edfccbdb187f910cacda86410bd16"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/source-03/scripts/active-camera-observer.ts",
+      "bytes": 16095,
+      "sha256": "376f599b330e3be4bbb010ef71f77da557bf6b421c47a91987c6e2442720ddcc"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/source-03/scripts/active-camera-output.spec.ts",
+      "bytes": 33660,
+      "sha256": "11dcd1f7389ba61d163f0ae2160b9f8f622059d1fda8c3c1d65cf8910286a0cf"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/source-03/tests/active-camera-observer.test.ts",
+      "bytes": 15109,
+      "sha256": "0bd698cb86a0ebca914f71c67e6db13154d45fa3e0d1fa8e54ae8af5aeced037"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/scripts/active-camera-observer.ts",
+      "bytes": 16095,
+      "sha256": "376f599b330e3be4bbb010ef71f77da557bf6b421c47a91987c6e2442720ddcc"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/scripts/active-camera-output.spec.ts",
+      "bytes": 33660,
+      "sha256": "11dcd1f7389ba61d163f0ae2160b9f8f622059d1fda8c3c1d65cf8910286a0cf"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/audio/AudioAdapter.ts",
+      "bytes": 6199,
+      "sha256": "7559fea28c6ba93c8446a86c462d8e4adc3f40406cac06d9f74dfed27fc8c558"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/audio/index.ts",
+      "bytes": 143,
+      "sha256": "c5bac7d6066ef12c055b057c4dc8dfc99a10a87ec577b2d312f88180ccc4b744"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/audio/processor.ts",
+      "bytes": 5839,
+      "sha256": "429555623b5f55c8df29a00b3ce6d9546a3d85fa2d1ba3e5e6b30d0b142f849b"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/audio/protocol.ts",
+      "bytes": 722,
+      "sha256": "6bd21fc0f6f60f4ed4769e72a26e10a51fac170f7cf5c708e069ae58f80cad31"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/audio/synth.ts",
+      "bytes": 5001,
+      "sha256": "499f1d4aadfad5ce2c94082f19724eb24e411b4cbe5ccf2515f6d65754619191"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/core/contracts.ts",
+      "bytes": 3837,
+      "sha256": "497e8bae2417ccd0652407a9a33dc08a775b56de8e54553465a2ee158ececdfc"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/core/engine.ts",
+      "bytes": 6475,
+      "sha256": "19e5cba94b0db6c13b642bd28c90bc1def4bb0bc7ac6b5a95faf1e82bfa9aea3"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/core/geometry.ts",
+      "bytes": 2550,
+      "sha256": "b6b788d732a900a102d108623033055bc221099a5d91f8e648af16d2905b69bf"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/core/history.ts",
+      "bytes": 1527,
+      "sha256": "71f9ef8099f2f0c04c2776565dca882580a5d16f13cfeb8e3bbd4e0682182b2f"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/main.ts",
+      "bytes": 16488,
+      "sha256": "6761945b12c918e4877afd1cd4879ea5f9b1470c8a9449f6e04ea77ce6926243"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/output/NativeClock.ts",
+      "bytes": 28579,
+      "sha256": "97c63e08014aed1ab9ee8c5cbf7166a4f33e0027fbb10f91b305fde32c30f173"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/output/OutputAdapter.ts",
+      "bytes": 8203,
+      "sha256": "70d3cb4326689f0348a86a5f1929ca0a3ff6b32d95be24a303944fac53763089"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/output/ReceiverClock.ts",
+      "bytes": 2945,
+      "sha256": "5dcea0b57e27436674b77bc9eea2a8973f7da87986e962f5f36fa4ca22dab7b8"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/output/RenderClock.ts",
+      "bytes": 30330,
+      "sha256": "1e389cb2e035c40ed29176854a6432fd4ad2772b13ca3ef735a9865fe8bb054c"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/output/bridge.ts",
+      "bytes": 15485,
+      "sha256": "c24a37011f631df7a979b5c4010b1b96baa22b6799abae4c231c95246deec460"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/output/protocol.ts",
+      "bytes": 3569,
+      "sha256": "85f2219aad582737d93ff0a3bfd3afe4f0441ea6065262847a9ec3e301190c37"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/view/SphereView.ts",
+      "bytes": 28964,
+      "sha256": "c684476cc5bcf1dfcab1bab157efdde61f983743de2e0d90d4e1f1a6234eddd3"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/view/index.ts",
+      "bytes": 43,
+      "sha256": "95196153670e3468d4241c85b40a23b1970cd362d0d23124eb0571b04dd3e1a4"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/src/view/math.ts",
+      "bytes": 1169,
+      "sha256": "9e16d927105cccc96de98da15623acc47003a48194a0a3ab373f7b0f9950ad35"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/tests/active-camera-observer.test.ts",
+      "bytes": 15109,
+      "sha256": "0bd698cb86a0ebca914f71c67e6db13154d45fa3e0d1fa8e54ae8af5aeced037"
+    }
+  ],
+  "preflight": {
+    "manifestFiles": 112,
+    "sourceBindings": 141,
+    "servedAssets": [
+      {
+        "name": "index-BXks7Y4v.js",
+        "bytes": 697116,
+        "sha256": "32b57ff2dabeadc3d85f8143cd91c50abeea9785ebb1a2f35497ee1db198bb93"
+      },
+      {
+        "name": "processor-DjdrVTs8.js",
+        "bytes": 105473,
+        "sha256": "0f0b12c981f6d2aedbbde847bb31d55bc9010a6093f2ea93232f6fe3804a6793"
+      }
+    ],
+    "permanentBridge": {
+      "session": "",
+      "pending": 0,
+      "activeVoices": 0,
+      "objects": 0,
+      "ready": true
+    },
+    "priorPrivateChromeProfiles": 0,
+    "sharedTypecheck": "6c2503 exit0; before/after source hashes unchanged",
+    "scope": "One Source03 acquisition, no automatic retry; conditional numerical clocks and scoped process observations; no physical sound or loaded-worklet-body qualification"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "sourceControllerSha256": "be9ab712bfa87c99bf291f2e88baaa296ec884a3605016543f42bc62ac1fc8a8",
+  "derivedControllerSha256": "d7b27a578596a8c0cd91e1b087b4ab2adc20590da74f5af974b66543d7a192db",
+  "substitutions": [
+    [
+      "Bongo Planet: one approved reconnect acquisition",
+      "Bongo Planet: one approved audio-clock acquisition"
+    ],
+    [
+      "Root authorizes exactly one reconnect acquisition",
+      "Root authorizes exactly one audio-clock acquisition"
+    ],
+    [
+      "--config=evidence/step-09/reconnect-current/preparation/playwright.config.ts",
+      "--config=evidence/step-09/audio-bridge-clock/preparation/playwright.config.ts"
+    ],
+    [
+      "BONGO_RECONNECT_EVIDENCE_DIR",
+      "BONGO_AUDIO_CLOCK_EVIDENCE_DIR"
+    ],
+    [
+      "BONGO_RECONNECT_PLAYWRIGHT_OUTPUT",
+      "BONGO_AUDIO_CLOCK_PLAYWRIGHT_OUTPUT"
+    ],
+    [
+      "Successful reconnect run",
+      "Successful audio-clock run"
+    ],
+    [
+      "\"mainWallSeconds\": 35,",
+      "\"mainWallSeconds\": 285,"
+    ],
+    [
+      "\"totalWallSeconds\": 50,",
+      "\"totalWallSeconds\": 310,"
+    ],
+    [
+      "started >= 35:",
+      "started >= 285:"
+    ],
+    [
+      "record[\"elapsedSeconds\"] > 50:",
+      "record[\"elapsedSeconds\"] > 310:"
+    ]
+  ],
+  "scope": "Source-only ten literal replacements; no actual, process, signal, browser or socket",
+  "budgets": {
+    "mainSeconds": 285,
+    "totalSeconds": 310
+  },
+  "expectedSuccessClaims": {
+    "browser-server": 1,
+    "proxy": 0
+  }
+}

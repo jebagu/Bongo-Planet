@@ -1,0 +1,31 @@
+:root[data-complete-themes="true"] .theme-experiment-controls .section-heading { align-items: center; }
+:root[data-complete-themes="true"] #complete-theme { width: 100%; }
+:root[data-complete-themes="true"]:not([data-complete-theme="original"]) .palette { background: var(--theme-panel); color: var(--theme-ink); }
+:root[data-complete-themes="true"]:not([data-complete-theme="original"]) .primary { background: var(--theme-accent); border-color: var(--theme-accent); }
+:root[data-complete-themes="true"]:not([data-complete-theme="original"]) input[type="range"] { accent-color: var(--theme-accent); }
+:root[data-complete-themes="true"]:not([data-complete-theme="original"]) .palette button,
+:root[data-complete-themes="true"]:not([data-complete-theme="original"]) .palette select { color: var(--theme-ink); }
+:root[data-complete-themes="true"] .theme-sky-decoration { position: fixed; inset: 0; pointer-events: none; z-index: 0; overflow: hidden; }
+:root[data-complete-themes="true"] .theme-sky-decoration::before,
+:root[data-complete-themes="true"] .theme-sky-decoration::after { content: ''; position: absolute; inset: -8%; opacity: 0; }
+:root[data-complete-themes="true"] .theme-sky-decoration[data-decoration="stars"]::before { opacity: .8; background: radial-gradient(ellipse at 70% 29%, #698ebd1f, transparent 37%), radial-gradient(ellipse at 32% 72%, #2b40731f, transparent 48%), radial-gradient(ellipse at 69% 35%, transparent 35%, #01040b99 100%); }
+:root[data-complete-themes="true"] .theme-sky-decoration[data-decoration="clouds"]::before { opacity: .24; background: radial-gradient(ellipse 250px 80px at 22% 27%, #fff8eb, #fff8eb00 98%), radial-gradient(ellipse 210px 65px at 83% 15%, #fff8eb, #fff8eb00 98%); animation: theme-drift 24s ease-in-out infinite alternate; }
+:root[data-complete-themes="true"] .theme-fireflies { display: none; position: absolute; inset: 0; }
+:root[data-complete-themes="true"] [data-decoration="fireflies"] .theme-fireflies { display: block; }
+:root[data-complete-themes="true"] .theme-fireflies i { position: absolute; display: block; width: var(--spark-size); height: calc(var(--spark-size) * 1.65); border-radius: 70% 30%; background: #ffe5a0; box-shadow: 0 0 4px 1px #ffc352aa, 0 0 13px 3px #e6a2293d; animation: theme-firefly-flight var(--flight) var(--delay) ease-in-out infinite alternate, theme-firefly-glimmer var(--flicker) var(--delay) ease-in-out infinite; }
+:root[data-complete-themes="true"] .theme-fireflies i::after { content: ''; position: absolute; right: 70%; top: 50%; width: 12px; height: 1px; background: linear-gradient(90deg, transparent, #ffc96155); transform: rotate(-30deg); transform-origin: right; }
+:root[data-complete-themes="true"][data-complete-theme="deep-space"] .star-field i:nth-child(4n), :root[data-complete-themes="true"][data-complete-theme="nebula-space"] .star-field i:nth-child(4n) { transform: scale(.55); filter: brightness(.55); }
+:root[data-complete-themes="true"][data-complete-theme="deep-space"] .star-field i:nth-child(7n), :root[data-complete-themes="true"][data-complete-theme="nebula-space"] .star-field i:nth-child(7n) { transform: scale(1.35); background: #d4e8ff; box-shadow: 0 0 8px #a3caff99; animation: theme-star-breath 9s ease-in-out infinite alternate; }
+@keyframes theme-drift { to { transform: translate(2%, 1.5%); } }
+@keyframes theme-firefly-flight {
+  0% { transform: translate3d(0, 0, 0) rotate(-15deg); }
+  28% { transform: translate3d(calc(var(--drift-x) * .65), calc(var(--drift-y) * .18), 0) rotate(25deg); }
+  58% { transform: translate3d(calc(var(--drift-x) * -.3), calc(var(--drift-y) * .62), 0) rotate(-30deg); }
+  100% { transform: translate3d(var(--drift-x), var(--drift-y), 0) rotate(35deg); }
+}
+@keyframes theme-firefly-glimmer { 0%, 100% { opacity: .22; } 45%, 65% { opacity: .92; } }
+@keyframes theme-star-breath { to { filter: brightness(.65); } }
+@media (prefers-reduced-motion: reduce) {
+ :root[data-complete-themes="true"] .theme-sky-decoration[data-decoration]::before, :root[data-complete-themes="true"] .theme-sky-decoration[data-decoration]::after,
+ :root[data-complete-themes="true"] .theme-fireflies i, :root[data-complete-themes="true"][data-complete-theme="deep-space"] .star-field i:nth-child(7n), :root[data-complete-themes="true"][data-complete-theme="nebula-space"] .star-field i:nth-child(7n) { animation: none; }
+}

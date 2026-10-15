@@ -1,0 +1,15 @@
+# Bongo Planet — active-source camera acceptance decision
+
+**S08-A11 passes its automated numerical source-position requirement. M0–M4 remain open.**
+
+The single Source03 acquisition and independent readback establish all60/15/2 FPS cases: one genuine8s local/native note stays active through manual world-space interpolation and meaningful trusted captured camera movement. All21 samples match the independently reconstructed unit arc, with valid edit/receipt intervals and distinct fresh local/native before/during/after observations. The final guard remains4.3233015 seconds before the native natural voice end. There are no additional musical triggers, cancellations or session changes in the complete musical measurement prefix.
+
+The reviewer reconciles all46 recorded position wires with the first46 receiver positions and independently decoded OSC packets in exact order. A47th receiver/raw position belongs to the explicitly observed new idle-5 epoch after cleanup Pause, outside the musical prefix; no musical extras are hidden by the helper's subsequence matcher. The raw native active prefix contains220 rows/140 states;72 fresh local active statuses corroborate the sole voice. Clock containment retains its declared fixed same-Node rate/rounding premise rather than claiming continuous clock observation.
+
+The unchanged4000-row/524288-byte observation budget retains1029 charged rows/408878 bytes with no rejected append. Every local/native poll remains checked; local209=100 retained+109 omitted, native242=12 retained+230 omitted. Charged bounded summaries account for omissions and never qualify as fresh witnesses. All original raw event/native/clock streams are preserved. Source02 and failed actual01 remain unchanged.
+
+All141 root bindings and all five observed/fetched module files match the frozen source. Original main plus served-before/after main bind32b57ff2…; served-before/after processor binds0f0b12c9…. The actual loaded AudioWorklet body was unobserved. The local status/native control observations establish this numerical source-position atom; they do not qualify physical audio or human smoothness. Required listening, low-FPS human comparison, venue and device gates stay open.
+
+Root controller ends child exit0 in8.5350802919 seconds without forced cleanup or sampled remaining owned processes. Separate post-run readback sees the claimed browser absent, private HTTP refused, no private Chrome profiles and permanent bridge quiet/ready. Native close ACK/exit0 and local Pause/zero-voice/closed context witnesses remain scoped numerical/process observations, not exhaustive OS ownership or physical release.
+
+Evidence: [report](report.json), [independent readback](Actual-IndependentReview.md), [execution](Root-Execution.json), [cleanup](Root-Cleanup-Readback.json), [source review](../preparation/Source03-IndependentReview.md), [shared typecheck](../preparation/Root-Shared-Typecheck-03.json), and [original failed decision](../attempt-01/Root-Gate-Decision.md).

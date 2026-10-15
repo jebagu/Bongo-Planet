@@ -1,0 +1,84 @@
+{
+  "scope": "SOURCE ONLY successor03: public gesture away from nearest pole, DOM hit/capture witnesses; paused output trajectory only. No actual authorization. Copies are present source snapshots, not a claim of compiler provenance for bundled dependencies.",
+  "recordedUTC": "2026-10-12T02:55:43.056776+00:00",
+  "head": "73f678d7b2140994dabc2a10ec9dc73acfb947df",
+  "expectedOriginalServedMain": {
+    "url": "http://127.0.0.1:5417/BongoPlanet/assets/index-BXks7Y4v.js",
+    "sha256": "32b57ff2dabeadc3d85f8143cd91c50abeea9785ebb1a2f35497ee1db198bb93"
+  },
+  "installedThreeRationale": "The independently retained source explains polar drag semantics; actual compiled main response remains the execution binding.",
+  "files": [
+    {
+      "source": "scripts/camera-output-contract.spec.ts",
+      "copy": "candidate-03/camera-output-contract.spec.ts",
+      "sha256": "a0a9dc7db15b4fff568b2a6b1cfeb41a93b47a7f2f265e2895fba45cfde099b1",
+      "bytes": 20626
+    },
+    {
+      "source": "src/output/OutputAdapter.ts",
+      "copy": "candidate-03/OutputAdapter.ts",
+      "sha256": "70d3cb4326689f0348a86a5f1929ca0a3ff6b32d95be24a303944fac53763089",
+      "bytes": 8203
+    },
+    {
+      "source": "src/output/bridge.ts",
+      "copy": "candidate-03/bridge.ts",
+      "sha256": "c24a37011f631df7a979b5c4010b1b96baa22b6799abae4c231c95246deec460",
+      "bytes": 15485
+    },
+    {
+      "source": "src/output/NativeClock.ts",
+      "copy": "candidate-03/NativeClock.ts",
+      "sha256": "97c63e08014aed1ab9ee8c5cbf7166a4f33e0027fbb10f91b305fde32c30f173",
+      "bytes": 28579
+    },
+    {
+      "source": "src/output/ReceiverClock.ts",
+      "copy": "candidate-03/ReceiverClock.ts",
+      "sha256": "5dcea0b57e27436674b77bc9eea2a8973f7da87986e962f5f36fa4ca22dab7b8",
+      "bytes": 2945
+    },
+    {
+      "source": "src/output/protocol.ts",
+      "copy": "candidate-03/protocol.ts",
+      "sha256": "85f2219aad582737d93ff0a3bfd3afe4f0441ea6065262847a9ec3e301190c37",
+      "bytes": 3569
+    },
+    {
+      "source": "src/view/SphereView.ts",
+      "copy": "candidate-03/SphereView.ts",
+      "sha256": "c684476cc5bcf1dfcab1bab157efdde61f983743de2e0d90d4e1f1a6234eddd3",
+      "bytes": 28964
+    },
+    {
+      "source": "src/main.ts",
+      "copy": "candidate-03/main.ts",
+      "sha256": "6761945b12c918e4877afd1cd4879ea5f9b1470c8a9449f6e04ea77ce6926243",
+      "bytes": 16488
+    },
+    {
+      "source": "public/fixtures/F07.json",
+      "copy": "candidate-03/F07.json",
+      "sha256": "4b0502200e3ca8dd690eff0b12abf7122290164dd7b730eb8333a500b22b252c",
+      "bytes": 1286
+    },
+    {
+      "source": "node_modules/three/examples/jsm/controls/OrbitControls.js",
+      "copy": "candidate-03/OrbitControls.js",
+      "sha256": "3d79d07ecb686b4e5d93232eedab255331c1beef711e13164eaa1f68655a5f2b",
+      "bytes": 40755
+    },
+    {
+      "source": "node_modules/three/src/math/Spherical.js",
+      "copy": "candidate-03/Spherical.js",
+      "sha256": "71ccc04f9f78ef85a503bc58f05ce0bc042c75c206be50cdb7d8b70988c07f14",
+      "bytes": 3095
+    },
+    {
+      "source": "evidence/step-08/camera-output-contract/preparation/playwright-03.config.ts",
+      "copy": "candidate-03/playwright-03.config.ts",
+      "sha256": "22aa26429f3845521ab29f2904d818cf55c00c0ba2beb916f5411ddd34939f9a",
+      "bytes": 482
+    }
+  ]
+}

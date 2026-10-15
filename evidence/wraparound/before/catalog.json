@@ -1,0 +1,57 @@
+[
+  {
+    "id": "C01",
+    "name": "Pachelbel\u2019s Canon",
+    "sha256": "8d04ed5c07721cdddfee57210c6a754e5b1df824875394210b0e1357d080ed68"
+  },
+  {
+    "id": "C02",
+    "name": "Toy Ensemble",
+    "sha256": "0760710daf898cfc4197ded40d64ec306210835c82f86c17203b11913aeeb709"
+  },
+  {
+    "id": "C03",
+    "name": "Airy Loops",
+    "sha256": "1a6c41a66f3fcbe2be3b72607803c2c8c0d7f11110610af44c6336c0d52c2325"
+  },
+  {
+    "id": "C06",
+    "name": "Tetris \u2014 Type A (Korobeiniki)",
+    "sha256": "c982c6e1b6af768988966b75a9b9c3a7814bff6f329beeb2ef209dfe2e4d5a48"
+  },
+  {
+    "id": "C07",
+    "name": "Prelude in C Major \u00b7 Bach",
+    "sha256": "bbe6b797185d4c4a341c95891682034776f094e75877bfc2598f14d75b99c326"
+  },
+  {
+    "id": "C08",
+    "name": "Ode to Joy \u00b7 Beethoven",
+    "sha256": "145201a662383e88974d7392de09cc9ab88e040e4d1a37d0899e5754a1ffcd0e"
+  },
+  {
+    "id": "C09",
+    "name": "Eine kleine Nachtmusik \u00b7 Mozart",
+    "sha256": "fc0d31ef22bbd95a7e8018e081d6c680c30979763daf7ca4c63798e367fa22ed"
+  },
+  {
+    "id": "C10",
+    "name": "Swan Lake \u00b7 Tchaikovsky",
+    "sha256": "f6ec20025f4d7276107c988c395d95cd96484618eba69b7e60b21ac39ae34322"
+  },
+  {
+    "id": "C11",
+    "name": "Scarborough Fair \u00b7 Traditional",
+    "sha256": "38edcf2758be242948819b8c81a000a919ca9a68b4b7acbc544191725cec66b1"
+  },
+  {
+    "id": "P04",
+    "name": "Dancing Queen \u2014 ABBA",
+    "sha256": "36428decbe41a4bfb464033cdb90f0722cdf5353b4dc38a5a19c71736054d057"
+  },
+  {
+    "id": "P05",
+    "name": "Take On Me \u2014 a-ha",
+    "sha256": "76e6331480b8a0a1645b6f7fd50e81826d8cf463c20a0b514d3dc1d7d9453c98"
+  }
+]

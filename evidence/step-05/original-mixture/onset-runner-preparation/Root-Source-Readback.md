@@ -1,0 +1,9 @@
+# Bongo Planet — root onset MVP source readback
+
+Root read the runner, expression helper, synthetic controls, frozen plan and source-only MVP scope. All20 entries in manifest-source-01 matched their current SHA256 bindings (tool8377d4). No actual recording contents were read and the runner was not launched. Astra source review and a separate explicit actual GO remain pending.
+
+The initial468 result rows precede actual analysis; only68 sparse rows are targets, with400 dense rows unsupported/unattempted. Conditional fixed-neighbor/common-origin and independent admission families, full retained support plus post-onset attack, concrete upper-bound witnesses and retained unexcluded cells are the intended diagnostic scope. Separate prewindow normalization, actual negative search, joint distinct-component/neighbor changes, dense ownership and cursor sensitivity remain missing. All acceptance/qualification flags remain false. Thus a conditional family-measurement disposition cannot close any full onset gate.
+
+The production-expression enclosure uses actual binary64 coefficients/Math.PI, outward basic operations, a predeclared2^-40 function-call assumption and final Float32 endpoint conversion. Root requested reviewer stress-testing of rounded reference/radius arithmetic, baseline subtraction, complete admission/origin family coverage and missing-family equivalence. These assumptions are not certified JavaScript Math accuracy or a fitted residual tolerance.
+
+Resource checks are cooperative and sampled: retained Voice[][] block lists and numerous interval allocations have overhead beyond compact payload estimates. Pure synthetic controls do not prove full recording feasibility or OS high-water RSS. A bounded actual could usefully report feasibility/exhaustion, with no cap widening or automatic continuation. No source or policy change is approved by this readback.

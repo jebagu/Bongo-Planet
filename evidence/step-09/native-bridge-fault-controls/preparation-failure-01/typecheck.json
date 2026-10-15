@@ -1,0 +1,7 @@
+{
+  "command": "npm run typecheck",
+  "chunk": "e122c0",
+  "exitCode": 1,
+  "stderr": "scripts/native-bridge-fault-controls.ts(76,672): error TS2722: Cannot invoke an object which is possibly undefined.",
+  "scope": "Source-only preparation; no actual fork/server/native worker/browser/port probe."
+}

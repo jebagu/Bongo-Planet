@@ -1,0 +1,52 @@
+{
+  "id": "C06",
+  "name": "Tetris — Type A (Korobeiniki)",
+  "sourceId": "S43",
+  "bpm": 75,
+  "key": 9,
+  "scale": "minor",
+  "cycleBeats": 24,
+  "cycleSeconds": 19.2,
+  "generators": 1,
+  "soundingPieces": 90,
+  "stackedVertices": 12,
+  "maximumStack": 4,
+  "instruments": {
+    "guitar": 10,
+    "glass": 1,
+    "kalimba": 9,
+    "piano": 57,
+    "marimba": 9,
+    "bongo-high": 4
+  },
+  "spatial": {
+    "soundingLocations": 59,
+    "largestGapDegrees": 23.281446273541224
+  },
+  "compositionSha256": "ca518e0e936f087bae0866aaae30fec3060878e091a832ecda5df29a180c1f59",
+  "simulation": {
+    "cycles": 8,
+    "stablePatternsMatch": true,
+    "allLayersReached": true,
+    "maximumEdges": 1,
+    "maximumDecisionsPerQuantum": 1,
+    "maximumPending": 4,
+    "lateDrops": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "c91b31178436bbff30d8138ed6b73931a7f0eec17ac3459fdbe65d994a2e7a16",
+    "renderedFromCurrentEngineAndSamples": true,
+    "cycles": 1,
+    "seconds": 19.2,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peak": 0.38654088973999023,
+    "rms": 0.061690262538383875,
+    "repeatError": 2.9802322387695312e-8,
+    "boundaryDelta": 0.00002731289714574814,
+    "maximumVoices": 6,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

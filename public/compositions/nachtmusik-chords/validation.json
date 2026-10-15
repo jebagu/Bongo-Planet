@@ -1,0 +1,50 @@
+{
+  "id": "C09",
+  "name": "Eine kleine Nachtmusik · Mozart",
+  "sourceId": null,
+  "bpm": 100,
+  "key": 7,
+  "scale": "major",
+  "cycleBeats": 16,
+  "cycleSeconds": 9.6,
+  "generators": 1,
+  "soundingPieces": 68,
+  "stackedVertices": 18,
+  "maximumStack": 4,
+  "instruments": {
+    "guitar": 19,
+    "kalimba": 19,
+    "piano": 16,
+    "marimba": 14
+  },
+  "spatial": {
+    "soundingLocations": 30,
+    "largestGapDegrees": 23.800182602175063
+  },
+  "compositionSha256": "eb73742012c3cc87e065b650a336c2f11310aa6054812f263718f24413f466a0",
+  "simulation": {
+    "cycles": 8,
+    "stablePatternsMatch": true,
+    "allLayersReached": true,
+    "maximumEdges": 1,
+    "maximumDecisionsPerQuantum": 2,
+    "maximumPending": 4,
+    "lateDrops": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "f4c8e3745859d284236eb81d97d5d75694f80944751b57560f28a52319afbfcb",
+    "renderedFromCurrentEngineAndSamples": true,
+    "cycles": 1,
+    "seconds": 9.6,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peak": 0.3292211890220642,
+    "rms": 0.051907353841997114,
+    "repeatError": 1.4901161193847656e-8,
+    "boundaryDelta": 0,
+    "maximumVoices": 5,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

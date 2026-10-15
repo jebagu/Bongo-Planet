@@ -1,0 +1,20 @@
+# Bongo Planet — saving-phase sample result
+
+Exactly one reviewed f0d74b6b invocation ran2026-10-11 23:30:06.377–23:31:08.998 UTC, **62.620 seconds**, exit1. The unchanged45-second collector budget failed;75-second total bound and all scoped cleanup checks held. No retry/export/settings/QoS/product action ran.
+
+Limit-ending stdout was observed at collector elapsed8.8479 seconds; completion/saving at32.1857 seconds, a23.3377-second intervening span. The one decision occurred37.2619 seconds with saving age5.0762, owned collector identity confirmed and7.7381 seconds remaining before the original budget. Sample PID8027 launched at37.2636 seconds, requested1second with1ms interval, and reported its220,303-byte output written2.0736 seconds after launch. Sample exit0 stayed within its original absolute4-second bound. Timing here is incremental observer timing; no internal phase timestamp or exact sampling precision is inferred.
+
+Collector7928 required SIGINT at45.0499 seconds, SIGTERM55.0167, SIGKILL58.0359 and exited−9. Idle7927 and its Worker exited0. Sample exited0. The final scoped inventory was complete and contained no remaining observed owned processes, including previously observed DTServiceHub7930. This proves observed-lineage cleanup, not absence of an unobserved detached helper. No production service was touched.
+
+The retained `attempt-01/collector-sample.txt` identifies xctrace16.0(64575.156), build17E202, macOS26.5.1(25F80), and owned collector PID7928. The reported sample time is02:30:43.782+0300. Relevant call-graph observations:
+
+- Lines25–34:748 stack observations for the main thread pass through `Runner.runRecording`, `-[XRTrace saveDocument:saveCopy:error:]`, `-[NSOperation waitUntilFinished]` and `__psynch_cvwait`.
+- Lines69–92: a user-initiated workqueue has748 observations inside Instruments AnalysisCore concurrent enumeration, waiting in `dispatch_apply`/`dispatch_once`.
+- Lines113–259: another user-initiated workqueue has748 observations under that concurrent enumeration, with varying AnalysisCore instructions including `XRUnionTimeRange`, `XRVMPagePool::newPage` and `close`.
+- Lines260–279:748 observations in `XRAnalysisCoreSpaceSealingOperation` wait for an operation to finish.
+
+Those are per-thread sampled-stack counts, not CPU-utilization percentages, exact millisecond durations or product-thread identities. The varying analysis-stack instructions alongside save/sealing waits narrow the sampled interval to ongoing save-related analysis activity; they do not demonstrate successful useful progress, a deadlock, an IPC root cause, OS descheduling or the cause of the product worker's deadline misses. Most internal AnalysisCore symbols are unresolved. The sample itself perturbs the idle collector. Its reported1.7G physical footprint/1.8G peak applies to the collector; no workload or scheduler remedy follows from that number alone.
+
+Trace metadata peaked at summed logical size1,254,820,600 bytes, then retained369,338,970 bytes in276 regular files. Logical size is not allocated disk usage. `attempt-01/retention-manifest.json` streams SHA256 for every trace file and binds source, raw sample, commands and original phase/decision events. No per-file mutation or symlink/special-file exception was observed during hashing. Capture source matches reviewed SHA256 `f0d74b6be706b184a63631f2532d966bc81181b4747d219f4694041de2511f69`; sample SHA256 is`a8262790fa50356ce36dce9fb46632b5b1d64ea76a4875eb0eed2bafd807f56f`. Git HEAD is explicitly post-terminal readback. No bulk file was staged; earlier probes remain intact.
+
+This diagnostic answered the narrow question of what the owned collector was doing during one saving interval. The trace is still an unqualified failed partial collection: scheduler table usability, Mach worker mapping and product OS attribution remain unmeasured. No further probe, export or longer collector budget is authorized. Root and independent reviewer will assess this retained sample before selecting another measurement.

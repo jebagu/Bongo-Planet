@@ -1,0 +1,46 @@
+{
+  "id": "C05",
+  "name": "North Pole Loop",
+  "sourceId": "N02",
+  "bpm": 40,
+  "key": 0,
+  "scale": "major",
+  "cycleBeats": 6,
+  "cycleSeconds": 9,
+  "generators": 1,
+  "soundingPieces": 68,
+  "stackedVertices": 16,
+  "maximumStack": 3,
+  "instruments": {
+    "guitar": 18,
+    "glass": 18,
+    "kalimba": 16,
+    "piano": 16
+  },
+  "compositionSha256": "3c066b65461cf6d7dc169c5f29a2dc1ee1a40981d9396133330ee3d435e780a3",
+  "simulation": {
+    "cycles": 8,
+    "stablePatternsMatch": true,
+    "allLayersReached": true,
+    "maximumEdges": 4,
+    "maximumDecisionsPerQuantum": 5,
+    "maximumPending": 12,
+    "lateDrops": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "bc1bbbf11dd12d79c45ce9be0bae70679a3d1be3ef11e9e0d3492afb6ec040c9",
+    "renderedFromCurrentEngineAndSamples": true,
+    "cycles": 1,
+    "seconds": 9,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peak": 0.24696777760982513,
+    "rms": 0.02546780459487011,
+    "repeatError": 1.862645149230957e-9,
+    "boundaryDelta": 0,
+    "maximumVoices": 28,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

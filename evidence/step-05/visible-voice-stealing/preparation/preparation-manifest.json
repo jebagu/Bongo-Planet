@@ -1,0 +1,56 @@
+{
+  "base": "/Users/jeremyguillory/Documents/ChatGPT/ripple",
+  "scope": "source preparation/read-only HTTP attestation only; no browser actual",
+  "entries": [
+    {
+      "path": "evidence/step-05/visible-voice-stealing/preparation/Plan-source-aae195e8.md",
+      "bytes": 3669,
+      "sha256": "aae195e8b5794fb10fecc93222417cf119c7bb662d67b51ac1aaf1dc1e1e4389"
+    },
+    {
+      "path": "evidence/step-05/visible-voice-stealing/preparation/Plan.md",
+      "bytes": 3856,
+      "sha256": "8aa5e6916bb4e73959dfb0c028071c80d28abdfd56fef099c2381028e24ad85b"
+    },
+    {
+      "path": "evidence/step-05/visible-voice-stealing/preparation/Source-IndependentReview.md",
+      "bytes": 4454,
+      "sha256": "21bf3a8b4dd1f6d3219366a807f7fb3a8519128024eea29b47f735fadcbd46f0"
+    },
+    {
+      "path": "evidence/step-05/visible-voice-stealing/preparation/harness-source.ts",
+      "bytes": 11794,
+      "sha256": "bb7d5bf1725f53c7d2c6d20cb18e7296e2f1e64844021a40e16b3efb82df000b"
+    },
+    {
+      "path": "evidence/step-05/visible-voice-stealing/preparation/manifest-source.json",
+      "bytes": 1074,
+      "sha256": "a8460dc6e706b0be10c60a90b2e81ee7b1fa763fd1de917bef74989f3ee35d33"
+    },
+    {
+      "path": "evidence/step-05/visible-voice-stealing/preparation/playwright.config.ts",
+      "bytes": 421,
+      "sha256": "62c9a234b5293ce2a707d319542a59df995239678479b2bce5b21c3ac00495ad"
+    },
+    {
+      "path": "evidence/step-05/visible-voice-stealing/preparation/served-preflight.json",
+      "bytes": 1225,
+      "sha256": "b989f9a5f2b78eb3f8ad4963afcb6c1067fab48ccaed883cc42225b62bbad796"
+    },
+    {
+      "path": "evidence/step-05/visible-voice-stealing/preparation/source-preparation-final.json",
+      "bytes": 1068,
+      "sha256": "bc3f191b977835d3646259c7d54d05802bc72a34463971ca49903894ef6686a8"
+    },
+    {
+      "path": "evidence/step-05/visible-voice-stealing/preparation/source-preparation.json",
+      "bytes": 1060,
+      "sha256": "cc7d0feb5636cdb1c45b724888d41816ce38129a74010be7177cb991b380361c"
+    },
+    {
+      "path": "scripts/ui-voice-stealing-browser.spec.ts",
+      "bytes": 11794,
+      "sha256": "bb7d5bf1725f53c7d2c6d20cb18e7296e2f1e64844021a40e16b3efb82df000b"
+    }
+  ]
+}

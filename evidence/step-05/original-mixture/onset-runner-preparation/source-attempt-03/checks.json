@@ -1,0 +1,40 @@
+{
+  "scope": "Final source-only synthetic controls; no actual PCM read/search/capture",
+  "qualificationPassed": false,
+  "sources": [
+    {
+      "path": "scripts/mixture-onset-runner.ts",
+      "snapshot": "evidence/step-05/original-mixture/onset-runner-preparation/source-attempt-03/mixture-onset-runner.ts",
+      "sha256": "d590ec9e74750e003fd3bf2754b503a7a0ec604a65142a00baf66d801fadc1ae",
+      "bytes": 27880
+    },
+    {
+      "path": "scripts/mixture-production-interval.ts",
+      "snapshot": "evidence/step-05/original-mixture/onset-runner-preparation/source-attempt-03/mixture-production-interval.ts",
+      "sha256": "4fa2e0ead63385d29d9603ea2c576565396ac83c3396bfa9fc7c7f7ec53a5179",
+      "bytes": 5893
+    },
+    {
+      "path": "tests/mixture-onset-runner.test.ts",
+      "snapshot": "evidence/step-05/original-mixture/onset-runner-preparation/source-attempt-03/mixture-onset-runner.test.ts",
+      "sha256": "f0565d023630ff1987ef66d8a6196a5dc3432a9516f7d5e62051dee14873369e",
+      "bytes": 12417
+    }
+  ],
+  "checks": [
+    {
+      "command": "BONGO_ONSET_CONTROL_OUTPUT=evidence/step-05/original-mixture/onset-runner-preparation/source-attempt-03 npx vitest run tests/mixture-onset-runner.test.ts",
+      "toolChunk": "8ae66d",
+      "exitCode": 0,
+      "wallTimeSeconds": 1.562515042,
+      "testsPassed": 22,
+      "reportedVitestDurationSeconds": 1.23
+    },
+    {
+      "command": "npm run typecheck",
+      "toolChunk": "1faab6",
+      "exitCode": 0,
+      "wallTimeSeconds": 0.325315042
+    }
+  ]
+}

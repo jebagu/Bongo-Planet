@@ -1,0 +1,149 @@
+{
+  "id": "DB03",
+  "name": "Trapdoor — Half-Time Build",
+  "slug": "trapdoor",
+  "group": "Drum Loops",
+  "genre": "Half-time / trap",
+  "description": "Heavy, widely spaced kicks and a half-time snare leave space for a sudden skittering hat roll. Unequal returns keep nudging the hats between the main beats; the roll shuts off and the wide pocket lands again.",
+  "routing": "Five- and seven-hop circuits create an interleaved hat-and-snare fill on the 93.75 ms hop grid. A 25-hop budget ends every descendant while the underlying half-time phrase keeps playing.",
+  "bpm": 160,
+  "key": 0,
+  "scale": "major",
+  "cycleBeats": 32,
+  "cycleSeconds": 12,
+  "generators": 2,
+  "soundingPieces": 41,
+  "occupiedVertices": 37,
+  "activeRoutedVertices": 84,
+  "directedGates": 84,
+  "forks": 1,
+  "sourceHopBudgets": [
+    72,
+    25
+  ],
+  "allTravelFinite": true,
+  "density": {
+    "bins": [
+      {
+        "startBeat": 0,
+        "endBeat": 2,
+        "noteAttacks": 5
+      },
+      {
+        "startBeat": 2,
+        "endBeat": 4,
+        "noteAttacks": 4
+      },
+      {
+        "startBeat": 4,
+        "endBeat": 6,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 6,
+        "endBeat": 8,
+        "noteAttacks": 4
+      },
+      {
+        "startBeat": 8,
+        "endBeat": 10,
+        "noteAttacks": 10
+      },
+      {
+        "startBeat": 10,
+        "endBeat": 12,
+        "noteAttacks": 16
+      },
+      {
+        "startBeat": 12,
+        "endBeat": 14,
+        "noteAttacks": 36
+      },
+      {
+        "startBeat": 14,
+        "endBeat": 16,
+        "noteAttacks": 18
+      },
+      {
+        "startBeat": 16,
+        "endBeat": 18,
+        "noteAttacks": 5
+      },
+      {
+        "startBeat": 18,
+        "endBeat": 20,
+        "noteAttacks": 4
+      },
+      {
+        "startBeat": 20,
+        "endBeat": 22,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 22,
+        "endBeat": 24,
+        "noteAttacks": 4
+      },
+      {
+        "startBeat": 24,
+        "endBeat": 26,
+        "noteAttacks": 5
+      },
+      {
+        "startBeat": 26,
+        "endBeat": 28,
+        "noteAttacks": 4
+      },
+      {
+        "startBeat": 28,
+        "endBeat": 30,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 30,
+        "endBeat": 32,
+        "noteAttacks": 4
+      }
+    ],
+    "initialAttacksPerTwoBeats": 4.5,
+    "peakAttacksPerTwoBeats": 36,
+    "finalAttacksPerTwoBeats": 4.75,
+    "peakToInitialRatio": 8
+  },
+  "instruments": {
+    "bongo-high": 4,
+    "bongo-low": 4,
+    "kick": 10,
+    "snare": 5,
+    "hi-hat": 18
+  },
+  "compositionSha256": "0c1b3a08a5a4c02dd1280ec5c6de0e99e680a23ec16dc9595ed93019ad4363dd",
+  "simulation": {
+    "cycles": 8,
+    "seconds": 96,
+    "allLayersReached": true,
+    "musicalPatternRepeats": true,
+    "routingPatternRepeats": true,
+    "maximumEdges": 28,
+    "maximumPending": 8,
+    "maximumDecisionsPerQuantum": 28,
+    "lateDrops": 0,
+    "overloads": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "e05641a0f450c6686aea477adcc699c148ca8ad29511ad118db7a2fbe54f273d",
+    "renderedFromCurrentEngineAndSamples": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "cycles": 2,
+    "seconds": 24,
+    "peak": 0.18209488689899445,
+    "rms": 0.028336985287039207,
+    "repeatError": 7.450580596923828e-9,
+    "boundaryDelta": 0.0007555186748504639,
+    "maximumVoices": 42,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

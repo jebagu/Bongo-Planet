@@ -1,0 +1,3 @@
+# Bongo Planet — affected current view regression
+
+All6 installed-Chrome view component tests passed (8.8s): placement/relocation/invalid drops, synthetic cancellation/competing pointers/focus loss, immediate camera capture release before mouseup, palette and alternative movement, rear picking/orbit and low-FPS feedback. Every page collects page errors and requires none. Output paths isolate this run from prior evidence. The source dev server used permanent5417/BongoPlanet and was stopped after testing; frozen production preview was restored. These are component/automated checks, not physical touch, human listening or Safari acceptance. Source-readback copies were taken after the unchanged tested source completed.

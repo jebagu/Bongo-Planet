@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-12T01:58:57.286255+00:00",
+  "actualExecution": "not run; explicit root GO required",
+  "unchangedHarnessSha256": "bb7d5bf1725f53c7d2c6d20cb18e7296e2f1e64844021a40e16b3efb82df000b",
+  "unchangedConfigSha256": "62c9a234b5293ce2a707d319542a59df995239678479b2bce5b21c3ac00495ad",
+  "originalPlanPreserved": {
+    "path": "evidence/step-05/visible-voice-stealing/preparation/Plan-source-aae195e8.md",
+    "sha256": "aae195e8b5794fb10fecc93222417cf119c7bb662d67b51ac1aaf1dc1e1e4389"
+  },
+  "correctedPlanSha256": "8aa5e6916bb4e73959dfb0c028071c80d28abdfd56fef099c2381028e24ad85b",
+  "correction": "17s since Play/18s since entry observation-loop conditions;20s Play-to-pause asserted;26s test/30s global/final cooperative bounds; no final21s assertion",
+  "reviewSha256": "21bf3a8b4dd1f6d3219366a807f7fb3a8519128024eea29b47f735fadcbd46f0",
+  "readOnlyServedPreflightSha256": "b989f9a5f2b78eb3f8ad4963afcb6c1067fab48ccaed883cc42225b62bbad796",
+  "typecheckRetained": "source-preparation.json: bebed5 exit0, .306543459s; code unchanged since that pass"
+}

@@ -1,0 +1,96 @@
+{
+  "scope": "Source-only real-function/fixed-membership interval preparation; all older controls/source snapshots/failures retained.",
+  "qualificationPassed": false,
+  "entries": [
+    {
+      "path": "evidence/step-05/original-mixture/onset-interval-preparation/IndependentReview.md",
+      "bytes": 4723,
+      "sha256": "c5d6db8d9d3eadac2a43641d023b606eb209b5bbb2fa3ce9f63704a3b6977045"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-interval-preparation/Plan.md",
+      "bytes": 3903,
+      "sha256": "c8ab5a7718c8d7dce2f53608189a8c596a3c0b63f132846eb18e6158308427fc"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-interval-preparation/Review.md",
+      "bytes": 4001,
+      "sha256": "155acf3c5b2da05ed2b90381afababba0433b0148c2015fb588d0862e408bacb"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-interval-preparation/module-source-0f72920d.ts",
+      "bytes": 10037,
+      "sha256": "0f72920d12f386fbe2efa5c04154ca2345362e3ee96f3a94f179b3b61ce15273"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-interval-preparation/module-source-32d08b01.ts",
+      "bytes": 10151,
+      "sha256": "32d08b01e412b7556765ec20442d409f4f15a34f6536208ef03005689cc42f42"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-interval-preparation/reference-attempt-01-stopped.json",
+      "bytes": 729,
+      "sha256": "0f2ebf2e974f91c63af3c2cfc393dec6bc9be4a77f380823ceff2566301bcfa6"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-interval-preparation/reference-vectors-attempt-01-stopped.py",
+      "bytes": 3798,
+      "sha256": "cb42d9fb91d96c0c84d9708563476e5952413fc2af8662af7b08cba184d520ce"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-interval-preparation/reference-vectors-compact-unrun.py",
+      "bytes": 3938,
+      "sha256": "4f033a3e1b3158cb8d8dfde66e721c09e5015a04c6fa54af5c199fc004231d51"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-interval-preparation/reference-vectors.json",
+      "bytes": 2695,
+      "sha256": "d082c6f0c49ba1d05278f9095635e0577804de4a49a0037d00daf6196c43fed2"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-interval-preparation/reference-vectors.py",
+      "bytes": 3798,
+      "sha256": "cb42d9fb91d96c0c84d9708563476e5952413fc2af8662af7b08cba184d520ce"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-interval-preparation/snapshot-packaging-failure.json",
+      "bytes": 305,
+      "sha256": "adbbc9d789785605e6f5ac157242c1c68f9ee4a666dc677f44f4f58c8672f25c"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-interval-preparation/source-controls-01.json",
+      "bytes": 1406,
+      "sha256": "a8c3fe8d01534d7ac6a56c95d62234c51bddf9a2d5fbcb2ed3cf73a404eefc2b"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-interval-preparation/source-controls-02.json",
+      "bytes": 962,
+      "sha256": "c4cdf96259d420d099c2596ad558731d686ef9ccaba77fc2888759025a64b403"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-interval-preparation/source-controls-03-typecheck-final.json",
+      "bytes": 573,
+      "sha256": "cc412b766162f6a995ad9538fb4fec9d4ed19af16eb6511ec0b03d7e1f382e42"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-interval-preparation/test-source-ae40a045.ts",
+      "bytes": 7358,
+      "sha256": "ae40a0456b5a1c615b6658482baa2c2671286ff3fbf3e8f0334c873497a34278"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/onset-interval-preparation/test-source-b397c5a6.ts",
+      "bytes": 7417,
+      "sha256": "b397c5a685ca7bfdf49e1994b4e6fa3f03a2a8a405f4a411ea166dd306fb3b35"
+    },
+    {
+      "path": "scripts/mixture-onset-interval.ts",
+      "bytes": 10151,
+      "sha256": "32d08b01e412b7556765ec20442d409f4f15a34f6536208ef03005689cc42f42"
+    },
+    {
+      "path": "tests/mixture-onset-interval.test.ts",
+      "bytes": 7417,
+      "sha256": "b397c5a685ca7bfdf49e1994b4e6fa3f03a2a8a405f4a411ea166dd306fb3b35"
+    }
+  ]
+}

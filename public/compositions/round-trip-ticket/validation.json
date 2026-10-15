@@ -1,0 +1,57 @@
+{
+  "id": "MR05",
+  "name": "Round Trip Ticket",
+  "slug": "round-trip-ticket",
+  "group": "Minimal Routing",
+  "description": "Four quiet objects play only C and G across two octaves. Almost all the planet is silent, so the different return times become the composition.",
+  "routing": "Two unequal closed loops share one fork and otherwise divide all 92 junctions. Returning sparks take both exits again; a finite two-round budget keeps the figure-eight bounded.",
+  "bpm": 45,
+  "key": 0,
+  "scale": "pentatonic",
+  "cycleBeats": 24,
+  "cycleSeconds": 32,
+  "generators": 1,
+  "soundingPieces": 4,
+  "occupiedVertices": 5,
+  "activeRoutedVertices": 92,
+  "directedGates": 93,
+  "forks": 1,
+  "sourceHopBudgets": [
+    67
+  ],
+  "allTravelFinite": true,
+  "instruments": {
+    "guitar": 1,
+    "glass": 1,
+    "kalimba": 1,
+    "piano": 1
+  },
+  "compositionSha256": "603375748f8bcc1ac1f44587ea7e07e769213765cd24836e15451b8d19e8a641",
+  "simulation": {
+    "cycles": 8,
+    "seconds": 256,
+    "allLayersReached": true,
+    "musicalPatternRepeats": true,
+    "routingPatternRepeats": true,
+    "maximumEdges": 4,
+    "maximumPending": 1,
+    "maximumDecisionsPerQuantum": 4,
+    "lateDrops": 0,
+    "overloads": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "20df151b3f6946130c85b5ece0fc98b2c84a4f659eac6d943507ef0e75884cf1",
+    "renderedFromCurrentEngineAndSamples": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "seconds": 32,
+    "peak": 0.11656463146209717,
+    "rms": 0.013402122799109848,
+    "repeatError": 0,
+    "boundaryDelta": 0,
+    "maximumVoices": 2,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

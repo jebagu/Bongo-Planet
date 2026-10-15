@@ -1,0 +1,47 @@
+{
+  "id": "P04",
+  "title": "Dancing Queen",
+  "artist": "ABBA",
+  "scope": "Four-bar instrumental cover excerpt",
+  "bpm": 100,
+  "phraseBeats": 16,
+  "generators": 3,
+  "pieces": 50,
+  "chordStacks": 7,
+  "maximumStack": 4,
+  "chordProgression": [
+    "E",
+    "A",
+    "A",
+    "D6",
+    "A",
+    "D"
+  ],
+  "routedVertices": 91,
+  "directedGates": 88,
+  "allTravelFinite": true,
+  "spatial": {
+    "soundingLocations": 25,
+    "largestGapDegrees": 23.800182602175095
+  },
+  "compositionSha256": "a4c525faf9535440fa65601bf4afb283057f8968a4099901044c059df9c05855",
+  "simulation": {
+    "phrases": 8,
+    "writtenHitsAndRestsMatch": true,
+    "maximumEdges": 3,
+    "maximumDecisionsPerQuantum": 4,
+    "lateDrops": 0
+  },
+  "audio": {
+    "file": "dancing-queen.wav",
+    "seconds": 9.6,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peak": 0.5366553068161011,
+    "rms": 0.07797484900784285,
+    "maximumVoices": 12,
+    "stolenVoices": 0,
+    "lateDrops": 0,
+    "frameRoundingError": 0
+  }
+}

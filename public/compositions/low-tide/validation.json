@@ -1,0 +1,33 @@
+{
+  "name": "Dub Drum Loop",
+  "genre": "Dub",
+  "presetId": "D04",
+  "bpm": 80,
+  "phraseBeats": 8,
+  "audioLoopBeats": 16,
+  "generators": 4,
+  "soundingPieces": 14,
+  "routedVertices": 92,
+  "directedGates": 88,
+  "allTravelFinite": true,
+  "compositionSha256": "c14f4378a23757e13e0511fca02c28c2f5976ed0c186d67b3a499dcc37bc0379",
+  "simulation": {
+    "phrases": 8,
+    "writtenHitsAndRestsMatch": true,
+    "maximumEdges": 4,
+    "maximumDecisionsPerQuantum": 5,
+    "lateDrops": 0
+  },
+  "audio": {
+    "file": "Low-Tide.wav",
+    "seconds": 12,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peak": 0.20591983199119568,
+    "rms": 0.015438768888257928,
+    "repeatError": 9.313225746154785e-10,
+    "maximumVoices": 5,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

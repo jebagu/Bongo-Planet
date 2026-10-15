@@ -1,0 +1,59 @@
+{
+  "id": "AA05",
+  "name": "Porch Lights",
+  "slug": "porch-lights",
+  "group": "Airy & Ambient",
+  "description": "A warm F-major guitar-and-piano walk with low roots, soft wooden answers and occasional high glass. A second slow source gently lights up the far side.",
+  "routing": "One 91-hop journey crosses every junction. A second source joins halfway around, repeating at half the main interval so the rear hemisphere develops its own quiet answering phrase.",
+  "bpm": 45,
+  "key": 5,
+  "scale": "major",
+  "cycleBeats": 24,
+  "cycleSeconds": 32,
+  "generators": 2,
+  "soundingPieces": 49,
+  "occupiedVertices": 46,
+  "activeRoutedVertices": 92,
+  "directedGates": 91,
+  "forks": 0,
+  "sourceHopBudgets": [
+    91,
+    45
+  ],
+  "allTravelFinite": true,
+  "instruments": {
+    "guitar": 9,
+    "glass": 9,
+    "kalimba": 9,
+    "piano": 14,
+    "marimba": 8
+  },
+  "compositionSha256": "ae3432b5ab2d9ca9a015e164bbb818b9b2235798ad17d8e78488be60c290d645",
+  "simulation": {
+    "cycles": 8,
+    "seconds": 256,
+    "allLayersReached": true,
+    "musicalPatternRepeats": true,
+    "routingPatternRepeats": true,
+    "maximumEdges": 2,
+    "maximumPending": 3,
+    "maximumDecisionsPerQuantum": 2,
+    "lateDrops": 0,
+    "overloads": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "b7928688738690d743652dfee409a0570302d5b7392921633bc8210f2330c412",
+    "renderedFromCurrentEngineAndSamples": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "seconds": 32,
+    "peak": 0.21397484838962555,
+    "rms": 0.028594451706383594,
+    "repeatError": 9.313225746154785e-10,
+    "boundaryDelta": 0.00020486162975430489,
+    "maximumVoices": 14,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

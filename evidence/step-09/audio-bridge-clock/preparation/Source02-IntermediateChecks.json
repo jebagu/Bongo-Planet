@@ -1,0 +1,44 @@
+{
+  "title": "Bongo Planet Source02 intermediate checks, before global-budget scope correction",
+  "createdAt": "2026-10-12T06:24:48.937143+00:00",
+  "controls": {
+    "tool": "ff2865",
+    "exit": 0,
+    "seconds": 0.26239025,
+    "passed": 64,
+    "log": "ClockControls02.log"
+  },
+  "privateTypecheck": {
+    "tool": "a5d918",
+    "exit": 0,
+    "seconds": 0.215834625,
+    "log": "typecheck-private-Source02.log"
+  },
+  "scope": "Pure controls/private compile only; cleanup35s scope correction pending, not frozen source GO",
+  "copies": [
+    {
+      "source": "scripts/output-audio-clock.spec.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02-checks-initial/scripts/output-audio-clock.spec.ts",
+      "bytes": 42726,
+      "sha256": "d637f3f52236c3006ee19dde5af4917326c7692b4dfe12232cefa7237c417fa4"
+    },
+    {
+      "source": "evidence/step-09/audio-bridge-clock/preparation/clock-controls02.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02-checks-initial/evidence/step-09/audio-bridge-clock/preparation/clock-controls02.ts",
+      "bytes": 3798,
+      "sha256": "bf102ce3a91d5d2b4c2294f6207556b9740c56ccdb808e00883be777d0e28510"
+    },
+    {
+      "source": "evidence/step-09/audio-bridge-clock/preparation/clock-lifecycle02.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02-checks-initial/evidence/step-09/audio-bridge-clock/preparation/clock-lifecycle02.ts",
+      "bytes": 1313,
+      "sha256": "5686dae0a50b160dee494de105dbf725a5b24ac04d274c7259a0405cfcd8fc33"
+    },
+    {
+      "source": "evidence/step-09/audio-bridge-clock/preparation/tsconfig.source02.json",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02-checks-initial/evidence/step-09/audio-bridge-clock/preparation/tsconfig.source02.json",
+      "bytes": 213,
+      "sha256": "897b719d8787d17704c517cc28b2423bc5c9b3a956c6022d09a8350bbc87023f"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "DB02",
+  "name": "Rubber Staircase — Bongo Build",
+  "slug": "rubber-staircase",
+  "group": "Drum Loops",
+  "genre": "Afrobeat / hand drums",
+  "description": "A loping, syncopated kick supports a conversation between low and high bongos. Three differently timed return lanes turn that conversation into a rolling hand-drum cascade, then leave the original pocket intact.",
+  "routing": "Five-, six- and eight-hop circuits meet at one three-way fork. They enter after three bars, add offset copies to the rhythm, and stop at an 18-hop limit before the relaxed groove returns.",
+  "bpm": 100,
+  "key": 0,
+  "scale": "major",
+  "cycleBeats": 32,
+  "cycleSeconds": 19.2,
+  "generators": 2,
+  "soundingPieces": 47,
+  "occupiedVertices": 47,
+  "activeRoutedVertices": 90,
+  "directedGates": 91,
+  "forks": 1,
+  "sourceHopBudgets": [
+    72,
+    18
+  ],
+  "allTravelFinite": true,
+  "density": {
+    "bins": [
+      {
+        "startBeat": 0,
+        "endBeat": 2,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 2,
+        "endBeat": 4,
+        "noteAttacks": 5
+      },
+      {
+        "startBeat": 4,
+        "endBeat": 6,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 6,
+        "endBeat": 8,
+        "noteAttacks": 5
+      },
+      {
+        "startBeat": 8,
+        "endBeat": 10,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 10,
+        "endBeat": 12,
+        "noteAttacks": 5
+      },
+      {
+        "startBeat": 12,
+        "endBeat": 14,
+        "noteAttacks": 12
+      },
+      {
+        "startBeat": 14,
+        "endBeat": 16,
+        "noteAttacks": 28
+      },
+      {
+        "startBeat": 16,
+        "endBeat": 18,
+        "noteAttacks": 26
+      },
+      {
+        "startBeat": 18,
+        "endBeat": 20,
+        "noteAttacks": 5
+      },
+      {
+        "startBeat": 20,
+        "endBeat": 22,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 22,
+        "endBeat": 24,
+        "noteAttacks": 5
+      },
+      {
+        "startBeat": 24,
+        "endBeat": 26,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 26,
+        "endBeat": 28,
+        "noteAttacks": 5
+      },
+      {
+        "startBeat": 28,
+        "endBeat": 30,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 30,
+        "endBeat": 32,
+        "noteAttacks": 5
+      }
+    ],
+    "initialAttacksPerTwoBeats": 5.5,
+    "peakAttacksPerTwoBeats": 28,
+    "finalAttacksPerTwoBeats": 5.5,
+    "peakToInitialRatio": 5.090909090909091
+  },
+  "instruments": {
+    "bongo-high": 9,
+    "bongo-low": 9,
+    "kick": 12,
+    "snare": 9,
+    "hi-hat": 8
+  },
+  "compositionSha256": "0998f0529a344c8c5743cc9675ca83547080e1c09dbcfb4006614684cdedd45e",
+  "simulation": {
+    "cycles": 8,
+    "seconds": 153.6,
+    "allLayersReached": true,
+    "musicalPatternRepeats": true,
+    "routingPatternRepeats": true,
+    "maximumEdges": 43,
+    "maximumPending": 10,
+    "maximumDecisionsPerQuantum": 43,
+    "lateDrops": 0,
+    "overloads": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "c19fa5db31cec3c06b5ccbd4dbc94b7290556d85b8e0e38a2ea2c54adf65cdc9",
+    "renderedFromCurrentEngineAndSamples": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "cycles": 2,
+    "seconds": 38.4,
+    "peak": 0.1701766699552536,
+    "rms": 0.02251038047129162,
+    "repeatError": 7.450580596923828e-9,
+    "boundaryDelta": 0.00017696034046821296,
+    "maximumVoices": 33,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

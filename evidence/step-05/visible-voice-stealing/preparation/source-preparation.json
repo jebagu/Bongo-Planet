@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-12T01:55:40.084203+00:00",
+  "actualExecution": "not run; awaiting independent source review and root GO",
+  "hashes": {
+    "scripts/ui-voice-stealing-browser.spec.ts": "bb7d5bf1725f53c7d2c6d20cb18e7296e2f1e64844021a40e16b3efb82df000b",
+    "evidence/step-05/visible-voice-stealing/preparation/playwright.config.ts": "62c9a234b5293ce2a707d319542a59df995239678479b2bce5b21c3ac00495ad",
+    "evidence/step-05/visible-voice-stealing/preparation/Plan.md": "aae195e8b5794fb10fecc93222417cf119c7bb662d67b51ac1aaf1dc1e1e4389"
+  },
+  "fixture": {
+    "path": "public/fixtures/F08.json",
+    "sha256": "43e73a354480d4c5d644cb440e9394251f9aa70a3116c78be777bc41375a86a3",
+    "pieces": 92,
+    "generators": 8,
+    "settings": {
+      "bpm": 180,
+      "key": 0,
+      "scale": "major",
+      "travel": 0.75,
+      "quantization": 0.25,
+      "volume": 0.65
+    }
+  },
+  "typecheck": {
+    "command": "npm run typecheck",
+    "toolChunk": "bebed5",
+    "exitCode": 0,
+    "wallSeconds": 0.306543459
+  },
+  "browsersServicesCapturesLaunched": false
+}

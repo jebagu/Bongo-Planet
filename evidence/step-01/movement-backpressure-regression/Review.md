@@ -1,0 +1,21 @@
+# Bongo Planet — mocked movement backpressure regression
+
+The current adapter has two reproduced logic defects. Against frozen OutputAdapter SHA256 `bd46913c921e03fc5d139851dae2f3faffc26ea9a9823769738083ed23a4b7b1`, the final five focused controls produced **two expected failures and three passes**. TypeScript checking passed. No production edit, build, browser, socket, service or PCM read occurred. These are pure mocked controls, not real bufferedAmount qualification or receiver release evidence.
+
+The public interface is exercised through `connect`, `setScene`, and `event` for musical controls; no private method or internal position/counter field is invoked. Eight public synchronization replies activate the adapter. A Vitest fake 20 ms interval and mocked `performance.now` drive time. The WebSocket model starts from an explicitly recorded byte backlog, then adds actual UTF-8 JSON byte lengths per modeled send. Its synchronous close callback is a declared mock behavior. Expected stable object IDs are literal values from earlier independently decoded receiver probes; expected corner coordinates independently normalize the original icosahedron vectors, without production geometry/ObjectMapping calls.
+
+| Final control | Observed old-source result |
+| --- | --- |
+| Multiobject movement crosses 64 KiB inside one tick; pause without immediate close | **Fails.** First movement send at 1,020 ms changes modeled backlog 65,535→65,756 bytes. The second object's generic `send()` guard closes immediately in the same tick with `control backpressure`. |
+| Drain before 500 ms; send a full newest snapshot including a never-moved object | **Fails.** Buffer is above the limit at 1,020 ms, three valid newest-state edits affect only `near`, and drain is modeled before 1,240 ms. Only newest `near` is sent; unchanged `far` is omitted because its successful-send cache remains set. No disconnect occurs. |
+| Persistent movement-only congestion; one reported disconnect after 500 ms | **Passes.** No movement/control sends occur during congestion. One close occurs at 1,540 ms, 520 ms after the first observed congestion tick, with one backpressure status callback. Later ticks produce no additional close/send. This does not prove a real receiver watchdog release or integrated visible DOM state. |
+| Reliable trigger above 64 KiB fails closed immediately | **Passes.** Same-session trigger closes at the command timestamp and is not sent or replayed after modeled drain. |
+| Reliable cancel above 64 KiB fails closed immediately | **Passes.** Cancellation closes at the command timestamp and is not sent or replayed after modeled drain. |
+
+[baseline-02/vitest.json](baseline-02/vitest.json), [execution.json](baseline-02/execution.json), [source binding](baseline-02/source-binding.json), and the five [trace files](baseline-02/traces) retain the final test source, adapter source, assertions and modeled byte/time/status history. Final test SHA256: `93e356d78d575155bf83da3605c10fa8277d99e42ac8c21a60a9d926232a89df`.
+
+The first test revision `f743bc60…` and [baseline-01](baseline-01/source-binding.json) are preserved. That run showed four passes/one failure, but its drain case changed and then reverted the allegedly unchanged object, clearing the exact cache under test. It was an inadequate unchanged-object control. Revision 02 leaves `far` at its original vertex throughout all three edits; assertions and the full-snapshot contract were not weakened to match the implementation.
+
+Final commands were `BONGO_OUTPUT_MOVEMENT_EVIDENCE=evidence/step-01/movement-backpressure-regression/baseline-02/traces npx vitest run tests/output-movement-backpressure.test.ts --reporter=json --outputFile=evidence/step-01/movement-backpressure-regression/baseline-02/vitest.json` (tool `c37c0d`, exit 1, 0.536816750 s) and `npm run typecheck` (tool `51670a`, exit 0, 0.326569000 s). The earlier command identities/results remain separately retained. Focused result timing comes from the actual tool calls; no browser elapsed or network timing is claimed.
+
+Root owns the adapter correction and any later validation. No acceptance atom is closed here. In particular S01-A43's actual socket congestion, latest receiver snapshot and visible watchdog/release witnesses remain separate from these modeled logic checks.

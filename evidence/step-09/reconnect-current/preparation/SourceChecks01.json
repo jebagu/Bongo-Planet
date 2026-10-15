@@ -1,0 +1,145 @@
+{
+  "title": "Bongo Planet reconnect source-only independent expectation controls",
+  "createdAt": "2026-10-12T05:16:57.134528+00:00",
+  "scope": "Pure source/fixture/golden arithmetic only; no helper import, browser, receiver, port probe or runtime test. Source branches are reviewed separately, not claimed executed by these controls.",
+  "sourceSha256": "e8178523c77518da4c79c32b5d347e2a7ac95a803a7aecb4474cbdb03b37e44b",
+  "checks": [
+    {
+      "name": "F07 golden vertex IDs from retained fixture",
+      "passed": true
+    },
+    {
+      "name": "Equal six counts cannot establish unchanged state",
+      "passed": true
+    },
+    {
+      "name": "Current snapshot removes old forward and adds unique new ID",
+      "passed": true
+    },
+    {
+      "name": "Disconnected move and addition occupy distinct legal vertices",
+      "passed": true
+    },
+    {
+      "name": "All four other retained vertices unchanged",
+      "passed": true
+    },
+    {
+      "name": "All seven predeclared object integers are unique",
+      "passed": true
+    },
+    {
+      "name": "Independent integer arithmetic maps right",
+      "passed": true
+    },
+    {
+      "name": "Independent integer arithmetic maps left",
+      "passed": true
+    },
+    {
+      "name": "Independent integer arithmetic maps forward",
+      "passed": true
+    },
+    {
+      "name": "Independent integer arithmetic maps back",
+      "passed": true
+    },
+    {
+      "name": "Independent integer arithmetic maps up",
+      "passed": true
+    },
+    {
+      "name": "Independent integer arithmetic maps down",
+      "passed": true
+    },
+    {
+      "name": "Independent integer arithmetic maps reconnect-new-note",
+      "passed": true
+    },
+    {
+      "name": "High precision nearest-axis oracle unit length",
+      "passed": true
+    },
+    {
+      "name": "Hardcoded oracle formula uses declared independent 3phi edge",
+      "passed": true
+    },
+    {
+      "name": "No product mapping geometry or OSC decoder imported",
+      "passed": true
+    },
+    {
+      "name": "Only two real UI connect clicks plus one disconnect are specified",
+      "passed": true
+    },
+    {
+      "name": "No generator, Play or enable action in test",
+      "passed": true
+    },
+    {
+      "name": "Exactly one real native ephemeral bridge declaration",
+      "passed": true
+    },
+    {
+      "name": "No Playwright automatic page fixture",
+      "passed": true
+    },
+    {
+      "name": "Every raw prefix requires exactly six, not an ordered subsequence only",
+      "passed": true
+    },
+    {
+      "name": "Command ACK excludes timer/calibration identities",
+      "passed": true
+    },
+    {
+      "name": "Failed readback still has independent cleanup finally",
+      "passed": true
+    }
+  ],
+  "checksPassed": 23,
+  "failures": 0,
+  "decimal80CoordinateReference": {
+    "c": "0.97943208548641418657571470989142631019942710411669858971567882408075695846296160",
+    "s": "0.20177410616759885154056716948583366832747081536014930019388803048209206670259587"
+  },
+  "declaredInitial": {
+    "right": 85,
+    "left": 29,
+    "forward": 10,
+    "back": 69,
+    "up": 37,
+    "down": 53
+  },
+  "declaredCurrent": {
+    "right": 10,
+    "left": 29,
+    "back": 69,
+    "up": 37,
+    "down": 53,
+    "reconnect-new-note": 85
+  },
+  "goldenObjectIds": {
+    "right": 2028154342,
+    "left": 306900081,
+    "forward": 878684189,
+    "back": 1538531747,
+    "up": 1128467233,
+    "down": 1035581718,
+    "reconnect-new-note": 2136539021
+  },
+  "globalTypecheck": {
+    "command": "npx tsc --noEmit",
+    "exit": 0,
+    "tool": "f6b117",
+    "seconds": 0.412153042,
+    "output": "typecheck-01.log"
+  },
+  "privateTypecheck": {
+    "command": "npx tsc --noEmit -p evidence/step-09/reconnect-current/preparation/tsconfig.source.json",
+    "exit": 0,
+    "tool": "3d7a82",
+    "seconds": 0.192281875,
+    "output": "typecheck-private-01.log"
+  }
+}

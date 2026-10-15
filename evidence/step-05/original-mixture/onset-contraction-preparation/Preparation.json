@@ -1,0 +1,41 @@
+{
+  "status": "prepared-source-only-awaiting-independent-review",
+  "runnerSha256": "f9a66bfc1446bb60f069dee8d182da64987a3bd75f432a054ca168b07052ceab",
+  "testsSha256": "e5288c3bb1c7e01c617c0bfd62b00c2f265785aee0af9714f2d127ffa4b7c8ac",
+  "originalRunnerSha256": "d590ec9e74750e003fd3bf2754b503a7a0ec604a65142a00baf66d801fadc1ae",
+  "tests": 16,
+  "passed": 16,
+  "failed": 0,
+  "typecheckExit": 0,
+  "sourceControlElapsedSeconds": 0.09571733300000003,
+  "maximumSampledRss": 83181568,
+  "syntheticLongRootExample": {
+    "before": {
+      "origin": {
+        "lo": -64,
+        "hi": 0.04
+      },
+      "admissionLo": 0,
+      "admissionHi": 1920
+    },
+    "after": {
+      "origin": {
+        "lo": -0.004750000000000004,
+        "hi": 0.004145833333333336
+      },
+      "admissionLo": 0,
+      "admissionHi": 128
+    },
+    "work": {
+      "cells": 16,
+      "voiceEvaluations": 16,
+      "detailBytes": 14597,
+      "singletonComparisons": 16,
+      "componentInversions": 15
+    },
+    "necessarySingletons": 15
+  },
+  "actualRunnerExecuted": false,
+  "originalPCMOpened": false,
+  "qualificationPassed": false
+}

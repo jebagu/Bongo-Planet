@@ -1,0 +1,11 @@
+# Bongo Planet — reconnect current-state acceptance decision
+
+Root accepts original **S09-A15, Reconnect synchronizes current state**, within the actual locked/paused UI reconnect scope established by [independent actual review](ActualIndependentReview.md). All milestones remain open.
+
+The adapter automatically delivers the edited composition after the deliberate reconnect. Both scenes have six objects, but the edit removes forward, moves stable right to the forward vertex and adds a distinct note at the old right vertex. Exact6+6 ordered sends/receiver positions/raw OSC, independently decoded coordinates and stable/new object IDs defeat an unchanged same-count snapshot. Each connection completes eight real synchronization exchanges and a fresh epoch. Musical commandACK8/10/18 precedes newer native6/0/6 object states.
+
+One root-contained actual passes: Playwright2082ms; external controller3.525733s, exit0, no force/errors/remaining owned processes. Final native fault fields, counters and closure ACK/exit0 are clean; the locked browser has no music. Independent root probes find the owned browser absent and private HTTP refused, while the permanent bridge remains ready/quiet. The final56-row browser witness ends before cleanup disconnect; the separate complete19-row receiver record covers that cleanup. No complete through-close browser trace is invented.
+
+The Source01 late-fault false-pass blocker and Source02 nullable-schema blocker were fixed and source-reviewed before the sole actual. Their frozen preparations and BLOCK reviews remain. Source03 passes54 pure controls, private and root global typechecks, exact source preflight and independent GO. Root GO binds66 selected inputs; the recorded controller hash matches the independently reviewed wrapper. Actual report binds13 selected helper/product inputs and unchanged served assets. No production source or browser build changed in this slice.
+
+This passes current-state synchronization, not active-source playback continuity, autonomous reconnect retries, replay of actually missed triggers, physical acoustic output, full audio-to-bridge conversion, sustained congestion or Safari/venue qualification. Those requirements remain separately open. Native F01 remains failed179/180. Other onset/math/capture and preparation failures remain unchanged.

@@ -1,0 +1,57 @@
+{
+  "sourceOnly": true,
+  "entries": [
+    {
+      "original": "scripts/active-camera-output.spec.ts",
+      "copy": "source-02/scripts/active-camera-output.spec.ts",
+      "bytes": 32329,
+      "sha256": "affae63ddf549367f406f89acbf646214c4b393080b17c0e585febdc4c7e7b7d",
+      "scope": "Source-only browser ownership successor02; no actual launched"
+    },
+    {
+      "original": "scripts/active-camera-observer.ts",
+      "copy": "source-02/scripts/active-camera-observer.ts",
+      "bytes": 11888,
+      "sha256": "715dc4adb4becadeeb419f925d71bdc3de54992c72990baff15450f6ef2e9423",
+      "scope": "Source-only browser ownership successor02; no actual launched"
+    },
+    {
+      "original": "tests/active-camera-observer.test.ts",
+      "copy": "source-02/tests/active-camera-observer.test.ts",
+      "bytes": 8113,
+      "sha256": "ed0e0a45d5ea010e4a087bf98d294747223edfccbdb187f910cacda86410bd16",
+      "scope": "Source-only browser ownership successor02; no actual launched"
+    },
+    {
+      "original": "evidence/step-01/movement-backpressure-live/preparation/trace-contract02.ts",
+      "copy": "source-02/evidence/step-01/movement-backpressure-live/preparation/trace-contract02.ts",
+      "bytes": 4489,
+      "sha256": "818f403e31f896d536161c85687cce66a8a6a1545a74a210b14c8a09f1d3ca79",
+      "scope": "Source-only browser ownership successor02; no actual launched"
+    },
+    {
+      "original": "evidence/step-08/camera-active-output/preparation/playwright.config.ts",
+      "copy": "source-02/evidence/step-08/camera-active-output/preparation/playwright.config.ts",
+      "bytes": 573,
+      "sha256": "5f0140bb9f47dd407a49a2552cf5a8a1e128f6421154b02d2842583734b8448f",
+      "scope": "Source-only browser ownership successor02; no actual launched"
+    }
+  ],
+  "inheritedProductionBindings": "Source-Bindings-02.json unchanged28 selected inputs; original candidate/source01copies remain frozen",
+  "execution": {
+    "pure": {
+      "command": "npx vitest run tests/active-camera-observer.test.ts --reporter=json --outputFile=evidence/step-08/camera-active-output/preparation/controls-04/pure-results.json",
+      "chunk": "aff50f",
+      "exitCode": 0,
+      "output": "JSON report written to /Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-04/pure-results.json\n",
+      "tests": 15
+    },
+    "globalTypecheck": {
+      "command": "npm run typecheck",
+      "chunk": "30ef3c",
+      "exitCode": 0,
+      "output": "\n> bongo-planet@0.1.0 typecheck\n> tsc --noEmit\n\n",
+      "scope": "Current successor plus sibling stable MovementSource03; no browser or service"
+    }
+  }
+}

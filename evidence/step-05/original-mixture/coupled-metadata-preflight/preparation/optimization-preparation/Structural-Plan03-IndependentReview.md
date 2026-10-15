@@ -1,0 +1,17 @@
+# Bongo Planet structural metadata Plan03 independent review
+
+Disposition: **GO for separate source implementation/control preparation only**, subject to the concrete implementation conditions below. No original scan, runtime, probe, test, source execution or acquisition is approved. This review used only the small plan delta and previously read literal source during the separate clock run's quiet window.
+
+The exact Plan02-to-Plan03 diff changes the heading/provenance paragraph and corrects the shared commit/due cutoff from `end + 1e-8` to **`end + 1e-9`**. It does not change other algorithms, caps or acceptance scope. The original Plan02 and its independent BLOCK remain preserved. This closes finding S01: the corrected expression now matches both captured Engine.advance comparisons and the frozen metadata Source02 branch.
+
+The proof assessment in `Structural-Plan02-IndependentReview.md` therefore applies without that blocker. Under the exact complete-ledger certificate `finite onset >= emission`, any globally due voice is already committed at the same cutoff. Monotone cutoff progression permits an immutable sorted due prefix instead of a branch pending heap. Nondecreasing `(onset, sequence)` insertion permits the first surviving ordered-map entry to implement oldest selection. Per-duration rounded expiry keys are monotone, permitting bounded FIFO expiry queues. None of these claims applies when the strict certificate or supported command/history premises fail.
+
+Required implementation invariants remain:
+
+1. Exactly 5,376 pending commits is valid. Check before the first would-be 5,377th commit; do not increment accepted/peak counts past the production boundary or perform due draining to rescue overflow. Preserve the first failed transition and branch disposition.
+2. Use bounded constant-time FIFO operations or explicitly charge any array-front shifts. Every class test, root read, stale pop, identity lookup, compaction visit and insertion remains charged. Keep the old conservative reserves and count the added sort/certificate work.
+3. Preserve lifetime identity including retired voices. Compact a class from surviving live members before installing the incoming identity, then append it once. Keep at most 64 live members, 192 tokens per class and 16 supported classes. Class/certificate/algorithm failures leave the domain unsupported or unresolved and fail the run; they must not be treated as evidence rejecting an individual anchor.
+4. Resource exhaustion during any operation leaves that exact anchor and all later work unresolved. All 32 positive necessary anchors and the independently derived negative domain remain in scope, with every one of the 468 group rows retained. No waveform or acoustic identification is added.
+5. Preserve every original prune, commit, due, interruption and late-test location/expression. Finite controls must cover exact/nextafter cutoff and expiry boundaries, onset just below emission, the prior between-tolerances counterexample, pending capacity before drain, ties, stale tokens, compaction and injected resource/invariant failure. Ordered per-transition equivalence and independent manual expectations both remain required.
+
+Completion under unchanged 50-million/120-second/256-MiB limits is still unproved. The failed dual-heap checkpoint and its 176.76-million projection are not reinterpreted. Any actual scan requires a separately frozen/reviewed implementation and root's fresh exclusive authorization. No acceptance atom or milestone changes follow from this plan GO.

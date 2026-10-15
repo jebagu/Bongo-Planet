@@ -1,0 +1,11 @@
+# Bongo Planet — actual 100 ms audio delay negative control
+
+The independently calibrated measurement correctly rejected an actual **100 ms product-only delay**. Six independently expected F02 groups were detected at **+100.083333 ms** after native route calibration; the product gate of absolute error ≤20 ms failed as intended. `negativeControlPassed` is true, while `automatedNumericSubsetPassed` is false. This is a measurement sensitivity check, not a passing product timing result or a ≥30-trigger audiovisual qualification.
+
+The same clean production assets were fetched and hashed before and after capture: main `e0985953a9a9dc53c99a60420ea3ce3e4cf762c5c53056e9a7dafc41397fe85f`, processor `155ba49f4f3e41921a86ae4adaa5595bcfe2858f5ebbadc7b28fa3281b50607d`. Original F02 was loaded without composition changes. After twelve native `AudioBufferSourceNode` calibration clicks had completed, the actual product worklet was disconnected from the context destination and connected through a native `DelayNode` set to 0.1 seconds. The calibration click sources remained connected directly to the destination, so they bypassed the injected delay. No engine events, frame timestamps, or PCM were fabricated or shifted.
+
+The exact named SPAT virtual input/output was selected; no ambient/default input or global output route was changed. The independent native calibration remained **13.333333 ms**, rather than absorbing the extra 100 ms. The 12-second product window yielded six expected and six detected groups, with no missing/extra groups. Actual raw PCM, identical-sample Float32 WAV, native click plan, fixture/topology references, frame pixels, clock records, atomic chunk metadata, served hashes, and the capture-time harness are retained.
+
+There were 392 chunks and **802,816 samples**, with matching metadata/raw counts and no half-sample timestamp discontinuity. Browser page errors were zero. The browser closed at **2026-10-11T18:48:58.918Z**. Because the independent audio timing gate rejected all six +100 ms residuals before visual scoring, these pixels are retained as evidence but no ≥30-trigger visual statistic is asserted.
+
+Command: `BONGO_AV_OUTPUT=evidence/step-08/av/negative-control-delay100 BONGO_AV_SECONDS=12 BONGO_AV_PRODUCT_DELAY=0.1 npx tsx scripts/av-evidence.ts`.

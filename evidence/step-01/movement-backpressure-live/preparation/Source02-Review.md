@@ -1,0 +1,7 @@
+# Bongo Planet — prepared backpressure source02
+
+All five source01 blockers are addressed in the successor candidate; acquisition remains unattempted and S01-A43 remains open. Source01 BLOCK review and exact source snapshots/manifest are preserved. Because the live script is an owned revision path, the old manifest describes its earlier frozen revision; source-snapshots-01 retains those bytes. The current path intentionally differs.
+
+The unchanged six pure proxy and eight timer controls pass.32 new pure controls pass for ordered per-session positions, all retained low-read continuity, post-observation deadlines, and exact capped existing-journal persistence (including an actual throwaway partial-write injection). These controls do not create real sockets/browser/process claims or certify real buffering. Shared whole-project typecheck37c7df passes; two preceding sibling-owned test type errors were retained by sphere and did not report a helper typing error.
+
+The root controller has separate ownership/source review and is an additional actual prerequisite. No source-control result establishes its actual process cleanup, actual threshold crossing, lease-safe drain, sender500ms timer, native watchdog release or latest full recovery. Numerical companion voices and separately served processor bytes keep their declared limitations. No production source, limits, earlier evidence or ledger was changed.

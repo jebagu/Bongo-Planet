@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-12",
+  "url": "http://127.0.0.1:5417/BongoPlanet/research/sound-palette/index.html",
+  "browser": "Codex in-app browser",
+  "cards": 20,
+  "decoded_samples": 20,
+  "decode_status": "All 20 samples decoded successfully.",
+  "pattern_controls_checked": 20,
+  "patterns": ["Mbira", "Marimba", "Wine glass", "Soft vibraphone", "Concert harp", "Grand piano", "FM piano", "High bongo", "Low bongo", "Acoustic guitar", "Glass", "Kalimba", "Piano", "Marimba", "Mario - Mallet / xylophone", "Mushroom - Tom / drum", "Yoshi - Yoshi voice", "Star - Music box", "Game Boy - Pulse wave", "Heart - Bass pluck"],
+  "one_note_with_room_checked": "Harmony Bloom Glass",
+  "stop_all_checked": true,
+  "console_warnings_and_errors": [],
+  "desktop_viewport": {"width": 1280, "height": 720, "horizontal_overflow": false},
+  "final_volume": 0.3,
+  "final_room_enabled": false,
+  "final_playback": "Stopped",
+  "screenshot": "preview.png",
+  "limitations": ["Controls checked at muted volume", "No acoustic listening judgement", "Native Harmony Bloom envelopes and effects not reproduced", "Mobile layout not tested", "Main game integration not performed"]
+}

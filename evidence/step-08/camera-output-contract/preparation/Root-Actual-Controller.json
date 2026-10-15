@@ -1,0 +1,20 @@
+{
+  "startedUtc": "2026-10-12T02:41:46.018496+00:00",
+  "argv": [
+    "npx",
+    "playwright",
+    "test",
+    "--config=evidence/step-08/camera-output-contract/preparation/playwright.config.ts"
+  ],
+  "environmentBindings": {
+    "BONGO_CAMERA_EVIDENCE_DIR": "evidence/step-08/camera-output-contract/attempt-01",
+    "BONGO_CAMERA_PLAYWRIGHT_OUTPUT": "evidence/step-08/camera-output-contract/runner-01"
+  },
+  "ownedPid": 35896,
+  "ownedProcessGroup": 35896,
+  "controllerWaitSeconds": 50,
+  "forcedCleanup": false,
+  "finishedUtc": "2026-10-12T02:41:50.163428+00:00",
+  "elapsedMonotonicSeconds": 4.14496154198423,
+  "childExitCode": 1
+}

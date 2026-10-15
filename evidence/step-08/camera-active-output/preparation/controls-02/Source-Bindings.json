@@ -1,0 +1,24 @@
+{
+  "sourceOnly": true,
+  "observedUTC": "2026-10-12T03:35:22.092441+00:00",
+  "entries": [
+    {
+      "original": "scripts/active-camera-output.spec.ts",
+      "copy": "active-camera-output.spec.ts",
+      "bytes": 28179,
+      "sha256": "7625199c7555c18e60df892cdc95e2631fcf10a606ed9dc8fac6bfa4311ecdf4"
+    },
+    {
+      "original": "scripts/active-camera-observer.ts",
+      "copy": "active-camera-observer.ts",
+      "bytes": 10407,
+      "sha256": "c6060e1f9869ff98f0c5447a33e9feb307332497ce51b1032574572f045ceb58"
+    },
+    {
+      "original": "tests/active-camera-observer.test.ts",
+      "copy": "active-camera-observer.test.ts",
+      "bytes": 6169,
+      "sha256": "360f551a53a7bd88e51f8ca5828c4d8ec31a130e220417fdc7c5b3c884b3c299"
+    }
+  ]
+}

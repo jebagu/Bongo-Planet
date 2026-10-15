@@ -1,0 +1,33 @@
+{
+  "name": "House Drum Loop",
+  "genre": "House",
+  "presetId": "D01",
+  "bpm": 120,
+  "phraseBeats": 8,
+  "audioLoopBeats": 16,
+  "generators": 4,
+  "soundingPieces": 23,
+  "routedVertices": 92,
+  "directedGates": 88,
+  "allTravelFinite": true,
+  "compositionSha256": "a6cfade32955e4a4e2646e5cd3bcfa1ba0531664c3697ff982a17c9dab2627f9",
+  "simulation": {
+    "phrases": 8,
+    "writtenHitsAndRestsMatch": true,
+    "maximumEdges": 4,
+    "maximumDecisionsPerQuantum": 5,
+    "lateDrops": 0
+  },
+  "audio": {
+    "file": "Velvet-Basement.wav",
+    "seconds": 8,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peak": 0.20392681658267975,
+    "rms": 0.03747417394840613,
+    "repeatError": 3.725290298461914e-9,
+    "maximumVoices": 12,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

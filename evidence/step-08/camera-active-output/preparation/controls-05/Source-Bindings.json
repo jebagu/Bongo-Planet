@@ -1,0 +1,24 @@
+{
+  "sourceOnly": true,
+  "candidate": "Source03 retention-only successor; Source02 and actual01 preserved",
+  "entries": [
+    {
+      "original": "scripts/active-camera-output.spec.ts",
+      "copy": "active-camera-output.spec.ts",
+      "bytes": 33660,
+      "sha256": "11dcd1f7389ba61d163f0ae2160b9f8f622059d1fda8c3c1d65cf8910286a0cf"
+    },
+    {
+      "original": "scripts/active-camera-observer.ts",
+      "copy": "active-camera-observer.ts",
+      "bytes": 16095,
+      "sha256": "376f599b330e3be4bbb010ef71f77da557bf6b421c47a91987c6e2442720ddcc"
+    },
+    {
+      "original": "tests/active-camera-observer.test.ts",
+      "copy": "active-camera-observer.test.ts",
+      "bytes": 15109,
+      "sha256": "0bd698cb86a0ebca914f71c67e6db13154d45fa3e0d1fa8e54ae8af5aeced037"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "DB05",
+  "name": "White Knuckle — Techno Build",
+  "slug": "white-knuckle",
+  "group": "Drum Loops",
+  "genre": "Fast techno",
+  "description": "A fast quarter-note kick drives a deliberately uncluttered techno pulse. Tight hats and low wooden knocks multiply into an urgent burst, then snap back to the steady kick and open space.",
+  "routing": "Six- and nine-hop return circuits turn a small seed into a fast fill at 83.3 ms per hop. The 29-hop limit makes the peak finite; the next half of the 32-beat cycle returns to the normal groove.",
+  "bpm": 180,
+  "key": 0,
+  "scale": "major",
+  "cycleBeats": 32,
+  "cycleSeconds": 10.666666666666666,
+  "generators": 2,
+  "soundingPieces": 51,
+  "occupiedVertices": 45,
+  "activeRoutedVertices": 87,
+  "directedGates": 87,
+  "forks": 1,
+  "sourceHopBudgets": [
+    72,
+    29
+  ],
+  "allTravelFinite": true,
+  "density": {
+    "bins": [
+      {
+        "startBeat": 0,
+        "endBeat": 2,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 2,
+        "endBeat": 4,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 4,
+        "endBeat": 6,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 6,
+        "endBeat": 8,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 8,
+        "endBeat": 10,
+        "noteAttacks": 10
+      },
+      {
+        "startBeat": 10,
+        "endBeat": 12,
+        "noteAttacks": 11
+      },
+      {
+        "startBeat": 12,
+        "endBeat": 14,
+        "noteAttacks": 22
+      },
+      {
+        "startBeat": 14,
+        "endBeat": 16,
+        "noteAttacks": 27
+      },
+      {
+        "startBeat": 16,
+        "endBeat": 18,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 18,
+        "endBeat": 20,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 20,
+        "endBeat": 22,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 22,
+        "endBeat": 24,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 24,
+        "endBeat": 26,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 26,
+        "endBeat": 28,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 28,
+        "endBeat": 30,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 30,
+        "endBeat": 32,
+        "noteAttacks": 6
+      }
+    ],
+    "initialAttacksPerTwoBeats": 6,
+    "peakAttacksPerTwoBeats": 27,
+    "finalAttacksPerTwoBeats": 6,
+    "peakToInitialRatio": 4.5
+  },
+  "instruments": {
+    "bongo-high": 4,
+    "bongo-low": 5,
+    "kick": 16,
+    "snare": 9,
+    "hi-hat": 17
+  },
+  "compositionSha256": "1297e17e52c58bd4ca22db337925a689d8e1ee9c6d072d7dfc057da6a72d1886",
+  "simulation": {
+    "cycles": 8,
+    "seconds": 85.33333333333333,
+    "allLayersReached": true,
+    "musicalPatternRepeats": true,
+    "routingPatternRepeats": true,
+    "maximumEdges": 22,
+    "maximumPending": 12,
+    "maximumDecisionsPerQuantum": 22,
+    "lateDrops": 0,
+    "overloads": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "9ee341bd3d35efb05e67de6f6629643bd3b7dd89758e27cd50f9446a7aa6b570",
+    "renderedFromCurrentEngineAndSamples": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "cycles": 2,
+    "seconds": 21.333333333333332,
+    "peak": 0.1827792525291443,
+    "rms": 0.03998865455170387,
+    "repeatError": 1.4901161193847656e-8,
+    "boundaryDelta": 0.0003489595837891102,
+    "maximumVoices": 35,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

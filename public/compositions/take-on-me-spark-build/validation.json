@@ -1,0 +1,153 @@
+{
+  "id": "BR02",
+  "name": "Take On Me — Spark Build",
+  "slug": "take-on-me-spark-build",
+  "group": "favorites - with loops",
+  "sourceId": "P05",
+  "description": "A clear marimba hook and quiet half-time kick give way to rapid F-sharp–D–B fragments, high kalimba answers and tight percussion. The fast runs interlock, then disappear to reveal the hook again.",
+  "routing": "The recognizable melody keeps its written pitch sequence. A second source starts on beat eight and recirculates through unequal loops. The 37-hop lifetime bounds the flourish; at 180 BPM, adjacent attacks can be only 83.3 milliseconds apart.",
+  "bpm": 180,
+  "key": 9,
+  "scale": "major",
+  "cycleBeats": 32,
+  "cycleSeconds": 10.666666666666666,
+  "generators": 3,
+  "soundingPieces": 47,
+  "occupiedVertices": 34,
+  "activeRoutedVertices": 83,
+  "directedGates": 82,
+  "forks": 1,
+  "sourceHopBudgets": [
+    64,
+    37,
+    1
+  ],
+  "allTravelFinite": true,
+  "density": {
+    "bins": [
+      {
+        "startBeat": 0,
+        "endBeat": 2,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 2,
+        "endBeat": 4,
+        "noteAttacks": 5
+      },
+      {
+        "startBeat": 4,
+        "endBeat": 6,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 6,
+        "endBeat": 8,
+        "noteAttacks": 5
+      },
+      {
+        "startBeat": 8,
+        "endBeat": 10,
+        "noteAttacks": 18
+      },
+      {
+        "startBeat": 10,
+        "endBeat": 12,
+        "noteAttacks": 26
+      },
+      {
+        "startBeat": 12,
+        "endBeat": 14,
+        "noteAttacks": 37
+      },
+      {
+        "startBeat": 14,
+        "endBeat": 16,
+        "noteAttacks": 85
+      },
+      {
+        "startBeat": 16,
+        "endBeat": 18,
+        "noteAttacks": 106
+      },
+      {
+        "startBeat": 18,
+        "endBeat": 20,
+        "noteAttacks": 5
+      },
+      {
+        "startBeat": 20,
+        "endBeat": 22,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 22,
+        "endBeat": 24,
+        "noteAttacks": 5
+      },
+      {
+        "startBeat": 24,
+        "endBeat": 26,
+        "noteAttacks": 8
+      },
+      {
+        "startBeat": 26,
+        "endBeat": 28,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 28,
+        "endBeat": 30,
+        "noteAttacks": 5
+      },
+      {
+        "startBeat": 30,
+        "endBeat": 32,
+        "noteAttacks": 4
+      }
+    ],
+    "initialAttacksPerTwoBeats": 5.5,
+    "peakAttacksPerTwoBeats": 106,
+    "finalAttacksPerTwoBeats": 5.75,
+    "peakToInitialRatio": 19.272727272727273
+  },
+  "instruments": {
+    "guitar": 4,
+    "glass": 8,
+    "kalimba": 3,
+    "piano": 8,
+    "marimba": 21,
+    "bongo-high": 1,
+    "kick": 1,
+    "hi-hat": 1
+  },
+  "compositionSha256": "edfd9d99723b5d46801981a9321561a435b861e4f72dc7261fa8c5922ef25461",
+  "simulation": {
+    "cycles": 8,
+    "seconds": 85.33333333333333,
+    "allLayersReached": true,
+    "musicalPatternRepeats": true,
+    "routingPatternRepeats": true,
+    "maximumEdges": 35,
+    "maximumPending": 29,
+    "maximumDecisionsPerQuantum": 35,
+    "lateDrops": 0,
+    "overloads": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "171dbd543e0306ed3fc90dddfbd87f08f158bd12cd475fa89548527654e40db9",
+    "renderedFromCurrentEngineAndSamples": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "cycles": 1,
+    "seconds": 10.666666666666666,
+    "peak": 0.5787168145179749,
+    "rms": 0.08654429941046356,
+    "repeatError": 1.4901161193847656e-8,
+    "boundaryDelta": 0.0012611430138349533,
+    "maximumVoices": 61,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "reviewedBaseSha256": "ab44fdd619076af29b7e55a43d68838469603f2b0181638b4c49ae738c065c54",
+  "controllerSha256": "feb37ea8c6d33ce31c6e57fddaab50cb3f0571eeae8e898e470a50c58a6dd508",
+  "singleOccurrenceSubstitutions": [
+    [
+      "one approved metadata acquisition",
+      "one approved optimized metadata acquisition"
+    ],
+    [
+      "Root authorizes exactly one metadata acquisition",
+      "Root authorizes exactly one optimized metadata acquisition"
+    ],
+    [
+      "scripts/coupled-onset-metadata-preflight.py",
+      "scripts/coupled-onset-metadata-optimized.py"
+    ]
+  ],
+  "controlFixtureSubstitutionsWithCounts": [
+    [
+      "root-metadata-controller.py",
+      "root-optimized-controller.py",
+      1
+    ],
+    [
+      "Root authorizes exactly one metadata acquisition",
+      "Root authorizes exactly one optimized metadata acquisition",
+      2
+    ],
+    [
+      "scripts/coupled-onset-metadata-preflight.py",
+      "scripts/coupled-onset-metadata-optimized.py",
+      2
+    ]
+  ],
+  "ownershipResourceAndCleanupUnchanged": true
+}

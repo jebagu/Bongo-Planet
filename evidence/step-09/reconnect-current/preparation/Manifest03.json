@@ -1,0 +1,264 @@
+{
+  "title": "Bongo Planet reconnect Source03 preparation bindings",
+  "base": "repository root",
+  "createdAt": "2026-10-12T05:33:59.010829+00:00",
+  "sourceSha256": "881cd09cdac783aaa9e3aeffa3fcb3b70664641af2c92d1126c4e34358dba0c7",
+  "scope": "Source03 preparation only; preserved prior BLOCK candidates, no actual acquisition",
+  "entries": [
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/trace-contract02.ts",
+      "bytes": 4489,
+      "sha256": "818f403e31f896d536161c85687cce66a8a6a1545a74a210b14c8a09f1d3ca79"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/FinalStateControls03.log",
+      "bytes": 224,
+      "sha256": "dcfa2708e02b77f47747ee7902e33d844b8020442b5f7ec740b95bef0f6ff1fc"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/IndependentReview01.md",
+      "bytes": 7684,
+      "sha256": "fb2399a42cd6214e217aafa12c6dd749cdb6259b2f437bad07abff131d63e611"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/IndependentReview02.md",
+      "bytes": 4773,
+      "sha256": "557eade49606bee9fdf6c458465fe3d5da6c2700e6bedf46ad3363cde5a3bbbd"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/Manifest01.json",
+      "bytes": 8595,
+      "sha256": "e956847618b1e8b22bc42968e2932d20f7d15b192009bf44af688c54bd4ebaa5"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/Manifest02.json",
+      "bytes": 10275,
+      "sha256": "2d6728b7f58604cfc10ac5a8db88b66b8e5b2b907979fa00d58b76ab14a122d9"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/Plan.md",
+      "bytes": 7660,
+      "sha256": "524296f03e9412c9a06502c853f36527da37802300a4dbb7b5d2878c54b4ded4"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/Plan02.md",
+      "bytes": 2916,
+      "sha256": "e95636e59a482698ebb5bff9ae46d9836feff8406bfc9b85358081d4f330ed87"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/Plan03.md",
+      "bytes": 1007,
+      "sha256": "7703a87d37800401b2e20a7698f9409edf7f2aea7cc46c1aa6cd8b40221481c2"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/PreparationReview03.md",
+      "bytes": 1024,
+      "sha256": "b1f8fd270a55860ef5b69477c34dd9256ba1a9374e2d8bdd57f45e063d1154f4"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/SourceChecks03.json",
+      "bytes": 1058,
+      "sha256": "21a09937f6e6cdcc5d4a05dd7c59a9e38efadcf33ed78ae9c2d09a05dd404052"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/SourceCopies03.json",
+      "bytes": 5419,
+      "sha256": "331ae5fba4c9b3321b17d18cf17ff785ed1de38700198cc310d6dac2c971cd71"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/SourceDelta03.diff",
+      "bytes": 4828,
+      "sha256": "4a9be20424c9c7c22408a90219605088645a22b0a22838f9ef26c3c83c5da1e8"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/final-state-controls03.ts",
+      "bytes": 3567,
+      "sha256": "0b2f1231778225fc61c5c17499224cddc4918a72e00367db7b63a4137d5a9cd7"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/final-state03.ts",
+      "bytes": 2018,
+      "sha256": "f4ab7d28fe6ee32c63b4ca57b68b09e116cfe0635308467ee4d73232b41bf672"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/playwright.config.ts",
+      "bytes": 535,
+      "sha256": "7324454be53aa75c27fe869795d7466bb44e6143ee83e66f188ef2113c60cb00"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/source03/evidence/step-01/movement-backpressure-live/preparation/trace-contract02.ts",
+      "bytes": 4489,
+      "sha256": "818f403e31f896d536161c85687cce66a8a6a1545a74a210b14c8a09f1d3ca79"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/source03/evidence/step-09/reconnect-current/preparation/final-state-controls03.ts",
+      "bytes": 3567,
+      "sha256": "0b2f1231778225fc61c5c17499224cddc4918a72e00367db7b63a4137d5a9cd7"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/source03/evidence/step-09/reconnect-current/preparation/final-state03.ts",
+      "bytes": 2018,
+      "sha256": "f4ab7d28fe6ee32c63b4ca57b68b09e116cfe0635308467ee4d73232b41bf672"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/source03/evidence/step-09/reconnect-current/preparation/playwright.config.ts",
+      "bytes": 535,
+      "sha256": "7324454be53aa75c27fe869795d7466bb44e6143ee83e66f188ef2113c60cb00"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/source03/evidence/step-09/reconnect-current/preparation/tsconfig.source03.json",
+      "bytes": 177,
+      "sha256": "de32e55f7b655b9bb413de730a81b436b8e9b0b4d231511f02d4ed236771d4ba"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/source03/package-lock.json",
+      "bytes": 69267,
+      "sha256": "340acbf950d247e9892446e1e45cc5807255d8450ab9452ae9ae2a185b84cf20"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/source03/package.json",
+      "bytes": 1164,
+      "sha256": "7671f2558370f3d3e854e278b2ef16f489bb07b793543bc26664f3b5b9d9d4fe"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/source03/public/fixtures/F07.json",
+      "bytes": 1286,
+      "sha256": "4b0502200e3ca8dd690eff0b12abf7122290164dd7b730eb8333a500b22b252c"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/source03/scripts/active-camera-observer.ts",
+      "bytes": 16095,
+      "sha256": "376f599b330e3be4bbb010ef71f77da557bf6b421c47a91987c6e2442720ddcc"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/source03/scripts/output-reconnect-current.spec.ts",
+      "bytes": 25100,
+      "sha256": "881cd09cdac783aaa9e3aeffa3fcb3b70664641af2c92d1126c4e34358dba0c7"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/source03/src/core/contracts.ts",
+      "bytes": 3837,
+      "sha256": "497e8bae2417ccd0652407a9a33dc08a775b56de8e54553465a2ee158ececdfc"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/source03/src/main.ts",
+      "bytes": 16488,
+      "sha256": "6761945b12c918e4877afd1cd4879ea5f9b1470c8a9449f6e04ea77ce6926243"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/source03/src/output/NativeClock.ts",
+      "bytes": 28579,
+      "sha256": "97c63e08014aed1ab9ee8c5cbf7166a4f33e0027fbb10f91b305fde32c30f173"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/source03/src/output/OutputAdapter.ts",
+      "bytes": 8203,
+      "sha256": "70d3cb4326689f0348a86a5f1929ca0a3ff6b32d95be24a303944fac53763089"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/source03/src/output/ReceiverClock.ts",
+      "bytes": 2945,
+      "sha256": "5dcea0b57e27436674b77bc9eea2a8973f7da87986e962f5f36fa4ca22dab7b8"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/source03/src/output/RenderClock.ts",
+      "bytes": 30330,
+      "sha256": "1e389cb2e035c40ed29176854a6432fd4ad2772b13ca3ef735a9865fe8bb054c"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/source03/src/output/bridge.ts",
+      "bytes": 15619,
+      "sha256": "e4014cac06d534fcaa24021609313d3c1f1082a7ab5dc2efa31487c626140614"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/source03/src/output/protocol.ts",
+      "bytes": 3569,
+      "sha256": "85f2219aad582737d93ff0a3bfd3afe4f0441ea6065262847a9ec3e301190c37"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/source03/tsconfig.json",
+      "bytes": 299,
+      "sha256": "78170416782550f0f8947b534a94fe10dccd71bf4b2b8f19c4249561205a9e49"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/tsconfig.source03.json",
+      "bytes": 177,
+      "sha256": "de32e55f7b655b9bb413de730a81b436b8e9b0b4d231511f02d4ed236771d4ba"
+    },
+    {
+      "path": "evidence/step-09/reconnect-current/preparation/typecheck-complete-03.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 69267,
+      "sha256": "340acbf950d247e9892446e1e45cc5807255d8450ab9452ae9ae2a185b84cf20"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1164,
+      "sha256": "7671f2558370f3d3e854e278b2ef16f489bb07b793543bc26664f3b5b9d9d4fe"
+    },
+    {
+      "path": "public/fixtures/F07.json",
+      "bytes": 1286,
+      "sha256": "4b0502200e3ca8dd690eff0b12abf7122290164dd7b730eb8333a500b22b252c"
+    },
+    {
+      "path": "scripts/active-camera-observer.ts",
+      "bytes": 16095,
+      "sha256": "376f599b330e3be4bbb010ef71f77da557bf6b421c47a91987c6e2442720ddcc"
+    },
+    {
+      "path": "scripts/output-reconnect-current.spec.ts",
+      "bytes": 25100,
+      "sha256": "881cd09cdac783aaa9e3aeffa3fcb3b70664641af2c92d1126c4e34358dba0c7"
+    },
+    {
+      "path": "src/core/contracts.ts",
+      "bytes": 3837,
+      "sha256": "497e8bae2417ccd0652407a9a33dc08a775b56de8e54553465a2ee158ececdfc"
+    },
+    {
+      "path": "src/main.ts",
+      "bytes": 16488,
+      "sha256": "6761945b12c918e4877afd1cd4879ea5f9b1470c8a9449f6e04ea77ce6926243"
+    },
+    {
+      "path": "src/output/NativeClock.ts",
+      "bytes": 28579,
+      "sha256": "97c63e08014aed1ab9ee8c5cbf7166a4f33e0027fbb10f91b305fde32c30f173"
+    },
+    {
+      "path": "src/output/OutputAdapter.ts",
+      "bytes": 8203,
+      "sha256": "70d3cb4326689f0348a86a5f1929ca0a3ff6b32d95be24a303944fac53763089"
+    },
+    {
+      "path": "src/output/ReceiverClock.ts",
+      "bytes": 2945,
+      "sha256": "5dcea0b57e27436674b77bc9eea2a8973f7da87986e962f5f36fa4ca22dab7b8"
+    },
+    {
+      "path": "src/output/RenderClock.ts",
+      "bytes": 30330,
+      "sha256": "1e389cb2e035c40ed29176854a6432fd4ad2772b13ca3ef735a9865fe8bb054c"
+    },
+    {
+      "path": "src/output/bridge.ts",
+      "bytes": 15619,
+      "sha256": "e4014cac06d534fcaa24021609313d3c1f1082a7ab5dc2efa31487c626140614"
+    },
+    {
+      "path": "src/output/protocol.ts",
+      "bytes": 3569,
+      "sha256": "85f2219aad582737d93ff0a3bfd3afe4f0441ea6065262847a9ec3e301190c37"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 299,
+      "sha256": "78170416782550f0f8947b534a94fe10dccd71bf4b2b8f19c4249561205a9e49"
+    }
+  ]
+}

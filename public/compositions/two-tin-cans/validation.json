@@ -1,0 +1,55 @@
+{
+  "id": "MR02",
+  "name": "Two Tin Cans",
+  "slug": "two-tin-cans",
+  "group": "Minimal Routing",
+  "description": "Only a low A marimba and a distant E piano answer. The route makes the repetitions; there is no drum part or chord stack.",
+  "routing": "An 88-junction one-way maze with three spaced split-and-rejoin bypasses. Up to eight finite copies reach the final stretch at different delays, then stop at the end.",
+  "bpm": 48,
+  "key": 9,
+  "scale": "minor",
+  "cycleBeats": 24,
+  "cycleSeconds": 30,
+  "generators": 1,
+  "soundingPieces": 2,
+  "occupiedVertices": 3,
+  "activeRoutedVertices": 88,
+  "directedGates": 90,
+  "forks": 3,
+  "sourceHopBudgets": [
+    87
+  ],
+  "allTravelFinite": true,
+  "instruments": {
+    "piano": 1,
+    "marimba": 1
+  },
+  "compositionSha256": "2416132f466048374afbdcd03681fbb164e0ad8011745580b15970e13b3852a3",
+  "simulation": {
+    "cycles": 8,
+    "seconds": 240,
+    "allLayersReached": true,
+    "musicalPatternRepeats": true,
+    "routingPatternRepeats": true,
+    "maximumEdges": 7,
+    "maximumPending": 2,
+    "maximumDecisionsPerQuantum": 7,
+    "lateDrops": 0,
+    "overloads": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "d6cf0508963debc42559f98d6a02b1cc7901654bc308eb1680971235e04528a8",
+    "renderedFromCurrentEngineAndSamples": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "seconds": 30,
+    "peak": 0.12245158106088638,
+    "rms": 0.006835551209475353,
+    "repeatError": 0,
+    "boundaryDelta": 0,
+    "maximumVoices": 2,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

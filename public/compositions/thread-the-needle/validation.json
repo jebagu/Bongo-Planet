@@ -1,0 +1,57 @@
+{
+  "id": "MR03",
+  "name": "Thread the Needle",
+  "slug": "thread-the-needle",
+  "group": "Minimal Routing",
+  "description": "Three tiny G-pentatonic landmarks: kalimba, guitar and glass. Two out-of-phase sources keep trading the same sparse notes.",
+  "routing": "Two opposing entry points feed one 92-junction ring with two shortcut needles. Each source travels 64 hops; phase and path length produce the changing answers.",
+  "bpm": 40,
+  "key": 7,
+  "scale": "pentatonic",
+  "cycleBeats": 16,
+  "cycleSeconds": 24,
+  "generators": 2,
+  "soundingPieces": 3,
+  "occupiedVertices": 5,
+  "activeRoutedVertices": 92,
+  "directedGates": 94,
+  "forks": 2,
+  "sourceHopBudgets": [
+    64,
+    64
+  ],
+  "allTravelFinite": true,
+  "instruments": {
+    "guitar": 1,
+    "glass": 1,
+    "kalimba": 1
+  },
+  "compositionSha256": "d03c92f500021e4ee5888eb9addf30f326e1d1314923508e3078ecfe49794238",
+  "simulation": {
+    "cycles": 8,
+    "seconds": 192,
+    "allLayersReached": true,
+    "musicalPatternRepeats": true,
+    "routingPatternRepeats": true,
+    "maximumEdges": 5,
+    "maximumPending": 1,
+    "maximumDecisionsPerQuantum": 6,
+    "lateDrops": 0,
+    "overloads": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "801a2e8d734be4114566ba4695f7232ca416dadc0cd85e3d09fc5b03d59202e9",
+    "renderedFromCurrentEngineAndSamples": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "seconds": 24,
+    "peak": 0.11041877418756485,
+    "rms": 0.007381387649939846,
+    "repeatError": 3.725290298461914e-9,
+    "boundaryDelta": 0.00004619854735210538,
+    "maximumVoices": 2,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "title": "Bongo Planet movement backpressure source controls",
+  "savedUtc": "2026-10-12T03:12:33.913943+00:00",
+  "actualAcquisition": false,
+  "bindings": {
+    "scripts/movement-backpressure-live.spec.ts": "01c9c894bb929d1474d7a6759b9fe8ae39c4f36e71f83a3fe5589fb920a24934",
+    "scripts/movement-backpressure-proxy.py": "b3417d9279f066513fe3580e9af774d0cbe780d6afabc4ffb8a19848fe4acd0b",
+    "tests/movement-backpressure-proxy-controls.py": "72abee455c87e6c64ea6ce3321b17d2685d2c7833d334c5fbd9fc1ac12ddc83a",
+    "evidence/step-01/movement-backpressure-live/preparation/timer-observer.ts": "00131cad68a7d2a790380c4dec2b3828370a8080e29dadfe5677c2573a3a3eff",
+    "evidence/step-01/movement-backpressure-live/preparation/timer-controls.ts": "e8f4f55611717ba5ba8fe40c89adc121fa61e537e5805e036459e699f2268e7f",
+    "evidence/step-01/movement-backpressure-live/preparation/playwright.config.ts": "ddfb03b3a0f02dda05f495526ff5eabc21b4de2b91dc2bc3e401c010d7d69532"
+  },
+  "checks": [
+    {
+      "toolChunk": "560998",
+      "command": "python3 tests/movement-backpressure-proxy-controls.py",
+      "exitCode": 0,
+      "controls": 6
+    },
+    {
+      "toolChunk": "234cbe",
+      "command": "npx tsx evidence/step-01/movement-backpressure-live/preparation/timer-controls.ts",
+      "exitCode": 0,
+      "controls": 7,
+      "elapsedSeconds": 0.234779417
+    },
+    {
+      "toolChunk": "8bfc61",
+      "command": "npx tsc --noEmit",
+      "exitCode": 1,
+      "elapsedSeconds": 0.43059125,
+      "output": "scripts/movement-backpressure-live.spec.ts(104,40): error TS2345: Argument of type 'Function' is not assignable to parameter of type '(...args: any[]) => any'.",
+      "scope": "Intermediate draft. Exact whole-file snapshot was not taken at this failed invocation; output preserved."
+    },
+    {
+      "toolChunk": "670dfe",
+      "command": "npm run typecheck",
+      "exitCode": 0,
+      "elapsedSeconds": 0.319557792
+    },
+    {
+      "toolChunk": "967d4f",
+      "command": "python3 tests/movement-backpressure-proxy-controls.py",
+      "exitCode": 0,
+      "controls": 6
+    },
+    {
+      "toolChunk": "b9af53",
+      "command": "npx tsx evidence/step-01/movement-backpressure-live/preparation/timer-controls.ts",
+      "exitCode": 0,
+      "controls": 8,
+      "elapsedSeconds": 0.227583875
+    },
+    {
+      "toolChunk": "a7d4f1",
+      "command": "npm run typecheck",
+      "exitCode": 0,
+      "elapsedSeconds": 0.307097292
+    },
+    {
+      "toolChunk": "3e36ba",
+      "command": "npm run typecheck",
+      "exitCode": 0,
+      "elapsedSeconds": 0.302721541,
+      "scope": "Final frozen source"
+    },
+    {
+      "toolChunk": "c97180",
+      "command": "python3 tests/movement-backpressure-proxy-controls.py",
+      "exitCode": 0,
+      "controls": 6,
+      "scope": "Final frozen source"
+    },
+    {
+      "toolChunk": "20912e",
+      "command": "npx tsx evidence/step-01/movement-backpressure-live/preparation/timer-controls.ts",
+      "exitCode": 0,
+      "controls": 8,
+      "elapsedSeconds": 0.23010175,
+      "scope": "Final frozen source"
+    }
+  ],
+  "sharedDraftChecks": [
+    {
+      "toolChunk": "885546",
+      "exitCode": 1,
+      "scope": "Sibling-preserved initial draft parse failure; no own executable launched"
+    },
+    {
+      "toolChunk": "ff1ca3",
+      "exitCode": 1,
+      "scope": "Sibling-preserved initial timer-overload draft type failure"
+    },
+    {
+      "toolChunk": "d6a089",
+      "exitCode": 0,
+      "scope": "Sibling shared global typecheck after initial DOM-overload correction"
+    }
+  ],
+  "limitations": [
+    "Pure model controls do not demonstrate real TCP pressure or watchdog duration.",
+    "No services/browser/real socket/proxy acquisition was executed.",
+    "Wall time printed by tool is command wait duration; Python unittest printed0.000s, not a measured live duration."
+  ]
+}

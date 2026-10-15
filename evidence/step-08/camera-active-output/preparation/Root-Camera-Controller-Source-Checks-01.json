@@ -1,0 +1,32 @@
+{
+  "kind": "source-only",
+  "utc": "2026-10-12T03:44:24.836456+00:00",
+  "pureControls": {
+    "count": 11,
+    "exitCode": 0,
+    "toolChunk": "abc606",
+    "processesOrSignals": false
+  },
+  "bindings": [
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/root-camera-controller.py",
+      "bytes": 11459,
+      "sha256": "c30a6e8db423b6cb9eea278ea1acc1f3b0cf21cb29e93c8b56e5987b187b924e"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/root-camera-controller-controls.py",
+      "bytes": 8001,
+      "sha256": "c9922737b61aa086464e98dde355766b67cbbda0b683786724c7b1642d00c0e6"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Root-Camera-Controller-Delta.diff",
+      "bytes": 3819,
+      "sha256": "56625bcf46216c841e8ff7c546a7edce4c6c402df70283453b6331e55689bdfc"
+    },
+    {
+      "path": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/Root-Camera-Controller-Plan.md",
+      "bytes": 1793,
+      "sha256": "1f63c09037aff8277e0cf974a995a17839300c9c5a66b667c8d01377dd17e0cf"
+    }
+  ]
+}

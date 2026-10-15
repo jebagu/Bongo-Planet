@@ -1,0 +1,7 @@
+# Bongo Planet — nominal group inventory preparation
+
+Source only until independent GO. Generate all32 F02,36 F03,160 F06 and240 F08 modeled groups in fixed fixture/time order, before any onset fit. Keep all54,532 logical voice rows and deterministic nominal admission/removal/erasure; group identical nominal waveform parameters only with exact represented relative origins, preserving identities and multiplicity. Record the four original declared stall targets without inflating a selected-generator count to the entire coincident group.
+
+The unchanged independent oracle, report, integrity audit, topology and original strict fidelity result have predeclared exact SHA-256 bindings. No PCM/container read, offset fit, latency adjustment, production code or acceptance change occurs. Ownership and audible-survivor counts are nominal, not observed processor state; actual identified groups remain unset. Large raw-byte integrity is inherited from the bound earlier audit, not newly checked here. Native640 and the original fidelity failures remain unchanged.
+
+One exclusive output only after root/Astra source GO. Detected cooperative limits120seconds/256MiB and16MiB serialized output, final resource guard and no automatic retry. All468 groups and complete logical rows are required; failed prefixes remain incomplete. Controls check an independently specified three-voice group with one erased and one zero-level voice, duplicate ID, out-of-group onset and invalid removal. These validate inventory bookkeeping, not acoustics.

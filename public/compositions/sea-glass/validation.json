@@ -1,0 +1,58 @@
+{
+  "id": "AA02",
+  "name": "Sea Glass",
+  "slug": "sea-glass",
+  "group": "Airy & Ambient",
+  "description": "E-minor-nine colors slowly refract through glass, piano, guitar and small wooden plucks. Quiet duplicates become echoes as different-length routes reunite.",
+  "routing": "A full-globe finite walk with two forward shortcuts. Each fork sends a long and a short copy into the same later passage, creating routed delays without a growing circuit.",
+  "bpm": 48,
+  "key": 4,
+  "scale": "minor",
+  "cycleBeats": 24,
+  "cycleSeconds": 30,
+  "generators": 1,
+  "soundingPieces": 35,
+  "occupiedVertices": 31,
+  "activeRoutedVertices": 92,
+  "directedGates": 93,
+  "forks": 2,
+  "sourceHopBudgets": [
+    91
+  ],
+  "allTravelFinite": true,
+  "instruments": {
+    "guitar": 6,
+    "glass": 6,
+    "kalimba": 6,
+    "piano": 11,
+    "marimba": 6
+  },
+  "compositionSha256": "46aa3e958dd38dfc03981714958660c2ed52bff5b50195eabba065484d2dcd0f",
+  "simulation": {
+    "cycles": 8,
+    "seconds": 240,
+    "allLayersReached": true,
+    "musicalPatternRepeats": true,
+    "routingPatternRepeats": true,
+    "maximumEdges": 4,
+    "maximumPending": 3,
+    "maximumDecisionsPerQuantum": 4,
+    "lateDrops": 0,
+    "overloads": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "b09fd62cfdcb65255ceb4883a9cff6ced23a2193770f7e925623ae3aba227a89",
+    "renderedFromCurrentEngineAndSamples": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "seconds": 30,
+    "peak": 0.1449464112520218,
+    "rms": 0.01666085254883553,
+    "repeatError": 1.862645149230957e-9,
+    "boundaryDelta": 0.000004099187208339572,
+    "maximumVoices": 16,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

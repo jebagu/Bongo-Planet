@@ -1,0 +1,8 @@
+{
+  "sourceOnly": true,
+  "chunk": "5d1684",
+  "exitCode": 1,
+  "command": "npx tsc --ignoreConfig --noEmit --target ES2022 --module ESNext --moduleResolution Bundler --strict --skipLibCheck evidence/step-08/camera-active-output/preparation/playwright.config.ts",
+  "output": "evidence/step-08/camera-active-output/preparation/playwright.config.ts(2,18): error TS2591: Cannot find name 'node:path'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.\nevidence/step-08/camera-active-output/preparation/playwright.config.ts(4,16): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.\n",
+  "scope": "Standalone CLI omitted project types=node; correction is compiler flags, no dependency/config/source modification."
+}

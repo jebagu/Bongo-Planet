@@ -1,0 +1,15 @@
+{
+  "sourceOnly": true,
+  "typecheck": {
+    "command": "npm run typecheck",
+    "chunk": "44e5ba",
+    "exitCode": 1,
+    "output": "\n> bongo-planet@0.1.0 typecheck\n> tsc --noEmit\n\ntests/active-camera-observer.test.ts(24,124): error TS2339: Property 'sound' does not exist on type '{ type: string; session: string; } | { id: string; sequence: number; generatorId: string; nodeId: string; onset: number; sound: { kind: string; frequency: number; timbre: string; duration: number; level: number; }; type: string; session: string; triggerSequence: number; objectId: number; }'.\n  Property 'sound' does not exist on type '{ type: string; session: string; }'.\ntests/active-camera-observer.test.ts(24,290): error TS2339: Property 'sound' does not exist on type '{ type: string; session: string; } | { id: string; sequence: number; generatorId: string; nodeId: string; onset: number; sound: { kind: string; frequency: number; timbre: string; duration: number; level: number; }; type: string; session: string; triggerSequence: number; objectId: number; }'.\n  Property 'sound' does not exist on type '{ type: string; session: string; }'.\n"
+  },
+  "pure": {
+    "command": "npx vitest run tests/active-camera-observer.test.ts --reporter=json --outputFile=evidence/step-08/camera-active-output/preparation/controls-02/pure-results.json",
+    "chunk": "dd1a4b",
+    "exitCode": 0,
+    "output": "JSON report written to /Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-02/pure-results.json\n"
+  }
+}

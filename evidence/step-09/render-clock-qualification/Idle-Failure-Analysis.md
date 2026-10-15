@@ -1,0 +1,25 @@
+# Bongo Planet receiver idle failure and control-clock model
+
+The immutable `clean-verification-idle-failure.json` records a real idle failure of receiver source SHA `7550665fad68533a400c0d2e846b75b42d9ca0e1620b918018cbeb7be5abf037`. No trigger was queued or executed. The failed result remains failed; the model repair below does not retrospectively qualify it.
+
+Derived values and input hash are retained in `idle-failure-analysis.json`. Startup included256 consecutive quanta,32 per modulo8 phase. Its offsets span1791748618938 through1791748618941.3333ms; the fixed midpoint is1791748618939.6665ms.128 of255 adjacent startup pairs have the same Date timestamp. Even phases occupy the lower range, odd phases the upper range. This capture therefore covers all phases and is not the older sparse-calibration counterexample.
+
+At failure, frames advance1440128→1440256, exactly128 samples. Both consecutive callback wall readings are1791748648941ms. The observed frame-wall offset is1791748618935.6667ms, producing residual−3.999755859375ms. This is an actual mapping excursion with continuous frames; the evidence does not establish a frame repeat, physical clock jump, or the underlying callback-batching mechanism.
+
+The former bound sums initial Node bracket uncertainty1.0008545ms, lifetime maximum Node offset-point change1.3935546875ms, Date allowance1ms, full quantum2.6666666667ms, and mapping residual3.999755859375ms:10.0608317135ms. The non-residual subtotal is6.0610758542ms. The last Node offset-point difference is0.99609375ms; initial and latest ±uncertainty intervals overlap. Point differences alone do not prove physical drift. The old artifact retains only initial/latest raw Node pairs, not the pair that produced the lifetime maximum, so this subtotal cannot establish a corrected retrospective bound using the maximum later bracket width.
+
+## Independent measurement equation
+
+Let `W` be the observed worklet callback Date milliseconds, `F` its actual currentFrame, `k` the actual written sampleOffset, `s` the sample rate, `N0` the frozen independent Node wall-to-monotonic offset, and `M` the frozen independent frame-to-wall midpoint. The actual control witness is `A = W + k·1000/s − N0`. A normal prequeued deadline `T` selects a frame using `M`, with ceil-to-sample rounding. Therefore `A − T = (W − F·1000/s − M) + sample-rounding error`; the first term is the observed mapper residual. A clamped past deadline adds a visible clamp error instead. Mapper residual is already present in the measured onset error and should not be added a second time to the uncertainty of observing `A`.
+
+The repaired timestamp measurement bound is `U = maximum observed Node bracket uncertainty + maximum observed Node offset-point change +1ms Date allowance + full quantum`. Every later bracket can widen its lifetime maximum, including a slow clock read; a later narrow bracket cannot shrink it. Exact brackets, sequence identity, age, widest bracket and lifetime mapper residual remain in receipt/diagnostic evidence. `U>10ms` fails closed, including an increased budget buffered immediately before a due trigger.
+
+The independent mapping guard remains `maximum lifetime |W − F·1000/s − M| ≤10ms`, checked before buffered commands and onsets. The fixed independent startup midpoint is unchanged and never fitted to musical deadlines. Actual onset error retains the ±20ms drop guard. Qualification additionally uses producer synchronization uncertainty plus receipt measurement uncertainty≤10ms, and conservative observed absolute error plus that combined uncertainty≤20ms. No limit is relaxed.
+
+## Scope and validation
+
+The controlled tests execute the actual embedded processor. They prove residual appears in actual receipt error while measurement uncertainty remains separate, mapper instability>10ms fails independently, a buffered measurement budget>10ms fails before commands/onsets, and wider later Node brackets widen or fail without concealment. These are unit regressions, not live receiver or fixture qualification. `model-repair-tests.json` retains the5passing results.
+
+The harness now retains each independent probe's t0/t1/server, raw half RTT,1ms timestamp allowance and offset interval. It compares both start/end intervals against the producer's unchanged chosen startup offset, widens the bound around that fixed offset to cover each independent interval, and fails incompatible intervals. Frozen audioEnd and scheduled IDs precede a declared100ms normal-play receipt polling drain before Pause. Terminal cancellation cannot excuse an in-window missing receipt; post-window actual receipts remain separately retained. Four helper regressions are in `harness-clock-regression.json`.
+
+This model concerns an actual numerical control sample written during process execution with a nominal within-quantum offset. It does not measure physical presentation, audible sound, or producer audio-clock-to-main-thread mapping. Those remain separate open acceptance questions. No browser capture or fixture retry was launched for this repair.

@@ -1,0 +1,52 @@
+{
+  "id": "C01",
+  "name": "Pachelbel’s Canon",
+  "sourceId": "S13",
+  "bpm": 80,
+  "key": 2,
+  "scale": "major",
+  "cycleBeats": 16,
+  "cycleSeconds": 12,
+  "generators": 1,
+  "soundingPieces": 64,
+  "stackedVertices": 8,
+  "maximumStack": 4,
+  "instruments": {
+    "guitar": 8,
+    "glass": 8,
+    "kalimba": 24,
+    "piano": 16,
+    "bongo-high": 4,
+    "bongo-low": 4
+  },
+  "spatial": {
+    "soundingLocations": 40,
+    "largestGapDegrees": 23.800182602175063
+  },
+  "compositionSha256": "fb37fe75cb5d876cf57e0a0906648bc9fc8e760c23cb992d8453fc8c45860a94",
+  "simulation": {
+    "cycles": 8,
+    "stablePatternsMatch": true,
+    "allLayersReached": true,
+    "maximumEdges": 1,
+    "maximumDecisionsPerQuantum": 2,
+    "maximumPending": 4,
+    "lateDrops": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "f52d214fb0e2b9c2d450c5fbfa843aefce5109e8eca21d1d0927c2f6234b6b8d",
+    "renderedFromCurrentEngineAndSamples": true,
+    "cycles": 1,
+    "seconds": 12,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peak": 0.37532126903533936,
+    "rms": 0.05062336298170244,
+    "repeatError": 7.450580596923828e-9,
+    "boundaryDelta": 0.00016164174303412437,
+    "maximumVoices": 7,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

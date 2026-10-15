@@ -1,0 +1,19 @@
+{
+  "scope": "Source-only independent synthetic controls; no original PCM/browser/service/actual onset search",
+  "unit": {
+    "command": "BONGO_TAIL_CONTROL_OUTPUT=evidence/step-05/original-mixture/onset-tail-contraction-preparation/controls-02 npm test -- tests/mixture-onset-tail-contraction.test.ts --reporter=json --outputFile=evidence/step-05/original-mixture/onset-tail-contraction-preparation/controls-02/unit-results.json",
+    "chunkId": "359647",
+    "exitCode": 0,
+    "elapsedSeconds": 0.578559666,
+    "passed": 16,
+    "failed": 0
+  },
+  "typecheck": {
+    "command": "npm run typecheck",
+    "chunkId": "f3da98",
+    "exitCode": 0,
+    "elapsedSeconds": 0.302976458
+  },
+  "runnerUnchangedFromControls01": true,
+  "correction": "Earlier carrier period remains within necessary support; later period is independently excluded because required sample precedes its onset. No waveform fit claim."
+}

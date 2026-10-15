@@ -1,0 +1,174 @@
+{
+  "title": "Bongo Planet exact clock diagnostic Source02 copies",
+  "createdAt": "2026-10-12T06:26:34.844314+00:00",
+  "copies": [
+    {
+      "source": "scripts/output-audio-clock.spec.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/scripts/output-audio-clock.spec.ts",
+      "bytes": 43003,
+      "sha256": "7e65549447332cf565014a2285b7c6a175a76ef12505e0bb040a4f71bbb76cfc"
+    },
+    {
+      "source": "scripts/active-camera-observer.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/scripts/active-camera-observer.ts",
+      "bytes": 16095,
+      "sha256": "376f599b330e3be4bbb010ef71f77da557bf6b421c47a91987c6e2442720ddcc"
+    },
+    {
+      "source": "evidence/step-01/movement-backpressure-live/preparation/trace-contract02.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/evidence/step-01/movement-backpressure-live/preparation/trace-contract02.ts",
+      "bytes": 4489,
+      "sha256": "818f403e31f896d536161c85687cce66a8a6a1545a74a210b14c8a09f1d3ca79"
+    },
+    {
+      "source": "evidence/step-09/audio-bridge-clock/preparation/clock-contract01.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/evidence/step-09/audio-bridge-clock/preparation/clock-contract01.ts",
+      "bytes": 5022,
+      "sha256": "8611e2fe3a05cfc9b8a2c7883ef431b022f8f65cbe280fa0b37f399c87d93e46"
+    },
+    {
+      "source": "src/main.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/src/main.ts",
+      "bytes": 16488,
+      "sha256": "6761945b12c918e4877afd1cd4879ea5f9b1470c8a9449f6e04ea77ce6926243"
+    },
+    {
+      "source": "src/audio/AudioAdapter.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/src/audio/AudioAdapter.ts",
+      "bytes": 6199,
+      "sha256": "7559fea28c6ba93c8446a86c462d8e4adc3f40406cac06d9f74dfed27fc8c558"
+    },
+    {
+      "source": "src/audio/processor.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/src/audio/processor.ts",
+      "bytes": 5839,
+      "sha256": "429555623b5f55c8df29a00b3ce6d9546a3d85fa2d1ba3e5e6b30d0b142f849b"
+    },
+    {
+      "source": "src/audio/protocol.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/src/audio/protocol.ts",
+      "bytes": 722,
+      "sha256": "6bd21fc0f6f60f4ed4769e72a26e10a51fac170f7cf5c708e069ae58f80cad31"
+    },
+    {
+      "source": "src/audio/synth.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/src/audio/synth.ts",
+      "bytes": 5001,
+      "sha256": "499f1d4aadfad5ce2c94082f19724eb24e411b4cbe5ccf2515f6d65754619191"
+    },
+    {
+      "source": "src/core/engine.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/src/core/engine.ts",
+      "bytes": 6475,
+      "sha256": "19e5cba94b0db6c13b642bd28c90bc1def4bb0bc7ac6b5a95faf1e82bfa9aea3"
+    },
+    {
+      "source": "src/core/contracts.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/src/core/contracts.ts",
+      "bytes": 3837,
+      "sha256": "497e8bae2417ccd0652407a9a33dc08a775b56de8e54553465a2ee158ececdfc"
+    },
+    {
+      "source": "src/output/OutputAdapter.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/src/output/OutputAdapter.ts",
+      "bytes": 8203,
+      "sha256": "70d3cb4326689f0348a86a5f1929ca0a3ff6b32d95be24a303944fac53763089"
+    },
+    {
+      "source": "src/output/NativeClock.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/src/output/NativeClock.ts",
+      "bytes": 28579,
+      "sha256": "97c63e08014aed1ab9ee8c5cbf7166a4f33e0027fbb10f91b305fde32c30f173"
+    },
+    {
+      "source": "src/output/ReceiverClock.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/src/output/ReceiverClock.ts",
+      "bytes": 2945,
+      "sha256": "5dcea0b57e27436674b77bc9eea2a8973f7da87986e962f5f36fa4ca22dab7b8"
+    },
+    {
+      "source": "src/output/RenderClock.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/src/output/RenderClock.ts",
+      "bytes": 30330,
+      "sha256": "1e389cb2e035c40ed29176854a6432fd4ad2772b13ca3ef735a9865fe8bb054c"
+    },
+    {
+      "source": "src/output/bridge.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/src/output/bridge.ts",
+      "bytes": 15619,
+      "sha256": "e4014cac06d534fcaa24021609313d3c1f1082a7ab5dc2efa31487c626140614"
+    },
+    {
+      "source": "src/output/protocol.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/src/output/protocol.ts",
+      "bytes": 3569,
+      "sha256": "85f2219aad582737d93ff0a3bfd3afe4f0441ea6065262847a9ec3e301190c37"
+    },
+    {
+      "source": "public/fixtures/F01.json",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/public/fixtures/F01.json",
+      "bytes": 855,
+      "sha256": "c7da2bb4097cf97806019b6e8996e4db308d74414de96d28ea2987e8550a2750"
+    },
+    {
+      "source": "public/fixtures/F04.json",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/public/fixtures/F04.json",
+      "bytes": 1025,
+      "sha256": "a59766f28699a9249d3836e1d677e846f9db62f6088b202fc3a4dc689801eed5"
+    },
+    {
+      "source": "public/fixtures/expected.json",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/public/fixtures/expected.json",
+      "bytes": 265808,
+      "sha256": "0d1a6a7f137238894843496d218e0db08484728a3b68f2a7481cce2d6203ee3f"
+    },
+    {
+      "source": "package.json",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/package.json",
+      "bytes": 1164,
+      "sha256": "7671f2558370f3d3e854e278b2ef16f489bb07b793543bc26664f3b5b9d9d4fe"
+    },
+    {
+      "source": "package-lock.json",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/package-lock.json",
+      "bytes": 69267,
+      "sha256": "340acbf950d247e9892446e1e45cc5807255d8450ab9452ae9ae2a185b84cf20"
+    },
+    {
+      "source": "tsconfig.json",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/tsconfig.json",
+      "bytes": 299,
+      "sha256": "78170416782550f0f8947b534a94fe10dccd71bf4b2b8f19c4249561205a9e49"
+    },
+    {
+      "source": "evidence/step-09/audio-bridge-clock/preparation/clock-controls01.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/evidence/step-09/audio-bridge-clock/preparation/clock-controls01.ts",
+      "bytes": 3212,
+      "sha256": "6bd7ba578718ee5bb98a8c9e808e39dd644d2e174ce4e066b657e71ecd2ea1b3"
+    },
+    {
+      "source": "evidence/step-09/audio-bridge-clock/preparation/playwright.config.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/evidence/step-09/audio-bridge-clock/preparation/playwright.config.ts",
+      "bytes": 532,
+      "sha256": "a952eb51826a6fdbd3d577e2f6913bd09f823b6c085e295083179e203ea797f0"
+    },
+    {
+      "source": "evidence/step-09/audio-bridge-clock/preparation/clock-lifecycle02.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/evidence/step-09/audio-bridge-clock/preparation/clock-lifecycle02.ts",
+      "bytes": 1313,
+      "sha256": "5686dae0a50b160dee494de105dbf725a5b24ac04d274c7259a0405cfcd8fc33"
+    },
+    {
+      "source": "evidence/step-09/audio-bridge-clock/preparation/clock-controls02.ts",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/evidence/step-09/audio-bridge-clock/preparation/clock-controls02.ts",
+      "bytes": 4082,
+      "sha256": "c8335249675706cdfe9857c7bdbfdb3b1173ec033ce040aa492bf3905b908b0c"
+    },
+    {
+      "source": "evidence/step-09/audio-bridge-clock/preparation/tsconfig.source02.json",
+      "copy": "evidence/step-09/audio-bridge-clock/preparation/source02/evidence/step-09/audio-bridge-clock/preparation/tsconfig.source02.json",
+      "bytes": 213,
+      "sha256": "897b719d8787d17704c517cc28b2423bc5c9b3a956c6022d09a8350bbc87023f"
+    }
+  ]
+}

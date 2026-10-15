@@ -1,0 +1,135 @@
+{
+  "method": "Exact Fraction arithmetic; direct degree161 sine/degree120 exp rational remainder, Machin pi bounds, continuous sine Lipschitz bound; directed Float64 endpoints. No JS Math, module, PCM or synth imports.",
+  "piExpected": [
+    3.141592653589793,
+    3.1415926535897936
+  ],
+  "vectors": [
+    {
+      "function": "sine",
+      "input": 0.123456789,
+      "expected": [
+        0.12314341518231085,
+        0.12314341518231087
+      ]
+    },
+    {
+      "function": "sine",
+      "input": 1.23456789,
+      "expected": [
+        0.9440057250045345,
+        0.9440057250045346
+      ]
+    },
+    {
+      "function": "sine",
+      "input": 3.125,
+      "expected": [
+        0.016591892229347902,
+        0.016591892229347906
+      ]
+    },
+    {
+      "function": "sine",
+      "input": 7.125,
+      "expected": [
+        0.7458531332084875,
+        0.7458531332084876
+      ]
+    },
+    {
+      "function": "sine",
+      "input": 1e-300,
+      "expected": [
+        9.999999999999999e-301,
+        1.0000000000000002e-300
+      ]
+    },
+    {
+      "function": "exp",
+      "input": -3.125,
+      "expected": [
+        0.04393693362340741,
+        0.04393693362340742
+      ]
+    },
+    {
+      "function": "exp",
+      "input": -0.123456789,
+      "expected": [
+        0.8838598328861618,
+        0.8838598328861619
+      ]
+    },
+    {
+      "function": "exp",
+      "input": 0.123456789,
+      "expected": [
+        1.1314011145122336,
+        1.1314011145122338
+      ]
+    },
+    {
+      "function": "exp",
+      "input": 3.125,
+      "expected": [
+        22.759895093526726,
+        22.75989509352673
+      ]
+    },
+    {
+      "function": "tanh",
+      "input": -1.23456789,
+      "expected": [
+        -0.8438991990760755,
+        -0.8438991990760754
+      ]
+    },
+    {
+      "function": "tanh",
+      "input": 0.123456789,
+      "expected": [
+        0.1228333640591982,
+        0.12283336405919822
+      ]
+    },
+    {
+      "function": "tanh",
+      "input": 1.23456789,
+      "expected": [
+        0.8438991990760754,
+        0.8438991990760755
+      ]
+    },
+    {
+      "function": "voice",
+      "voice": {
+        "kind": "sine",
+        "onset": 0.0187655,
+        "frequency": 440.0,
+        "duration": 0.6,
+        "level": 0.65
+      },
+      "time": 0.02,
+      "expected": [
+        -0.019353896224415197,
+        -0.019353896224415194
+      ]
+    },
+    {
+      "function": "voice",
+      "voice": {
+        "kind": "kick",
+        "onset": 0.0187655,
+        "frequency": 440.0,
+        "duration": 0.6,
+        "level": 0.65
+      },
+      "time": 0.02,
+      "expected": [
+        0.23733239722312277,
+        0.2373323972231228
+      ]
+    }
+  ]
+}

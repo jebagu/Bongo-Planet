@@ -1,0 +1,16 @@
+# Bongo Planet — history and future emission contract controls
+
+Status: source prepared; **not run**. Root must release the coordinated browser quiet window before any tests/typecheck. No browser, service, recorded PCM, production change or acceptance-ledger change is part of these controls.
+
+Use public `History.push/undo/redo` and `Engine.play/update/advance/drain`, composing edit restorations exactly as the main application routes them. Assert every restoration mode is `edit`; replacement/load semantics are deliberately outside this small control. This exercises the History/Engine composition, not the UI gesture or AudioAdapter paths.
+
+The legal hand scene uses generator ID `original-generator` at vertex0, period4, phase0, reach180; note/beat objects at first-face corners3 and9, with independently chosen exact IDs and sound parameters. Original F fixtures were consulted but are neither altered nor replayed by this test. The first face enumerates corners0,3,9 as normalized `(-1,φ,0)`, `(0,1,φ)`, `(-φ,0,1)`. Each sound-corner dot product with the generator is `1/√5`. Its angle lies strictly between π/3 and3π/8; travel.75 and period4 give a delay between1 and1.125beats, rounding to one beat on the quarter-beat grid. With120BPM, expected emissions are literal0,2,4,6seconds and arrivals are literal.5,2.5,4.5,6.5seconds. The tests do not import timing, geometry or sound helpers to derive expectations. Key9/degree0/octave4 is exact A4=440Hz. Small floating-clock tolerance is1e-9seconds, far below the product timing gate.
+
+Two complete hand-prescribed event ledgers:
+
+1. **S07-A8/A20 — undo placement then redo.** Initial kept-note produces trigger1. Place placed-note at.1; emission2 produces kept2/placed3. Undo at2.1 cancels3 and restores the original survivor IDs. Emission4 produces kept4. Redo at4.1 restores the exact placed piece; emission6 produces kept5/placed6. Onsets must be exactly1,2,4,5,6; cancelled3 must never return. All emissions preserve the original generator ID and musical session.
+2. **S07-A8/A22 — delete/undo/redo/undo.** Initial restored-note1/kept-beat2. Delete at.1 cancels1; undo at.2 restores the exact original scene but cannot revive1. Emission2 produces restored3/kept4; redo at2.1 cancels3. Undo at2.6 again restores the original scene; emission4 produces restored5/kept6. Onsets must be exactly2,4,5,6; cancelled1/3 must never return.
+
+Both controls independently check every trigger ordinal/ID, generator/node/session provenance, sound fields and literal position, every onset identity, every cancellation ID/node/reason and emission count/time. They reject duplicate trigger/onset IDs, session replacement, engine interruption, late drops or leftover pending triggers. Small deterministic10ms ticks keep scheduling active without skipped time. Fewer than1,200ticks and12total trigger records across both controls; no unbounded buffers or wall-clock timers.
+
+After authorization: `npx vitest run tests/history-emission-contract.test.ts --reporter=json --outputFile=<new immutable result path>` and `npm run typecheck`. Preserve failures and exact source bindings before any fix; no production edits or expectation relaxation. A future pass supports only these pure modeled edit histories, not actual browser undo/redo, every piece kind, load/clear, or audible output.

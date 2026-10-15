@@ -1,0 +1,591 @@
+{
+  "format": "bongo-planet-composition",
+  "version": 1,
+  "scene": {
+    "version": 2,
+    "topology": "icosa-3v-v1",
+    "settings": {
+      "bpm": 126,
+      "key": 5,
+      "scale": "major",
+      "travel": 0.75,
+      "quantization": 0.25,
+      "volume": 0.62,
+      "propagation": "gated"
+    },
+    "pieces": [
+      {
+        "id": "S02-melody-source",
+        "vertex": 44,
+        "kind": "generator",
+        "period": 8,
+        "phase": 0,
+        "reach": 180,
+        "enabled": true,
+        "travel": 32
+      },
+      {
+        "id": "S02-drums-source",
+        "vertex": 4,
+        "kind": "generator",
+        "period": 2,
+        "phase": 0,
+        "reach": 180,
+        "enabled": true,
+        "travel": 8
+      },
+      {
+        "id": "S02-bass-source",
+        "vertex": 66,
+        "kind": "generator",
+        "period": 2,
+        "phase": 0,
+        "reach": 180,
+        "enabled": true,
+        "travel": 5
+      },
+      {
+        "id": "S02-drums-1",
+        "vertex": 5,
+        "kind": "note",
+        "degree": 0,
+        "octave": 4,
+        "timbre": "sine",
+        "instrument": "bongo-low",
+        "duration": 0.10952380952380952,
+        "level": 0.28900000000000003
+      },
+      {
+        "id": "S02-drums-3",
+        "vertex": 6,
+        "kind": "note",
+        "degree": 0,
+        "octave": 4,
+        "timbre": "sine",
+        "instrument": "bongo-high",
+        "duration": 0.10952380952380952,
+        "level": 0.28900000000000003
+      },
+      {
+        "id": "S02-drums-0",
+        "vertex": 7,
+        "kind": "note",
+        "degree": 0,
+        "octave": 4,
+        "timbre": "sine",
+        "instrument": "kick",
+        "duration": 0.10952380952380952,
+        "level": 0.58
+      },
+      {
+        "id": "S02-drums-2",
+        "vertex": 8,
+        "kind": "note",
+        "degree": 0,
+        "octave": 4,
+        "timbre": "sine",
+        "instrument": "hi-hat",
+        "duration": 0.10952380952380952,
+        "level": 0.15
+      },
+      {
+        "id": "S02-melody-30",
+        "vertex": 22,
+        "kind": "note",
+        "degree": 2,
+        "octave": 6,
+        "timbre": "sine",
+        "instrument": "kalimba",
+        "duration": 0.16428571428571428,
+        "level": 0.19
+      },
+      {
+        "id": "S02-melody-10",
+        "vertex": 30,
+        "kind": "note",
+        "degree": 4,
+        "octave": 5,
+        "timbre": "sine",
+        "instrument": "kalimba",
+        "duration": 0.16428571428571428,
+        "level": 0.19
+      },
+      {
+        "id": "S02-drums-4",
+        "vertex": 40,
+        "kind": "note",
+        "degree": 0,
+        "octave": 4,
+        "timbre": "sine",
+        "instrument": "snare",
+        "duration": 0.10952380952380952,
+        "level": 0.4
+      },
+      {
+        "id": "S02-melody-14",
+        "vertex": 41,
+        "kind": "note",
+        "degree": 6,
+        "octave": 6,
+        "timbre": "sine",
+        "instrument": "kalimba",
+        "duration": 0.16428571428571428,
+        "level": 0.19
+      },
+      {
+        "id": "S02-melody-0",
+        "vertex": 45,
+        "kind": "note",
+        "degree": 0,
+        "octave": 4,
+        "timbre": "sine",
+        "instrument": "marimba",
+        "duration": 0.21904761904761905,
+        "level": 0.68
+      },
+      {
+        "id": "S02-melody-2",
+        "vertex": 46,
+        "kind": "note",
+        "degree": 2,
+        "octave": 4,
+        "timbre": "sine",
+        "instrument": "marimba",
+        "duration": 0.21904761904761905,
+        "level": 0.68
+      },
+      {
+        "id": "S02-melody-26",
+        "vertex": 49,
+        "kind": "note",
+        "degree": 1,
+        "octave": 5,
+        "timbre": "sine",
+        "instrument": "kalimba",
+        "duration": 0.16428571428571428,
+        "level": 0.19
+      },
+      {
+        "id": "S02-melody-22",
+        "vertex": 51,
+        "kind": "note",
+        "degree": 4,
+        "octave": 4,
+        "timbre": "sine",
+        "instrument": "marimba",
+        "duration": 1.0952380952380953,
+        "level": 0.68
+      },
+      {
+        "id": "S02-bass-2",
+        "vertex": 62,
+        "kind": "note",
+        "degree": 4,
+        "octave": 2,
+        "timbre": "sine",
+        "instrument": "piano",
+        "duration": 0.16428571428571428,
+        "level": 0.28
+      },
+      {
+        "id": "S02-bass-0",
+        "vertex": 63,
+        "kind": "note",
+        "degree": 0,
+        "octave": 3,
+        "timbre": "sine",
+        "instrument": "piano",
+        "duration": 0.36142857142857143,
+        "level": 0.55
+      },
+      {
+        "id": "S02-bass-4",
+        "vertex": 64,
+        "kind": "note",
+        "degree": 0,
+        "octave": 3,
+        "timbre": "sine",
+        "instrument": "piano",
+        "duration": 0.36142857142857143,
+        "level": 0.55
+      },
+      {
+        "id": "S02-melody-6",
+        "vertex": 70,
+        "kind": "note",
+        "degree": 4,
+        "octave": 4,
+        "timbre": "sine",
+        "instrument": "marimba",
+        "duration": 1.0952380952380953,
+        "level": 0.68
+      },
+      {
+        "id": "S02-melody-16",
+        "vertex": 71,
+        "kind": "note",
+        "degree": 0,
+        "octave": 4,
+        "timbre": "sine",
+        "instrument": "marimba",
+        "duration": 0.21904761904761905,
+        "level": 0.68
+      },
+      {
+        "id": "S02-melody-20",
+        "vertex": 75,
+        "kind": "note",
+        "degree": 3,
+        "octave": 4,
+        "timbre": "sine",
+        "instrument": "marimba",
+        "duration": 0.21904761904761905,
+        "level": 0.68
+      },
+      {
+        "id": "S02-melody-18",
+        "vertex": 76,
+        "kind": "note",
+        "degree": 2,
+        "octave": 4,
+        "timbre": "sine",
+        "instrument": "marimba",
+        "duration": 0.21904761904761905,
+        "level": 0.68
+      },
+      {
+        "id": "S02-melody-4",
+        "vertex": 88,
+        "kind": "note",
+        "degree": 3,
+        "octave": 4,
+        "timbre": "sine",
+        "instrument": "marimba",
+        "duration": 0.21904761904761905,
+        "level": 0.68
+      }
+    ],
+    "wiring": [
+      {
+        "vertex": 44,
+        "exits": [
+          45
+        ]
+      },
+      {
+        "vertex": 45,
+        "exits": [
+          47
+        ]
+      },
+      {
+        "vertex": 47,
+        "exits": [
+          46
+        ]
+      },
+      {
+        "vertex": 46,
+        "exits": [
+          43
+        ]
+      },
+      {
+        "vertex": 43,
+        "exits": [
+          88
+        ]
+      },
+      {
+        "vertex": 88,
+        "exits": [
+          72
+        ]
+      },
+      {
+        "vertex": 72,
+        "exits": [
+          70
+        ]
+      },
+      {
+        "vertex": 70,
+        "exits": [
+          78
+        ]
+      },
+      {
+        "vertex": 78,
+        "exits": [
+          89
+        ]
+      },
+      {
+        "vertex": 89,
+        "exits": [
+          48
+        ]
+      },
+      {
+        "vertex": 48,
+        "exits": [
+          30
+        ]
+      },
+      {
+        "vertex": 30,
+        "exits": [
+          29
+        ]
+      },
+      {
+        "vertex": 29,
+        "exits": [
+          9
+        ]
+      },
+      {
+        "vertex": 9,
+        "exits": [
+          42
+        ]
+      },
+      {
+        "vertex": 42,
+        "exits": [
+          41
+        ]
+      },
+      {
+        "vertex": 41,
+        "exits": [
+          73
+        ]
+      },
+      {
+        "vertex": 73,
+        "exits": [
+          71
+        ]
+      },
+      {
+        "vertex": 71,
+        "exits": [
+          69
+        ]
+      },
+      {
+        "vertex": 69,
+        "exits": [
+          76
+        ]
+      },
+      {
+        "vertex": 76,
+        "exits": [
+          74
+        ]
+      },
+      {
+        "vertex": 74,
+        "exits": [
+          75
+        ]
+      },
+      {
+        "vertex": 75,
+        "exits": [
+          77
+        ]
+      },
+      {
+        "vertex": 77,
+        "exits": [
+          51
+        ]
+      },
+      {
+        "vertex": 51,
+        "exits": [
+          53
+        ]
+      },
+      {
+        "vertex": 53,
+        "exits": [
+          50
+        ]
+      },
+      {
+        "vertex": 50,
+        "exits": [
+          52
+        ]
+      },
+      {
+        "vertex": 52,
+        "exits": [
+          49
+        ]
+      },
+      {
+        "vertex": 49,
+        "exits": [
+          24
+        ]
+      },
+      {
+        "vertex": 24,
+        "exits": [
+          26
+        ]
+      },
+      {
+        "vertex": 26,
+        "exits": [
+          23
+        ]
+      },
+      {
+        "vertex": 23,
+        "exits": [
+          22
+        ]
+      },
+      {
+        "vertex": 22,
+        "exits": [
+          28
+        ]
+      },
+      {
+        "vertex": 28,
+        "exits": []
+      },
+      {
+        "vertex": 4,
+        "exits": [
+          7
+        ]
+      },
+      {
+        "vertex": 7,
+        "exits": [
+          5
+        ]
+      },
+      {
+        "vertex": 5,
+        "exits": [
+          8
+        ]
+      },
+      {
+        "vertex": 8,
+        "exits": [
+          6
+        ]
+      },
+      {
+        "vertex": 6,
+        "exits": [
+          40
+        ]
+      },
+      {
+        "vertex": 40,
+        "exits": [
+          37
+        ]
+      },
+      {
+        "vertex": 37,
+        "exits": [
+          38
+        ]
+      },
+      {
+        "vertex": 38,
+        "exits": [
+          39
+        ]
+      },
+      {
+        "vertex": 39,
+        "exits": []
+      },
+      {
+        "vertex": 66,
+        "exits": [
+          63
+        ]
+      },
+      {
+        "vertex": 63,
+        "exits": [
+          65
+        ]
+      },
+      {
+        "vertex": 65,
+        "exits": [
+          62
+        ]
+      },
+      {
+        "vertex": 62,
+        "exits": [
+          61
+        ]
+      },
+      {
+        "vertex": 61,
+        "exits": [
+          64
+        ]
+      },
+      {
+        "vertex": 64,
+        "exits": []
+      }
+    ]
+  },
+  "appearance": {
+    "version": 1,
+    "style": "toys",
+    "surface": "seams",
+    "pulseEffects": "struts",
+    "planet": "#5262e9",
+    "generator": "#ffd35b",
+    "note": "#70dec8",
+    "beat": "#ff9685",
+    "background": "#151e31",
+    "guitar": "#ffb883",
+    "glass": "#a1dff9",
+    "kalimba": "#b5dfaa",
+    "piano": "#c6b4f6",
+    "marimba": "#f7aab9",
+    "bongo-high": "#ffb883",
+    "bongo-low": "#ff9685",
+    "kick": "#ff9685",
+    "snare": "#ff9685",
+    "hi-hat": "#ffd35b",
+    "backdrop": "cream",
+    "eyes": true,
+    "bounce": true,
+    "glow": 1,
+    "size": 1.25,
+    "lighting": 1,
+    "sparkStyle": "white",
+    "switches": {
+      "style": "ink",
+      "icon": "arrow",
+      "size": 1,
+      "stroke": 1,
+      "glow": 0,
+      "onColor": "#ffd35b",
+      "offColor": "#ffffff",
+      "animation": true
+    }
+  }
+}

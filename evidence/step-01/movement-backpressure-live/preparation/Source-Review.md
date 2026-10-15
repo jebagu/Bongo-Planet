@@ -1,0 +1,11 @@
+# Bongo Planet — movement backpressure prepared source
+
+No live acquisition has run. Six pure Python FIFO/control checks, eight pure timer-observer checks and whole-project typecheck pass for the frozen source snapshot. All observed intermediate failures remain listed in source-controls-01.json; the intermediate whole-file source was not copied at the failed typecheck and is not claimed to have been preserved byte-for-byte.
+
+The proxy retains literal masked/binary bytes through partial native writes/EAGAIN, rejects queue overflow without replacing retained bytes, latches write poison, and validates sequential bounded pause/resume controls. Importing it and the controls opens no socket/process/service. These are modeled buffer transitions, not actual kernel-buffer proof.
+
+The timer controls exercise the implementation actually serialized into the browser: original callback receiver/arguments/return exactly once, original exception propagation with restored enclosing context, ambiguous/wrong producer identities, pre-pressure/low buffer, first-high retention, and serialized-source invocation with no imported closure. Public timer/send/close observation remains a perturbation and does not itself prove any sender timing policy or real pressure.
+
+Plan02.md supersedes only the proposed experiment details while preserving original Plan.md/Plan-source-01.md. The helper requires exact matched singleton onset/trigger identity, legal≤50Hz edits, true socket buffering, observed pause predicates, complete latest91-object recovery, and separate native actor/timer scopes. Native voice lifetime uses mutationHrBeforeNs, with no natural-expiration substitution. Actual main and separately served processor bytes are retained with detected2MiB body guards; absence of a page-level worklet response body remains a declared build-evidence limitation.
+
+Predeclared failures/incomplete cases include threshold not reached inside the lease-safe budget, no unique producer callback, insufficient timer origin/sample bounds, native ring overlap loss, product/clock/drop/session errors, cap overflow, reliable musical traffic under pressure, missing or naturally expired release, and forced/unknown ownership cleanup. The root-controlled actual invocation still needs a quiet GO and final source review; no acceptance atom is cleared here.

@@ -1,0 +1,5 @@
+# Bongo Planet — presentation attempt02
+
+FAILED/INCOMPLETE: bounded actual camera setup completed and scene-preservation assertions for orbit, zoom, resize and synthetic cancellation/focus loss recorded. An uncaught NotFoundError during piece-owned pointercancel caused the global pageerror guard to fail before any musical arm qualified. No acceptance atom is passed from this failed overall run. Both owned browser and browser process closed. Frozen assets/fixture stayed identical before/after.
+
+Independent source trace: SphereView consumed piece pointerdown, so OrbitControls never tracked that pointer. SphereView cancellation did not consume pointercancel; the permanent OrbitControls canvas handler called releasePointerCapture on the untracked synthetic pointer. The subsequent pointerup was not required. This establishes the automated synthetic-handler exception, not physical-touch harm. A source repair consumes only active piece-owned cancellation; separate component regression evidence is in ../../pointer-cancel-repair. Original report and source remain immutable.

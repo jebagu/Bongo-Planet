@@ -1,0 +1,11 @@
+# Bongo Planet production entry confirmation
+
+The separate five-minute production-entry diagnostic retained 115008 valid blocks. Its production process counter increased by exactly one across all 115007 successive records. Four adjacent nonconstant source blocks repeated. At all four, a fresh production invocation began with exactly the same currentFrame and currentTime as the preceding invocation. Production and observer clock fields agreed at every valid block. The same four repeated waveforms appeared in SPAT input at the independently calibrated route offset.
+
+These observations exclude a skipped production process callback as the explanation for these four retained duplicates. They support the mechanism of deterministic product synthesis rendering again from repeated clock values. Two waveforms were strongly varied (97 and 98 distinct samples, ranges about 1.96), one had range 0.00458, and one was nearly flat (20 distinct samples, range 1.85e-6). Constant plateaus were excluded, and all nonconstant matches are preserved.
+
+The wrapper records immediately before the original process method, not the original internal currentTime expression. The original implementation derives blockStart from that global and uses it for deterministic synthesis. The diagnostic adds overhead and uses explicitly changed evidence-only JavaScript. It is not an acceptance-qualified production snapshot. No application source was edited and no fix or audible effect is established by this result.
+
+Original processor SHA: 155ba49f4f3e41921a86ae4adaa5595bcfe2858f5ebbadc7b28fa3281b50607d. Instrumented processor SHA: 41e8ba440852834e61b5583154feddf03e674cbdd481ed7e84a2dd87aab75621. Full prefix, original processor, instrumented module, fetched pre/post asset bindings, raw Float32/WAV recordings, per-block entry/observer tuples and anomaly windows are retained in [source-clock-control](source-clock-control/Review.md).
+
+All capture contexts, explicit input tracks, Chrome browsers and temporary servers have closed. The native control's independently observed input zero block and additional 128-sample route delay remain a separate issue. Thirty-minute seamless-output, full dense-onset timing and human listening acceptance remain open.

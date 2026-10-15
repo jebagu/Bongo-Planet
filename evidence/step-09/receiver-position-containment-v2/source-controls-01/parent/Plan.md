@@ -1,0 +1,11 @@
+# Bongo Planet — nearest-axis containment successor preparation
+
+Source-only concrete harness repair. No actual retry has been authorized. Original da2 audit, a76175 supervisor and failed attempt01 remain immutable. The prior137 hot-loop cause is unlocalized.
+
+The root-owned audit-v2 bda2e7bc9f47a0064514011833ce0698771094806e0ac9ca86173f626d9b5baf changes only header/output destination and the F07 initial oracle: an independent3-frequencyicosahedral edge normalization of(3phi,0,1), declared permutations/signs and fixed vertexIDs85/29/10/69/37/53. It expects nearest-axis topology positions. Exact literal-axis protocol probes are separate and are not qualified by this case.
+
+The new supervisor copies reviewed a76175, changing only original path/SHA, exclusive default output subtree, matching private-output patch anchor, header and nearest-axis phase wording. Parent-Diff.patch and Audit-Diff.patch preserve exact changes. The reviewed110s acquisition +15s cleanup target, cooperative host-scheduling limitation,1024/512KiB unacknowledged IPC,16KiB message,16384/8MiB total, bounded operation summaries, strict identity/terminal rules, single optional1s sample/absolute3s command cap, parent-handle release and unknown/force cleanup failures are unchanged. No yield, model/scheduling/protocol/clock/threshold/policy change is introduced by the parent.
+
+Independent source controls compute Decimal80phi, then normalize(3phi,0,1). A separate VM evaluates the actual root-owned JavaScript reference declarations with no product imports. Values must agree to binary64precision; all declared orientations and fixedIDs must match golden controls. Nearest-axis vectors must pass the existing1e-6oracle while literal axes are rejected. These controls establish the new oracle's source arithmetic/fixture binding only, not actual receiver movement or exact-axis calibration. Existing14containment pure controls, global typecheck and generated-child strict typecheck are rerun separately without a child/browser/service/port probe/sample.
+
+Source copies, exact hashes, pure results and both diffs precede independent source review. Root+Astra must explicitly authorize any future single actual diagnostic. The future frozen main d804/processor0f0b contract, conditional clock model and actual cleanup/timing honesty remain unchanged. No acceptance checklist is edited.

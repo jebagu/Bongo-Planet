@@ -1,0 +1,25 @@
+{
+  "scope": "Exact Source01 bytes before H01 correction",
+  "entries": [
+    {
+      "path": "scripts/coupled-onset-metadata-preflight.py",
+      "sha256": "876dcb496adb8078b50540925f13e0ced3f24496dafd126c7236e7aa1667b9ec",
+      "bytes": 26818
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/controls.py",
+      "sha256": "fd7df8a4f97a1354cd8eb7d02e7eef6ad18d4b947b947abd87ef06bcbb77429a",
+      "bytes": 8713
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/preparation-manifest-01.json",
+      "sha256": "542d58bac131af27153c794ea52ae46d964a920f000d82c2326d6e963de814cc",
+      "bytes": 5206
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/Source01-IndependentReview.md",
+      "sha256": "f6943acd2c9afd97236b5c7ab28ddacf16d79538dc900ed7b718281cde559d93",
+      "bytes": 7307
+    }
+  ]
+}

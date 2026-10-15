@@ -1,0 +1,30 @@
+{
+  "title": "Bongo Planet reconnect Source03 exact-null schema correction",
+  "createdAt": "2026-10-12T05:33:59.010829+00:00",
+  "sourceSha256": "881cd09cdac783aaa9e3aeffa3fcb3b70664641af2c92d1126c4e34358dba0c7",
+  "scope": "Pure no-runtime controls and private strict compile only",
+  "controls": {
+    "command": "npx tsx evidence/step-09/reconnect-current/preparation/final-state-controls03.ts",
+    "tool": "cf9eb3",
+    "exit": 0,
+    "seconds": 0.260169708,
+    "output": "FinalStateControls03.log",
+    "result": {
+      "title": "Bongo Planet reconnect final-disposition pure negatives",
+      "passed": 54,
+      "failures": 0,
+      "scope": "Toy observations only; no browser/bridge/native runtime",
+      "sourceModules": [
+        "final-state03.ts",
+        "final-state-controls03.ts"
+      ]
+    }
+  },
+  "typecheck": {
+    "command": "npx tsc --noEmit -p evidence/step-09/reconnect-current/preparation/tsconfig.source03.json",
+    "tool": "5bf768",
+    "exit": 0,
+    "seconds": 0.164552042,
+    "output": "typecheck-complete-03.log"
+  }
+}

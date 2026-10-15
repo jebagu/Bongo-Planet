@@ -1,0 +1,37 @@
+{
+  "sourceOnly": true,
+  "qualificationPassed": false,
+  "actualServiceBrowserWorkloadLaunched": false,
+  "recordedAt": "2026-10-12T00:05:13.000038+00:00",
+  "coordinatorSha256": "a90e06f9fce32464ddb2f78a48a91a71bddbb93334cfcd4cba0cb6b1b4a538c1",
+  "controlsFile": "evidence/step-09/native-scheduling-coordinated/source-controls-a90e06f9fce32464.json",
+  "controlsSha256": "8846910c4009ad8ae0977204e9aaa541ff32c4b26761b719e3e36d2725b7f809",
+  "sourceCheckCommand": "npx tsx scripts/native-scheduling-coordinated.ts --check",
+  "sourceCheckExitCode": 0,
+  "sourceCheckToolChunk": "1fad68",
+  "typecheckCommand": "npm run typecheck",
+  "finalTypecheckExitCode": 0,
+  "finalTypecheckToolChunk": "ed4cea",
+  "earlierTypecheckFailures": {
+    "toolChunks": [
+      "f76821",
+      "1fad68"
+    ],
+    "scope": "Three then-in-progress errors solely in sibling-owned receiver-position-invariance-audit.ts; preserved in tool records. That source was fixed by its owner before final whole-project pass."
+  },
+  "review": {
+    "reviewer": "engine_review",
+    "sourceGO": true,
+    "scope": "Source-only composition/lifecycle/cleanup checks; actual ownership, startup and120s results remain unmeasured."
+  },
+  "bindings": {
+    "originalHostSha256": "2d1af318862d614ee5ea47b6f532e4828ce8cd7ee1bb3df898097431eea16932",
+    "originalClientSha256": "a07157c33980faa06325c5616c4c6ff00eb7332b10eec7120f97dacd5f99acab",
+    "frozenManifestSha256": "b40c424f67c87d328341c5db3129dc684bec417eb65d0d0caad485f428086cae",
+    "hostCopySha256": "572e09d377b6ca49808bfc9a745d6a39d7d06dcba73877e827e9b3f68cd7b1be",
+    "clientCopySha256": "60f3de9645bdfff1d96f9ac7ede2b3cfc125d1bedf4420d03bbf96e8941d2550",
+    "mainSha256": "d8040f401399d61fddde16e1fcd744f1d85208073bf1dd64f2059bcdcaed2245",
+    "processorSha256": "0f0b12c981f6d2aedbbde847bb31d55bc9010a6093f2ea93232f6fe3804a6793"
+  },
+  "preservation": "All earlier controls and private prepared copies remain; original host/client/modules/results/production unchanged."
+}

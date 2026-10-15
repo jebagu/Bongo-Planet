@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-12T04:24:02.995046+00:00",
+  "command": [
+    "python3",
+    "evidence/step-09/native-ingress-fairness/preparation/root-ingress-controller-controls.py"
+  ],
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": "...........\n----------------------------------------------------------------------\nRan 11 tests in 0.008s\n\nOK\n",
+  "scope": "11 pure simulated ancestry/claim/read/write/failure cleanup controls; no real Popen, ps, signal, sleep or sockets",
+  "sourceBindings": [
+    {
+      "path": "evidence/step-09/native-ingress-fairness/preparation/root-ingress-controller.py",
+      "bytes": 11474,
+      "sha256": "5efb2587e424d59a249368529f20faaa71169447cdc1ceec1b786b53993a7503"
+    },
+    {
+      "path": "evidence/step-09/native-ingress-fairness/preparation/root-ingress-controller-controls.py",
+      "bytes": 8002,
+      "sha256": "6f974e8390c2dafdfbc5c53848458c0ff372a13f4a0fe1183e715d9b074c7c20"
+    },
+    {
+      "path": "evidence/step-09/native-ingress-fairness/preparation/Root-Controller-Delta01.diff",
+      "bytes": 3843,
+      "sha256": "4bcaee4ad28d2e2866c4b7ede760f00cbca2d2b1b0aa3cca3c38f203bf7e0930"
+    }
+  ]
+}

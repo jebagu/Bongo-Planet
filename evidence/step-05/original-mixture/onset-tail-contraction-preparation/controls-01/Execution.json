@@ -1,0 +1,20 @@
+{
+  "scope": "Source-only synthetic controls; no original PCM, browser, service or actual search",
+  "unit": {
+    "command": "BONGO_TAIL_CONTROL_OUTPUT=evidence/step-05/original-mixture/onset-tail-contraction-preparation/controls-01 npm test -- tests/mixture-onset-tail-contraction.test.ts --reporter=json --outputFile=evidence/step-05/original-mixture/onset-tail-contraction-preparation/controls-01/unit-results.json",
+    "chunkId": "d61dae",
+    "exitCode": 1,
+    "elapsedSeconds": 0.592334542,
+    "passed": 15,
+    "failed": 1,
+    "failure": "Invalid +50us alias expectation: required early sample precedes candidate onset. Domain upper .004020833333333336, candidate .0040637. Runner did not fail."
+  },
+  "typecheck": {
+    "command": "npm run typecheck",
+    "chunkId": "5b11e9",
+    "exitCode": 0,
+    "elapsedSeconds": 0.312187584
+  },
+  "recordingsOpened": false,
+  "actualRunnerExecuted": false
+}

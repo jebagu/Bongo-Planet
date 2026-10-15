@@ -1,0 +1,50 @@
+{
+  "id": "C07",
+  "name": "Prelude in C Major · Bach",
+  "sourceId": null,
+  "bpm": 80,
+  "key": 0,
+  "scale": "major",
+  "cycleBeats": 16,
+  "cycleSeconds": 12,
+  "generators": 1,
+  "soundingPieces": 76,
+  "stackedVertices": 4,
+  "maximumStack": 4,
+  "instruments": {
+    "guitar": 4,
+    "glass": 4,
+    "kalimba": 4,
+    "piano": 64
+  },
+  "spatial": {
+    "soundingLocations": 64,
+    "largestGapDegrees": 23.800182602175063
+  },
+  "compositionSha256": "79d4ea54cbf026e8d53508f42e934b89dd1f709230dd36557061e162de694d4c",
+  "simulation": {
+    "cycles": 8,
+    "stablePatternsMatch": true,
+    "allLayersReached": true,
+    "maximumEdges": 1,
+    "maximumDecisionsPerQuantum": 2,
+    "maximumPending": 4,
+    "lateDrops": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "156c5e38a80ba5de9570b87db2b2398b81ab9e7ff9fc0c31bbbd4dced27fe7d4",
+    "renderedFromCurrentEngineAndSamples": true,
+    "cycles": 1,
+    "seconds": 12,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peak": 0.29118308424949646,
+    "rms": 0.05722306115337148,
+    "repeatError": 7.450580596923828e-9,
+    "boundaryDelta": 0.005464879795908928,
+    "maximumVoices": 6,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

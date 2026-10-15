@@ -1,0 +1,35 @@
+{
+  "sourceOnly": true,
+  "entries": [
+    {
+      "original": "scripts/active-camera-output.spec.ts",
+      "copy": "source-03/scripts/active-camera-output.spec.ts",
+      "bytes": 33660,
+      "sha256": "11dcd1f7389ba61d163f0ae2160b9f8f622059d1fda8c3c1d65cf8910286a0cf",
+      "scope": "Source03 retention-only successor; no actual"
+    },
+    {
+      "original": "scripts/active-camera-observer.ts",
+      "copy": "source-03/scripts/active-camera-observer.ts",
+      "bytes": 16095,
+      "sha256": "376f599b330e3be4bbb010ef71f77da557bf6b421c47a91987c6e2442720ddcc",
+      "scope": "Source03 retention-only successor; no actual"
+    },
+    {
+      "original": "tests/active-camera-observer.test.ts",
+      "copy": "source-03/tests/active-camera-observer.test.ts",
+      "bytes": 15109,
+      "sha256": "0bd698cb86a0ebca914f71c67e6db13154d45fa3e0d1fa8e54ae8af5aeced037",
+      "scope": "Source03 retention-only successor; no actual"
+    }
+  ],
+  "inheritedInputs": "Source02-Bindings and originalSource-Bindings02 selected production/bundle/config/Three snapshots remain unchanged; no current runtime mutation",
+  "targetedControls": {
+    "command": "npx vitest run tests/active-camera-observer.test.ts --reporter=json --outputFile=evidence/step-08/camera-active-output/preparation/controls-05/pure-results.json",
+    "chunk": "e81c28",
+    "exitCode": 0,
+    "output": "JSON report written to /Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-08/camera-active-output/preparation/controls-05/pure-results.json\n",
+    "tests": 24
+  },
+  "globalTypecheck": "Root owns shared check after this source freeze; not yet executed for Source03"
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f3ec">
+  <title>Bongo Planet · Fainter arrows</title>
+  <meta name="description" content="Ten live studies of thinner, fainter arrow outlines for Bongo Planet.">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="../../">Bongo Planet<span class="brand-dot" aria-hidden="true"></span></a>
+    <span class="study-label">Arrow outline study <span> / </span> 10 treatments</span>
+  </header>
+  <main>
+    <section class="intro">
+      <div><p class="eyebrow">SMALL CHANGE, QUIETER PLANET</p><h1>Fainter arrows.</h1></div>
+      <p class="intro-copy">Same shape. Same orange fill.<br> Just a little less white.</p>
+    </section>
+    <section class="comparison" aria-label="Current style and selected treatment comparison">
+      <div class="comparison-top">
+        <div class="comparison-title"><span class="small-label">COMPARE</span><span id="compare-name">04 · Soft half pixel</span></div>
+        <div class="controls">
+          <label class="check-control"><input id="show-on" type="checkbox" checked><span>Orange fill</span></label>
+          <div class="zoom-controls" aria-label="Preview scale"><button type="button" data-zoom="1" aria-pressed="true">100%</button><button type="button" data-zoom="1.45" aria-pressed="false">Zoom in</button></div>
+          <button class="reset" type="button" id="reset">Reset view</button>
+        </div>
+      </div>
+      <div class="compare-planets">
+        <article class="large-preview"><div class="preview-heading"><h2>Current outline</h2><span>Full opacity</span></div><div class="planet-stage" id="current-planet"></div><div class="sample-caption"><span>Bold contour</span><div id="current-sample"></div></div></article>
+        <article class="large-preview candidate"><div class="preview-heading"><h2 id="selected-name">Soft half pixel</h2><span id="selected-spec">0.50 px · 45% white</span></div><div class="planet-stage" id="chosen-planet"></div><div class="sample-caption"><span id="selected-note">Half a pixel, gently dimmed.</span><div id="chosen-sample"></div></div></article>
+      </div>
+      <div class="comparison-bottom"><p>Drag either planet to rotate. Tap an arrow to test the fill.</p><span>Preview only · your game stays as it is</span></div>
+    </section>
+    <section class="treatments" aria-labelledby="treatments-title">
+      <div class="section-heading"><div><p class="eyebrow">THE TEN TREATMENTS</p><h2 id="treatments-title">How quiet should they be?</h2></div><p>Choose one to compare above.</p></div>
+      <div id="treatment-grid" class="treatment-grid"></div>
+    </section>
+    <footer><p>Same planet, arrow size, seams and orange fill in every preview.</p><p>Weights shown in screen pixels. Opacity changes the white outline only.</p></footer>
+  </main>
+  <p id="announce" class="sr-only" role="status" aria-live="polite"></p>
+  <script type="module" src="./study.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "scope": "SOURCE ONLY; no Playwright runner/bridge/browser/service/port probe/sample launched",
+  "firstTypecheck": {
+    "command": "npm run typecheck",
+    "chunkId": "873053",
+    "exitCode": 1,
+    "failureSourcePreserved": "../controls-01/camera-output-contract.spec.ts"
+  },
+  "signatureFixTypecheck": {
+    "command": "npm run typecheck",
+    "chunkId": "fb5366",
+    "exitCode": 0
+  },
+  "finalCandidateTypecheck": {
+    "command": "npm run typecheck",
+    "chunkId": "fb0efc",
+    "exitCode": 0,
+    "wallSeconds": 0.318994708
+  },
+  "testsExecuted": false,
+  "actualAuthorized": false
+}

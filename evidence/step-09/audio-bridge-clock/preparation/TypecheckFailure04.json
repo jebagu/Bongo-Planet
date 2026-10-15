@@ -1,0 +1,10 @@
+{
+  "sourceSnapshot": "TypecheckFailure04-source.ts",
+  "sha256": "0bf5396c973f515fd7d3061fcea8b26751c53120e251643809c80b1ecacad624",
+  "scope": "Source-only nullable presentation arithmetic type error; no runtime",
+  "command": "npx tsc --noEmit -p evidence/step-09/audio-bridge-clock/preparation/tsconfig.source01.json",
+  "tool": "00af01",
+  "exit": 1,
+  "seconds": 0.239366,
+  "output": "typecheck-private-04.log"
+}

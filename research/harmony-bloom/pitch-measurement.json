@@ -1,0 +1,32 @@
+[
+  {
+    "file": "Piano_C3.wav",
+    "dominant_partial_hz": 261.25,
+    "nearest_midi_note": 60,
+    "method": "Hann-windowed FFT of 0.1 to 0.8 seconds; largest partial between 200 and 300 Hz; corroborates approximate audition root, not native sampler mapping"
+  },
+  {
+    "file": "kalimba_C3.wav",
+    "dominant_partial_hz": 265.0,
+    "nearest_midi_note": 60,
+    "method": "Hann-windowed FFT of 0.1 to 0.8 seconds; largest partial between 200 and 300 Hz; corroborates approximate audition root, not native sampler mapping"
+  },
+  {
+    "file": "Glass_C3.wav",
+    "dominant_partial_hz": 261.5,
+    "nearest_midi_note": 60,
+    "method": "Hann-windowed FFT of 0.1 to 0.8 seconds; largest partial between 200 and 300 Hz; corroborates approximate audition root, not native sampler mapping"
+  },
+  {
+    "file": "Acustic_Guitar_C3.wav",
+    "dominant_partial_hz": 261.75,
+    "nearest_midi_note": 60,
+    "method": "Hann-windowed FFT of 0.1 to 0.8 seconds; largest partial between 200 and 300 Hz; corroborates approximate audition root, not native sampler mapping"
+  },
+  {
+    "file": "Sam_Marimba_Hita_C3.wav",
+    "dominant_partial_hz": 262.5,
+    "nearest_midi_note": 60,
+    "method": "Hann-windowed FFT of 0.1 to 0.8 seconds; largest partial between 200 and 300 Hz; corroborates approximate audition root, not native sampler mapping"
+  }
+]

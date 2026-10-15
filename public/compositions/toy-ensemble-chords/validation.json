@@ -1,0 +1,54 @@
+{
+  "id": "C02",
+  "name": "Toy Ensemble",
+  "sourceId": "F10",
+  "bpm": 100,
+  "key": 0,
+  "scale": "major",
+  "cycleBeats": 8,
+  "cycleSeconds": 4.8,
+  "generators": 2,
+  "soundingPieces": 56,
+  "stackedVertices": 8,
+  "maximumStack": 4,
+  "instruments": {
+    "guitar": 8,
+    "glass": 8,
+    "kalimba": 12,
+    "piano": 8,
+    "marimba": 8,
+    "bongo-high": 4,
+    "bongo-low": 4,
+    "hi-hat": 4
+  },
+  "spatial": {
+    "soundingLocations": 36,
+    "largestGapDegrees": 23.800182602175063
+  },
+  "compositionSha256": "8694ccc680c80be68fbeca3b8473ba9e062857a6dd1f7835665aa6fe250ade3e",
+  "simulation": {
+    "cycles": 8,
+    "stablePatternsMatch": true,
+    "allLayersReached": true,
+    "maximumEdges": 2,
+    "maximumDecisionsPerQuantum": 3,
+    "maximumPending": 7,
+    "lateDrops": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "d87f975afffafe6d9a52ad1dfbf048604fc4bd1b84a04037777231385b431f67",
+    "renderedFromCurrentEngineAndSamples": true,
+    "cycles": 1,
+    "seconds": 4.8,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peak": 0.25620123744010925,
+    "rms": 0.050308827002074105,
+    "repeatError": 1.4901161193847656e-8,
+    "boundaryDelta": 0.0002842564135789871,
+    "maximumVoices": 12,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

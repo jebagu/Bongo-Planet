@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f4f9">
+  <title>Bongo Planet — color and clay combinations</title>
+  <meta name="description" content="Twenty numbered color combinations plus eight clay material variations for Bongo Planet.">
+  <link rel="icon" href="data:,">
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="../../">Bongo Planet</a>
+    <span>Color & material studies <span class="separator">/</span> <a href="#options-title">20 colors</a> <span class="separator">+</span> <a href="#clay-title">8 clay variations</a></span>
+  </header>
+  <main>
+    <section class="intro">
+      <div><p class="eyebrow">SAME LITTLE BAND, A NEW WORLD</p><h1>Find the colors that belong together.</h1></div>
+      <p>20 color combinations + 8 clay variations.<br>The instrument colors stay just as they are.</p>
+    </section>
+    <section class="featured" aria-labelledby="selected-title">
+      <div class="featured-stage stage" id="featured-stage" tabindex="0" role="group" aria-label="Selected color combination. Drag to rotate. Arrow keys also rotate the planet.">
+        <div class="stars" aria-hidden="true"></div>
+        <span class="stage-label" id="stage-label">21 / 28</span>
+        <span class="rotate-hint">Drag to rotate</span>
+      </div>
+      <aside class="details">
+        <p class="eyebrow">A CLOSER LOOK</p>
+        <h2 id="selected-title">01 · Moon glaze</h2>
+        <p class="selected-note" id="selected-note"></p>
+        <div id="selected-colors"></div>
+        <div class="finish-row"><span>Surface</span><strong id="selected-finish"></strong></div>
+        <p class="finish-note" id="finish-note"></p>
+        <button class="compare-base" id="compare-base" type="button" hidden>Compare with original</button>
+        <div class="view-controls">
+          <button id="previous" aria-label="Previous color option" type="button">Previous</button>
+          <button id="next" aria-label="Next color option" type="button">Next</button>
+          <button id="reset-view" type="button">Reset view</button>
+        </div>
+        <div class="study-controls">
+          <label><input id="original-sky" type="checkbox"><span>Original star field for every option</span></label>
+          <label><input id="show-gates" type="checkbox" checked><span>Show gates</span></label>
+        </div>
+        <button class="copy" id="copy-combo" type="button">Copy this combination</button>
+        <p class="status" id="status" role="status">A visual study for discussion.</p>
+      </aside>
+    </section>
+    <section class="options" aria-labelledby="options-title">
+      <div class="section-heading"><div><p class="eyebrow">THE ORIGINAL LINEUP</p><h2 id="options-title">20 color combinations</h2></div><p>Click a planet to see it larger.<br>Numbers stay fixed as you compare.</p></div>
+      <div class="option-grid" id="option-grid"></div>
+    </section>
+    <section class="options clay-options" aria-labelledby="clay-title">
+      <div class="section-heading"><div><p class="eyebrow">A LITTLE MORE TACTILE</p><h2 id="clay-title">8 clay variations</h2></div><p>Colors from 02, 10, 18 and 19.<br>Soft molded clay and hand-worked clay.</p></div>
+      <div class="option-grid" id="clay-grid"></div>
+    </section>
+    <footer><p>Real Bongo Planet models. The same lighting and instruments in every preview.</p><a class="download-link" href="./Bongo-Planet-Color-Studies.html" download>Download this HTML mockup</a></footer>
+  </main>
+  <p class="render-error" id="render-error" role="alert" hidden></p>
+  <script type="module" src="./study.js"></script>
+</body>
+</html>

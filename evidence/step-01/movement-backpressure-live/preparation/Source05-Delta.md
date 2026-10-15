@@ -1,0 +1,5 @@
+# Bongo Planet — source05 Playwright artifact isolation
+
+Root preflight found the frozen config never consumed BONGO_MOVEMENT_PLAYWRIGHT_OUTPUT, permitting the default shared test-results directory. No movement actual had begun. Source05 requires a nonempty absolute environment string at config module evaluation and sets outputDir to that exact string. Missing/empty/relative values reject before runner/browser launch. The root exclusively owns directory availability and fresh-run containment; the config does not create/delete the directory itself.
+
+The original source04 config is retained as playwright-config-source04.ts and source-snapshots-04/playwright.config.ts. Helper8f7e454b, proxy, ports, test selection, timeouts, worker1, retries0, reporter and all acquisition predicates are unchanged. Root global typecheck2cf2bf remains the unchanged helper check; the successor config has a separate standalone typecheck. Source05 source controls only import the config, verify three invalid cases reject and an absolute value remains byte-for-byte outputDir, plus unchanged runner bounds. They do not instantiate a browser, service, test runner or artifact directory.

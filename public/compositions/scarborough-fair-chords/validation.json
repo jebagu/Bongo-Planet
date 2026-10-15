@@ -1,0 +1,51 @@
+{
+  "id": "C11",
+  "name": "Scarborough Fair · Traditional",
+  "sourceId": null,
+  "bpm": 50,
+  "key": 0,
+  "scale": "major",
+  "cycleBeats": 12,
+  "cycleSeconds": 14.4,
+  "generators": 1,
+  "soundingPieces": 52,
+  "stackedVertices": 8,
+  "maximumStack": 4,
+  "instruments": {
+    "guitar": 16,
+    "glass": 8,
+    "kalimba": 13,
+    "piano": 11,
+    "bongo-high": 4
+  },
+  "spatial": {
+    "soundingLocations": 29,
+    "largestGapDegrees": 23.800182602175063
+  },
+  "compositionSha256": "dee3bea1c5b83553513ef4cbe441d0defb966d741f34f70cb8a18095d534d9ad",
+  "simulation": {
+    "cycles": 8,
+    "stablePatternsMatch": true,
+    "allLayersReached": true,
+    "maximumEdges": 1,
+    "maximumDecisionsPerQuantum": 2,
+    "maximumPending": 4,
+    "lateDrops": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "b0c6fbe85f5be5e2524602129f85fda6962f8c0beee9339541dd2d5db5494d47",
+    "renderedFromCurrentEngineAndSamples": true,
+    "cycles": 1,
+    "seconds": 14.4,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peak": 0.31902337074279785,
+    "rms": 0.04938696014783847,
+    "repeatError": 7.450580596923828e-9,
+    "boundaryDelta": 0.000010980511433444917,
+    "maximumVoices": 6,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

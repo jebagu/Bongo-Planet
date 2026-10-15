@@ -1,0 +1,8 @@
+{
+  "sourceOnly": true,
+  "command": "npx tsc --ignoreConfig --noEmit --target ES2022 --module ESNext --moduleResolution Bundler --strict --skipLibCheck --types node evidence/step-08/camera-active-output/preparation/playwright.config.ts",
+  "chunk": "ff1e7a",
+  "exitCode": 0,
+  "output": "",
+  "actualLaunched": false
+}

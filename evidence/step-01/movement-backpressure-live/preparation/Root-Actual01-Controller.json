@@ -1,0 +1,179 @@
+{
+  "startedUtc": "2026-10-12T04:13:17.034719+00:00",
+  "goSha256": "9ce939d63f0278a4f5e42aa5455f547c798d54eac1b56053ce93501c06c728c9",
+  "command": [
+    "npx",
+    "playwright",
+    "test",
+    "--config=evidence/step-01/movement-backpressure-live/preparation/playwright.config.ts"
+  ],
+  "environment": {
+    "BONGO_MOVEMENT_LIVE_OUTPUT": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/attempt-01",
+    "BONGO_MOVEMENT_PLAYWRIGHT_OUTPUT": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/runner-01",
+    "BONGO_MOVEMENT_RESOURCE_JOURNAL": "/Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/preparation/Actual01-Resource-Claims.jsonl",
+    "BONGO_MOVEMENT_MAIN_SHA": "32b57ff2dabeadc3d85f8143cd91c50abeea9785ebb1a2f35497ee1db198bb93",
+    "BONGO_MOVEMENT_PROCESSOR_SHA": "0f0b12c981f6d2aedbbde847bb31d55bc9010a6093f2ea93232f6fe3804a6793"
+  },
+  "mainWallSeconds": 80,
+  "totalWallSeconds": 100,
+  "forcedCleanup": false,
+  "errors": [],
+  "claims": [
+    {
+      "pid": 47082,
+      "parentPid": 47063,
+      "kind": "proxy",
+      "observed": {
+        "pid": 47082,
+        "parent": 47063,
+        "group": 47082,
+        "birth": "Mon Oct 12 07:13:18 2026",
+        "stat": "Ss",
+        "command": "/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/movement-backpressure-proxy.py --port 5426 --upstream 5427 --output /Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/attempt-01/drain/proxy --seconds 70"
+      },
+      "alreadyAbsent": false
+    },
+    {
+      "pid": 47083,
+      "parentPid": 47063,
+      "kind": "browser-server",
+      "observed": {
+        "pid": 47083,
+        "parent": 47063,
+        "group": 47083,
+        "birth": "Mon Oct 12 07:13:18 2026",
+        "stat": "Rs",
+        "command": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidU"
+      },
+      "alreadyAbsent": false
+    }
+  ],
+  "owned": {
+    "47058": {
+      "pid": 47058,
+      "parent": 47039,
+      "group": 47039,
+      "birth": "Mon Oct 12 07:13:17 2026",
+      "stat": "R",
+      "command": "node /Users/jeremyguillory/Documents/ChatGPT/ripple/node_modules/.bin/playwright test --config=evidence/step-01/movement-backpressure-live/preparation/playwright.config.ts"
+    },
+    "47063": {
+      "pid": 47063,
+      "parent": 47058,
+      "group": 47039,
+      "birth": "Mon Oct 12 07:13:17 2026",
+      "stat": "R",
+      "command": "/usr/local/bin/node /Users/jeremyguillory/Documents/ChatGPT/ripple/node_modules/playwright/lib/worker/workerProcessEntry.js"
+    },
+    "47082": {
+      "pid": 47082,
+      "parent": 47063,
+      "group": 47082,
+      "birth": "Mon Oct 12 07:13:18 2026",
+      "stat": "Ss",
+      "command": "/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/movement-backpressure-proxy.py --port 5426 --upstream 5427 --output /Users/jeremyguillory/Documents/ChatGPT/ripple/evidence/step-01/movement-backpressure-live/attempt-01/drain/proxy --seconds 70"
+    },
+    "47083": {
+      "pid": 47083,
+      "parent": 47063,
+      "group": 47083,
+      "birth": "Mon Oct 12 07:13:18 2026",
+      "stat": "Rs",
+      "command": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidU"
+    },
+    "47088": {
+      "pid": 47088,
+      "parent": 47083,
+      "group": 47083,
+      "birth": "Mon Oct 12 07:13:18 2026",
+      "stat": "R",
+      "command": "/usr/bin/profiles status -type enrollment"
+    },
+    "47092": {
+      "pid": 47092,
+      "parent": 47083,
+      "group": 47083,
+      "birth": "Mon Oct 12 07:13:18 2026",
+      "stat": "R",
+      "command": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/155.0.8059.39/Helpers/Google Chrome Helper (GPU).app/Contents/MacOS/Google Chrome Helper (GPU) --type=gpu-process --gpu-recent-crash-count=0 --no-sandbox --disable-breakpad --headless --enable-unsafe-swiftshader --noerrdialogs --user-data-dir=/var/folders/w6/592shmyj7sbgwmrqvbhb1kw80000gn/T/playwright_chromiumdev_profile-pW9udo --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAQAAAAAAAAAADAAAAAAAAADgAAAAAAAAAAAAAA"
+    },
+    "47093": {
+      "pid": 47093,
+      "parent": 47083,
+      "group": 47083,
+      "birth": "Mon Oct 12 07:13:18 2026",
+      "stat": "S",
+      "command": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/155.0.8059.39/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=network --no-sandbox --mute-audio --noerrdialogs --user-data-dir=/var/folders/w6/592shmyj7sbgwmrqvbhb1kw80000gn/T/playwright_chromiumdev_profile-pW9udo --shared-files --field-trial-handle=1718379636,r,5375919276109442329,33373883419588"
+    },
+    "47094": {
+      "pid": 47094,
+      "parent": 47083,
+      "group": 47083,
+      "birth": "Mon Oct 12 07:13:18 2026",
+      "stat": "S",
+      "command": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/155.0.8059.39/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --no-sandbox --mute-audio --noerrdialogs --user-data-dir=/var/folders/w6/592shmyj7sbgwmrqvbhb1kw80000gn/T/playwright_chromiumdev_profile-pW9udo --shared-files --field-trial-handle=1718379636,r,5375919276109442329,33373883419588"
+    },
+    "47095": {
+      "pid": 47095,
+      "parent": 47083,
+      "group": 47083,
+      "birth": "Mon Oct 12 07:13:18 2026",
+      "stat": "S",
+      "command": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/155.0.8059.39/Helpers/Google Chrome Helper (Alerts).app/Contents/MacOS/Google Chrome Helper (Alerts) --type=utility --utility-sub-type=mac_notifications.mojom.MacNotificationProvider --lang=en-US --service-sandbox-type=none --no-sandbox --mute-audio --message-loop-type-ui --noerrdialogs --user-data-dir=/var/folders/w6/592shmyj7sbgwmrqvbhb1kw80000gn/T/playwright_chromiumdev_profile-pW9udo --shared-files --field-tri"
+    },
+    "47101": {
+      "pid": 47101,
+      "parent": 47083,
+      "group": 47083,
+      "birth": "Mon Oct 12 07:13:19 2026",
+      "stat": "R",
+      "command": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/155.0.8059.39/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --top-chrome-webui --noerrdialogs --user-data-dir=/var/folders/w6/592shmyj7sbgwmrqvbhb1kw80000gn/T/playwright_chromiumdev_profile-pW9udo --no-sandbox --disable-back-forward-cache --disable-background-timer-throttling --disable-breakpad --force-color-profile=srgb --remote-debugging-pipe --allow-p"
+    },
+    "47102": {
+      "pid": 47102,
+      "parent": 47083,
+      "group": 47083,
+      "birth": "Mon Oct 12 07:13:19 2026",
+      "stat": "R",
+      "command": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/155.0.8059.39/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --noerrdialogs --user-data-dir=/var/folders/w6/592shmyj7sbgwmrqvbhb1kw80000gn/T/playwright_chromiumdev_profile-pW9udo --no-sandbox --disable-back-forward-cache --disable-background-timer-throttling --disable-breakpad --force-color-profile=srgb --remote-debugging-pipe --allow-pre-commit-input --b"
+    },
+    "47103": {
+      "pid": 47103,
+      "parent": 47083,
+      "group": 47083,
+      "birth": "Mon Oct 12 07:13:19 2026",
+      "stat": "R",
+      "command": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/155.0.8059.39/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --noerrdialogs --user-data-dir=/var/folders/w6/592shmyj7sbgwmrqvbhb1kw80000gn/T/playwright_chromiumdev_profile-pW9udo --no-sandbox --disable-back-forward-cache --disable-background-timer-throttling --disable-breakpad --force-color-profile=srgb --remote-debugging-pipe --allow-pre-commit-input --b"
+    },
+    "47107": {
+      "pid": 47107,
+      "parent": 47083,
+      "group": 47083,
+      "birth": "Mon Oct 12 07:13:19 2026",
+      "stat": "S",
+      "command": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/155.0.8059.39/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=audio --no-sandbox --mute-audio --message-loop-type-ui --noerrdialogs --user-data-dir=/var/folders/w6/592shmyj7sbgwmrqvbhb1kw80000gn/T/playwright_chromiumdev_profile-pW9udo --shared-files --field-trial-handle=1718379636,r,53759192761094423"
+    },
+    "47122": {
+      "pid": 47122,
+      "parent": 47083,
+      "group": 47083,
+      "birth": "Mon Oct 12 07:13:21 2026",
+      "stat": "S",
+      "command": "(Google Chrome He)"
+    }
+  },
+  "mainPid": 47039,
+  "mainGroup": 47039,
+  "mainIdentity": {
+    "pid": 47039,
+    "parent": 47038,
+    "group": 47039,
+    "birth": "Mon Oct 12 07:13:17 2026",
+    "stat": "Rs",
+    "command": "npm    "
+  },
+  "childExitCode": 1,
+  "remainingOwned": {},
+  "elapsedSeconds": 5.679901625029743,
+  "endedUtc": "2026-10-12T04:13:22.714705+00:00"
+}

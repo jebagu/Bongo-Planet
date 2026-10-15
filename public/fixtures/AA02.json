@@ -1,0 +1,996 @@
+{
+  "version": 2,
+  "topology": "icosa-3v-v1",
+  "settings": {
+    "bpm": 48,
+    "key": 4,
+    "scale": "minor",
+    "travel": 0.75,
+    "quantization": 0.25,
+    "volume": 0.78,
+    "propagation": "gated"
+  },
+  "pieces": [
+    {
+      "label": "Generator 1",
+      "id": "AA02-source-0",
+      "vertex": 44,
+      "kind": "generator",
+      "period": 24,
+      "phase": 0,
+      "reach": 180,
+      "enabled": true,
+      "travel": 91
+    },
+    {
+      "label": "Glass 1",
+      "id": "AA02-glass-1",
+      "vertex": 47,
+      "kind": "note",
+      "degree": 0,
+      "octave": 4,
+      "timbre": "sine",
+      "instrument": "glass",
+      "duration": 4.8,
+      "level": 0.09
+    },
+    {
+      "label": "Piano 1",
+      "id": "AA02-piano-2",
+      "vertex": 47,
+      "kind": "note",
+      "degree": 6,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "piano",
+      "duration": 6.4,
+      "level": 0.055
+    },
+    {
+      "label": "Piano 2",
+      "id": "AA02-piano-3",
+      "vertex": 88,
+      "kind": "note",
+      "degree": 4,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "piano",
+      "duration": 5.3999999999999995,
+      "level": 0.105
+    },
+    {
+      "label": "Guitar 1",
+      "id": "AA02-guitar-4",
+      "vertex": 71,
+      "kind": "note",
+      "degree": 6,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "guitar",
+      "duration": 6,
+      "level": 0.12
+    },
+    {
+      "label": "Kalimba 1",
+      "id": "AA02-kalimba-5",
+      "vertex": 77,
+      "kind": "note",
+      "degree": 1,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "kalimba",
+      "duration": 6.6,
+      "level": 0.135
+    },
+    {
+      "label": "Marimba 1",
+      "id": "AA02-marimba-6",
+      "vertex": 24,
+      "kind": "note",
+      "degree": 2,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "marimba",
+      "duration": 4.8,
+      "level": 0.09
+    },
+    {
+      "label": "Glass 2",
+      "id": "AA02-glass-7",
+      "vertex": 7,
+      "kind": "note",
+      "degree": 4,
+      "octave": 4,
+      "timbre": "sine",
+      "instrument": "glass",
+      "duration": 5.3999999999999995,
+      "level": 0.105
+    },
+    {
+      "label": "Piano 3",
+      "id": "AA02-piano-8",
+      "vertex": 1,
+      "kind": "note",
+      "degree": 0,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "piano",
+      "duration": 6,
+      "level": 0.12
+    },
+    {
+      "label": "Guitar 2",
+      "id": "AA02-guitar-9",
+      "vertex": 2,
+      "kind": "note",
+      "degree": 6,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "guitar",
+      "duration": 6.6,
+      "level": 0.135
+    },
+    {
+      "label": "Piano 4",
+      "id": "AA02-piano-10",
+      "vertex": 2,
+      "kind": "note",
+      "degree": 2,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "piano",
+      "duration": 6.4,
+      "level": 0.055
+    },
+    {
+      "label": "Kalimba 2",
+      "id": "AA02-kalimba-11",
+      "vertex": 3,
+      "kind": "note",
+      "degree": 4,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "kalimba",
+      "duration": 4.8,
+      "level": 0.09
+    },
+    {
+      "label": "Marimba 2",
+      "id": "AA02-marimba-12",
+      "vertex": 66,
+      "kind": "note",
+      "degree": 2,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "marimba",
+      "duration": 5.3999999999999995,
+      "level": 0.105
+    },
+    {
+      "label": "Glass 3",
+      "id": "AA02-glass-13",
+      "vertex": 79,
+      "kind": "note",
+      "degree": 1,
+      "octave": 4,
+      "timbre": "sine",
+      "instrument": "glass",
+      "duration": 6,
+      "level": 0.12
+    },
+    {
+      "label": "Piano 5",
+      "id": "AA02-piano-14",
+      "vertex": 90,
+      "kind": "note",
+      "degree": 4,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "piano",
+      "duration": 6.6,
+      "level": 0.135
+    },
+    {
+      "label": "Guitar 3",
+      "id": "AA02-guitar-15",
+      "vertex": 17,
+      "kind": "note",
+      "degree": 0,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "guitar",
+      "duration": 4.8,
+      "level": 0.09
+    },
+    {
+      "label": "Kalimba 3",
+      "id": "AA02-kalimba-16",
+      "vertex": 20,
+      "kind": "note",
+      "degree": 4,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "kalimba",
+      "duration": 5.3999999999999995,
+      "level": 0.105
+    },
+    {
+      "label": "Marimba 3",
+      "id": "AA02-marimba-17",
+      "vertex": 12,
+      "kind": "note",
+      "degree": 6,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "marimba",
+      "duration": 6,
+      "level": 0.12
+    },
+    {
+      "label": "Piano 6",
+      "id": "AA02-piano-18",
+      "vertex": 12,
+      "kind": "note",
+      "degree": 6,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "piano",
+      "duration": 6.4,
+      "level": 0.055
+    },
+    {
+      "label": "Glass 4",
+      "id": "AA02-glass-19",
+      "vertex": 91,
+      "kind": "note",
+      "degree": 1,
+      "octave": 4,
+      "timbre": "sine",
+      "instrument": "glass",
+      "duration": 6.6,
+      "level": 0.135
+    },
+    {
+      "label": "Piano 7",
+      "id": "AA02-piano-20",
+      "vertex": 57,
+      "kind": "note",
+      "degree": 2,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "piano",
+      "duration": 4.8,
+      "level": 0.09
+    },
+    {
+      "label": "Guitar 4",
+      "id": "AA02-guitar-21",
+      "vertex": 80,
+      "kind": "note",
+      "degree": 4,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "guitar",
+      "duration": 5.3999999999999995,
+      "level": 0.105
+    },
+    {
+      "label": "Kalimba 4",
+      "id": "AA02-kalimba-22",
+      "vertex": 32,
+      "kind": "note",
+      "degree": 0,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "kalimba",
+      "duration": 6,
+      "level": 0.12
+    },
+    {
+      "label": "Marimba 4",
+      "id": "AA02-marimba-23",
+      "vertex": 68,
+      "kind": "note",
+      "degree": 6,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "marimba",
+      "duration": 6.6,
+      "level": 0.135
+    },
+    {
+      "label": "Glass 5",
+      "id": "AA02-glass-24",
+      "vertex": 14,
+      "kind": "note",
+      "degree": 4,
+      "octave": 4,
+      "timbre": "sine",
+      "instrument": "glass",
+      "duration": 4.8,
+      "level": 0.09
+    },
+    {
+      "label": "Piano 8",
+      "id": "AA02-piano-25",
+      "vertex": 10,
+      "kind": "note",
+      "degree": 2,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "piano",
+      "duration": 5.3999999999999995,
+      "level": 0.105
+    },
+    {
+      "label": "Piano 9",
+      "id": "AA02-piano-26",
+      "vertex": 10,
+      "kind": "note",
+      "degree": 2,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "piano",
+      "duration": 6.4,
+      "level": 0.055
+    },
+    {
+      "label": "Guitar 5",
+      "id": "AA02-guitar-27",
+      "vertex": 22,
+      "kind": "note",
+      "degree": 1,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "guitar",
+      "duration": 6,
+      "level": 0.12
+    },
+    {
+      "label": "Kalimba 5",
+      "id": "AA02-kalimba-28",
+      "vertex": 52,
+      "kind": "note",
+      "degree": 4,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "kalimba",
+      "duration": 6.6,
+      "level": 0.135
+    },
+    {
+      "label": "Marimba 5",
+      "id": "AA02-marimba-29",
+      "vertex": 75,
+      "kind": "note",
+      "degree": 0,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "marimba",
+      "duration": 4.8,
+      "level": 0.09
+    },
+    {
+      "label": "Glass 6",
+      "id": "AA02-glass-30",
+      "vertex": 62,
+      "kind": "note",
+      "degree": 4,
+      "octave": 4,
+      "timbre": "sine",
+      "instrument": "glass",
+      "duration": 5.3999999999999995,
+      "level": 0.105
+    },
+    {
+      "label": "Piano 10",
+      "id": "AA02-piano-31",
+      "vertex": 38,
+      "kind": "note",
+      "degree": 6,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "piano",
+      "duration": 6,
+      "level": 0.12
+    },
+    {
+      "label": "Guitar 6",
+      "id": "AA02-guitar-32",
+      "vertex": 42,
+      "kind": "note",
+      "degree": 1,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "guitar",
+      "duration": 6.6,
+      "level": 0.135
+    },
+    {
+      "label": "Kalimba 6",
+      "id": "AA02-kalimba-33",
+      "vertex": 30,
+      "kind": "note",
+      "degree": 2,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "kalimba",
+      "duration": 4.8,
+      "level": 0.09
+    },
+    {
+      "label": "Piano 11",
+      "id": "AA02-piano-34",
+      "vertex": 30,
+      "kind": "note",
+      "degree": 6,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "piano",
+      "duration": 6.4,
+      "level": 0.055
+    },
+    {
+      "label": "Marimba 6",
+      "id": "AA02-marimba-35",
+      "vertex": 78,
+      "kind": "note",
+      "degree": 4,
+      "octave": 3,
+      "timbre": "sine",
+      "instrument": "marimba",
+      "duration": 5.3999999999999995,
+      "level": 0.105
+    }
+  ],
+  "wiring": [
+    {
+      "vertex": 0,
+      "exits": [
+        16
+      ]
+    },
+    {
+      "vertex": 1,
+      "exits": [
+        13
+      ]
+    },
+    {
+      "vertex": 2,
+      "exits": [
+        6
+      ]
+    },
+    {
+      "vertex": 3,
+      "exits": [
+        36
+      ]
+    },
+    {
+      "vertex": 4,
+      "exits": [
+        1
+      ]
+    },
+    {
+      "vertex": 5,
+      "exits": [
+        4,
+        6
+      ]
+    },
+    {
+      "vertex": 6,
+      "exits": [
+        37
+      ]
+    },
+    {
+      "vertex": 7,
+      "exits": [
+        5
+      ]
+    },
+    {
+      "vertex": 8,
+      "exits": [
+        42
+      ]
+    },
+    {
+      "vertex": 9,
+      "exits": [
+        29
+      ]
+    },
+    {
+      "vertex": 10,
+      "exits": [
+        0
+      ]
+    },
+    {
+      "vertex": 11,
+      "exits": [
+        19
+      ]
+    },
+    {
+      "vertex": 12,
+      "exits": [
+        31
+      ]
+    },
+    {
+      "vertex": 13,
+      "exits": [
+        15
+      ]
+    },
+    {
+      "vertex": 14,
+      "exits": [
+        11
+      ]
+    },
+    {
+      "vertex": 15,
+      "exits": [
+        2
+      ]
+    },
+    {
+      "vertex": 16,
+      "exits": [
+        22
+      ]
+    },
+    {
+      "vertex": 17,
+      "exits": [
+        18,
+        25
+      ]
+    },
+    {
+      "vertex": 18,
+      "exits": [
+        55
+      ]
+    },
+    {
+      "vertex": 19,
+      "exits": [
+        10
+      ]
+    },
+    {
+      "vertex": 20,
+      "exits": [
+        58
+      ]
+    },
+    {
+      "vertex": 21,
+      "exits": [
+        12
+      ]
+    },
+    {
+      "vertex": 22,
+      "exits": [
+        25
+      ]
+    },
+    {
+      "vertex": 23,
+      "exits": [
+        28
+      ]
+    },
+    {
+      "vertex": 24,
+      "exits": [
+        23
+      ]
+    },
+    {
+      "vertex": 25,
+      "exits": [
+        26
+      ]
+    },
+    {
+      "vertex": 26,
+      "exits": [
+        52
+      ]
+    },
+    {
+      "vertex": 27,
+      "exits": [
+        17
+      ]
+    },
+    {
+      "vertex": 28,
+      "exits": [
+        7
+      ]
+    },
+    {
+      "vertex": 29,
+      "exits": [
+        30
+      ]
+    },
+    {
+      "vertex": 30,
+      "exits": [
+        48
+      ]
+    },
+    {
+      "vertex": 31,
+      "exits": [
+        60
+      ]
+    },
+    {
+      "vertex": 32,
+      "exits": [
+        33
+      ]
+    },
+    {
+      "vertex": 33,
+      "exits": [
+        67
+      ]
+    },
+    {
+      "vertex": 34,
+      "exits": [
+        14
+      ]
+    },
+    {
+      "vertex": 35,
+      "exits": [
+        34
+      ]
+    },
+    {
+      "vertex": 36,
+      "exits": [
+        87
+      ]
+    },
+    {
+      "vertex": 37,
+      "exits": [
+        3
+      ]
+    },
+    {
+      "vertex": 38,
+      "exits": [
+        40
+      ]
+    },
+    {
+      "vertex": 39,
+      "exits": [
+        38
+      ]
+    },
+    {
+      "vertex": 40,
+      "exits": [
+        8
+      ]
+    },
+    {
+      "vertex": 41,
+      "exits": [
+        73
+      ]
+    },
+    {
+      "vertex": 42,
+      "exits": [
+        9
+      ]
+    },
+    {
+      "vertex": 43,
+      "exits": [
+        88
+      ]
+    },
+    {
+      "vertex": 44,
+      "exits": [
+        45
+      ]
+    },
+    {
+      "vertex": 45,
+      "exits": [
+        47
+      ]
+    },
+    {
+      "vertex": 46,
+      "exits": [
+        43
+      ]
+    },
+    {
+      "vertex": 47,
+      "exits": [
+        46
+      ]
+    },
+    {
+      "vertex": 48,
+      "exits": [
+        89
+      ]
+    },
+    {
+      "vertex": 49,
+      "exits": [
+        24
+      ]
+    },
+    {
+      "vertex": 50,
+      "exits": [
+        49
+      ]
+    },
+    {
+      "vertex": 51,
+      "exits": [
+        75
+      ]
+    },
+    {
+      "vertex": 52,
+      "exits": [
+        53
+      ]
+    },
+    {
+      "vertex": 53,
+      "exits": [
+        51
+      ]
+    },
+    {
+      "vertex": 54,
+      "exits": [
+        27
+      ]
+    },
+    {
+      "vertex": 55,
+      "exits": [
+        20
+      ]
+    },
+    {
+      "vertex": 56,
+      "exits": [
+        82
+      ]
+    },
+    {
+      "vertex": 57,
+      "exits": [
+        56
+      ]
+    },
+    {
+      "vertex": 58,
+      "exits": [
+        21
+      ]
+    },
+    {
+      "vertex": 59,
+      "exits": [
+        57
+      ]
+    },
+    {
+      "vertex": 60,
+      "exits": [
+        91
+      ]
+    },
+    {
+      "vertex": 61,
+      "exits": [
+        62
+      ]
+    },
+    {
+      "vertex": 62,
+      "exits": [
+        63
+      ]
+    },
+    {
+      "vertex": 63,
+      "exits": [
+        39
+      ]
+    },
+    {
+      "vertex": 64,
+      "exits": [
+        79
+      ]
+    },
+    {
+      "vertex": 65,
+      "exits": [
+        64
+      ]
+    },
+    {
+      "vertex": 66,
+      "exits": [
+        65
+      ]
+    },
+    {
+      "vertex": 67,
+      "exits": [
+        68
+      ]
+    },
+    {
+      "vertex": 68,
+      "exits": [
+        35
+      ]
+    },
+    {
+      "vertex": 69,
+      "exits": [
+        76
+      ]
+    },
+    {
+      "vertex": 70,
+      "exits": [
+        72
+      ]
+    },
+    {
+      "vertex": 71,
+      "exits": [
+        69
+      ]
+    },
+    {
+      "vertex": 73,
+      "exits": [
+        71
+      ]
+    },
+    {
+      "vertex": 74,
+      "exits": [
+        61
+      ]
+    },
+    {
+      "vertex": 75,
+      "exits": [
+        74
+      ]
+    },
+    {
+      "vertex": 76,
+      "exits": [
+        77
+      ]
+    },
+    {
+      "vertex": 77,
+      "exits": [
+        50
+      ]
+    },
+    {
+      "vertex": 78,
+      "exits": [
+        70
+      ]
+    },
+    {
+      "vertex": 79,
+      "exits": [
+        81
+      ]
+    },
+    {
+      "vertex": 80,
+      "exits": [
+        84
+      ]
+    },
+    {
+      "vertex": 81,
+      "exits": [
+        83
+      ]
+    },
+    {
+      "vertex": 82,
+      "exits": [
+        80
+      ]
+    },
+    {
+      "vertex": 83,
+      "exits": [
+        90
+      ]
+    },
+    {
+      "vertex": 84,
+      "exits": [
+        85
+      ]
+    },
+    {
+      "vertex": 85,
+      "exits": [
+        32
+      ]
+    },
+    {
+      "vertex": 86,
+      "exits": [
+        59
+      ]
+    },
+    {
+      "vertex": 87,
+      "exits": [
+        66
+      ]
+    },
+    {
+      "vertex": 88,
+      "exits": [
+        41
+      ]
+    },
+    {
+      "vertex": 89,
+      "exits": [
+        78
+      ]
+    },
+    {
+      "vertex": 90,
+      "exits": [
+        54
+      ]
+    },
+    {
+      "vertex": 91,
+      "exits": [
+        86
+      ]
+    }
+  ]
+}

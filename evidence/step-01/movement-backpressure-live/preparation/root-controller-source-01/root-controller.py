@@ -1,0 +1,216 @@
+"""Bongo Planet: one approved backpressure acquisition, with owned cleanup.
+
+The helper publishes synchronous proxy/browser PID claims to the exclusive
+controller-created JSONL file. OS ancestry and birth signatures validate them.
+No command is run by importing this source. Budgets are cooperative wall limits.
+"""
+import argparse
+import datetime
+import hashlib
+import json
+import os
+from pathlib import Path
+import signal
+import subprocess
+import time
+
+
+def parse_inventory(text):
+    rows = {}
+    for line in text.splitlines():
+        fields = line.split(None, 9)
+        if len(fields) != 10:
+            raise ValueError("Unparseable process inventory")
+        pid, parent, group = map(int, fields[:3])
+        rows[pid] = {"pid": pid, "parent": parent, "group": group,
+                     "birth": " ".join(fields[3:8]), "stat": fields[8],
+                     "command": fields[9][:512]}
+    return rows
+
+
+def same_birth(a, b):
+    return a["pid"] == b["pid"] and a["birth"] == b["birth"]
+
+
+def discover(rows, owned):
+    """Only descend through a present parent with its retained birth signature."""
+    result = dict(owned)
+    changed = True
+    while changed:
+        changed = False
+        for pid, row in rows.items():
+            parent = result.get(row["parent"])
+            current_parent = rows.get(row["parent"])
+            if pid not in result and parent and current_parent and same_birth(parent, current_parent):
+                result[pid] = row
+                changed = True
+    if len(result) > 256:
+        raise ValueError("Owned process inventory cap")
+    return result
+
+
+def inventory():
+    result = subprocess.run(["ps", "-axo", "pid=,ppid=,pgid=,lstart=,stat=,args="],
+                            capture_output=True, text=True, check=True, timeout=1)
+    return parse_inventory(result.stdout)
+
+
+def live_owned(rows, owned):
+    return {pid: row for pid, row in rows.items()
+            if pid in owned and same_birth(row, owned[pid]) and not row["stat"].startswith("Z")}
+
+
+def run(go_path, journal_path):
+    go_bytes = go_path.read_bytes()
+    go = json.loads(go_bytes)
+    if go.get("authorization") != "Root authorizes exactly one movement acquisition":
+        raise ValueError("Exact root GO required")
+    command = go["command"]
+    expected = ["npx", "playwright", "test", "--config=evidence/step-01/movement-backpressure-live/preparation/playwright.config.ts"]
+    if command != expected:
+        raise ValueError("Unexpected command")
+    env = os.environ.copy()
+    env.update(go["environment"])
+    claims_path = Path(env["BONGO_MOVEMENT_RESOURCE_JOURNAL"])
+    output = Path(env["BONGO_MOVEMENT_LIVE_OUTPUT"])
+    runner = Path(env["BONGO_MOVEMENT_PLAYWRIGHT_OUTPUT"])
+    if any(p.exists() for p in [journal_path, claims_path, output, runner]):
+        raise ValueError("Exclusive paths already exist")
+    for entry in go["sourceBindings"]:
+        data = Path(entry["path"]).read_bytes()
+        if len(data) != entry["bytes"] or hashlib.sha256(data).hexdigest() != entry["sha256"]:
+            raise ValueError("Source binding mismatch: " + entry["path"])
+    claims_path.open("x").close()
+    started = time.monotonic()
+    record = {"startedUtc": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+              "goSha256": hashlib.sha256(go_bytes).hexdigest(), "command": command,
+              "environment": go["environment"], "mainWallSeconds": 80,
+              "totalWallSeconds": 100, "forcedCleanup": False, "errors": [],
+              "claims": [], "owned": {}}
+    with journal_path.open("x") as file:
+        file.write(json.dumps(record, indent=2) + "\n")
+    child = None
+    owned = {}
+    claim_count = 0
+
+    def persist():
+        record["owned"] = {str(pid): row for pid, row in owned.items()}
+        journal_path.write_text(json.dumps(record, indent=2) + "\n")
+
+    def observe(publish=True):
+        nonlocal owned, claim_count
+        rows = inventory()
+        if child.pid not in owned:
+            if child.pid not in rows:
+                if child.poll() is None:
+                    raise ValueError("Live main missing from inventory")
+            else:
+                owned[child.pid] = rows[child.pid]
+        owned = discover(rows, owned)
+        data = claims_path.read_bytes()
+        if len(data) > 8192:
+            raise ValueError("PID claim byte cap")
+        complete = data.split(b"\n")[:-1]
+        if len(complete) > 8:
+            raise ValueError("PID claim count cap")
+        for raw in complete[claim_count:]:
+            claim = json.loads(raw)
+            if set(claim) != {"pid", "parentPid", "kind"} or claim["kind"] not in ("proxy", "browser-server"):
+                raise ValueError("Invalid PID claim")
+            if type(claim["pid"]) is not int or type(claim["parentPid"]) is not int or claim["pid"] <= 1:
+                raise ValueError("Invalid PID value")
+            row = rows.get(claim["pid"])
+            parent = rows.get(claim["parentPid"])
+            if row:
+                if row["parent"] != claim["parentPid"] or not parent or parent["pid"] not in owned or not same_birth(parent, owned[parent["pid"]]):
+                    raise ValueError("PID claim lacks live owned ancestry")
+                owned[row["pid"]] = row
+            record["claims"].append({**claim, "observed": row, "alreadyAbsent": row is None})
+            claim_count += 1
+        if publish:
+            persist()
+        return rows
+
+    try:
+        child = subprocess.Popen(command, env=env, start_new_session=True)
+        record["mainPid"] = record["mainGroup"] = child.pid
+        persist()
+        while child.poll() is None:
+            observe()
+            if time.monotonic() - started >= 80:
+                raise TimeoutError("Main acquisition wall allowance exhausted")
+            time.sleep(.1)
+        record["childExitCode"] = child.returncode
+        rows = observe()
+        grace = time.monotonic()
+        while live_owned(rows, owned) and time.monotonic() - grace < 1:
+            time.sleep(.1)
+            rows = observe()
+        if live_owned(rows, owned):
+            raise ValueError("Owned processes remain after terminal result")
+        if claims_path.read_bytes() and not claims_path.read_bytes().endswith(b"\n"):
+            raise ValueError("Incomplete final PID claim")
+        if child.returncode == 0:
+            kinds = [claim["kind"] for claim in record["claims"]]
+            if kinds.count("proxy") != 2 or kinds.count("browser-server") != 2:
+                raise ValueError("Successful two-arm run lacks its four resource claims")
+    except BaseException as error:
+        record["errors"].append(type(error).__name__ + ": " + str(error))
+        record["forcedCleanup"] = child is not None
+    finally:
+        if child is not None and record["forcedCleanup"]:
+            # The Popen object retains the exact unreaped main. Detached roles
+            # and discovered descendants require a current matching birth row.
+            try:
+                observe(publish=False)
+            except Exception as error:
+                record["errors"].append("Precleanup inventory: " + str(error))
+            if child.poll() is None:
+                try:
+                    os.killpg(child.pid, signal.SIGTERM)
+                except ProcessLookupError:
+                    pass
+            for sig, grace_seconds in [(signal.SIGTERM, 3), (signal.SIGKILL, 2)]:
+                deadline = time.monotonic() + grace_seconds
+                while time.monotonic() < deadline:
+                    try:
+                        rows = observe(publish=False)
+                        live = live_owned(rows, owned)
+                        for pid in live:
+                            try:
+                                os.kill(pid, sig)
+                            except ProcessLookupError:
+                                pass
+                        if not live and child.poll() is not None:
+                            break
+                    except Exception as error:
+                        record["errors"].append("Cleanup inventory: " + str(error))
+                        break
+                    time.sleep(.1)
+            if child.poll() is None:
+                child.kill()
+            try:
+                record["childExitCode"] = child.wait(timeout=1)
+            except subprocess.TimeoutExpired:
+                record["errors"].append("Main reap incomplete")
+        try:
+            rows = inventory()
+            record["remainingOwned"] = live_owned(rows, owned)
+        except Exception as error:
+            record["remainingOwned"] = None
+            record["errors"].append("Final inventory: " + str(error))
+        record["elapsedSeconds"] = time.monotonic() - started
+        record["endedUtc"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
+        if record["elapsedSeconds"] > 100:
+            record["errors"].append("Total controller wall allowance exceeded")
+        persist()
+    print(json.dumps({k: record.get(k) for k in ["childExitCode", "forcedCleanup", "elapsedSeconds", "errors", "remainingOwned"]}, indent=2))
+    return 1 if record["forcedCleanup"] or record["errors"] or record["remainingOwned"] else record.get("childExitCode", 1)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--go", required=True, type=Path)
+    parser.add_argument("--journal", required=True, type=Path)
+    args = parser.parse_args()
+    raise SystemExit(run(args.go, args.journal))

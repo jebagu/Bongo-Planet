@@ -1,0 +1,2453 @@
+{
+  "updated": "2026-10-12T01:57:53.892099+00:00",
+  "policy": "Atom-level only; all milestones OPEN; later human/venue/device gates require actual acceptance.",
+  "results": {
+    "S01-A2": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "evidence/step-09/Independent-Review.md",
+        "package.json"
+      ]
+    },
+    "S01-A3": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "evidence/step-09/Independent-Review.md",
+        "package.json"
+      ]
+    },
+    "S01-A4": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "evidence/step-09/Independent-Review.md",
+        "vite.config.ts"
+      ]
+    },
+    "S01-A5": {
+      "status": "passed",
+      "note": "static configuration inspection plus actual browser opening; specific atom only.",
+      "evidence": [
+        "vite.config.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A7": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A8": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/bridge.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A9": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A10": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/bridge.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A11": {
+      "status": "passed",
+      "note": "static dependency inspection and Node execution; specific atom only.",
+      "evidence": [
+        "src/core/engine.ts",
+        "src/core/contracts.ts",
+        "src/core/geometry.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A12": {
+      "status": "passed",
+      "note": "static dependency inspection and Node execution; specific atom only.",
+      "evidence": [
+        "src/core/engine.ts",
+        "src/core/contracts.ts",
+        "src/core/geometry.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A13": {
+      "status": "passed",
+      "note": "static dependency inspection and Node execution; specific atom only.",
+      "evidence": [
+        "src/core/engine.ts",
+        "src/core/contracts.ts",
+        "src/core/geometry.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A14": {
+      "status": "passed",
+      "note": "static script inspection and executed subset; specific atom only.",
+      "evidence": [
+        "package.json",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A15": {
+      "status": "passed",
+      "note": "contract inspection plus executed engine assertions; specific atom only.",
+      "evidence": [
+        "src/core/contracts.ts",
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A16": {
+      "status": "passed",
+      "note": "contract inspection plus executed engine assertions; specific atom only.",
+      "evidence": [
+        "src/core/contracts.ts",
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A17": {
+      "status": "passed",
+      "note": "contract inspection plus executed engine assertions; specific atom only.",
+      "evidence": [
+        "src/core/contracts.ts",
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A18": {
+      "status": "passed",
+      "note": "contract inspection plus executed engine assertions; specific atom only.",
+      "evidence": [
+        "src/core/contracts.ts",
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A19": {
+      "status": "passed",
+      "note": "contract inspection plus executed engine assertions; specific atom only.",
+      "evidence": [
+        "src/core/contracts.ts",
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A20": {
+      "status": "passed",
+      "note": "contract inspection plus executed engine assertions; specific atom only.",
+      "evidence": [
+        "src/core/contracts.ts",
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A21": {
+      "status": "passed",
+      "note": "contract inspection plus executed engine assertions; specific atom only.",
+      "evidence": [
+        "src/core/contracts.ts",
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A22": {
+      "status": "passed",
+      "note": "contract inspection plus executed engine assertions; specific atom only.",
+      "evidence": [
+        "src/core/contracts.ts",
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A23": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A25": {
+      "status": "passed",
+      "note": "fixture inspection plus engine execution; specific atom only.",
+      "evidence": [
+        "public/fixtures/F08.json",
+        "Rules.md",
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A28": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/audio.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A29": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/audio.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A31": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "tests/audio.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A32": {
+      "status": "passed",
+      "note": "requirements inspection; specific atom only.",
+      "evidence": [
+        "Rules.md",
+        "Work-Package.md",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A33": {
+      "status": "passed",
+      "note": "requirements inspection; specific atom only.",
+      "evidence": [
+        "Rules.md",
+        "Work-Package.md",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A34": {
+      "status": "passed",
+      "note": "requirements inspection; specific atom only.",
+      "evidence": [
+        "Rules.md",
+        "Work-Package.md",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A35": {
+      "status": "passed",
+      "note": "requirements inspection; specific atom only.",
+      "evidence": [
+        "Rules.md",
+        "Work-Package.md",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A36": {
+      "status": "passed",
+      "note": "requirements inspection; specific atom only.",
+      "evidence": [
+        "Rules.md",
+        "Work-Package.md",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A37": {
+      "status": "passed",
+      "note": "requirements inspection; specific atom only.",
+      "evidence": [
+        "Rules.md",
+        "Work-Package.md",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A38": {
+      "status": "passed",
+      "note": "fixture inspection and test execution; specific atom only.",
+      "evidence": [
+        "public/fixtures/F08.json",
+        "public/fixtures/F09.json",
+        "Rules.md",
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A39": {
+      "status": "passed",
+      "note": "static scheduling inspection; specific atom only.",
+      "evidence": [
+        "src/output/OutputAdapter.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A40": {
+      "status": "passed",
+      "note": "requirements inspection; specific atom only.",
+      "evidence": [
+        "Rules.md",
+        "Work-Package.md",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A41": {
+      "status": "passed",
+      "note": "requirements inspection; specific atom only.",
+      "evidence": [
+        "Rules.md",
+        "Work-Package.md",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S01-A44": {
+      "status": "passed",
+      "note": "source inspection and actual browser execution; specific atom only.",
+      "evidence": [
+        "src/view/SphereView.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S02-A1": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S02-A2": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S02-A3": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S02-A4": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S02-A5": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S02-A6": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S02-A7": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S02-A8": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S02-A9": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S02-A10": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S02-A12": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S02-A13": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S02-A14": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S02-A15": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S02-A16": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S02-A17": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S02-A19": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S02-A22": {
+      "status": "passed",
+      "note": "source contract plus executed move assertion; specific atom only.",
+      "evidence": [
+        "src/core/contracts.ts",
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A1": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "scripts/independent-engine-probe.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A2": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "scripts/independent-engine-probe.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A3": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "scripts/independent-engine-probe.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A4": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A5": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A6": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A7": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "scripts/independent-engine-probe.ts",
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A8": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "scripts/independent-engine-probe.ts",
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A9": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A10": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A11": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A12": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A13": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A14": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "scripts/independent-engine-probe.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A15": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A18": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "scripts/independent-engine-probe.ts",
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A19": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "scripts/independent-engine-probe.ts",
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A20": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A21": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A22": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "scripts/independent-engine-probe.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A23": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "scripts/independent-engine-probe.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A24": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "scripts/independent-engine-probe.ts",
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A25": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/audio.test.ts",
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A26": {
+      "status": "passed",
+      "note": "source inspection plus independent oracle; specific atom only.",
+      "evidence": [
+        "src/core/engine.ts",
+        "scripts/independent-engine-probe.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A27": {
+      "status": "passed",
+      "note": "source inspection plus independent oracle; specific atom only.",
+      "evidence": [
+        "src/core/engine.ts",
+        "scripts/independent-engine-probe.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A28": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "scripts/independent-engine-probe.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A29": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A30": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A31": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "scripts/independent-engine-probe.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S05-A1": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/audio.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S05-A2": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/audio.test.ts",
+        "evidence/step-05/offline-audio/report.json",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S05-A5": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/audio.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S05-A7": {
+      "status": "passed",
+      "note": "artifact/source hash review and rerun synthesis invariants; specific atom only.",
+      "evidence": [
+        "evidence/step-05/offline-audio/report.json",
+        "scripts/audio-evidence.ts",
+        "tests/audio.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S05-A8": {
+      "status": "passed",
+      "note": "artifact/source hash review and rerun synthesis invariants; specific atom only.",
+      "evidence": [
+        "evidence/step-05/offline-audio/report.json",
+        "scripts/audio-evidence.ts",
+        "tests/audio.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S05-A9": {
+      "status": "passed",
+      "note": "artifact/source hash review and rerun synthesis invariants; specific atom only.",
+      "evidence": [
+        "evidence/step-05/offline-audio/report.json",
+        "scripts/audio-evidence.ts",
+        "tests/audio.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S05-A11": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/worklet.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S05-A12": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "tests/audio.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S05-A13": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "tests/worklet.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S05-A29": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/worklet.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S05-A30": {
+      "status": "passed",
+      "note": "artifact/source hash review and rerun synthesis invariants; specific atom only.",
+      "evidence": [
+        "evidence/step-05/offline-audio/report.json",
+        "scripts/audio-evidence.ts",
+        "tests/audio.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S05-A33": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A1": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/controls-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A2": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/controls-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A3": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/controls-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A4": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/controls-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A5": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/controls-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A6": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/controls-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A7": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/controls-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A8": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/controls-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A9": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/controls-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A10": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/controls-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A11": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/controls-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A12": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/controls-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A13": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/controls-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A14": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/controls-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A15": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/controls-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A16": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/controls-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A17": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/controls-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A18": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/controls-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A19": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A20": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "scripts/independent-engine-probe.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A22": {
+      "status": "passed",
+      "note": "source ownership inspection and executed commitment assertion; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "tests/audio.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A23": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "scripts/independent-engine-probe.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A24": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "scripts/independent-engine-probe.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A25": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A26": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "tests/audio.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A27": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A28": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/audio.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A29": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "scripts/independent-engine-probe.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A30": {
+      "status": "passed",
+      "note": "independent final Chrome execution and source inspection; specific atom only.",
+      "evidence": [
+        "tests/app-browser.spec.ts",
+        "src/main.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A31": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/worklet.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A32": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/worklet.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S07-A1": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S07-A2": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S07-A3": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S07-A4": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S07-A5": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S07-A6": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S07-A7": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "scripts/independent-engine-probe.ts",
+        "tests/controls-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S07-A9": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "scripts/independent-engine-probe.ts",
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S07-A10": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "scripts/independent-engine-probe.ts",
+        "tests/controls-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S07-A11": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S07-A12": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S07-A13": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S07-A14": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S07-A15": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S07-A16": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/controls-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S07-A17": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/controls-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S07-A18": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "scripts/independent-engine-probe.ts",
+        "tests/controls-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S07-A19": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "scripts/independent-engine-probe.ts",
+        "tests/controls-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S07-A24": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "scripts/independent-engine-probe.ts",
+        "tests/core.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S08-A2": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/view-math.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S08-A3": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/view-math.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S08-A4": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/view-math.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S09-A1": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/bridge.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S09-A2": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/bridge.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S09-A3": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/bridge.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S09-A4": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/bridge.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S09-A5": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/bridge.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S09-A12": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/bridge.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S09-A14": {
+      "status": "passed",
+      "note": "independent Chrome plus isolated actual receiver; specific atom only.",
+      "evidence": [
+        "tests/app-browser.spec.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S09-A16": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "evidence/step-09/Independent-Review.md",
+        "src/output/OutputAdapter.ts"
+      ]
+    },
+    "S09-A18": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/bridge.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S09-A19": {
+      "status": "passed",
+      "note": "independent execution; specific atom only.",
+      "evidence": [
+        "tests/bridge.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S09-A20": {
+      "status": "passed",
+      "note": "independent actual ephemeral receiver and control trace inspection; specific atom only.",
+      "evidence": [
+        "tests/bridge.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S09-A23": {
+      "status": "passed",
+      "note": "source mapping inspection plus raw byte and isolated tests; specific atom only.",
+      "evidence": [
+        "src/output/protocol.ts",
+        "tests/bridge.test.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S09-A24": {
+      "status": "passed",
+      "note": "static destination inspection; specific atom only.",
+      "evidence": [
+        "src/output/bridge.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S09-A26": {
+      "status": "passed",
+      "note": "static protocol plus mocked handshake execution; specific atom only.",
+      "evidence": [
+        "src/output/OutputAdapter.ts",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S10-A1": {
+      "status": "passed",
+      "note": "Actual npm run verify performs type/build, 52 unit checks across six suites and 28 installed-Chrome browser checks; exit0.",
+      "evidence": [
+        "evidence/step-10/verify-report.json",
+        "evidence/step-10/verify.log",
+        "evidence/unit-results.json",
+        "evidence/browser-results.json"
+      ]
+    },
+    "S10-A2": {
+      "status": "passed",
+      "note": "Actual npm run verify performs type/build, 52 unit checks across six suites and 28 installed-Chrome browser checks; exit0.",
+      "evidence": [
+        "evidence/step-10/verify-report.json",
+        "evidence/step-10/verify.log",
+        "evidence/unit-results.json",
+        "evidence/browser-results.json"
+      ]
+    },
+    "S10-A3": {
+      "status": "passed",
+      "note": "Actual npm run verify performs type/build, 52 unit checks across six suites and 28 installed-Chrome browser checks; exit0.",
+      "evidence": [
+        "evidence/step-10/verify-report.json",
+        "evidence/step-10/verify.log",
+        "evidence/unit-results.json",
+        "evidence/browser-results.json"
+      ]
+    },
+    "S10-A4": {
+      "status": "passed",
+      "note": "Actual npm run verify performs type/build, 52 unit checks across six suites and 28 installed-Chrome browser checks; exit0.",
+      "evidence": [
+        "evidence/step-10/verify-report.json",
+        "evidence/step-10/verify.log",
+        "evidence/unit-results.json",
+        "evidence/browser-results.json"
+      ]
+    },
+    "S10-A5": {
+      "status": "passed",
+      "note": "Actual npm run verify performs type/build, 52 unit checks across six suites and 28 installed-Chrome browser checks; exit0.",
+      "evidence": [
+        "evidence/step-10/verify-report.json",
+        "evidence/step-10/verify.log",
+        "evidence/unit-results.json",
+        "evidence/browser-results.json"
+      ]
+    },
+    "S10-A6": {
+      "status": "passed",
+      "note": "Actual npm run verify performs type/build, 52 unit checks across six suites and 28 installed-Chrome browser checks; exit0.",
+      "evidence": [
+        "evidence/step-10/verify-report.json",
+        "evidence/step-10/verify.log",
+        "evidence/unit-results.json",
+        "evidence/browser-results.json"
+      ]
+    },
+    "S01-A1": {
+      "status": "passed",
+      "note": "Committed9621617 isolated npm ci/build exit0 with no existing node_modules reused; actualcleanproductionpreview opened atpermanentURL inCUA, F01 loads4pieces paused. Source/archive/build hashes retained.",
+      "evidence": [
+        "evidence/step-10/clean-final/report.json",
+        "evidence/step-10/clean-final/opened-ax.txt",
+        "evidence/step-10/clean-final/opened.png"
+      ]
+    },
+    "S10-A8": {
+      "status": "passed",
+      "note": "Committed9621617 isolated npm ci/build exit0 with no existing node_modules reused; actualcleanproductionpreview opened atpermanentURL inCUA, F01 loads4pieces paused. Source/archive/build hashes retained.",
+      "evidence": [
+        "evidence/step-10/clean-final/report.json",
+        "evidence/step-10/clean-final/opened-ax.txt",
+        "evidence/step-10/clean-final/opened.png"
+      ]
+    },
+    "S01-A6": {
+      "status": "passed",
+      "note": "Second dev launch refused occupied5417, exit1, no alternative port.",
+      "evidence": [
+        "evidence/step-01/port-conflict.json"
+      ]
+    },
+    "S09-A6": {
+      "status": "failed",
+      "note": "Current native-worker receiver delivered179/180 in-window F01 onsets over120.353 actual seconds. s2-132 was queued624.460ms early but its callback was20.920250ms late and honestly dropped. Independent scheduling disturbance observed; specific cause remains unresolved. Earlier failures retained; combined qualification fails.",
+      "evidence": [
+        "evidence/step-09/native-clock-qualification/attempt-01/Native-Qualification-Review.md",
+        "evidence/step-09/native-clock-qualification/attempt-01/live-report.json"
+      ]
+    },
+    "S09-A7": {
+      "status": "passed",
+      "note": "Current frozen native-worker receiver delivered420/420 in-window F04 onsets exactly once over120.457 actual seconds, including20 coincident groups targeting the same node from both generators. Two postwindow onsets retained separately; scoped current run only.",
+      "evidence": [
+        "evidence/step-09/native-clock-qualification/attempt-01/Native-Qualification-Review.md",
+        "evidence/step-09/native-clock-qualification/attempt-01/live-report.json"
+      ]
+    },
+    "S09-A27": {
+      "status": "passed",
+      "note": "Actual 60FPS receiver movement: packet ages within budgets, finalXYZ within1e-6, no regression or ID change; service-independent transport trace, not venue interpolation.",
+      "evidence": [
+        "evidence/step-09/movement-traces.json",
+        "tests/output-browser.spec.ts"
+      ]
+    },
+    "S09-A28": {
+      "status": "passed",
+      "note": "Actual 60FPS receiver movement: packet ages within budgets, finalXYZ within1e-6, no regression or ID change; service-independent transport trace, not venue interpolation.",
+      "evidence": [
+        "evidence/step-09/movement-traces.json",
+        "tests/output-browser.spec.ts"
+      ]
+    },
+    "S09-A29": {
+      "status": "passed",
+      "note": "Current native-worker route corroborates 60FPS finalXYZ within1e-6, no stale regression and stable IDs across three moves. All137 OSC bytes/62 movement rows/nine endpoints independently checked. Instrumented short diagnostic; age bounds conditional, no broader timing/venue/congestion qualification. Earlier route evidence retained.",
+      "evidence": [
+        "evidence/step-09/movement-traces.json",
+        "tests/output-browser.spec.ts",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/Review.md",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/ActualIndependentReview.md",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/child/results/report.json"
+      ]
+    },
+    "S09-A30": {
+      "status": "passed",
+      "note": "Current native-worker route corroborates 60FPS finalXYZ within1e-6, no stale regression and stable IDs across three moves. All137 OSC bytes/62 movement rows/nine endpoints independently checked. Instrumented short diagnostic; age bounds conditional, no broader timing/venue/congestion qualification. Earlier route evidence retained.",
+      "evidence": [
+        "evidence/step-09/movement-traces.json",
+        "tests/output-browser.spec.ts",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/Review.md",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/ActualIndependentReview.md",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/child/results/report.json"
+      ]
+    },
+    "S09-A31": {
+      "status": "passed",
+      "note": "Current native-worker route corroborates 60FPS finalXYZ within1e-6, no stale regression and stable IDs across three moves. All137 OSC bytes/62 movement rows/nine endpoints independently checked. Instrumented short diagnostic; age bounds conditional, no broader timing/venue/congestion qualification. Earlier route evidence retained.",
+      "evidence": [
+        "evidence/step-09/movement-traces.json",
+        "tests/output-browser.spec.ts",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/Review.md",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/ActualIndependentReview.md",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/child/results/report.json"
+      ]
+    },
+    "S09-A32": {
+      "status": "passed",
+      "note": "Actual 15FPS receiver movement: packet ages within budgets, finalXYZ within1e-6, no regression or ID change; service-independent transport trace, not venue interpolation.",
+      "evidence": [
+        "evidence/step-09/movement-traces.json",
+        "tests/output-browser.spec.ts"
+      ]
+    },
+    "S09-A33": {
+      "status": "passed",
+      "note": "Actual 15FPS receiver movement: packet ages within budgets, finalXYZ within1e-6, no regression or ID change; service-independent transport trace, not venue interpolation.",
+      "evidence": [
+        "evidence/step-09/movement-traces.json",
+        "tests/output-browser.spec.ts"
+      ]
+    },
+    "S09-A34": {
+      "status": "passed",
+      "note": "Current native-worker route corroborates 15FPS finalXYZ within1e-6, no stale regression and stable IDs across three moves. All137 OSC bytes/62 movement rows/nine endpoints independently checked. Instrumented short diagnostic; age bounds conditional, no broader timing/venue/congestion qualification. Earlier route evidence retained.",
+      "evidence": [
+        "evidence/step-09/movement-traces.json",
+        "tests/output-browser.spec.ts",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/Review.md",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/ActualIndependentReview.md",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/child/results/report.json"
+      ]
+    },
+    "S09-A35": {
+      "status": "passed",
+      "note": "Current native-worker route corroborates 15FPS finalXYZ within1e-6, no stale regression and stable IDs across three moves. All137 OSC bytes/62 movement rows/nine endpoints independently checked. Instrumented short diagnostic; age bounds conditional, no broader timing/venue/congestion qualification. Earlier route evidence retained.",
+      "evidence": [
+        "evidence/step-09/movement-traces.json",
+        "tests/output-browser.spec.ts",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/Review.md",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/ActualIndependentReview.md",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/child/results/report.json"
+      ]
+    },
+    "S09-A36": {
+      "status": "passed",
+      "note": "Current native-worker route corroborates 15FPS finalXYZ within1e-6, no stale regression and stable IDs across three moves. All137 OSC bytes/62 movement rows/nine endpoints independently checked. Instrumented short diagnostic; age bounds conditional, no broader timing/venue/congestion qualification. Earlier route evidence retained.",
+      "evidence": [
+        "evidence/step-09/movement-traces.json",
+        "tests/output-browser.spec.ts",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/Review.md",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/ActualIndependentReview.md",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/child/results/report.json"
+      ]
+    },
+    "S09-A37": {
+      "status": "passed",
+      "note": "Actual 2FPS receiver movement: packet ages within budgets, finalXYZ within1e-6, no regression or ID change; service-independent transport trace, not venue interpolation.",
+      "evidence": [
+        "evidence/step-09/movement-traces.json",
+        "tests/output-browser.spec.ts"
+      ]
+    },
+    "S09-A38": {
+      "status": "passed",
+      "note": "Actual 2FPS receiver movement: packet ages within budgets, finalXYZ within1e-6, no regression or ID change; service-independent transport trace, not venue interpolation.",
+      "evidence": [
+        "evidence/step-09/movement-traces.json",
+        "tests/output-browser.spec.ts"
+      ]
+    },
+    "S09-A39": {
+      "status": "passed",
+      "note": "Current native-worker route corroborates 2FPS finalXYZ within1e-6, no stale regression and stable IDs across three moves. All137 OSC bytes/62 movement rows/nine endpoints independently checked. Instrumented short diagnostic; age bounds conditional, no broader timing/venue/congestion qualification. Earlier route evidence retained.",
+      "evidence": [
+        "evidence/step-09/movement-traces.json",
+        "tests/output-browser.spec.ts",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/Review.md",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/ActualIndependentReview.md",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/child/results/report.json"
+      ]
+    },
+    "S09-A40": {
+      "status": "passed",
+      "note": "Current native-worker route corroborates 2FPS finalXYZ within1e-6, no stale regression and stable IDs across three moves. All137 OSC bytes/62 movement rows/nine endpoints independently checked. Instrumented short diagnostic; age bounds conditional, no broader timing/venue/congestion qualification. Earlier route evidence retained.",
+      "evidence": [
+        "evidence/step-09/movement-traces.json",
+        "tests/output-browser.spec.ts",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/Review.md",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/ActualIndependentReview.md",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/child/results/report.json"
+      ]
+    },
+    "S09-A41": {
+      "status": "passed",
+      "note": "Current native-worker route corroborates 2FPS finalXYZ within1e-6, no stale regression and stable IDs across three moves. All137 OSC bytes/62 movement rows/nine endpoints independently checked. Instrumented short diagnostic; age bounds conditional, no broader timing/venue/congestion qualification. Earlier route evidence retained.",
+      "evidence": [
+        "evidence/step-09/movement-traces.json",
+        "tests/output-browser.spec.ts",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/Review.md",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/ActualIndependentReview.md",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/child/results/report.json"
+      ]
+    },
+    "S09-A21": {
+      "status": "passed",
+      "note": "Actual receiver traces/handshake/native WebSocket bufferedAmount stress verifies this atom; no venue qualification.",
+      "evidence": [
+        "evidence/step-09/movement-traces.json",
+        "evidence/step-09/backpressure.json",
+        "tests/output-browser.spec.ts"
+      ]
+    },
+    "S09-A25": {
+      "status": "passed",
+      "note": "Actual receiver traces/handshake/native WebSocket bufferedAmount stress verifies this atom; no venue qualification.",
+      "evidence": [
+        "evidence/step-09/movement-traces.json",
+        "evidence/step-09/backpressure.json",
+        "tests/output-browser.spec.ts"
+      ]
+    },
+    "S09-A42": {
+      "status": "passed",
+      "note": "Actual receiver traces/handshake/native WebSocket bufferedAmount stress verifies this atom; no venue qualification.",
+      "evidence": [
+        "evidence/step-09/movement-traces.json",
+        "evidence/step-09/backpressure.json",
+        "tests/output-browser.spec.ts"
+      ]
+    },
+    "S09-A43": {
+      "status": "passed",
+      "note": "Actual receiver traces/handshake/native WebSocket bufferedAmount stress verifies this atom; no venue qualification.",
+      "evidence": [
+        "evidence/step-09/movement-traces.json",
+        "evidence/step-09/backpressure.json",
+        "tests/output-browser.spec.ts"
+      ]
+    },
+    "S05-A15": {
+      "status": "not run",
+      "note": "Earlier144-group product-derived calibration establishes conditional residual stability only. New original-fixture capture-02 completed F02/F03 recording prefixes but independently measured F02 native lag changed640\u2192768samples; F03 alone matches all9001blocks at768samples. It then failed atF06 recorder backlog and retention drain; F08/stalls/negative incomplete. No product offset fitted and no full onset timing gate passed. Full original dense/Safari individual-onset qualification remains open.",
+      "evidence": [
+        "evidence/step-05/original-mixture/capture-02/report.json",
+        "evidence/step-05/original-mixture/capture-02/capture-audit.json",
+        "evidence/step-05/original-mixture/capture-02/Review.md",
+        "evidence/step-05/original-mixture/Method.md",
+        "docs/Live-Output-Measurement.md"
+      ]
+    },
+    "S05-A16": {
+      "status": "not run",
+      "note": "Earlier144-group product-derived calibration establishes conditional residual stability only. New original-fixture capture-02 completed F02/F03 recording prefixes but independently measured F02 native lag changed640\u2192768samples; F03 alone matches all9001blocks at768samples. It then failed atF06 recorder backlog and retention drain; F08/stalls/negative incomplete. No product offset fitted and no full onset timing gate passed. Full original dense/Safari individual-onset qualification remains open.",
+      "evidence": [
+        "evidence/step-05/original-mixture/capture-02/report.json",
+        "evidence/step-05/original-mixture/capture-02/capture-audit.json",
+        "evidence/step-05/original-mixture/capture-02/Review.md",
+        "evidence/step-05/original-mixture/Method.md",
+        "docs/Live-Output-Measurement.md"
+      ]
+    },
+    "S05-A17": {
+      "status": "not run",
+      "note": "Earlier144-group product-derived calibration establishes conditional residual stability only. New original-fixture capture-02 completed F02/F03 recording prefixes but independently measured F02 native lag changed640\u2192768samples; F03 alone matches all9001blocks at768samples. It then failed atF06 recorder backlog and retention drain; F08/stalls/negative incomplete. No product offset fitted and no full onset timing gate passed. Full original dense/Safari individual-onset qualification remains open.",
+      "evidence": [
+        "evidence/step-05/original-mixture/capture-02/report.json",
+        "evidence/step-05/original-mixture/capture-02/capture-audit.json",
+        "evidence/step-05/original-mixture/capture-02/Review.md",
+        "evidence/step-05/original-mixture/Method.md",
+        "docs/Live-Output-Measurement.md"
+      ]
+    },
+    "S05-A18": {
+      "status": "not run",
+      "note": "Earlier144-group product-derived calibration establishes conditional residual stability only. New original-fixture capture-02 completed F02/F03 recording prefixes but independently measured F02 native lag changed640\u2192768samples; F03 alone matches all9001blocks at768samples. It then failed atF06 recorder backlog and retention drain; F08/stalls/negative incomplete. No product offset fitted and no full onset timing gate passed. Full original dense/Safari individual-onset qualification remains open.",
+      "evidence": [
+        "evidence/step-05/original-mixture/capture-02/report.json",
+        "evidence/step-05/original-mixture/capture-02/capture-audit.json",
+        "evidence/step-05/original-mixture/capture-02/Review.md",
+        "evidence/step-05/original-mixture/Method.md",
+        "docs/Live-Output-Measurement.md"
+      ]
+    },
+    "S05-A19": {
+      "status": "not run",
+      "note": "Earlier144-group product-derived calibration establishes conditional residual stability only. New original-fixture capture-02 completed F02/F03 recording prefixes but independently measured F02 native lag changed640\u2192768samples; F03 alone matches all9001blocks at768samples. It then failed atF06 recorder backlog and retention drain; F08/stalls/negative incomplete. No product offset fitted and no full onset timing gate passed. Full original dense/Safari individual-onset qualification remains open.",
+      "evidence": [
+        "evidence/step-05/original-mixture/capture-02/report.json",
+        "evidence/step-05/original-mixture/capture-02/capture-audit.json",
+        "evidence/step-05/original-mixture/capture-02/Review.md",
+        "evidence/step-05/original-mixture/Method.md",
+        "docs/Live-Output-Measurement.md"
+      ]
+    },
+    "S05-A20": {
+      "status": "not run",
+      "note": "Earlier144-group product-derived calibration establishes conditional residual stability only. New original-fixture capture-02 completed F02/F03 recording prefixes but independently measured F02 native lag changed640\u2192768samples; F03 alone matches all9001blocks at768samples. It then failed atF06 recorder backlog and retention drain; F08/stalls/negative incomplete. No product offset fitted and no full onset timing gate passed. Full original dense/Safari individual-onset qualification remains open.",
+      "evidence": [
+        "evidence/step-05/original-mixture/capture-02/report.json",
+        "evidence/step-05/original-mixture/capture-02/capture-audit.json",
+        "evidence/step-05/original-mixture/capture-02/Review.md",
+        "evidence/step-05/original-mixture/Method.md",
+        "docs/Live-Output-Measurement.md"
+      ]
+    },
+    "S05-A21": {
+      "status": "not run",
+      "note": "Earlier144-group product-derived calibration establishes conditional residual stability only. New original-fixture capture-02 completed F02/F03 recording prefixes but independently measured F02 native lag changed640\u2192768samples; F03 alone matches all9001blocks at768samples. It then failed atF06 recorder backlog and retention drain; F08/stalls/negative incomplete. No product offset fitted and no full onset timing gate passed. Full original dense/Safari individual-onset qualification remains open.",
+      "evidence": [
+        "evidence/step-05/original-mixture/capture-02/report.json",
+        "evidence/step-05/original-mixture/capture-02/capture-audit.json",
+        "evidence/step-05/original-mixture/capture-02/Review.md",
+        "evidence/step-05/original-mixture/Method.md",
+        "docs/Live-Output-Measurement.md"
+      ]
+    },
+    "S05-A22": {
+      "status": "not run",
+      "note": "Earlier144-group product-derived calibration establishes conditional residual stability only. New original-fixture capture-02 completed F02/F03 recording prefixes but independently measured F02 native lag changed640\u2192768samples; F03 alone matches all9001blocks at768samples. It then failed atF06 recorder backlog and retention drain; F08/stalls/negative incomplete. No product offset fitted and no full onset timing gate passed. Full original dense/Safari individual-onset qualification remains open.",
+      "evidence": [
+        "evidence/step-05/original-mixture/capture-02/report.json",
+        "evidence/step-05/original-mixture/capture-02/capture-audit.json",
+        "evidence/step-05/original-mixture/capture-02/Review.md",
+        "evidence/step-05/original-mixture/Method.md",
+        "docs/Live-Output-Measurement.md"
+      ]
+    },
+    "S05-A23": {
+      "status": "not run",
+      "note": "Earlier144-group product-derived calibration establishes conditional residual stability only. New original-fixture capture-02 completed F02/F03 recording prefixes but independently measured F02 native lag changed640\u2192768samples; F03 alone matches all9001blocks at768samples. It then failed atF06 recorder backlog and retention drain; F08/stalls/negative incomplete. No product offset fitted and no full onset timing gate passed. Full original dense/Safari individual-onset qualification remains open.",
+      "evidence": [
+        "evidence/step-05/original-mixture/capture-02/report.json",
+        "evidence/step-05/original-mixture/capture-02/capture-audit.json",
+        "evidence/step-05/original-mixture/capture-02/Review.md",
+        "evidence/step-05/original-mixture/Method.md",
+        "docs/Live-Output-Measurement.md"
+      ]
+    },
+    "S05-A24": {
+      "status": "not run",
+      "note": "Earlier144-group product-derived calibration establishes conditional residual stability only. New original-fixture capture-02 completed F02/F03 recording prefixes but independently measured F02 native lag changed640\u2192768samples; F03 alone matches all9001blocks at768samples. It then failed atF06 recorder backlog and retention drain; F08/stalls/negative incomplete. No product offset fitted and no full onset timing gate passed. Full original dense/Safari individual-onset qualification remains open.",
+      "evidence": [
+        "evidence/step-05/original-mixture/capture-02/report.json",
+        "evidence/step-05/original-mixture/capture-02/capture-audit.json",
+        "evidence/step-05/original-mixture/capture-02/Review.md",
+        "evidence/step-05/original-mixture/Method.md",
+        "docs/Live-Output-Measurement.md"
+      ]
+    },
+    "S05-A25": {
+      "status": "not run",
+      "note": "Earlier144-group product-derived calibration establishes conditional residual stability only. New original-fixture capture-02 completed F02/F03 recording prefixes but independently measured F02 native lag changed640\u2192768samples; F03 alone matches all9001blocks at768samples. It then failed atF06 recorder backlog and retention drain; F08/stalls/negative incomplete. No product offset fitted and no full onset timing gate passed. Full original dense/Safari individual-onset qualification remains open.",
+      "evidence": [
+        "evidence/step-05/original-mixture/capture-02/report.json",
+        "evidence/step-05/original-mixture/capture-02/capture-audit.json",
+        "evidence/step-05/original-mixture/capture-02/Review.md",
+        "evidence/step-05/original-mixture/Method.md",
+        "docs/Live-Output-Measurement.md"
+      ]
+    },
+    "S05-A26": {
+      "status": "not run",
+      "note": "Earlier144-group product-derived calibration establishes conditional residual stability only. New original-fixture capture-02 completed F02/F03 recording prefixes but independently measured F02 native lag changed640\u2192768samples; F03 alone matches all9001blocks at768samples. It then failed atF06 recorder backlog and retention drain; F08/stalls/negative incomplete. No product offset fitted and no full onset timing gate passed. Full original dense/Safari individual-onset qualification remains open.",
+      "evidence": [
+        "evidence/step-05/original-mixture/capture-02/report.json",
+        "evidence/step-05/original-mixture/capture-02/capture-audit.json",
+        "evidence/step-05/original-mixture/capture-02/Review.md",
+        "evidence/step-05/original-mixture/Method.md",
+        "docs/Live-Output-Measurement.md"
+      ]
+    },
+    "S05-A27": {
+      "status": "not run",
+      "note": "Earlier144-group product-derived calibration establishes conditional residual stability only. New original-fixture capture-02 completed F02/F03 recording prefixes but independently measured F02 native lag changed640\u2192768samples; F03 alone matches all9001blocks at768samples. It then failed atF06 recorder backlog and retention drain; F08/stalls/negative incomplete. No product offset fitted and no full onset timing gate passed. Full original dense/Safari individual-onset qualification remains open.",
+      "evidence": [
+        "evidence/step-05/original-mixture/capture-02/report.json",
+        "evidence/step-05/original-mixture/capture-02/capture-audit.json",
+        "evidence/step-05/original-mixture/capture-02/Review.md",
+        "evidence/step-05/original-mixture/Method.md",
+        "docs/Live-Output-Measurement.md"
+      ]
+    },
+    "S05-A28": {
+      "status": "not run",
+      "note": "Earlier144-group product-derived calibration establishes conditional residual stability only. New original-fixture capture-02 completed F02/F03 recording prefixes but independently measured F02 native lag changed640\u2192768samples; F03 alone matches all9001blocks at768samples. It then failed atF06 recorder backlog and retention drain; F08/stalls/negative incomplete. No product offset fitted and no full onset timing gate passed. Full original dense/Safari individual-onset qualification remains open.",
+      "evidence": [
+        "evidence/step-05/original-mixture/capture-02/report.json",
+        "evidence/step-05/original-mixture/capture-02/capture-audit.json",
+        "evidence/step-05/original-mixture/capture-02/Review.md",
+        "evidence/step-05/original-mixture/Method.md",
+        "docs/Live-Output-Measurement.md"
+      ]
+    },
+    "S10-A10": {
+      "status": "passed",
+      "note": "Frozen repaired processor 0f0b12c9 completed 1800.146166 actual monotonic seconds of original F06 with 59 validated edits; sampled pending 0\u2013336 stayed below 5376. Full coverage and cleanup verified. Queue observation only.",
+      "evidence": [
+        "evidence/step-10/audio-clock-validation/attempt-02-30-minute/Review.md",
+        "evidence/step-10/audio-clock-validation/attempt-02-30-minute/report.json",
+        "evidence/step-10/audio-clock-validation/attempt-02-30-minute/root-raw-audit.json",
+        "evidence/step-10/audio-clock-validation/attempt-02-30-minute/manifest-final.json"
+      ]
+    },
+    "S10-A11": {
+      "status": "passed",
+      "note": "Frozen repaired processor 0f0b12c9 completed the same 1800.146166-second F06 run; every sampled running state held 64 voices at the declared cap. Intentional stealing retained; human listening remains open.",
+      "evidence": [
+        "evidence/step-10/audio-clock-validation/attempt-02-30-minute/Review.md",
+        "evidence/step-10/audio-clock-validation/attempt-02-30-minute/report.json",
+        "evidence/step-10/audio-clock-validation/attempt-02-30-minute/root-raw-audit.json",
+        "evidence/step-10/audio-clock-validation/attempt-02-30-minute/manifest-final.json"
+      ]
+    },
+    "S10-A12": {
+      "status": "passed",
+      "note": "Final9621617 F06 completed1800.735real seconds with no uncaught page, console or HTTP errors. Actual recorded sample irregularities remain separately unresolved.",
+      "evidence": [
+        "evidence/step-10/final-soak/soak-review.json",
+        "evidence/step-10/final-soak/soak-report.json",
+        "evidence/step-10/final-soak/Independent-Review.md"
+      ]
+    },
+    "S10-A13": {
+      "status": "passed",
+      "note": "Repaired frozen processor 0f0b12c9 completed 1800.146166 actual seconds / 59 edits with reported late, audio-late and telemetry-drop counters all zero. All 675,056 timed blocks match the actual input at independently native-measured 640-sample lag; 28 repeated-clock/recovery pairs produced zero varying repeated PCM blocks. No observed late-event burst in this run. This specific check does not establish independent dense individual-onset timing, physical sound or human approval.",
+      "evidence": [
+        "evidence/step-10/audio-clock-validation/attempt-02-30-minute/Review.md",
+        "evidence/step-10/audio-clock-validation/attempt-02-30-minute/report.json",
+        "evidence/step-10/audio-clock-validation/attempt-02-30-minute/root-raw-audit.json",
+        "evidence/step-10/audio-clock-validation/attempt-02-30-minute/manifest-final.json"
+      ]
+    },
+    "S10-A14": {
+      "status": "passed",
+      "note": "Final30min observed document count1, listeners80 and geometries1250\u20131590 bounded; last-five-minute heap floor47.303MB versus warm-up51.690MB, without sustained rising floor. Periodic observations, not an unlimited-memory guarantee.",
+      "evidence": [
+        "evidence/step-10/final-soak/soak-review.json",
+        "evidence/step-10/final-soak/soak-report.json",
+        "evidence/step-10/final-soak/Independent-Review.md"
+      ]
+    },
+    "S10-A15": {
+      "status": "passed",
+      "note": "Final1800.735-second candidate memory observations recorded: warmup heap min/median/max51.690/57.222/80.828MB; last5min47.303/66.551/99.686MB. Scope and raw observations retained.",
+      "evidence": [
+        "evidence/step-10/final-soak/soak-review.json",
+        "evidence/step-10/final-soak/soak-report.json",
+        "evidence/step-10/final-soak/Independent-Review.md"
+      ]
+    },
+    "S10-A16": {
+      "status": "passed",
+      "note": "Repaired frozen processor 0f0b12c9 recorded 86,700,032 original samples per path and all 677,344 independent quantum indices across calibration, the 1800.146166-second timer and tail. Independent complete audit verifies 675,056 timed blocks / 86,407,168 matched samples, finite data, timer coverage, native calibration, hashes and cleanup. Absolute individual dense onsets and human listening remain separate.",
+      "evidence": [
+        "evidence/step-10/audio-clock-validation/attempt-02-30-minute/Review.md",
+        "evidence/step-10/audio-clock-validation/attempt-02-30-minute/report.json",
+        "evidence/step-10/audio-clock-validation/attempt-02-30-minute/root-raw-audit.json",
+        "evidence/step-10/audio-clock-validation/attempt-02-30-minute/manifest-final.json"
+      ]
+    },
+    "S10-A9": {
+      "status": "passed",
+      "note": "Committed9621617 isolated npm ci/build exit0 with no existing node_modules reused; actualcleanproductionpreview opened atpermanentURL inCUA, F01 loads4pieces paused. Source/archive/build hashes retained.",
+      "evidence": [
+        "evidence/step-10/clean-final/report.json",
+        "evidence/step-10/clean-final/opened-ax.txt",
+        "evidence/step-10/clean-final/opened.png"
+      ]
+    },
+    "S05-A31": {
+      "status": "passed",
+      "note": "Independent exactF08 expectations passed:8generators\u00d784targets=672distinctpairs per emission, three batches at0,1/3,2/3seconds=2016uniquecommittedtriggers in[0,1), excludes1secondboundary.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "evidence/step-03/max-workload-unit-results.json"
+      ]
+    },
+    "S05-A32": {
+      "status": "passed",
+      "note": "Independent exactF08 expectations passed:8generators\u00d784targets=672distinctpairs per emission, three batches at0,1/3,2/3seconds=2016uniquecommittedtriggers in[0,1), excludes1secondboundary.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "evidence/step-03/max-workload-unit-results.json"
+      ]
+    },
+    "S01-A27": {
+      "status": "passed",
+      "note": "RealF09 worklet reached5376pending after8validphaseedits, resetpausedpending/voices0; errorpersistsEnable/edit, noimplicitrestart, explicitPlay recovers180BPM. Bridgecausalcapacityrelease remainsunmeasured; initialcaptionfailure retained.",
+      "evidence": [
+        "tests/capacity-browser.spec.ts",
+        "evidence/step-05/capacity/Checks.md",
+        "evidence/step-05/capacity/recovery.json"
+      ]
+    },
+    "S05-A34": {
+      "status": "passed",
+      "note": "Current real F09 Chrome run reached5376pending after8validphaseedits in985.8ms, reset5377 paused pending/voices0; visible error persists5s/Enable/edit, only explicitPlay resumes measured180BPM. Full current Chrome suite29/29 passes. Bridge disconnected; remote release/active-voice fade/resumed sound unmeasured. Original failed phase-clock and corrected first-attempt artifacts retained.",
+      "evidence": [
+        "evidence/step-05/capacity-current/Analysis.md",
+        "tests/capacity-browser.spec.ts",
+        "evidence/step-10/current-browser-attempt02-results.json"
+      ]
+    },
+    "S01-A24": {
+      "status": "passed",
+      "note": "Independent schema boundary checks accept 92 occupied pieces and reject 93; accept 40/180 BPM and reject 39.99/180.01.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-03/final-core-unit-results.json"
+      ]
+    },
+    "S01-A26": {
+      "status": "passed",
+      "note": "Independent schema boundary checks accept 92 occupied pieces and reject 93; accept 40/180 BPM and reject 39.99/180.01.",
+      "evidence": [
+        "tests/core.test.ts",
+        "evidence/step-03/final-core-unit-results.json"
+      ]
+    },
+    "S02-A11": {
+      "status": "passed",
+      "note": "Actual isolated fixture regeneration exit0; all 11 fixture JSON hashes byte-identical before/after. Shared fixtures unchanged.",
+      "evidence": [
+        "evidence/step-02/regeneration/report.json"
+      ]
+    },
+    "S03-A16": {
+      "status": "passed",
+      "note": "Exact F09 tempo increase preserves initial 672 committed absolute onsets. All four independently specified later cycles each have eight distinct generators and 672 distinct generator/target pairs; total2688unique trigger IDs, no replay. Specific source scenario only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "evidence/unit-results.json",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A17": {
+      "status": "passed",
+      "note": "Exact F09 tempo increase preserves initial 672 committed absolute onsets. All four independently specified later cycles each have eight distinct generators and 672 distinct generator/target pairs; total2688unique trigger IDs, no replay. Specific source scenario only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "evidence/unit-results.json",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A32": {
+      "status": "passed",
+      "note": "Exact F09 tempo increase preserves initial 672 committed absolute onsets. All four independently specified later cycles each have eight distinct generators and 672 distinct generator/target pairs; total2688unique trigger IDs, no replay. Specific source scenario only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "evidence/unit-results.json",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S03-A33": {
+      "status": "passed",
+      "note": "Exact F09 tempo increase preserves initial 672 committed absolute onsets. All four independently specified later cycles each have eight distinct generators and 672 distinct generator/target pairs; total2688unique trigger IDs, no replay. Specific source scenario only.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "evidence/unit-results.json",
+        "evidence/step-09/Independent-Review.md"
+      ]
+    },
+    "S06-A21": {
+      "status": "passed",
+      "note": "Actual engine test retains the already committed E4 and changes only the subsequent emission to independently specified Eb4 after the minor-scale edit.",
+      "evidence": [
+        "tests/engine.test.ts",
+        "evidence/step-03/final-core-unit-results.json"
+      ]
+    },
+    "S07-A21": {
+      "status": "passed",
+      "note": "Actual integrated drag crosses three legal destinations, commits on release, and one Undo/Redo restores the complete pre/final scene.",
+      "evidence": [
+        "tests/gesture-history-browser.spec.ts",
+        "evidence/step-07/gesture-history/Checks.md",
+        "evidence/step-07/gesture-history/piece-drag.json"
+      ]
+    },
+    "S07-A25": {
+      "status": "passed",
+      "note": "Actual integrated drag crosses three legal destinations, commits on release, and one Undo/Redo restores the complete pre/final scene.",
+      "evidence": [
+        "tests/gesture-history-browser.spec.ts",
+        "evidence/step-07/gesture-history/Checks.md",
+        "evidence/step-07/gesture-history/piece-drag.json"
+      ]
+    },
+    "S07-A23": {
+      "status": "passed",
+      "note": "Actual trusted Global Volume and Note Level slider gestures traverse multiple values and commit on release; one Undo/Redo restores each whole pre/final scene. Only selected note level changes.",
+      "evidence": [
+        "tests/gesture-history-browser.spec.ts",
+        "evidence/step-07/gesture-history/Checks.md",
+        "evidence/step-07/gesture-history/global-volume.json",
+        "evidence/step-07/gesture-history/note-level.json"
+      ]
+    },
+    "S07-A26": {
+      "status": "passed",
+      "note": "Actual trusted Global Volume and Note Level slider gestures traverse multiple values and commit on release; one Undo/Redo restores each whole pre/final scene. Only selected note level changes.",
+      "evidence": [
+        "tests/gesture-history-browser.spec.ts",
+        "evidence/step-07/gesture-history/Checks.md",
+        "evidence/step-07/gesture-history/global-volume.json",
+        "evidence/step-07/gesture-history/note-level.json"
+      ]
+    },
+    "S10-A7": {
+      "status": "passed",
+      "note": "Isolated negative control injects two named failing assertions; unchanged npm run verify exits1 and reports both names. Browser checks do not run after unit failure. Shared candidate untouched.",
+      "evidence": [
+        "evidence/step-10/verify-negative/report.json",
+        "evidence/step-10/verify-negative/verify.log"
+      ]
+    },
+    "S08-H3": {
+      "status": "not run",
+      "note": "Automated headless F02 subset: 44 independently calibrated PCM/frame groups, conservative median27.202145ms/p9528.807369ms/max28.955074ms. Human listening/physical-monitor acceptance still not performed.",
+      "evidence": [
+        "evidence/step-08/av/report.json",
+        "evidence/step-08/av/measurement-method.md",
+        "evidence/step-08/av/Independent-Review.md",
+        "docs/Next-Acceptance-Session.md"
+      ]
+    },
+    "S08-H4": {
+      "status": "not run",
+      "note": "Automated headless F02 subset: 44 independently calibrated PCM/frame groups, conservative median27.202145ms/p9528.807369ms/max28.955074ms. Human listening/physical-monitor acceptance still not performed.",
+      "evidence": [
+        "evidence/step-08/av/report.json",
+        "evidence/step-08/av/measurement-method.md",
+        "evidence/step-08/av/Independent-Review.md",
+        "docs/Next-Acceptance-Session.md"
+      ]
+    },
+    "S08-H5": {
+      "status": "not run",
+      "note": "Automated headless F02 subset: 44 independently calibrated PCM/frame groups, conservative median27.202145ms/p9528.807369ms/max28.955074ms. Human listening/physical-monitor acceptance still not performed.",
+      "evidence": [
+        "evidence/step-08/av/report.json",
+        "evidence/step-08/av/measurement-method.md",
+        "evidence/step-08/av/Independent-Review.md",
+        "docs/Next-Acceptance-Session.md"
+      ]
+    },
+    "S08-H6": {
+      "status": "not run",
+      "note": "Automated headless F02 subset: 44 independently calibrated PCM/frame groups, conservative median27.202145ms/p9528.807369ms/max28.955074ms. Human listening/physical-monitor acceptance still not performed.",
+      "evidence": [
+        "evidence/step-08/av/report.json",
+        "evidence/step-08/av/measurement-method.md",
+        "evidence/step-08/av/Independent-Review.md",
+        "docs/Next-Acceptance-Session.md"
+      ]
+    },
+    "S10-H24": {
+      "status": "not run",
+      "note": "Actual full-session WAV is retained for human listening. No named reviewer has listened; recording contains unresolved duplicated blocks and is not qualified seamless audio.",
+      "evidence": [
+        "evidence/step-10/final-soak/continuous-virtual-capture.wav",
+        "evidence/step-10/final-soak/soak-review.json",
+        "docs/Next-Acceptance-Session.md"
+      ]
+    },
+    "S05-A10": {
+      "status": "passed",
+      "note": "Actual AudioAdapter unit: denied resume gives readable error and no Play; deliberate retry reuses module/node. Simulated Web Audio only; native browser autoplay/permission behavior remains unqualified.",
+      "evidence": [
+        "evidence/step-05/activation-unit/report.json",
+        "evidence/step-05/activation-unit/results.json",
+        "tests/audio-adapter.test.ts"
+      ]
+    },
+    "S09-A8": {
+      "status": "not run",
+      "note": "Independent current readback verifies unchanged object/XYZ provenance for all599 delivered controls and the missing F01 diagnostic position, plus21 decoded OSC packets. This partial consistency result cannot count the missing F01 control as delivered or qualify every required trigger.",
+      "evidence": [
+        "evidence/step-09/native-clock-qualification/attempt-01/Native-Qualification-Review.md",
+        "evidence/step-09/native-clock-qualification/attempt-01/live-report.json"
+      ]
+    },
+    "S09-A9": {
+      "status": "not run",
+      "note": "Current independent performance-to-Node-to-native-worker conversion bounds are2.115918/1.341917ms, recomputed across600 outcomes and8128 clock brackets. Browser AudioContext-to-performance mapping throughout playback remains unmeasured; end-to-end clock conversion gate stays open.",
+      "evidence": [
+        "evidence/step-09/native-clock-qualification/attempt-01/Native-Qualification-Review.md",
+        "evidence/step-09/native-clock-qualification/attempt-01/live-report.json"
+      ]
+    },
+    "S09-A10": {
+      "status": "passed",
+      "note": "Current full-denominator native callback conservative p95 errors3.355460ms F01 and3.409750ms F04, including the F01 dropped callback among all180 outcomes. Measured control-clock domain only; F01 exactly-once stillFAILED and audio-to-performance boundary remains open.",
+      "evidence": [
+        "evidence/step-09/native-clock-qualification/attempt-01/Native-Qualification-Review.md",
+        "evidence/step-09/native-clock-qualification/attempt-01/live-report.json"
+      ]
+    },
+    "S05-A3": {
+      "status": "passed",
+      "note": "Actual offline F02 original full mix matches independent fixed-origin waveform model; nine isolated chord entrances each +2 samples (0.041667ms), with zero within-cycle spread. Offline-only, not live qualification.",
+      "evidence": [
+        "evidence/step-05/offline-fixture-audit/attempt-01/report.json",
+        "evidence/step-05/offline-fixture-audit/attempt-01/Independent-Review.md",
+        "evidence/step-05/offline-fixture-audit/attempt-01/Review.md",
+        "scripts/offline-fixture-onset-audit.ts"
+      ]
+    },
+    "S05-A4": {
+      "status": "passed",
+      "note": "Actual offline F03 original full mix matches independent fixed-origin waveform model; nine isolated phrase entrances retain distinct expected order, each +2 samples (0.041667ms). Offline-only, not live qualification.",
+      "evidence": [
+        "evidence/step-05/offline-fixture-audit/attempt-01/report.json",
+        "evidence/step-05/offline-fixture-audit/attempt-01/Independent-Review.md",
+        "evidence/step-05/offline-fixture-audit/attempt-01/Review.md",
+        "scripts/offline-fixture-onset-audit.ts"
+      ]
+    },
+    "S05-A6": {
+      "status": "passed",
+      "note": "Actual offline F04 original full mix matches independent waveform model; 21 isolated entrances each +2 samples (0.041667ms), zero voice stealing, peak six allocated voices independently enumerated (five audible intervals). Offline-only, not live qualification.",
+      "evidence": [
+        "evidence/step-05/offline-fixture-audit/attempt-01/report.json",
+        "evidence/step-05/offline-fixture-audit/attempt-01/Independent-Review.md",
+        "evidence/step-05/offline-fixture-audit/attempt-01/Review.md",
+        "scripts/offline-fixture-onset-audit.ts"
+      ]
+    },
+    "S02-A18": {
+      "status": "passed",
+      "note": "Current installed-Chrome production audit preserves the existing-piece model and clears dragging after synthetic cancellation/focus loss, with no page errors. Handler scope only; physical touch/OS focus loss not qualified.",
+      "evidence": [
+        "evidence/step-04/current-presentation-audit/attempt-04/report.json",
+        "evidence/step-04/current-presentation-audit/attempt-04/Independent-Review.md",
+        "evidence/step-04/current-presentation-audit/attempt-04/Review.md"
+      ]
+    },
+    "S04-A5": {
+      "status": "passed",
+      "note": "Current installed-Chrome production audit preserves the existing-piece model and clears dragging after synthetic cancellation/focus loss, with no page errors. Handler scope only; physical touch/OS focus loss not qualified.",
+      "evidence": [
+        "evidence/step-04/current-presentation-audit/attempt-04/report.json",
+        "evidence/step-04/current-presentation-audit/attempt-04/Independent-Review.md",
+        "evidence/step-04/current-presentation-audit/attempt-04/Review.md"
+      ]
+    },
+    "S04-A6": {
+      "status": "passed",
+      "note": "Current installed-Chrome production audit preserves the existing-piece model and clears dragging after synthetic cancellation/focus loss, with no page errors. Handler scope only; physical touch/OS focus loss not qualified.",
+      "evidence": [
+        "evidence/step-04/current-presentation-audit/attempt-04/report.json",
+        "evidence/step-04/current-presentation-audit/attempt-04/Independent-Review.md",
+        "evidence/step-04/current-presentation-audit/attempt-04/Review.md"
+      ]
+    },
+    "S04-A7": {
+      "status": "passed",
+      "note": "Exact populated original F02 IDs, occupied vertices and musical model relationships remain unchanged after actual mouse orbit and wheel zoom; camera changes are explicitly nonzero.",
+      "evidence": [
+        "evidence/step-04/current-presentation-audit/attempt-04/report.json",
+        "evidence/step-04/current-presentation-audit/attempt-04/Independent-Review.md",
+        "evidence/step-04/current-presentation-audit/attempt-04/Review.md"
+      ]
+    },
+    "S04-A8": {
+      "status": "passed",
+      "note": "Exact populated original F02 IDs, occupied vertices and musical model relationships remain unchanged after actual mouse orbit and wheel zoom; camera changes are explicitly nonzero.",
+      "evidence": [
+        "evidence/step-04/current-presentation-audit/attempt-04/report.json",
+        "evidence/step-04/current-presentation-audit/attempt-04/Independent-Review.md",
+        "evidence/step-04/current-presentation-audit/attempt-04/Review.md"
+      ]
+    },
+    "S04-A9": {
+      "status": "passed",
+      "note": "Exact populated original F02 IDs, occupied vertices and musical model relationships remain unchanged after actual mouse orbit and wheel zoom; camera changes are explicitly nonzero.",
+      "evidence": [
+        "evidence/step-04/current-presentation-audit/attempt-04/report.json",
+        "evidence/step-04/current-presentation-audit/attempt-04/Independent-Review.md",
+        "evidence/step-04/current-presentation-audit/attempt-04/Review.md"
+      ]
+    },
+    "S04-A10": {
+      "status": "passed",
+      "note": "Exact populated original F02 IDs, occupied vertices and musical model relationships remain unchanged after actual mouse orbit and wheel zoom; camera changes are explicitly nonzero.",
+      "evidence": [
+        "evidence/step-04/current-presentation-audit/attempt-04/report.json",
+        "evidence/step-04/current-presentation-audit/attempt-04/Independent-Review.md",
+        "evidence/step-04/current-presentation-audit/attempt-04/Review.md"
+      ]
+    },
+    "S04-A11": {
+      "status": "passed",
+      "note": "Exact populated original F02 IDs, occupied vertices and musical model relationships remain unchanged after actual mouse orbit and wheel zoom; camera changes are explicitly nonzero.",
+      "evidence": [
+        "evidence/step-04/current-presentation-audit/attempt-04/report.json",
+        "evidence/step-04/current-presentation-audit/attempt-04/Independent-Review.md",
+        "evidence/step-04/current-presentation-audit/attempt-04/Review.md"
+      ]
+    },
+    "S04-A12": {
+      "status": "passed",
+      "note": "Exact populated original F02 IDs, occupied vertices and musical model relationships remain unchanged after actual mouse orbit and wheel zoom; camera changes are explicitly nonzero.",
+      "evidence": [
+        "evidence/step-04/current-presentation-audit/attempt-04/report.json",
+        "evidence/step-04/current-presentation-audit/attempt-04/Independent-Review.md",
+        "evidence/step-04/current-presentation-audit/attempt-04/Review.md"
+      ]
+    },
+    "S04-A14": {
+      "status": "passed",
+      "note": "Viewport resize preserves the selected chord node and the complete original fixed-topology scene, hence logical angular distances. Pixel distances are not required invariant.",
+      "evidence": [
+        "evidence/step-04/current-presentation-audit/attempt-04/report.json",
+        "evidence/step-04/current-presentation-audit/attempt-04/Independent-Review.md",
+        "evidence/step-04/current-presentation-audit/attempt-04/Review.md"
+      ]
+    },
+    "S04-A15": {
+      "status": "passed",
+      "note": "Viewport resize preserves the selected chord node and the complete original fixed-topology scene, hence logical angular distances. Pixel distances are not required invariant.",
+      "evidence": [
+        "evidence/step-04/current-presentation-audit/attempt-04/report.json",
+        "evidence/step-04/current-presentation-audit/attempt-04/Independent-Review.md",
+        "evidence/step-04/current-presentation-audit/attempt-04/Review.md"
+      ]
+    },
+    "S08-A1": {
+      "status": "passed",
+      "note": "All92\u00d792 unit-path pairs pass mathematical checks; actual current production3\u00d749 Float32 connection-buffer samples have maximum radius error3.9197844e-8, below1e-6. Decorative framework/wavefront offsets are separate.",
+      "evidence": [
+        "evidence/step-04/current-presentation-audit/attempt-04/report.json",
+        "evidence/step-04/current-presentation-audit/attempt-04/Independent-Review.md",
+        "evidence/step-04/current-presentation-audit/attempt-04/Review.md",
+        "evidence/step-08/unit-arc/root-unit-results.json"
+      ]
+    },
+    "S08-A6": {
+      "status": "passed",
+      "note": "Current production F02 at60FPS retains9unique session-bound scheduled receipts over a full6-second first-emission window at independent relative times0.125+2k. Actual render progress verified; no PCM/acoustic timing claim.",
+      "evidence": [
+        "evidence/step-04/current-presentation-audit/attempt-04/report.json",
+        "evidence/step-04/current-presentation-audit/attempt-04/Independent-Review.md",
+        "evidence/step-04/current-presentation-audit/attempt-04/Review.md"
+      ]
+    },
+    "S08-A7": {
+      "status": "passed",
+      "note": "Current production F02 at15FPS retains9unique session-bound scheduled receipts over a full6-second first-emission window at independent relative times0.125+2k. Actual render progress verified; no PCM/acoustic timing claim.",
+      "evidence": [
+        "evidence/step-04/current-presentation-audit/attempt-04/report.json",
+        "evidence/step-04/current-presentation-audit/attempt-04/Independent-Review.md",
+        "evidence/step-04/current-presentation-audit/attempt-04/Review.md"
+      ]
+    },
+    "S08-A8": {
+      "status": "passed",
+      "note": "Current production F02 at2FPS retains9unique session-bound scheduled receipts over a full6-second first-emission window at independent relative times0.125+2k. Actual render progress verified; no PCM/acoustic timing claim.",
+      "evidence": [
+        "evidence/step-04/current-presentation-audit/attempt-04/report.json",
+        "evidence/step-04/current-presentation-audit/attempt-04/Independent-Review.md",
+        "evidence/step-04/current-presentation-audit/attempt-04/Review.md"
+      ]
+    },
+    "S08-A10": {
+      "status": "passed",
+      "note": "During active60FPS playback, normal pulses are visible and chord scales exceed1; reduced pulses are hidden and all scales equal1, with timestamped paired screenshots/render progress. Both fresh arms retain all9independently expected scheduled onsets. Human readability not qualified.",
+      "evidence": [
+        "evidence/step-04/current-presentation-audit/attempt-04/report.json",
+        "evidence/step-04/current-presentation-audit/attempt-04/Independent-Review.md",
+        "evidence/step-04/current-presentation-audit/attempt-04/Review.md"
+      ]
+    },
+    "S04-A1": {
+      "status": "passed",
+      "note": "Scoped automated Chrome: Three native mouse palette drops match literal defaults and exact full-model additions; a previously rear-facing vertex accepts the expected Beat after orbit. Physical touch, Safari and human review remain open.",
+      "evidence": [
+        "evidence/step-04/view-model-invariance/attempt-01/report.json",
+        "evidence/step-04/view-model-invariance/attempt-01/IndependentReview.md",
+        "evidence/step-04/view-model-invariance/Review.md"
+      ]
+    },
+    "S04-A2": {
+      "status": "passed",
+      "note": "Scoped automated Chrome: Mouse, trusted browser touch and click-select/click-slot each change exactly one piece vertex, retaining IDs, settings and other fields; rendered relationships match the independent geometry oracle. Physical touch, Safari and human review remain open.",
+      "evidence": [
+        "evidence/step-04/view-model-invariance/attempt-01/report.json",
+        "evidence/step-04/view-model-invariance/attempt-01/IndependentReview.md",
+        "evidence/step-04/view-model-invariance/Review.md"
+      ]
+    },
+    "S04-A3": {
+      "status": "passed",
+      "note": "Scoped automated Chrome: Occupied relocation and all three palette kinds preserve the whole scene. Physical touch, Safari and human review remain open.",
+      "evidence": [
+        "evidence/step-04/view-model-invariance/attempt-01/report.json",
+        "evidence/step-04/view-model-invariance/attempt-01/IndependentReview.md",
+        "evidence/step-04/view-model-invariance/Review.md"
+      ]
+    },
+    "S04-A4": {
+      "status": "passed",
+      "note": "Scoped automated Chrome: Outside-canvas relocation and all three palette kinds preserve the whole scene. Physical touch, Safari and human review remain open.",
+      "evidence": [
+        "evidence/step-04/view-model-invariance/attempt-01/report.json",
+        "evidence/step-04/view-model-invariance/attempt-01/IndependentReview.md",
+        "evidence/step-04/view-model-invariance/Review.md"
+      ]
+    },
+    "S04-A13": {
+      "status": "passed",
+      "note": "Scoped automated Chrome: One held node drag retains the same owner and unchanged model/camera outside the canvas and after returning, then commits exactly its destination. Physical touch, Safari and human review remain open.",
+      "evidence": [
+        "evidence/step-04/view-model-invariance/attempt-01/report.json",
+        "evidence/step-04/view-model-invariance/attempt-01/IndependentReview.md",
+        "evidence/step-04/view-model-invariance/Review.md"
+      ]
+    },
+    "S04-A16": {
+      "status": "passed",
+      "note": "Scoped automated Chrome: Trusted browser touch moves the selected node without moving the camera; an independently clear canvas origin moves the camera without changing the scene. Physical touch, Safari and human review remain open.",
+      "evidence": [
+        "evidence/step-04/view-model-invariance/attempt-01/report.json",
+        "evidence/step-04/view-model-invariance/attempt-01/IndependentReview.md",
+        "evidence/step-04/view-model-invariance/Review.md"
+      ]
+    },
+    "S04-A17": {
+      "status": "passed",
+      "note": "Scoped automated Chrome: A second trusted touch cancels the active node drag; later motion/releases do not transfer ownership or mutate the scene. Physical touch, Safari and human review remain open.",
+      "evidence": [
+        "evidence/step-04/view-model-invariance/attempt-01/report.json",
+        "evidence/step-04/view-model-invariance/attempt-01/IndependentReview.md",
+        "evidence/step-04/view-model-invariance/Review.md"
+      ]
+    },
+    "S04-A18": {
+      "status": "passed",
+      "note": "Scoped automated Chrome: No rear placement among 58 independently rear-facing attempted points; a recorded rear vertex becomes placeable only after actual orbit exposes it. Physical touch, Safari and human review remain open.",
+      "evidence": [
+        "evidence/step-04/view-model-invariance/attempt-01/report.json",
+        "evidence/step-04/view-model-invariance/attempt-01/IndependentReview.md",
+        "evidence/step-04/view-model-invariance/Review.md"
+      ]
+    },
+    "S04-A19": {
+      "status": "passed",
+      "note": "Scoped automated Chrome: Actual click-select/click-slot interaction changes only the selected piece vertex without a drag path between each down/up. Physical touch, Safari and human review remain open.",
+      "evidence": [
+        "evidence/step-04/view-model-invariance/attempt-01/report.json",
+        "evidence/step-04/view-model-invariance/attempt-01/IndependentReview.md",
+        "evidence/step-04/view-model-invariance/Review.md"
+      ]
+    },
+    "S08-A5": {
+      "status": "passed",
+      "note": "Current source callgraph plus bounded actual presentation/no-event checks; no PCM silence or timing claim. Paused guard raw event ring not retained. Independently reviewed12October2026.",
+      "evidence": [
+        "evidence/step-08/Rendering-Causality-Review.md",
+        "evidence/step-04/current-presentation-audit/attempt-04/report.json",
+        "evidence/step-04/view-model-invariance/attempt-01/report.json",
+        "src/main.ts",
+        "src/view/SphereView.ts"
+      ]
+    },
+    "S02-A20": {
+      "status": "passed",
+      "note": "Nine actual model transaction tests verify successful additions of every piece kind and whole-input preservation on occupied/duplicate/out-of-range/ninth-generator rejection, including partial draft changes. Independent review confirms UI uses this validated candidate boundary; no adapter/history/browser-wide rollback claim.",
+      "evidence": [
+        "evidence/step-02/atomic-scene-transactions/attempt-01/tests.json",
+        "evidence/step-02/atomic-scene-transactions/attempt-01/IndependentReview.md",
+        "evidence/step-02/atomic-scene-transactions/attempt-01/source-binding.json"
+      ]
+    },
+    "S02-A21": {
+      "status": "passed",
+      "note": "Nine actual model transaction tests verify each piece-kind deletion, independent old/new nested ownership, and whole-input preservation after callback or final-validation failure. Independent review confirms UI uses this validated candidate boundary; no adapter/history/browser-wide rollback claim.",
+      "evidence": [
+        "evidence/step-02/atomic-scene-transactions/attempt-01/tests.json",
+        "evidence/step-02/atomic-scene-transactions/attempt-01/IndependentReview.md",
+        "evidence/step-02/atomic-scene-transactions/attempt-01/source-binding.json"
+      ]
+    },
+    "S09-A13": {
+      "status": "passed",
+      "note": "One independently reviewed native lifecycle actual rejects 16 retired start/position/trigger/cancel attempts across transport loss, Clear and scene replacement, with unchanged fresh state and subsequent valid B/D operations. Tested retained epochs only; the 1000-epoch retention horizon, automatic UI reconnect and acoustic release remain open.",
+      "evidence": [
+        "evidence/step-09/native-bridge-fault-controls/attempt-01/parent-report.json",
+        "evidence/step-09/native-bridge-fault-controls/attempt-01/child/report.json",
+        "evidence/step-09/native-bridge-fault-controls/attempt-01/ActualIndependentReview.md"
+      ]
+    },
+    "S09-A11": {
+      "status": "not run",
+      "note": "Native lifecycle actual verifies reliable WebSocket-loss release and cancellation of a future trigger through its original deadline. General traffic loss and application/audio qualification remain open.",
+      "evidence": [
+        "evidence/step-09/native-bridge-fault-controls/attempt-01/parent-report.json",
+        "evidence/step-09/native-bridge-fault-controls/attempt-01/child/report.json",
+        "evidence/step-09/native-bridge-fault-controls/attempt-01/ActualIndependentReview.md"
+      ]
+    },
+    "S09-A15": {
+      "status": "not run",
+      "note": "Native lifecycle actual verifies fresh-peer clock sync and a manually supplied full position snapshot. Automatic OutputAdapter reconnect/current-state integration remains open.",
+      "evidence": [
+        "evidence/step-09/native-bridge-fault-controls/attempt-01/parent-report.json",
+        "evidence/step-09/native-bridge-fault-controls/attempt-01/child/report.json",
+        "evidence/step-09/native-bridge-fault-controls/attempt-01/ActualIndependentReview.md"
+      ]
+    },
+    "S09-A17": {
+      "status": "not run",
+      "note": "Native lifecycle actual verifies an explicit Clear stop releases current native state and cancels pending triggers through their original deadlines. Application UI and acoustic release integration remain open.",
+      "evidence": [
+        "evidence/step-09/native-bridge-fault-controls/attempt-01/parent-report.json",
+        "evidence/step-09/native-bridge-fault-controls/attempt-01/child/report.json",
+        "evidence/step-09/native-bridge-fault-controls/attempt-01/ActualIndependentReview.md"
+      ]
+    },
+    "S09-A22": {
+      "status": "not run",
+      "note": "Native lifecycle actual verifies manual scene-epoch replacement releases old work, rejects retired C traffic and accepts D exactly once. Application scene-load wiring remains open.",
+      "evidence": [
+        "evidence/step-09/native-bridge-fault-controls/attempt-01/parent-report.json",
+        "evidence/step-09/native-bridge-fault-controls/attempt-01/child/report.json",
+        "evidence/step-09/native-bridge-fault-controls/attempt-01/ActualIndependentReview.md"
+      ]
+    },
+    "S01-A42": {
+      "status": "passed",
+      "note": "Scoped ordinary coalescing and independent-stream pass: prior V2 actual100edits yield eight positions ending at newest destination; all301 sends preserve20 strictly increasing streams,12 individual triggers and cancellation13. Independent review confirms the current repaired source preserves these ordinary semantics and new-bundle integration passes3cases. V2 binds the earlier bd46913c/d804 bundle; current70d3/32b57 source delta is reviewed separately. Full live congestion A43 remains open.",
+      "evidence": [
+        "evidence/step-01/movement-backpressure-regression/browser-01/Browser-IndependentReview.md",
+        "evidence/step-09/receiver-position-containment-v2/attempt-01/ActualIndependentReview.md",
+        "evidence/step-01/movement-backpressure-regression/Repair03-IndependentReview.md"
+      ]
+    }
+  }
+}

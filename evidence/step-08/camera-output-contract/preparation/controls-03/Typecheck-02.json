@@ -1,0 +1,13 @@
+{
+  "command": "npm run typecheck",
+  "toolChunk": "ff1ca3",
+  "exitCode": 1,
+  "cameraSourceSHA256": "a0a9dc7db15b4fff568b2a6b1cfeb41a93b47a7f2f265e2895fba45cfde099b1",
+  "scope": "Only sibling movement-backpressure-live.spec.ts timer type diagnostics; no camera diagnostic, no actual.",
+  "diagnostics": [
+    "scripts/movement-backpressure-live.spec.ts(90,6): TS2322 DOM number function incompatible with Window+Node setTimeout overload",
+    "scripts/movement-backpressure-live.spec.ts(91,52): TS2322 Timeout not number",
+    "scripts/movement-backpressure-live.spec.ts(91,80): TS2345 TimerHandler not callback function",
+    "scripts/movement-backpressure-live.spec.ts(93,7): TS2322 Timeout not number"
+  ]
+}

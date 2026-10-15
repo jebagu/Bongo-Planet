@@ -1,0 +1,38 @@
+{
+  "command": "npm run typecheck",
+  "sourceScope": "Workers reported frozen/stable source04 BP and source02 camera; hashes read after command only",
+  "result": {
+    "chunk_id": "2cf2bf",
+    "wall_time_seconds": 0.308319416,
+    "exit_code": 0,
+    "original_token_count": 12,
+    "output": "\n> bongo-planet@0.1.0 typecheck\n> tsc --noEmit\n\n"
+  },
+  "bindings": [
+    {
+      "path": "scripts/movement-backpressure-live.spec.ts",
+      "bytes": 44526,
+      "sha256": "8f7e454b59a3b9110ac4da2b33daba59bd7cf45525fed38b3dd87557bbd22090"
+    },
+    {
+      "path": "evidence/step-01/movement-backpressure-live/preparation/proxy-cleanup03.ts",
+      "bytes": 844,
+      "sha256": "3c2014dd099d866300f7b7fa6cef1eac8c6eede4a54b02f0bec9358f3b3d06e0"
+    },
+    {
+      "path": "scripts/active-camera-output.spec.ts",
+      "bytes": 32329,
+      "sha256": "affae63ddf549367f406f89acbf646214c4b393080b17c0e585febdc4c7e7b7d"
+    },
+    {
+      "path": "scripts/active-camera-observer.ts",
+      "bytes": 11888,
+      "sha256": "715dc4adb4becadeeb419f925d71bdc3de54992c72990baff15450f6ef2e9423"
+    },
+    {
+      "path": "tests/active-camera-observer.test.ts",
+      "bytes": 8113,
+      "sha256": "ed0e0a45d5ea010e4a087bf98d294747223edfccbdb187f910cacda86410bd16"
+    }
+  ]
+}

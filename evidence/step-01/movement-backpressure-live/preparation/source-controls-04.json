@@ -1,0 +1,41 @@
+{
+  "title": "Bongo Planet source04 ownership-safe signal controls",
+  "savedUtc": "2026-10-12T03:53:59.721042+00:00",
+  "actualAcquisition": false,
+  "sources": {
+    "scripts/movement-backpressure-live.spec.ts": "8f7e454b59a3b9110ac4da2b33daba59bd7cf45525fed38b3dd87557bbd22090",
+    "scripts/movement-backpressure-proxy.py": "b3417d9279f066513fe3580e9af774d0cbe780d6afabc4ffb8a19848fe4acd0b",
+    "tests/movement-backpressure-proxy-controls.py": "72abee455c87e6c64ea6ce3321b17d2685d2c7833d334c5fbd9fc1ac12ddc83a",
+    "evidence/step-01/movement-backpressure-live/preparation/timer-observer.ts": "00131cad68a7d2a790380c4dec2b3828370a8080e29dadfe5677c2573a3a3eff",
+    "evidence/step-01/movement-backpressure-live/preparation/timer-controls.ts": "e8f4f55611717ba5ba8fe40c89adc121fa61e537e5805e036459e699f2268e7f",
+    "evidence/step-01/movement-backpressure-live/preparation/trace-contract02.ts": "818f403e31f896d536161c85687cce66a8a6a1545a74a210b14c8a09f1d3ca79",
+    "evidence/step-01/movement-backpressure-live/preparation/trace-controls02.ts": "a7d8f7a284bf9d928c0a00f40ae2ec86c889a43fc286e5db5ab298965ffe17bb",
+    "evidence/step-01/movement-backpressure-live/preparation/proxy-cleanup03.ts": "3c2014dd099d866300f7b7fa6cef1eac8c6eede4a54b02f0bec9358f3b3d06e0",
+    "evidence/step-01/movement-backpressure-live/preparation/proxy-cleanup-controls03.ts": "1744ec3ce9ac129476e6af23c100deac142c3d37c15342f7d64a7dafb322d3cb",
+    "evidence/step-01/movement-backpressure-live/preparation/owned-termination04.ts": "1011ab83a1bc24ef1eeb281e6bf660e23fbe2af48e66e2ff2fdb4d16b92edfbb",
+    "evidence/step-01/movement-backpressure-live/preparation/owned-termination-controls04.ts": "b21aa2d20a1db1e0a7fdf269de11a4ce9ae286d5d632929c8c120fa9e2d3184c",
+    "evidence/step-01/movement-backpressure-live/preparation/playwright.config.ts": "ddfb03b3a0f02dda05f495526ff5eabc21b4de2b91dc2bc3e401c010d7d69532"
+  },
+  "checks": [
+    {
+      "command": "npx tsx evidence/step-01/movement-backpressure-live/preparation/owned-termination-controls04.ts",
+      "toolChunk": "b37d39",
+      "exitCode": 0,
+      "elapsedSeconds": 0.249365042,
+      "controls": 11,
+      "realProcessSpawn": false,
+      "realSignals": false
+    },
+    {
+      "command": "npm run typecheck",
+      "toolChunk": "2cf2bf",
+      "exitCode": 0,
+      "elapsedSeconds": 0.308319416,
+      "runBy": "root",
+      "output": "\n> bongo-planet@0.1.0 typecheck\n> tsc --noEmit\n\n",
+      "scope": "Shared whole-project check; exact root-owned record Root-Shared-Typecheck-04.json retained; no pre-command hash claim"
+    }
+  ],
+  "earlierControls": "source-controls-02/03.json preserved; no unchanged control rerun",
+  "controller": "Separate root-owned controller disposition; actual authorization absent"
+}

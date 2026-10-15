@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-14",
+  "browser": "Codex In-app Browser",
+  "treatments": [
+    {
+      "choice": "01 · Light contour",
+      "fill": [
+        "#ffd35b"
+      ],
+      "opacity": "0.6",
+      "spec": "0.75 px · 60% white",
+      "width": "0.75"
+    },
+    {
+      "choice": "02 · Dim contour",
+      "fill": [
+        "#ffd35b"
+      ],
+      "opacity": "0.35",
+      "spec": "0.75 px · 35% white",
+      "width": "0.75"
+    },
+    {
+      "choice": "03 · Clear half pixel",
+      "fill": [
+        "#ffd35b"
+      ],
+      "opacity": "0.7",
+      "spec": "0.50 px · 70% white",
+      "width": "0.5"
+    },
+    {
+      "choice": "04 · Soft half pixel",
+      "fill": [
+        "#ffd35b"
+      ],
+      "opacity": "0.45",
+      "spec": "0.50 px · 45% white",
+      "width": "0.5"
+    },
+    {
+      "choice": "05 · Whisper half pixel",
+      "fill": [
+        "#ffd35b"
+      ],
+      "opacity": "0.25",
+      "spec": "0.50 px · 25% white",
+      "width": "0.5"
+    },
+    {
+      "choice": "06 · Fine line",
+      "fill": [
+        "#ffd35b"
+      ],
+      "opacity": "0.55",
+      "spec": "0.35 px · 55% white",
+      "width": "0.35"
+    },
+    {
+      "choice": "07 · Dim fine line",
+      "fill": [
+        "#ffd35b"
+      ],
+      "opacity": "0.3",
+      "spec": "0.35 px · 30% white",
+      "width": "0.35"
+    },
+    {
+      "choice": "08 · Quarter pixel",
+      "fill": [
+        "#ffd35b"
+      ],
+      "opacity": "0.5",
+      "spec": "0.25 px · 50% white",
+      "width": "0.25"
+    },
+    {
+      "choice": "09 · Warm whisper",
+      "fill": [
+        "#ffd35b"
+      ],
+      "opacity": "0.35",
+      "spec": "0.50 px · 35% warm white",
+      "width": "0.5"
+    },
+    {
+      "choice": "10 · Almost invisible",
+      "fill": [
+        "#ffd35b"
+      ],
+      "opacity": "0.15",
+      "spec": "0.50 px · 15% white",
+      "width": "0.5"
+    }
+  ],
+  "checks": {
+    "orangeFillToggle": "passed",
+    "sharedArrowToggle": "passed",
+    "zoomStrokeWidth": "passed",
+    "keyboardNavigationAndFocus": "passed",
+    "rotation": "passed",
+    "desktopOverflow": "passed",
+    "mobile390Overflow": "passed",
+    "mobile320Overflow": "passed"
+  },
+  "notes": "The production renderer and game storage were not modified."
+}

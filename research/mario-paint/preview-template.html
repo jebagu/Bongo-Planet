@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mario Paint Sound Lab · Bongo Planet</title>
+<link rel="icon" href="assets/icons/14-heart.png"><link rel="stylesheet" href="viewer.css">
+</head><body><main>
+<header class="masthead"><a class="brand" href="../../">◌ Bongo Planet</a><span class="edition">COMPOSER ASSET EXPLORER</span></header>
+<section class="intro"><div><p class="eyebrow">A small sample. A whole instrument.</p><h1>Mario Paint<br>Sound Lab<span>.</span></h1><p class="lede">Pick an icon. Play its notes. Then hear how one tiny recording becomes a playable instrument.</p></div><div class="inventory"><strong>15 <span>instruments</span></strong><strong>16 <span>composer samples</span></strong><strong>195 <span>rendered notes</span></strong></div></section>
+<div id="error" class="error" role="alert" hidden></div>
+<section class="workbench" aria-label="Sound explorer">
+<aside class="palette"><div class="section-label">01 / Choose an instrument</div><div id="instruments" class="instrument-grid"><p>Loading instruments…</p></div></aside>
+<div class="player">
+<div class="selected-header"><img id="selected-icon" alt="Selected instrument" width="80" height="80"><div><p id="selected-number" class="eyebrow"></p><h2 id="selected-name">Loading…</h2><p id="selected-timbre" class="muted"></p></div><span id="sample-badge" class="badge"></span></div>
+<div class="section-label">02 / Play the original composer notes</div><p class="hint">These 13 positions use the game’s own pitch tables and envelopes. Tap a key to listen.</p>
+<div id="keys" class="keys" aria-label="Original composer notes"></div>
+<div class="play-actions"><button id="play-scale" class="primary">▶ Play all 13</button><a id="download-note" class="text-link" download>Download selected WAV ↓</a><span id="note-detail" class="muted small"></span></div>
+<div class="wave-wrap"><canvas id="waveform" aria-label="Waveform of selected original sample"></canvas><div class="wave-caption"><span>ORIGINAL SAMPLE WAVEFORM</span><span id="wave-detail"></span></div></div>
+<details class="synth-panel" open><summary>03 / Try it as a sample synth <span>↗</span></summary>
+<p class="hint">This demo plays the underlying recording. Change its speed to change pitch. Its root pitch is a reference, not a calibrated concert note.</p>
+<div class="synth-controls"><label class="pitch-control">Pitch shift <output id="pitch-label">0 semitones · 1.00×</output><input id="pitch" type="range" min="-12" max="12" step="1" value="0"></label><label class="loop-control"><input id="loop" type="checkbox"> Sustain sample loop</label></div>
+<div class="source-actions"><button id="play-source" class="outline">▶ Play sample synth</button><a id="download-source" class="text-link" download>Download source WAV ↓</a></div>
+<p id="source-detail" class="small muted"></p><p class="small muted">Demo envelope: 5 ms attack, 0.7 s gate, 80 ms release. Original composer envelopes are already included in the 13 notes above.</p></details>
+</div></section>
+<section class="explanation" aria-labelledby="how-heading"><p class="eyebrow">Why 13 WAVs?</p><h2 id="how-heading">One source sound. Thirteen played notes.</h2><p>The game usually stores <strong>one short recording per icon</strong>. The audio chip reads it at different speeds to produce notes. We exported the finished result at each of the composer’s 13 staff positions, so you can hear its exact pitch choices and volume envelope without rebuilding the SNES sound engine.</p>
+<div class="signal-flow"><div><span>01</span><h3>Sample</h3><p>A tiny BRR-compressed recording provides the timbre: a bark, a bell, a voice or an instrument.</p></div><div><span>02</span><h3>Pitch &amp; loop</h3><p>Read faster for a higher pitch; slower for a lower pitch. A loop can repeat the sample’s tail to sustain it.</p></div><div><span>03</span><h3>Envelope</h3><p>Attack, decay, sustain and release shape its volume over time. Every new note starts a new playback voice.</p></div></div>
+<p class="exception"><strong>The boat is the exception:</strong> its lower six staff positions use a drum sample; its upper seven use a cymbal. That makes 16 composer samples for 15 icons. The complete bank has 23 entries including auxiliary sounds.</p>
+<p class="hint">For Bongo Planet, a compact sampler would load the source samples once and apply pitch, loop and envelope settings per trigger. The 195 WAVs are convenient rendered examples, rather than 195 independent instruments. Staff labels are visual score positions; sounding pitches differ across instruments.</p></section>
+<footer><div><a href="Mario-Paint-Composer-Assets.zip" download>Download complete asset pack ↓</a><a href="README.md">Extraction &amp; import notes ↗</a><a href="assets/manifest.json">Asset manifest ↗</a></div><details id="diagnostics"><summary>Audio &amp; asset checks</summary><p id="audio-state">Audio: awaiting a click</p><p id="diagnostic-results" data-loaded="0" data-failed="0" data-played="0" data-signal="0" data-active="0" data-audio="locked">0 / 195 notes decoded · 0 playback starts · 0 peak signal</p><button id="check-assets" class="outline">Check all 195 notes</button><p class="hint">Original notes use the ROM’s audio driver in an isolated emulation. The sample synth is a browser demonstration, not a bit-perfect SNES emulator.</p></details></footer>
+</main><div class="transport"><div><span id="audio-dot" class="audio-dot"></span><span id="status" role="status" aria-live="polite">Ready. Tap an instrument or a note to listen.</span></div><label>Volume <input id="volume" type="range" min="0" max="1" step="0.01" value="0.65" aria-label="Volume"></label><button id="enable" class="outline">Enable audio</button><button id="stop" class="outline">■ Stop</button></div>
+<script id="asset-manifest" type="application/json">/*MANIFEST*/</script><script type="module" src="viewer.js"></script>
+</body></html>

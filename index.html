@@ -1,0 +1,21 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1118"><link rel="icon" type="image/png" sizes="64x64" href="/BongoPlanet/favicon-kick.png"><title>Bongo Planet</title><style id="mobile-viewing-notice-style">
+#mobile-viewing-notice{display:none}
+@media(hover:none) and (pointer:coarse){
+  body{overflow:hidden}
+  #app{visibility:hidden}
+  #mobile-viewing-notice{position:fixed;inset:0;z-index:2147483647;display:grid;place-items:center;overflow:auto;box-sizing:border-box;padding:32px 24px;background:#f8f5ed;color:#18274e;text-align:center;font-family:'DM Sans',system-ui,sans-serif}
+  #mobile-viewing-notice .mobile-notice-copy{max-width:22rem}
+  #mobile-viewing-notice .mobile-notice-brand{margin:0 0 32px;font:700 14px/1.4 Manrope,system-ui,sans-serif;letter-spacing:.03em}
+  #mobile-viewing-notice svg{display:block;width:64px;height:64px;margin:0 auto 24px;color:#5369bd}
+  #mobile-viewing-notice h1{margin:0 0 16px;font:800 clamp(25px,7vw,32px)/1.2 Manrope,system-ui,sans-serif;letter-spacing:-.04em}
+  #mobile-viewing-notice .mobile-notice-message{margin:0;color:#596889;font-size:17px;line-height:1.6}
+}
+</style>
+</head><body><section id="mobile-viewing-notice" aria-labelledby="mobile-notice-title">
+  <div class="mobile-notice-copy">
+    <p class="mobile-notice-brand">Bongo Planet</p>
+    <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="12" y="10" width="40" height="31" rx="3"/><path d="M12 41 5 51a2 2 0 0 0 2 3h50a2 2 0 0 0 2-3l-7-10M25 47h14"/></svg>
+    <h1 id="mobile-notice-title">Best viewed on a bigger screen</h1>
+    <p class="mobile-notice-message">For the best experience, please open Bongo Planet on a desktop or laptop.</p>
+  </div>
+</section><div id="app"></div><script type="module" src="/src/main.ts"></script></body></html>

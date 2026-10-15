@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-12T02:41:30.983813+00:00",
+  "scope": "ONE externally supervised paused camera/output actual. No timing/audio/activevoice/venue qualification. No retry.",
+  "verifiedManifestFiles": 31,
+  "specSHA": "7926ddce8a18e40369f5d352b278bceb3fcafe539c868cf56721de1fcf15eb26",
+  "sourceReviewSHA": "8d1be9c6c2c0a9b6c5effd0f98e1d78904b5bf0d81e67062ec64aaf5035063a5",
+  "quiet": "Acceptance acknowledgednoexecutableprocess; sphere/reviewer completedsourceonly. Rootsoleactual.",
+  "outputs": [
+    "evidence/step-08/camera-output-contract/attempt-01",
+    "evidence/step-08/camera-output-contract/runner-01"
+  ],
+  "supervision": "Separate Python process owns new subprocess session/process group;50s wait timeout,3s graceful TERM thenKILL ifneeded; forcedcleanupfails. Controller deadlines remain subject to OS scheduling."
+}

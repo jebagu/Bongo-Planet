@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-12T06:10:02.475579+00:00",
+  "manifestSha256": "ff0f35069ff065cff95546d963c44511f8260d6aee303a93731757a017cb4e6e",
+  "matchedManifestEntries": 17,
+  "controllerMatched": true,
+  "controllerReviewMatched": true,
+  "interpreter": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+  "pythonVersion": "3.14.4 (main, Apr  7 2026, 13:13:20) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "scope": "SOURCE-only bindings; no original large stream hash/parse, no acquisition authorization"
+}

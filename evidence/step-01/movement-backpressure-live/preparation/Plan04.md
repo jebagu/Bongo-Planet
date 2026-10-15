@@ -1,0 +1,9 @@
+# Bongo Planet — backpressure source03 lifecycle delta
+
+Source02 and its review/snapshots/manifest remain immutable. Source03 addresses the independently constructed late proxy fault: stop ACK and exit0 alone can precede stdio closure, and a fault retained only in proxyErrors previously escaped the arm success predicate.
+
+The successor attaches close listeners to stdin, stdout and stderr immediately after spawn, before awaiting readiness. The existing child close event retains its exit code/signal, while fullyClosed joins that event and all three stream closures. Cleanup awaits the bounded join, then requires observed process/stream close, code0, no signal and no retained faults. Late faults remain latched; a second check before the arm save and an explicit required certificate in the final success predicate prevent an exit0 prefix from passing. Closure timeout/forced group cleanup stays failed. Existing musical, pressure, body binding and evidence policies are unchanged; the external root controller still needs its separate source disposition and actual authorization.
+
+Eleven pure controls cover clean completion, each missing closure, an ordered stop ACK/exit0 then fault before stream close, a later invalidation of a previously clean readback, and nonzero/unknown/signaled exits. They use plain retained lifecycle fields only, and do not spawn processes or certify actual child/stdio behavior, TCP bufferedAmount, watchdog release or acoustic output. Previous proxy/timer/trace controls are retained without rerunning them as a new actual witness. Global typecheck is coordinated with sphere.
+
+No browser, proxy, bridge, socket acquisition or actual acceptance run is authorized or performed by this source preparation. The external cleanup budgets remain cooperative/detected as previously documented.

@@ -1,0 +1,7 @@
+{
+  "command": "npm run typecheck",
+  "chunkId": "873053",
+  "exitCode": 1,
+  "error": "DOM WebSocket.send accepts BufferSource with ArrayBuffer, not ArrayBufferLike/SharedArrayBuffer generic. Source-only type failure, no actual process/browser/service.",
+  "sourceSha256": "a76a6686ff5b5f62391c43819384cebd777bc9a40af7535c5fdca772b8643de7"
+}

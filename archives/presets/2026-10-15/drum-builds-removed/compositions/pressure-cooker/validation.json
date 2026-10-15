@@ -1,0 +1,149 @@
+{
+  "id": "DB01",
+  "name": "Pressure Cooker — House Build",
+  "slug": "pressure-cooker",
+  "group": "Drum Loops",
+  "genre": "House",
+  "description": "A firm house kick and light offbeat hats hold their place while quiet snare and hand-drum replies begin to stack. The rolls tighten into a small rush, then drop away to reveal the same clean dance groove.",
+  "routing": "Two return circuits of seven and nine hops begin on beat eight. Returning sparks split again until their shared 33-hop budget ends the fill; the independent four-bar groove continues throughout.",
+  "bpm": 120,
+  "key": 0,
+  "scale": "major",
+  "cycleBeats": 32,
+  "cycleSeconds": 16,
+  "generators": 2,
+  "soundingPieces": 51,
+  "occupiedVertices": 45,
+  "activeRoutedVertices": 88,
+  "directedGates": 88,
+  "forks": 1,
+  "sourceHopBudgets": [
+    72,
+    33
+  ],
+  "allTravelFinite": true,
+  "density": {
+    "bins": [
+      {
+        "startBeat": 0,
+        "endBeat": 2,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 2,
+        "endBeat": 4,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 4,
+        "endBeat": 6,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 6,
+        "endBeat": 8,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 8,
+        "endBeat": 10,
+        "noteAttacks": 9
+      },
+      {
+        "startBeat": 10,
+        "endBeat": 12,
+        "noteAttacks": 13
+      },
+      {
+        "startBeat": 12,
+        "endBeat": 14,
+        "noteAttacks": 18
+      },
+      {
+        "startBeat": 14,
+        "endBeat": 16,
+        "noteAttacks": 34
+      },
+      {
+        "startBeat": 16,
+        "endBeat": 18,
+        "noteAttacks": 17
+      },
+      {
+        "startBeat": 18,
+        "endBeat": 20,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 20,
+        "endBeat": 22,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 22,
+        "endBeat": 24,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 24,
+        "endBeat": 26,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 26,
+        "endBeat": 28,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 28,
+        "endBeat": 30,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 30,
+        "endBeat": 32,
+        "noteAttacks": 6
+      }
+    ],
+    "initialAttacksPerTwoBeats": 6,
+    "peakAttacksPerTwoBeats": 34,
+    "finalAttacksPerTwoBeats": 6,
+    "peakToInitialRatio": 5.666666666666667
+  },
+  "instruments": {
+    "bongo-high": 5,
+    "bongo-low": 5,
+    "kick": 16,
+    "snare": 9,
+    "hi-hat": 16
+  },
+  "compositionSha256": "7d91b8a878ba5ce9bf2a0482dc6f7c010c05a5f5269433d3b316d20c5b721cf9",
+  "simulation": {
+    "cycles": 8,
+    "seconds": 128,
+    "allLayersReached": true,
+    "musicalPatternRepeats": true,
+    "routingPatternRepeats": true,
+    "maximumEdges": 29,
+    "maximumPending": 8,
+    "maximumDecisionsPerQuantum": 29,
+    "lateDrops": 0,
+    "overloads": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "18532b13f976fda3404f9749edcfc227f747086641a8a6b0de3f49a0fc2aef12",
+    "renderedFromCurrentEngineAndSamples": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "cycles": 2,
+    "seconds": 32,
+    "peak": 0.19973237812519073,
+    "rms": 0.03355344619774852,
+    "repeatError": 0,
+    "boundaryDelta": 0.00011618854478001595,
+    "maximumVoices": 30,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

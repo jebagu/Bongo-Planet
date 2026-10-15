@@ -1,0 +1,31 @@
+{
+  "utc": "2026-10-12T05:36:24.290330+00:00",
+  "sourceBindingsVerified": 65,
+  "servedAssets": [
+    {
+      "name": "index-BXks7Y4v.js",
+      "bytes": 697116,
+      "sha256": "32b57ff2dabeadc3d85f8143cd91c50abeea9785ebb1a2f35497ee1db198bb93"
+    },
+    {
+      "name": "processor-DjdrVTs8.js",
+      "bytes": 105473,
+      "sha256": "0f0b12c981f6d2aedbbde847bb31d55bc9010a6093f2ea93232f6fe3804a6793"
+    }
+  ],
+  "permanentBridgeReadyQuiet": true,
+  "existingPlaywrightProfiles": [],
+  "exclusiveAbsoluteDisjointPaths": [
+    "evidence/step-09/reconnect-current/attempt-01",
+    "evidence/step-09/reconnect-current/runner-01",
+    "evidence/step-09/reconnect-current/preparation/Actual01-Resource-Claims.jsonl",
+    "evidence/step-09/reconnect-current/preparation/Root-Actual01-Controller.json",
+    "evidence/step-09/reconnect-current/preparation/Root-Actual01-GO.json"
+  ],
+  "globalTypecheck": {
+    "tool": "3c5b7b",
+    "exitCode": 0,
+    "logSha256": "bdf2cf34b0d3ac77cd4092ecc41ba0bd63120a3645fcf06ab196769e0c1f1a60"
+  },
+  "sourceReviewSha256": "b4a7867f7e522150c83ced0e05bc54f5b7671226be8fbec2f9ae0a8153c4493d"
+}

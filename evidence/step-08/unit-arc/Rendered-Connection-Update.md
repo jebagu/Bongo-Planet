@@ -1,0 +1,5 @@
+# Bongo Planet — actual unit connection geometry
+
+The initial helper-only change deliberately preserved the prior1.018 display lift and did not satisfy a literal rendered-connection radius gate. A subsequent lead change sets the shared connection-arc caller explicitly to radius1; the opaque globe remains0.993. With48segments, even the worst antipodal segment chord remains at leastcos(pi/96)≈0.999465, above that globe. Decorative framework/wavefront offsets remain distinct. Musical rules/audio processor are unchanged.
+
+The helper implementation and mathematical assertions remain the same as the5/5 passing focused result (only a test description was clarified). Production audit attempt04 reads all147actualFloat32 connection-buffer samples from originalF02: maximum norm error3.9197844e-8. It also repeats all scheduled-onset/frame checks. All6 affected view component checks pass against the updated source. Current source readback is in step04/view-repair-current/attempt01; prior unit-arc source readbacks remain preserved as earlier provenance.

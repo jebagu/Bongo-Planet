@@ -1,0 +1,50 @@
+{
+  "id": "C12",
+  "name": "Avril 14th · Aphex Twin",
+  "sourceId": null,
+  "bpm": 80,
+  "key": 8,
+  "scale": "major",
+  "cycleBeats": 32,
+  "cycleSeconds": 24,
+  "generators": 2,
+  "soundingPieces": 90,
+  "stackedVertices": 27,
+  "maximumStack": 4,
+  "instruments": {
+    "guitar": 15,
+    "glass": 2,
+    "piano": 70,
+    "marimba": 3
+  },
+  "spatial": {
+    "soundingLocations": 40,
+    "largestGapDegrees": 23.800182602175063
+  },
+  "compositionSha256": "a4aa7d481bcd8eeda7681e790ed749b2ae68de7ab814d3146223ed4b09c4c0cc",
+  "simulation": {
+    "cycles": 8,
+    "stablePatternsMatch": true,
+    "allLayersReached": true,
+    "maximumEdges": 1,
+    "maximumDecisionsPerQuantum": 2,
+    "maximumPending": 4,
+    "lateDrops": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "b98025e5fb5b1d9ac6f8eff48c85f4a8c35a6a44abb6499faa8d4f166e89ebde",
+    "renderedFromCurrentEngineAndSamples": true,
+    "cycles": 1,
+    "seconds": 24,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peak": 0.35578107833862305,
+    "rms": 0.04485247166217182,
+    "repeatError": 1.4901161193847656e-8,
+    "boundaryDelta": 0,
+    "maximumVoices": 8,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}

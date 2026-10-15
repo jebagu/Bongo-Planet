@@ -1,0 +1,1 @@
+{"extends":"../../../../tsconfig.json","include":["../../../../scripts/output-audio-clock.spec.ts","playwright.config.ts","clock-contract01.ts","clock-controls01.ts","clock-lifecycle02.ts","clock-controls02.ts"]}

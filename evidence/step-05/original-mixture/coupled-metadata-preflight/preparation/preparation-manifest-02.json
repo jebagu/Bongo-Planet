@@ -1,0 +1,98 @@
+{
+  "title": "Bongo Planet metadata helper Source02 preparation",
+  "base": "/Users/jeremyguillory/Documents/ChatGPT/ripple",
+  "scope": "H01 source correction and pure controls only",
+  "entries": [
+    {
+      "path": "scripts/coupled-onset-metadata-preflight.py",
+      "bytes": 27394,
+      "sha256": "6d417b4a33021aaba47a0b15b6bf4be5cd8b0a2646d339dbf09bd6445b36fd51"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/controls.py",
+      "bytes": 10462,
+      "sha256": "f7a9e9329a7588583bb39a7725914e23ee7c38f2bcd22d89190b221346f00944"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/Helper-Source02-Review.md",
+      "bytes": 1831,
+      "sha256": "043e28fe02ef51803b818ba29ef2aa1c25be8c57a700e859db0653fff0d08ff9"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/Helper-Delta02.diff",
+      "bytes": 1489,
+      "sha256": "b19928badb01d1dc98308c10089ad0bf776ab884d86859783958fb8c0d47a966"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/helper-source02-controls01.json",
+      "bytes": 4074,
+      "sha256": "b9a1884238f88f45555997c18aaee5a73d15ec46e178354f3163629291d6d650"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/Plan01.md",
+      "bytes": 4368,
+      "sha256": "2bae642a5ac6913fcde19bf7ebb7eb5c0f8fddc4c9b462df1dbc86ea99f4b87f"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/Implementation-Review01.md",
+      "bytes": 4099,
+      "sha256": "f0ebdf2f2c4d85740e44dfc4d6a3af9e90eda34667adaacc5b27cd93ea78ec2d"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/Source01-IndependentReview.md",
+      "bytes": 7307,
+      "sha256": "f6943acd2c9afd97236b5c7ab28ddacf16d79538dc900ed7b718281cde559d93"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/Root-Controller-IndependentReview02.md",
+      "bytes": 4882,
+      "sha256": "e3ddd2cdc0c510e8bddc0ba42f1ad43fd3e280f8da9875ef58516f92f2df12a1"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/preparation-manifest-01.json",
+      "bytes": 5206,
+      "sha256": "542d58bac131af27153c794ea52ae46d964a920f000d82c2326d6e963de814cc"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/helper-source01-preserved/Source01-IndependentReview.md",
+      "bytes": 7307,
+      "sha256": "f6943acd2c9afd97236b5c7ab28ddacf16d79538dc900ed7b718281cde559d93"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/helper-source01-preserved/controls.py",
+      "bytes": 8713,
+      "sha256": "fd7df8a4f97a1354cd8eb7d02e7eef6ad18d4b947b947abd87ef06bcbb77429a"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/helper-source01-preserved/coupled-onset-metadata-preflight.py",
+      "bytes": 26818,
+      "sha256": "876dcb496adb8078b50540925f13e0ced3f24496dafd126c7236e7aa1667b9ec"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/helper-source01-preserved/preparation-manifest-01.json",
+      "bytes": 5206,
+      "sha256": "542d58bac131af27153c794ea52ae46d964a920f000d82c2326d6e963de814cc"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/helper-source01-preserved/preservation.json",
+      "bytes": 950,
+      "sha256": "edc3bbb68ba59e4a0f474fc6de585cf132b38bd640882ef1fa9a68d7350fd18a"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/helper-source02-candidate01/controls.py",
+      "bytes": 10462,
+      "sha256": "f7a9e9329a7588583bb39a7725914e23ee7c38f2bcd22d89190b221346f00944"
+    },
+    {
+      "path": "evidence/step-05/original-mixture/coupled-metadata-preflight/preparation/helper-source02-candidate01/coupled-onset-metadata-preflight.py",
+      "bytes": 27394,
+      "sha256": "6d417b4a33021aaba47a0b15b6bf4be5cd8b0a2646d339dbf09bd6445b36fd51"
+    }
+  ],
+  "actualScanPerformed": false,
+  "qualificationPassed": false,
+  "controlCount": 30,
+  "controlExitCode": 0,
+  "controllerDisposition": "Root controller Source02 independent source GO; actual root authorization remains separate",
+  "historicalManifest": "Source01 live helper path intentionally superseded; its byte-exact source/controls/manifest are bound in helper-source01-preserved."
+}

@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-12T02:10:51.269513+00:00",
+  "scope": "One exclusive bounded early/tail conditional-feasibility run on unchanged original capture; caps/tolerance/model/clock unchanged; no qualification.",
+  "verifiedFiles": 27,
+  "helperSHA": "2f2d3c3931ec8749dc2e56e6e560236edc0f5a3b1683117d7b7ce1eb0b9d4098",
+  "reviewSHA": "09b4279ee1d9e89cfc482f286b7d2953fa15fddfc53c302c1170de46ea8d4f94",
+  "quiet": "Acceptance acknowledges no active checks; other workers idle/read-only.",
+  "output": "evidence/step-05/original-mixture/onset-tail-contraction-mvp/attempt-01",
+  "priorFailuresPreserved": true
+}

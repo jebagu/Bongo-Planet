@@ -1,0 +1,11 @@
+# Left panel verification — October 14, 2026
+
+Final production TypeScript/Vite build passed. 352 source tests in 31 files passed sequentially, excluding the previously environment-blocked bridge-render integration. New checks cover stable instrument/generator labels through movement, deletion, history and JSON; collision-free instrument renaming; upper-bound label allocation; independent generator travel; old travel migration; committed-versus-future journey timing; and explicit routing state in the editor. Full standalone browser/receiver and physical audio acceptance suites were not rerun.
+
+Live browser checks: every main-app button, input and select is inside the sidebar; footer and bottom toolbar counts zero; trash count one. The six tiles precede Play, followed by Volume and Tempo, then a contained two-column selected-piece editor. Copy Your little band / Drag a friend onto the planet is absent. Edit look opens from the sidebar. Scene/history/diagnostic controls are reachable by scrolling the panel.
+
+Placed a second guitar from the palette; it displayed Guitar 2. The single trash button deleted it; Undo restored it with the same friendly name. Dragging that restored guitar onto the same trash button deleted it and returned occupancy to 7/92. Guitar 1 and Generator 2 editors were visually reviewed for matching labels, aligned controls and one trash action. Setting Generator 1's Spark travel to 25% left Generator 2 at 75%. The selected generator's route behavior displayed Automatic branches; Little Lamb displayed Saved song path and Use automatic routes switched it to Automatic branches.
+
+Mobile check requested 390x844; measured page width 375 with the scrollbar and no horizontal overflow. The same scrollable panel sits above the globe. Playback remains in normal panel flow (position: static), with no fixed bottom controls. Temporary viewport override reset. Desktop check at 1280x900 confirms the sidebar and selected-piece grid next to the sphere. Native screenshot dimensions and final playback counters are retained with the evidence.
+
+43 art files verified against manifest and production copies; ZIP integrity passed. Existing five Harmony Bloom WAVs unchanged. No extra samples, commits, deployment, service-port changes or fork edits. Preview is left on Toy Ensemble, paused, with Generator 1 selected.

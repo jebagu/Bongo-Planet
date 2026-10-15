@@ -1,0 +1,152 @@
+{
+  "id": "BR01",
+  "name": "Dancing Queen — Spark Build",
+  "slug": "dancing-queen-spark-build",
+  "group": "favorites - with loops",
+  "sourceId": "P04",
+  "description": "The familiar piano refrain begins with open space. Returning sparks bring in guitar, piano and glass replies, then thicken the percussion into a short dance-floor crest before falling back to the clear tune.",
+  "routing": "The original 64-hop melody and chord lane remains separate. A delayed source enters two unequal return circuits on beat eight; its descendants rebranch until their shared 51-hop budget expires. The main tune continues during the release.",
+  "bpm": 120,
+  "key": 9,
+  "scale": "major",
+  "cycleBeats": 32,
+  "cycleSeconds": 16,
+  "generators": 2,
+  "soundingPieces": 45,
+  "occupiedVertices": 25,
+  "activeRoutedVertices": 89,
+  "directedGates": 89,
+  "forks": 1,
+  "sourceHopBudgets": [
+    64,
+    51
+  ],
+  "allTravelFinite": true,
+  "density": {
+    "bins": [
+      {
+        "startBeat": 0,
+        "endBeat": 2,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 2,
+        "endBeat": 4,
+        "noteAttacks": 8
+      },
+      {
+        "startBeat": 4,
+        "endBeat": 6,
+        "noteAttacks": 0
+      },
+      {
+        "startBeat": 6,
+        "endBeat": 8,
+        "noteAttacks": 3
+      },
+      {
+        "startBeat": 8,
+        "endBeat": 10,
+        "noteAttacks": 13
+      },
+      {
+        "startBeat": 10,
+        "endBeat": 12,
+        "noteAttacks": 10
+      },
+      {
+        "startBeat": 12,
+        "endBeat": 14,
+        "noteAttacks": 14
+      },
+      {
+        "startBeat": 14,
+        "endBeat": 16,
+        "noteAttacks": 30
+      },
+      {
+        "startBeat": 16,
+        "endBeat": 18,
+        "noteAttacks": 37
+      },
+      {
+        "startBeat": 18,
+        "endBeat": 20,
+        "noteAttacks": 49
+      },
+      {
+        "startBeat": 20,
+        "endBeat": 22,
+        "noteAttacks": 33
+      },
+      {
+        "startBeat": 22,
+        "endBeat": 24,
+        "noteAttacks": 3
+      },
+      {
+        "startBeat": 24,
+        "endBeat": 26,
+        "noteAttacks": 7
+      },
+      {
+        "startBeat": 26,
+        "endBeat": 28,
+        "noteAttacks": 0
+      },
+      {
+        "startBeat": 28,
+        "endBeat": 30,
+        "noteAttacks": 6
+      },
+      {
+        "startBeat": 30,
+        "endBeat": 32,
+        "noteAttacks": 7
+      }
+    ],
+    "initialAttacksPerTwoBeats": 7,
+    "peakAttacksPerTwoBeats": 49,
+    "finalAttacksPerTwoBeats": 5,
+    "peakToInitialRatio": 7
+  },
+  "instruments": {
+    "guitar": 20,
+    "glass": 5,
+    "kalimba": 1,
+    "piano": 15,
+    "bongo-high": 1,
+    "kick": 1,
+    "snare": 1,
+    "hi-hat": 1
+  },
+  "compositionSha256": "0934c0e207aa440ae810167df0ee24293d8868006607e4e30d9f815525939bbd",
+  "simulation": {
+    "cycles": 8,
+    "seconds": 128,
+    "allLayersReached": true,
+    "musicalPatternRepeats": true,
+    "routingPatternRepeats": true,
+    "maximumEdges": 28,
+    "maximumPending": 20,
+    "maximumDecisionsPerQuantum": 28,
+    "lateDrops": 0,
+    "overloads": 0
+  },
+  "audio": {
+    "file": "preview.wav",
+    "sha256": "5de7d229e3c8f4712167a0ae8362d2cdaf0fa56bfcfd3b31027f9fded06d8998",
+    "renderedFromCurrentEngineAndSamples": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "cycles": 2,
+    "seconds": 32,
+    "peak": 0.46853968501091003,
+    "rms": 0.0791771604125429,
+    "repeatError": 0,
+    "boundaryDelta": 0.004104873165488243,
+    "maximumVoices": 47,
+    "stolenVoices": 0,
+    "lateDrops": 0
+  }
+}
