@@ -2,9 +2,19 @@
 
 A musical toy on a full 3V sphere. Place silent generators and five cute sampled instruments. Route sparks play each instrument they pass. The browser uses a TypeScript engine, editable Three.js characters, and stereo Harmony Bloom sample playback in an AudioWorklet.
 
+[![Bongo Planet in Blue Marble, with colorful stacked instruments and sparks playing Toy Ensemble](docs/screenshots/blue-marble.jpg)](https://bongo-planet.jebagu.chatgpt.site)
+
+*Blue Marble: Toy Ensemble playing across a planet of little instruments.*
+
 Play the public site: **[Bongo Planet](https://bongo-planet.jebagu.chatgpt.site)**.
 
 Source: **[jebagu/Bongo-Planet](https://github.com/jebagu/Bongo-Planet)**. See [GitHub publishing](docs/GitHub.md) for the public source snapshot and the local diagnostic archives.
+
+| Nebula | Fireflies |
+| :---: | :---: |
+| [![Lilac instruments beneath a ribbon nebula and stars with eyes](docs/screenshots/nebula.jpg)](docs/screenshots/nebula.jpg) | [![A jade planet surrounded by glowing golden fireflies](docs/screenshots/fireflies.jpg)](docs/screenshots/fireflies.jpg) |
+
+*Three themes, the same musical playground. Click either image to see it at full resolution.*
 
 Start with the **[creation guide](Creation-Guide.md)** for chords, the shared musical grid and rhythmic alignment. Current gated compositions use one sixteenth note per strut crossing, independent of geometric length: 125 ms per hop at 120 BPM. Generator emissions share that grid, and all active circuits follow tempo changes at the next whole beat. These local changes reach the public site on its next publication.
 
